@@ -6,4 +6,6 @@ Madem ki bir Linux repository sayfası açtık, toplamda 30 bini aşkın Linux/G
 
 Haydi rasgele...
 
+NOT: (5-10-20-50-100-1000 TL) gönlünüzden kopacak bağışlarınızı qnbfinansbank.enpara.com'daki TR73.0011.1000.0000.0038.1715.07 no'lu cari hesabıma EFT gönderirseniz, beni teşvikler ve sevindirirsiniz.
+
 
