@@ -1,0 +1,12 @@
+/* tpc#0201.cs: C# MS programlama dilindeki ilk c-sharp örneði. */
+using System;
+namespace SelamAPI {
+    class Selam {
+        static void Main (string[] args) {
+            Console.WriteLine ("Merhaba Dünya!..");
+            Console.WriteLine ("Derleme ve baðlama için [C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\csc.exe] dosyasýna path/yol verin.");
+            Console.WriteLine ("Sonuçta hatasýz baðlanan tpc#0201.exe programýný '>tpc#0201' Enter'layýp çalýþtýrýn.");
+            Console.ReadKey(); // Programý sonlandýrmak için herhangibir tuþa basýn...
+        } // static sonu...
+    } // class s0nu...
+} // namespace sonu...
