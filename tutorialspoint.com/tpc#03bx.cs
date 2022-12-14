@@ -1,5 +1,5 @@
 // tpc#03bx.cs: Üst ana programdan çaðrýlan .dll altprogram örneði.
-// >csc /target:library tpc#03b.cs
+// >csc /target:library tpc#03bx.cs
 
 using System;
 namespace ProgramYapýsý {
