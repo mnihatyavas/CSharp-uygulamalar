@@ -1,0 +1,230 @@
+"www.tutorialspoint.com" c# örnekleri (toplam 93 adet CS ve 93 adet EXE)
+-------------------------------------------------------------------------
+NOT: Her örneðin kýsa açýklamasý örnek.cs içinde olup, ayrýca DOS pencere komut iletisinde
+doðruca örnek(.exe) adýyla yada çift-týklanarak çalýþtýrýlýp sonuçlar izlenebilir.
+--------------------------------------------------------------------------------------------
+
+1. Giriþ
+    tpc#01a.cs: C# MS programlama dilindeki kodlamanýn derleme hatalarý beyaný örneði.
+    tpc#01a.exe: Giriþ, DerlemeHatalarý koþturulabilir örneði.
+    tpc#01b.cs: C# MS programlama dilinin onaylarý örneði.
+    tpc#01b.exe: Giriþ, Onaylar koþturulabilir örneði.
+2. Çevre
+    tpc#02a.cs: C# MS programlama dilindeki System kullanan ilk c-sharp örneði.
+    tpc#02a.exe: Çevre, Selam koþturulabilir örneði.
+    tpc#02b.cs: tutorialspoint.com c# içindekiler listesi örneði.
+    tpc#02b.exe: Çevre, Ýçindekiler koþturulabilir örneði.
+    tpc#02c.cs: c# sürümleri için uygun derleyiciler örneði.
+    tpc#02c.exe: Çevre, Derleyiciler koþturulabilir örneði.
+3. Program Yapýsý
+    tpc#03a.cs: C# program yapýsý açýklamalarý örneði.
+    tpc#03a.exe: ProgramYapýsý, Yapý1 koþturulabilir örneði.
+    tpc#03b.cs: Ana program A sýnýfýndan altprogram B sýnýflý metodu çaðýrma örneði.
+    tpc#03bx.cs: Üst ana programdan çaðrýlan .dll altprogram örneði.
+    tpc#03b.exe: ProgramYapýsý, A koþturulabilir örneði.
+4. Temel Sözdizim
+    tpc#04a.cs: Verili en ve boy deðerleriyle dikdörtgen alanýnýn hesaplanmasý örneði.
+    tpc#04a.exe: TemelSözdizim, DikdörtgenAlaný koþturulabilir örneði.
+    tpc#04b.cs: Dairenin çevre, alan ve hacim hesabý örneði.
+    tpc#04b.exe: TemelSözdizim, DaireÖlçümleri koþturulabilir örneði.
+    tpc#04c.cs: C# kodlamalarýndaki temel sözdizim kurallarý örneði.
+    tpc#04c.exe: TemelSözdizim, TemelSözdizim koþturulabilir örneði.
+5. Veri Tipleri
+    tpc#05a.cs: C# veri tipleri ve deðer tipleri örneði.
+    tpc#05a.exe: VeriTipleri, DeðerTipleri koþturulabilir örneði.
+    tpc#05b.cs: C# deðer ver tiplerinin byte ebatlarý örneði.
+    tpc#05b.exe: VeriTipleri, ByteEbatlar koþturulabilir örneði.
+    tpc#05c.cs: C# referans ve gösterge veri tipleri örneði.
+    tpc#05c.exe: VeriTipleri, ReferansGöstergeTipler koþturulabilir örneði.
+6. Tip Çevrimi
+    tpc#06a.cs: Veri tipleri arasýnda çevrimler örneði.
+    tpc#06a.exe: TipÇevrimi, DoubleInt koþturulabilir örneði.
+    tpc#06b.cs: Veri tipleri çevrimleri metodlarý örneði.
+    tpc#06b.exe: TipÇevrimi, ÇevrimMetodlarý koþturulabilir örneði.
+7. Deðiþkenler
+    tpc#07a.cs: Deðer tipli deðiþkenlerin tanýmlanmasý örneði.
+    tpc#07a.exe: Deðiþkenler, DeðerTipliDeðiþkenler koþturulabilir örneði.
+    tpc#07b.cs: Deðiþken tanýmlama ve ilkdeðer atama örneði.
+    tpc#07b.exe: Deðiþkenler, DeðiþkenTanýmýÝlkdeðeri koþturulabilir örneði.
+    tpc#07c.cs: Konsoldan girilen dizgenin sayýya çevrilmesi örneði.
+    tpc#07c.exe: Deðiþkenler, KonsolVeriGiriþi koþturulabilir örneði.
+8. Sabitler ve Duraðanlar
+    tpc#08a.cs: Taným sonrasý deðiþmeyen sabitler/duraðanlar örneði.
+    tpc#08a.exe: SabitlerDuraðanlar, SabitTaným koþturulabilir örneði.
+    tpc#08b.cs: Sabit tanýmlý pi ile dairenin alaný örneði.
+    tpc#08b.exe: SabitlerDuraðanlar, DaireninAlaný koþturulabilir örneði.
+9. Ýþlemciler
+    tpc#09a.cs: Tüm c# iþlemcileri ve öncelikleri örneði.
+    tpc#09a.exe: Ýþlemciler, TümÝþlemciler koþturulabilir örneði.
+10. Karar Alma
+    tpc#10a.cs: Karar alma yöntemleri ve iþlemcisi örneði.
+    tpc#10a.exe: KararAlma, Karar koþturulabilir örneði.
+11. Döngüler
+    tpc#11a.cs: Döngüler, kontrol ifadeleri ve sonsuz döngü örneði.
+    tpc#11a.exe: Döngüler, Döngüler koþturulabilir örneði.
+12. Kapsülleme
+    tpc#12a.cs: Genel eriþim belirteçli kapsüllemeyle dikdörtgen alaný örneði.
+    tpc#12a.exe: Kapsülleme, GenelEriþim koþturulabilir örneði.
+    tpc#12b.cs: Özel eriþim belirteçli kapsüllemeyle dikdörtgen alaný örneði.
+    tpc#12b.exe: Kapsülleme, ÖzelEriþim koþturulabilir örneði.
+    tpc#12c.cs: Ýçsel eriþim belirteçli kapsüllemeyle dikdörtgen alaný örneði.
+    tpc#12c.exe: Kapsülleme, ÝçselEriþim koþturulabilir örneði.
+13. Metodlar
+    tpc#13a.cs: Metod tanýmý ve iki tamsayýdan büyüðünün tespiti örneði.
+    tpc#13a.exe: Metodlar, BüyüðünTespiti koþturulabilir örneði.
+    tpc#13b.cs: Ayrý sýnýf metoduyla iki tamsayýdan büyüðünün tespiti örneði.
+    tpc#13b.exe: Metodlar, AnaSýnýf koþturulabilir örneði.
+    tpc#13c.cs: Özyineli metodla faktöriyel hesabý örneði.
+    tpc#13c.exe: Metodlar, Faktöriyel koþturulabilir örneði.
+14. Hiçlenebilenler
+    tpc#14a.cs: Deðiþkene tipe uygun deðer veya null atanabilme örneði.
+    tpc#14a.exe: Hiçlenebilenler, NullAtama koþturulabilir örneði.
+    tpc#14b.cs: Null deðiþkeni ikinciyle birleþtiren ?? örneði.
+    tpc#14b.exe: Hiçlenebilenler, NullKoalisyonu koþturulabilir örneði.
+15. Diziler
+    tpc#15a.cs: For döngüsüyle iþlenen tamsayý dizi örneði.
+    tpc#15a.exe: Diziler, ForDöngülüDizi koþturulabilir örneði.
+    tpc#15b.cs: ForEach döngüsüyle iþlenen tamsayý dizi örneði.
+    tpc#15b.exe: Diziler, ForEachDöngülüDizi koþturulabilir örneði.
+16. Dizgeler
+    tpc#16a.cs: Çeþitli dizge yaratma yöntemleri örneði.
+    tpc#16a.exe: Dizgeler, DizgelerYaratma koþturulabilir örneði.
+    tpc#16b.cs: Dizgenin uzunluk ve tek krk özellikleri örneði.
+    tpc#16b.exe: Dizgeler, DizgeÖzellikleri koþturulabilir örneði.
+    tpc#16c.cs: Dizgenin "kýyasla, içerir, altdizge ve birleþtir" metodlarý örneði.
+    tpc#16c.exe: Dizgeler, DizgeMetodlarý koþturulabilir örneði.
+17. Yapýlar
+    tpc#17a.cs: Kitap yapýsal kaydý, özellik ve deðerleri örneði.
+    tpc#17a.exe: Yapýlar, YapýsalKayýt koþturulabilir örneði.
+    tpc#17b.cs: Yapýsal Kitap'ýn "new" ile yaratýlmasý ve fonksiyonlu deðer atama-gösterme örneði.
+    tpc#17b.exe: Yapýlar, NewYapýsalKayýt koþturulabilir örneði.
+18. Sayýsallananlar
+    tpc#18a.cs: Sayýsallanan haftanýn günadý sabitleri örneði.
+    tpc#18a.exe: Sayýsallananlar, HaftanýnGünleri koþturulabilir örneði.
+19. Sýnýflar
+    tpc#19a.cs: Sýnýf tanýmýyla kutularýn hacimleri hesabý örneði.
+    tpc#19a.exe: Sýnýflar, KutuHacmi koþturulabilir örneði.
+    tpc#19b.cs: Sýnýf özel deðiþkenleri ve genel fonksiyonlarý örneði.
+    tpc#19b.exe: Sýnýflar, KutuHacmiKoyAl koþturulabilir örneði.
+    tpc#19c.cs: Parametresiz sýnýf kurucu fonksiyonu örneði.
+    tpc#19c.exe: Sýnýflar, ÇemberinÇevresi1 koþturulabilir örneði.
+    tpc#19d.cs: Parametreli sýnýf kurucu fonksiyonu örneði.
+    tpc#19d.exe: Sýnýflar, ÇemberinÇevresi2 koþturulabilir örneði.
+    tpc#19e.cs: Sýnýfýn kurucu yanýsýra yýkýcý fonksiyonu örneði.
+    tpc#19e.exe: Sýnýflar, ÇemberinÇevresi3 koþturulabilir örneði.
+    tpc#19f.cs: Sýnýfýn yegane statik deðiþken üyesi örneði.
+    tpc#19f.exe: Sýnýflar, YeganeStatikÜye1 koþturulabilir örneði.
+    tpc#19g.cs: Sýnýfýn yegane statik deðiþken ve statik fonksiyon üyesi örneði.
+    tpc#19g.exe: Sýnýflar, YeganeStatikÜye2 koþturulabilir örneði.
+20. Miras
+    tpc#20a.cs: Temel ve türev sýnýfla dikdörtgen alaný hesabý örneði.
+    tpc#20a.exe: Miras, DikdörtgeninAlaný1 koþturulabilir örneði.
+    tpc#20b.cs: Temel ve türev sýnýfla dikdörtgen alan ve hacmi hesabý örneði.
+    tpc#20b.exe: Miras, DikdörtgeninAlaný2 koþturulabilir örneði.
+    tpc#20c.cs: Temel ile türev sýnýf ve arabaðlaçla çoklu miras örneði.
+    tpc#20c.exe: Miras, DikdörtgeninAlaný3 koþturulabilir örneði.
+21. Çoklubiçim
+    tpc#21a.cs: Aþýrýyüklenen fonksiyonlarýn argüman tipleriyle seçilmesi örneði.
+    tpc#21a.exe: Çoklubiçim, StatikFonksiyonAþýrýYüklenme koþturulabilir örneði.
+    tpc#21b.cs: Soyut sýnýfýn soyut metodunu türev sýnýf aþýrýyüklemeli metoduyla dinamik kullanma örneði.
+    tpc#21b.exe: Çoklubiçim, DinamikSoyutMetod koþturulabilir örneði.
+    tpc#21c.cs: Temel sýnýfýn sanal metodunu türev sýnýf aþýrýyüklemeli metoduyla dinamik çoklu çaðýrma örneði.
+    tpc#21c.exe: Çoklubiçim, DinamikSanalMetod koþturulabilir örneði.
+22. Statik Ýþlemci Aþýrýyükleniþ
+    tpc#22a.cs: Statik iþlemci aþýrýyükleniþiyle iki kutu ölçülerinin toplam hacmi örneði.
+    tpc#22a.exe: StatikÝþlemciAþýrýyükleniþ, ÝþlemciAþýrýyükleniþ  koþturulabilir örneði.
+    tpc#22b.cs: Statik iþlemci aþýrýyükleniþiyle birkaç kutunun hacmi, toplamý ve kýyasý örneði.
+    tpc#22b.exe: StatikÝþlemciAþýrýyükleniþ, ÝþlemciAþýrýyüklenenYüklenmeyen  koþturulabilir örneði.
+23. Arayüzler
+    tpc#23a.cs: Arayüzde tanýmlý metodlarýn türev altsýnýfta içi doldurulup kullanýlmalarý örneði.
+    tpc#23a.exe: Arayüzler, ArayüzBeyaný koþturulabilir örneði.
+24. Aduzamlar
+    tpc#24a.cs: Farklý aduzamlardaki ayný adlý sýnýf ve fonksiyonlarý çaðýrma örneði.
+    tpc#23a.exe: ÝlkAduzam, ÜçlüAduzam1 koþturulabilir örneði.
+    tpc#24b.cs: "using aduzam"la farklý aduzamlardaki ayný adlý fonksiyonlarý çaðýrma örneði.
+    tpc#23b.exe: ÝlkAduzam, ÜçlüAduzam2 koþturulabilir örneði.
+    tpc#24c.cs: "using aduzam"la içiçe üç farklý aduzamlardaki ayný adlý fonksiyonlarý çaðýrma örneði.
+    tpc#23a.exe: ÝlkAduzam, ÜçlüAduzam3 koþturulabilir örneði.
+25. Öniþlemci Direktifleri
+    tpc#25a.cs: Bir sembolik sabitli öniþlemci direktif tanýmýnýn kodlamada kullanýlmasý örneði.
+    tpc#25a.exe: ÖniþlemciDirektifleri, SembolTanýmý koþturulabilir örneði.
+    tpc#25b.cs: Þartlý öniþlemci direktif tanýmýnýn kodlamada kullanýlmasý örneði.
+    tpc#25b.exe: ÖniþlemciDirektifleri, ÞartlýDirektif koþturulabilir örneði.
+26. Düzenli Tabirler
+    tpc#26a.cs: Verilen dizgedeki S/s harfle baþlayan kelimeler örneði.
+    tpc#26a.exe: DüzenliTabirler, SsKelimeler koþturulabilir örneði.
+    tpc#26b.cs: Verilen dizgedeki m-e harflerle baþlayýp-biten kelimeler örneði.
+    tpc#26b.exe: DüzenliTabirler, meKelimeler koþturulabilir örneði.
+    vtpc#26c.cs: Verilen dizgedeki ardýþýk birden fazla boþluklarýn silinmesi örneði.
+    tpc#26c.exe: DüzenliTabirler, BoþlukSilme koþturulabilir örneði.
+27. Ýstisna Yönetimi
+    tpc#27a.cs: Try-catch bloðuyla sýfýra bölüm hatasýnýn yakalanmasý örneði.
+    tpc#27a.exe: ÝstisnaYönetimi, SýfýraBölüm koþturulabilir örneði.
+    tpc#27b.cs: Try-catch bloðuyla özel throw fýrlatarak sýfýra bölüm hatasýnýn yakalanmasý örneði.
+    tpc#27b.exe: ÝstisnaYönetimi, FýrlatýlanHata koþturulabilir örneði.
+28. Dosya G/Ç
+    tpc#28a.cs: Disk dosyasýna FileStream akýþla 1-25 sayýlar yazma ve okuma örneði.
+    tpc#28a.exe: DosyaGÇ, DosyaYazOku koþturulabilir örneði.
+29. Vasýflar
+    tpc#29a.cs: Ön-tanýmlý þartlý hata-ayýklayýcý vasýf örneði.
+    tpc#29a.exe: Vasýflar, ÞartlýVasýf koþturulabilir örneði.
+    tpc#29b.cs: Eski yerine yeni metodun kullanýlmasýný ikazlayan demode vasfý örneði.
+    tpc#29b.exe: Vasýflar, DemodeVasýf koþturulabilir örneði.
+    tpc#29c.cs: Özel vasýf yaratma ve yansýtmayla hata-ayýklama metadata okuma örneði.
+    tpc#29c.exe: Vasýflar, ÖzelVasýf koþturulabilir örneði.
+30. Yansýtma
+    tpc#30a.cs: Yansýtma kodlamasýyla tipli sýnýf vasýflarýný tarama örneði.
+    tpc#30a.exe: Yansýtma, VasýfGörüntüleme koþturulabilir örneði.
+    tpc#30b.cs: Yansýtmayla hataayýklama metadata vasýflarýný okuma örneði.
+    tpc#30b.exe: Yansýtma, ÖzelVasýf koþturulabilir örneði.
+31. Özellikler
+    tpc#31a.cs: Öðrenci özelliklerini eriþimcilerle yazma ve okuma örneði.
+    tpc#31a.exe: Özellikler, ÖzelliklereEriþim koþturulabilir örneði.
+    tpc#31b.cs: Öðrenci özelliklerini soyut aþýrýyüklü türev eriþimcilerle yazma ve okuma örneði.
+    tpc#31b.exe: Özellikler, SoyutÖzellikler koþturulabilir örneði.
+32. Endeksleyiciler
+    tpc#32a.cs: Ýsim listesini endeksleyicinin ebat konumlarýyla yazma ve okuma örneði.
+    tpc#32a.exe: Endeksleyiciler, SanalDizi koþturulabilir örneði.
+    tpc#32b.cs: Ýsim listesini aþýrýyüklü endeksleyicinin konum ve adlarýyla yazma ve okuma örneði.
+    tpc#32b.exe: Endeksleyiciler, AþýrýyüklenenEndeksleyici koþturulabilir örneði.
+33. Delegeler
+    tpc#33a.cs: Toplama ve çarpma fonksiyonlarýný delegeli çaðýrma örneði.
+    tpc#33a.exe: Delegeler, ToplamaÇarpma koþturulabilir örneði.
+    tpc#33b.cs: Toplama, çarpma ve bölme fonksiyonlarýný çoða delegeli çaðýrma örneði.
+    tpc#33b.exe: Delegeler, ÇoðaDelege koþturulabilir örneði.
+    tpc#33c.cs: Ekrana ve diskdosyasýna yazan metodlarýn delegelendirilmesi örneði.
+    tpc#33c.exe: Delegeler, EkranaDiske koþturulabilir örneði.
+34. Olaylar
+    tpc#34a.cs: Delegeli olayýn girilen kullanýcý adýný yakalayýp cevaplamasý örneði.
+    tpc#34a.exe: Olaylar, OlayYakalama koþturulabilir örneði.
+35. Koleksiyonlar
+    tpc#35a.cs: Koleksiyonlardan List ve SortedList verigiriþ ve döküm örneði.
+    tpc#34a.exe: Koleksiyonlar, SýralýListe koþturulabilir örneði.
+36. Soysallar
+    tpc#36a.cs: Soysal sýnýf tiplemesiyle tamsayý, krk ve dizge diziler iþleme örneði.
+    tpc#36a.exe: Soysallar, SoysalSýnýf koþturulabilir örneði.
+    tpc#36b.cs: Soysal metod tiplemesiyle tamsayý, krk ve dizge verileri takaslama örneði.
+    tpc#36b.exe: Soysallar, SoysalMetod koþturulabilir örneði.
+    tpc#36c.cs: Soysal delegeli tiplemeyle tamsayý ve ondalýk hesaplamalar örneði.
+    tpc#36c.exe: Soysallar, SoysalDelege koþturulabilir örneði.
+37. Anonim Metotlar
+    tpc#37a.cs: Adlý ve adsýz anonim metodlarýn delegeli çaðrýlmasý örneði.
+    tpc#37a.exe: AnonimMetodlar, DelegeliMetodlar koþturulabilir örneði.
+38. Güvenilmez Kodlamalar
+    tpc#38a.cs: Göstergeç deðiþkenli unsafe Main metod örneði.
+    tpc#38a.exe: GüvenilmezKodlamalar, GüvenilmezMain koþturulabilir örneði.
+    tpc#38b.cs: Göstergeç deðiþkenli unsafe kodlama bloðu örneði.
+    tpc#38b.exe: GüvenilmezKodlamalar, GüvenilmezBlok koþturulabilir örneði.
+    tpc#38c.cs: Göstergeç deðiþken-lerin metoda parametrik gönderilmesi örneði.
+    tpc#38c.exe: GüvenilmezKodlamalar, GöstergeçliParametre koþturulabilir örneði.
+    tpc#38d.cs: Liste deðerve adreslerini göstergeçe atayarak görüntüleme örneði.
+    tpc#38d.exe: GüvenilmezKodlamalar, GöstergeçliDizi koþturulabilir örneði.
+39. Çoklugörevleme
+    tpc#39a.cs: Ana sicimin yaratýlmasý ve adlandýrýlmasý örneði.
+    tpc#39a.exe: ÇokluGörevleme, AnaSicim koþturulabilir örneði.
+    tpc#39b.cs: Yavru sicimin yaratýlmasý ve çalýþtýrýlmasý örneði.
+    tpc#39b.exe: ÇokluGörevleme, YavruSicim koþturulabilir örneði.
+    tpc#39c.cs: Yavru sicimin uyutulup tekrar çalýþtýrýlmasý örneði.
+    tpc#39c.exe: ÇokluGörevleme, UyutulanYavruSicim koþturulabilir örneði.
+    tpc#39d.cs: Yavru sicimin uyutulurken sonlandýrýlmasý örneði.
+    tpc#39d.exe: ÇokluGörevleme, YavruSicimÝmhasý koþturulabilir örneði.
