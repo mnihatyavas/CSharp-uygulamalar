@@ -1,0 +1,291 @@
+"https://www.javatpoint.com/c-sharp-tutorial" örnekleri (adet)
+-----------------------------------------------------------------------
+
+1. .Net Framework
+    1.1. .NET Framework
+        jtpc#0101.cs: .NET Framework hakkýnda kýsa açýklamalar örneði.
+        jtpc#0101.exe: AðÝskeleti, NetFramework koþturulabilir örneði.
+    1.2. CLR
+        jtpc#0102.cs: CLR ile ilgili kýsa açýklamalar örneði.
+        jtpc#0102.exe: AðÝskeleti, CLR koþturulabilir örneði.
+    1.3. FCL
+        jtpc#0103.cs: FCL ile ilgili kýsa açýklamalar örneði.
+        jtpc#0103.exe: AðÝskeleti, FCL koþturulabilir örneði.
+2. CSEðitimi
+    2.1. CSEðitimi
+        jtpc#0201.cs: CS eðitimiyle ilgili kýsa açýklamalar örneði.
+        jtpc#0201.exe: CSEðitimi, CSEðitimi koþturulabilir örneði.
+    2.2. Java kýyas C#
+        jtpc#0202.cs: Java ve C# arasýndaki farklar örneði.
+        jtpc#0202.exe: CSEðitimi, Java_CS koþturulabilir örneði.
+    2.3. Özellikler
+        jtpc#0203.cs: C# özellikleri örneði.
+        jtpc#0203.exe: CSEðitimi, CSÖzellikleri koþturulabilir örneði.
+    2.4. Ýlk örnek
+        jtpc#0204a.cs: Basit yöntemle "Merhaba C# Dünyasý!" örneði.
+        jtpc#0204a.exe: CSEðitimi, ÝlkÖrnek1 koþturulabilir örneði.
+        jtpc#0204b.cs: "using System" yöntemiyle "Merhaba C# Dünyasý!" örneði.
+        jtpc#0204b.exe: CSEðitimi, ÝlkÖrnek2 koþturulabilir örneði.
+        jtpc#0204c.cs: "using System" ve "public Main" yöntemiyle "Merhaba C# Dünyasý!" örneði.
+        jtpc#0204c.exe: CSEðitimi, ÝlkÖrnek3 koþturulabilir örneði.
+        jtpc#0204d.cs: "using System", "public Main" ve aduzamlý yöntemle "Merhaba C# Dünyasý!" örneði.
+        jtpc#0204d.exe: CSEðitimi, ÝlkÖrnek4 koþturulabilir örneði.
+    2.5. Deðiþkenler
+        jtpc#0205.cs: Deðiþkenler ve kurallarý örneði.
+        jtpc#0205.exe: CSEðitimi, Deðiþkenler koþturulabilir örneði.
+    2.6. Veri tipleri
+        jtpc#0206.cs: Veri tipleri, gruplama ve kapsamlarý örneði.
+        jtpc#0206.exe: CSEðitimi, VeriTipleri koþturulabilir örneði.
+    2.7. Ýþlemciler
+        jtpc#0207.cs: Ýþlemi gruplarý, sembolleri, öncelikleri ve yönleri örneði.
+        jtpc#0207.exe: CSEðitimi, Ýþlemcler koþturulabilir örneði.
+    2.8. Anahtarkelimeler
+        jtpc#0208.cs: Ayrýlmýþ anahtarkelimelerin listelenmesi örneði.
+        jtpc#0208.exe: CSEðitimi, Anahtarkelimeler koþturulabilir örneði.
+3. Kontrol Ýfadeleri
+    3.1. if-else
+        jtpc#0301a.cs: If ile sayýnýn tek/çift tespiti örneði.
+        jtpc#0301a.exe: ControlÝfadeleri, If koþturulabilir örneði.
+        jtpc#0301b.cs: IfElse ile sayýnýn tek/çift tespiti örneði.
+        jtpc#0301b.exe: ControlÝfadeleri, IfElse koþturulabilir örneði.
+        jtpc#0301c.cs: IfElseIf merdiveniyle notun A-B-C-D-F tespiti örneði.
+        jtpc#0301c.exe: ControlÝfadeleri, IfElseIf koþturulabilir örneði.
+    3.2. switch
+        jtpc#0302.cs: switch-case-default ile sayýnýn tespiti örneði.
+        jtpc#0302.exe: ControlÝfadeleri, Switch koþturulabilir örneði.
+    3.3. for döngüsü
+        jtpc#0303.cs: for döngüsüyle 11 tekrar, içiçe for'la 3*4=12 tekrar ve sonsuz for(;;)'la 11 tekrar örneði.
+        jtpc#0303.exe: ControlÝfadeleri, For koþturulabilir örneði.
+    3.4. while döngüsü
+        jtpc#0304.cs: while döngüsüyle 11 tekrar, içiçe while'la 3*4=12 tekrar ve sonsuz while(true)'yla 11 tekrar örneði.
+        jtpc#0304.exe: ControlÝfadeleri, While koþturulabilir örneði.
+    3.5. do-while döngüsü
+        jtpc#0305.cs: do-while döngüsüyle 11 tekrar, içiçe do-while'la 3*4=12 tekrar ve sonsuz do-while(true)'yla 11 tekrar örneði.
+        jtpc#0305.exe: ControlÝfadeleri, DoWhile koþturulabilir örneði.
+    3.6. break
+        jtpc#0306.cs: break ile döngüyü ve içiçe döngüyü þartlý erken kýrma örneði.
+        jtpc#0306.exe: ControlÝfadeleri, Break koþturulabilir örneði.
+    3.7. continue
+        jtpc#0307.cs: continue ile döngünün ve içiçe döngünün kalanýný þartlý esgeçme örneði.
+        jtpc#0307.exe: ControlÝfadeleri, Continue koþturulabilir örneði.
+    3.8. goto
+        jtpc#0308.cs: (Þartlý) goto ile program akýþýnýn belirtilen etikete atlamasý örneði.
+        jtpc#0308.exe: ControlÝfadeleri, Goto koþturulabilir örneði.
+    3.9. Yorumlar
+        jtpc#0309.cs: Kodlama içinde tek yada çok satýrlý yorum açýklamalarý yazma örneði.
+        jtpc#0309.exe: ControlÝfadeleri, Break koþturulabilir örneði.
+4. Fonksiyonlar
+    4.1. Fonksiyon
+        jtpc#0401.cs: Statik ve genel, parametresiz ve tek parametreli, geridönüþsüz ve dönüþlü fonksiyonlar örneði.
+        jtpc#0401.exe: Fonksiyonlar, Fonksiyon koþturulabilir örneði.
+    4.2. Deðerle çaðýrma
+        jtpc#0402.cs: Deðerle fonksiyon çaðrýsýnda orijinal deðerin deðiþmezliði örneði.
+        jtpc#0401.exe: Fonksiyonlar, DeðerleÇaðrý koþturulabilir örneði.
+    4.3. Referansla çaðýrma
+        jtpc#0403.cs: "ref"le fonksiyon çaðrýsýnda orijinal deðerin de deðiþirliði örneði.
+        jtpc#0401.exe: Fonksiyonlar, RefÇaðrý koþturulabilir örneði.
+    4.4. Out parametresi
+        jtpc#0404.cs: "out" ilkdeðersiz argümaný onaylarken "ref"in hata vermesi örneði.
+        jtpc#0401.exe: Fonksiyonlar, OutÇaðrý koþturulabilir örneði.
+5. Diziler
+    5.1. Dizi
+        jtpc#0501.cs: Tekboyutlu bir dizinin çeþitli tanýmlanma ve ilkdeðer atanma örneði.
+        jtpc#0501.exe: Diziler, Dizi koþturulabilir örneði.
+    5.2. Fonksiyona dizi
+        jtpc#0502.cs: Diziyi fonksiyonlara gönderip dökümleme ve en-küçük/büyük elemanýný bulma örneði.
+        jtpc#0502.exe: Diziler, DizidenFonksiyona koþturulabilir örneði.
+    5.3. Çokboyutlu dizi
+        jtpc#0503.cs: Ýki boyutlu 3x3 ve 3x5 dizilerin beyan, ilkdeðerleme ve döküm örneði.
+        jtpc#0503.exe: Diziler, ÇokboyutluDizi koþturulabilir örneði.
+    5.4. Çentikli dizi
+        jtpc#0504.cs: Ýki boyutlu 2x4-6 ve 4x4-6-2-7'li çentikli dizilerin beyan, ilkdeðerleme ve döküm örneði.
+        jtpc#0504.exe: Diziler, ÇentikliDizi koþturulabilir örneði.
+    5.5. Parametreler
+        'params'lý fonksiyona deðiþken sayýda argüman aktarabilme örneði.
+        jtpc#0505.exe: Diziler, ParamsDizi koþturulabilir örneði.
+    5.6. Dizi sýnýfý
+        jtpc#0506.cs: Dizi kopyalama, sýralama, tersleme ve dökümleme örneði.
+        jtpc#0506.exe: Diziler, DiziSýnýfý koþturulabilir örneði.
+    5.7. Komutsatýrlý dizi
+        jtpc#0507.cs: Komutsatýrý verilerinin dizgesel dizi olarak yakalanýp iþlenmesi örneði.
+        jtpc#0507.exe: Diziler, KomutsatýrlýDizi koþturulabilir örneði.
+6. Nesne Sýnýfý
+    6.1. Nesne sýnýf
+        jtpc#0601.cs: Sýnýftan yaratýlan nesnel tiplemenin deðiþken ve metod üyeleri örneði.
+        jtpc#0601.exe: NesneSýnýfý, NesneSýnýf koþturulabilir örneði.
+    6.2. Kurucu
+        jtpc#0602.cs: Sýnýf tiplemelerinin varsayýlý ve parametreli kurucularý örneði.
+        jtpc#0602.exe: NesneSýnýfý, Kurucu koþturulabilir örneði.
+    6.3. Yýkýcý
+        jtpc#0603.cs: Sýnýf tiplemelerinin varsayýlý parametresiz yýkýcýlarý örneði.
+        jtpc#0603.exe: NesneSýnýfý, Yýkýcý koþturulabilir örneði.
+    6.4. Bu
+        jtpc#0604.cs: 'this' anahtarkelimesinin sýnýfiçi metodda parametrelerle kullanýlmasý örneði.
+        jtpc#0604.exe: NesneSýnýfý, Bu koþturulabilir örneði.
+    6.5. Statik
+        jtpc#0605.cs: 'static' anahtarkelimeli alanýn tiplenmeden eriþilebilirliði örneði.
+        jtpc#0605.exe: NesneSýnýfý, Statik koþturulabilir örneði.
+    6.6. Statik sýnýf
+        jtpc#0606.cs: 'static' sýnýfýn sadece statik üyeleri ve tiplemesiz iþletilebilmesi örneði.
+        jtpc#0606.exe: NesneSýnýfý, StatikSýnýf koþturulabilir örneði.
+    6.7. Statik kurucu
+        jtpc#0607.cs: 'static' ve belirteçsiz kurucunun tekkerelik kullanýlabilmesi örneði.
+        jtpc#0607.exe: NesneSýnýfý, StatikKurucu koþturulabilir örneði.
+    6.8. Yapýlar
+        jtpc#0608.cs: 'struct' yapý tiplemesiyle dikdörtgen alanýnýn hesaplanmasý örneði.
+        jtpc#0608.exe: NesneSýnýfý, Yapýlar koþturulabilir örneði.
+    6.9. Sayýlanabilen
+        jtpc#0609.cs: 'enu' sayýlanabilenle mevsimlerin ve haftanýn günleri örneði.
+        jtpc#0609.exe: NesneSýnýfý, Sayýlanabilen koþturulabilir örneði.
+7. Özellikler
+    7.1. Özellik
+        jtpc#0701.cs: 'set-get'le deðer atanýp-okunan 'private' sýnýf alanlý özellik örneði.
+        jtpc#0701.exe: Özellikler, Özellik koþturulabilir örneði.
+8. Kalýtsallýk
+    8.1. Miras
+        jtpc#0801.cs: Ebeveyn-yavru-lar mirasýyla atalarýn tüm üyelerini kullanabilme örneði.
+        jtpc#0801.exe: Kalýtsallýk, Miras koþturulabilir örneði.
+        jtpc#0802.cs: Bir sýnýfýn diðerine nesnel tip deðiþkeni olarak tanýmlanýp eklenmesi örneði.
+        jtpc#0802.exe: Kalýtsallýk, Ekleme koþturulabilir örneði.
+    8.2. Ekleme
+9. Çoklubiçim
+    9.1. Metod aþýrýyükleme
+        jtpc#0901.cs: Ayný adlý fakat farklý sayýlý veya tipli argümanlarla toplama örneði.
+        jtpc#0901.exe: Çoklubiçim, MetodAþýrýyükleme koþturulabilir örneði.
+    9.2. Metod esgeçme
+        jtpc#0902.cs: Temel'deki ayný adlý metodun türev'deki tarafýndan esgeçilmesi örneði.
+        jtpc#0902.exe: Çoklubiçim, MetodEsgeçme koþturulabilir örneði.
+    9.3. Base
+        jtpc#0903.cs: Temel'deki ayný adlý üyelerin türev'de base'le alýntýlanmasý örneði.
+        jtpc#0903.exe: Çoklubiçim, Base koþturulabilir örneði.
+    9.4. ÇokluBiçim
+        jtpc#0904.cs: Miraslayanýn metod esgeçmesi ve veri üyesi referans farký örneði.
+        jtpc#0904.exe: Çoklubiçim, ÇokluBiçim koþturulabilir örneði.
+    9.5. Mühürlü
+        jtpc#0905.cs: Mühürlü 'sealed' sýnýf miraslanmaz, metod esgeçilmez, deðiþken görüntülenmez örneði.
+        jtpc#0905.exe: Çoklubiçim, Mühürlü koþturulabilir örneði.
+10. Soyutlama
+    10.1. Soyut
+        jtpc#1001.cs: Soyut sýnýfýn soyut metodunun miraslayanýn metoduyla esgeçilmesi örneði.
+        jtpc#1001.exe: Soyutlama, Soyut koþturulabilir örneði.
+    10.2. Arayüz
+        jtpc#1002.cs: Arayüz metodunun miraslayanýn metoduyla esgeçilmesi örneði.
+        jtpc#1002.exe: Soyutlama, Arayüz koþturulabilir örneði.
+11. Aduzamlar
+    11.1. Aduzam
+        jtpc#1101.cs: Beþ farklý aduzamýn ayný/farklý adlý sýnýf ve metodunu çaðýrma örneði.
+        jtpc#1101.exe: Aduzamlar, Aduzam koþturulabilir örneði.
+    11.2. EriþimDeðiþtireçleri
+        jtpc#1102a.cs: Public belirteçli deðiþken ve fonksiyona eriþim örneði.
+        jtpc#1102a.exe: Aduzamlar, EriþimDeðiþtireçleri1 koþturulabilir örneði.
+        jtpc#1102b.cs: Protected belirteçli deðiþken ve fonksiyona miraslamayla eriþim örneði.
+        jtpc#1102b.exe: Aduzamlar, EriþimDeðiþtireçleri2 koþturulabilir örneði.
+        jtpc#1102c.cs: Internal belirteçli deðiþken ve fonksiyona tiplemeyle eriþim örneði.
+        jtpc#1102c.exe: Aduzamlar, EriþimDeðiþtireçleri3 koþturulabilir örneði.
+        jtpc#1102d.cs: ProtectedInternal belirteçli deðiþken ve fonksiyona tiplemeyle eriþim örneði.
+        jtpc#1102d.exe: Aduzamlar, EriþimDeðiþtireçleri4 koþturulabilir örneði.
+        jtpc#1102e.cs: Private belirteçli deðiþken ve fonksiyona sýnýfiçi tiplemeyle eriþim örneði.
+        jtpc#1102e.exe: Aduzamlar, EriþimDeðiþtireçleri5 koþturulabilir örneði.
+    11.3. Kapsülleme
+        jtpc#1103.cs: Kapsüllenen öðrenci sýnýf özelliklerine eriþim örneði.
+        jtpc#1103.exe: Aduzamlar, Kapsülleme koþturulabilir örneði.
+12. Dizgeler
+    12.1. Dizge
+        jtpc#1201.cs: Dizge yaratma ve dizge metodlarý örneði.
+        jtpc#1201.exe: Dizgeler, Dizge koþturulabilir örneði.
+13. Ýstisna yönetimi
+    13.1. TryCatch
+        jtpc#1301.cs: Fýrlatýlan sýfýra bölüm istisnasýnýn yakalanýp yönetilmesi örneði.
+        jtpc#1301.exe: ÝstisnaYönetimi, TryCatch koþturulabilir örneði.
+    13.2. Finally
+        jtpc#1302.cs: TryCath sonunda herdaim çalýþtýrýlan finally örneði.
+        jtpc#1302.exe: ÝstisnaYönetimi, Finally koþturulabilir örneði.
+    13.3. Özel istisna
+        jtpc#1303.cs: Özel kullanýcý-tanýmlý türev istiana fýrlatma örneði.
+        jtpc#1303.exe: ÝstisnaYönetimi, ÖzelÝstisna koþturulabilir örneði.
+    13.4. CheckedUnchecked
+        jtpc#1304.cs: Tamsayýlarda kontrolsuz/kontrollu taþma hatalarý örneði.
+        jtpc#1304.exe: ÝstisnaYönetimi, CheckedUnchecked koþturulabilir örneði.
+    13.5. Systemexception
+        jtpc#1305.cs: SystemException ile sistemle ilgili istisnalarýn yönetimi örneði.
+        jtpc#1305.exe: ÝstisnaYönetimi, Systemexception koþturulabilir örneði.
+14. Dosya G/Ç
+    14.1. DosyaAkýþý
+    14.2. AkýþYazýcý
+    14.3. AkýþOkuyucu
+    14.4. MetinYazýcý
+    14.5. MetinOkuyucu
+    14.6. ÝkiliYazýcý
+    14.7. ÝkiliOkuyucu
+    14.8. DizgeYazýcý
+    14.9. DizgeOkuyucu
+    14.10. DosyaBilgi
+    14.11. DizinBilgi
+    14.12. Serileþtirme
+    14.13. Serisizleþtirme
+    14.14. SistemGÇ
+15. Koleksiyonlar
+    15.1. Collections
+    15.2. List<T>
+    15.3. HashSet<T>
+    15.4. SortedSet<T>
+    15.5. Stack<T>
+    15.6. Queue<T>
+    15.7. LinkedList<T>
+    15.8. Dictionary<K,V>
+    15.9. SortedDictionary<K,V>
+    15.10. SortedList<K,V>
+16. Generics
+    16.1. Generics
+17. Delegates
+    17.1. Delegates
+18. Reflection
+    18.1. Reflection
+19. Anonymous Function
+    19.1. Anonymous Function
+20. Multithreading
+    20.1. Multithreading
+    20.2. Thread Life Cycle
+    20.3. Thread class
+    20.4. Main Thread
+    20.5. Thread Example
+    20.6. Thread Sleep
+    20.7. Thread Abort
+    20.8. Thread Join
+    20.9. Thread Name
+    20.10. ThreadPriority
+21. Synchronization
+    21.1. Synchronization
+22. Web Service
+    22.1. Web Services in C#
+23. Misc
+    23.1. Events in C#
+    23.2. Regular Expression in C#
+    23.3. DateTime in C#
+    23.4. Type Casting in C#
+    23.5. ListBox Control in C#
+    23.6. ReadLine() Method
+    23.7. Design Patterns in C#
+    23.8. Operator Overloading
+    23.9. 3-tier architecture in C#
+24. New Features
+    24.1. New Features (40+)
+25. Programs
+    25.1. Programs
+    25.2. Fibonacci Series
+    25.3. Prime Number
+    25.4. Palindrome Number
+    25.5. Factorial
+    25.6. Armstrong Number
+    25.7. Sum of digits
+    25.8. Reverse Number
+    25.9. Swap Number
+    25.10. Decimal to Binary
+    25.11. Number in Characters
+    25.12. Alphabet Triangle
+    25.13. Number Triangle
+    25.14. Fibonacci Triangle
+26. ADO.NET Tutorial
+    26.1. ADO.NET Tutorial (10+)
+27. ASP.NET Tutorial
+    27.1. ASP.NET Tutorial (50+)
