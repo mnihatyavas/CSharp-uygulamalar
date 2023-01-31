@@ -1,0 +1,10 @@
+Merhaba C#-0
+Merhaba C#-01
+Merhaba C#-012
+Merhaba C#-0123
+Merhaba C#-01234
+Merhaba C#-012345
+Merhaba C#-0123456
+Merhaba C#-01234567
+Merhaba C#-012345678
+Merhaba C#-0123456789

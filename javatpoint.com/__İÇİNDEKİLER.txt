@@ -201,7 +201,7 @@
         jtpc#1302.cs: TryCath sonunda herdaim çalýþtýrýlan finally örneði.
         jtpc#1302.exe: ÝstisnaYönetimi, Finally koþturulabilir örneði.
     13.3. Özel istisna
-        jtpc#1303.cs: Özel kullanýcý-tanýmlý türev istiana fýrlatma örneði.
+        jtpc#1303.cs: Özel kullanýcý-tanýmlý türev istisna fýrlatma örneði.
         jtpc#1303.exe: ÝstisnaYönetimi, ÖzelÝstisna koþturulabilir örneði.
     13.4. CheckedUnchecked
         jtpc#1304.cs: Tamsayýlarda kontrolsuz/kontrollu taþma hatalarý örneði.
@@ -211,40 +211,57 @@
         jtpc#1305.exe: ÝstisnaYönetimi, Systemexception koþturulabilir örneði.
 14. Dosya G/Ç
     14.1. DosyaAkýþý
-    14.2. AkýþYazýcý
-    14.3. AkýþOkuyucu
-    14.4. MetinYazýcý
-    14.5. MetinOkuyucu
-    14.6. ÝkiliYazýcý
-    14.7. ÝkiliOkuyucu
-    14.8. DizgeYazýcý
-    14.9. DizgeOkuyucu
-    14.10. DosyaBilgi
-    14.11. DizinBilgi
-    14.12. Serileþtirme
-    14.13. Serisizleþtirme
-    14.14. SistemGÇ
+        jtpc#1401.cs: 0-255 ASCII karakterleri dosyaya yazma ve okuma örneði.
+        jtpc#1401.exe: DosyaGÇ, DosyaAkýþý koþturulabilir örneði.
+        jtpc#1401a.txt: ASCII karakterler metin dosyasý.
+        jtpc#1401b.txt: System.IO açýklamalarý metin dosyasý.
+    14.2. AkýþYazýcýOkuyucu
+        jtpc#1402.cs: Dosyaya dizge satýrlarý yazma ve okuma örneði.
+        jtpc#1402.exe: DosyaGÇ, AkýþYazýcýOkuyucu koþturulabilir örneði.
+        jtpc#1402.txt: 5 adet Merhaba kayýtlý metin dosyasý.
+    14.3. MetinYazýcýOkuyucu
+        jtpc#1403.cs: Dosyaya metin satýrlarý yazma ve okuma örneði.
+        jtpc#1403.exe: DosyaGÇ, MetinYazýcýOkuyucu koþturulabilir örneði.
+        jtpc#1403.txt: 10 adet Merhaba kayýtlý metin dosyasý.
+    14.4. ÝkiliYazýcýOkuyucu
+        jtpc#1404.cs: Dosyaya ikili verileri yazma ve okuma örneði.
+        jtpc#1404.exe: DosyaGÇ, ÝkiliYazýcýOkuyucu koþturulabilir örneði.
+        jtpc#1404.dat: Double, float, int, string, boolean 5 adet kayýtlý veri dosyasý.
+    14.5. DizgeYazýcýOkuyucu
+        jtpc#1405.cs: Bellek tampona dizgesel verileri yazma ve okuma örneði.
+        jtpc#1405.exe: DosyaGÇ, DizgeYazýcýOkuyucu koþturulabilir örneði.
+    14.6. DosyaBilgi
+        jtpc#1406.cs: FileInfo'yla metin dosyasý yaratma, yazma, okuma ve silme örneði.
+        jtpc#1406.exe: DosyaGÇ, DosyaBilgi koþturulabilir örneði.
+        jtpc#1406a.txt: Yaratýlan boþ metin dosyasý.
+        jtpc#1406b.txt: Ardýþýk kayýtlar eklenen metin dosyasý.
+    14.7. DizinBilgi
+        jtpc#1407.cs: DirectoryInfo'yla yeni dizin yaratma, taþýma ve silme örneði.
+        jtpc#1407.exe: DosyaGÇ, DizinBilgi koþturulabilir örneði.
+    14.8. SerileþSÝZtirme
+        jtpc#1408.cs: Tiplenen nesnenin ikili serileþtirilmesi ve serisizleþtirilmesi örneði.
+        jtpc#1408.exe: DosyaGÇ, SerileþSÝZtirme koþturulabilir örneði.
+        jtpc#1408.txt: 10 adet serileþtirilen kayýtlý metin dosyasý.
 15. Koleksiyonlar
-    15.1. Collections
-    15.2. List<T>
-    15.3. HashSet<T>
-    15.4. SortedSet<T>
-    15.5. Stack<T>
-    15.6. Queue<T>
-    15.7. LinkedList<T>
-    15.8. Dictionary<K,V>
-    15.9. SortedDictionary<K,V>
-    15.10. SortedList<K,V>
-16. Generics
-    16.1. Generics
-17. Delegates
-    17.1. Delegates
-18. Reflection
-    18.1. Reflection
-19. Anonymous Function
-    19.1. Anonymous Function
-20. Multithreading
-    20.1. Multithreading
+    15.1. Liste<Tip>
+    15.2. KýymaKüme<Tip>
+    15.3. SýralýKüme<Tip>
+    15.4. Yýðýn<Tip>
+    15.5. Kuyruk<Tip>
+    15.6. BaðlýListe<Tip>
+    15.7. Sözlük<A,D>
+    15.8. SýralýSözlük<A,D>
+    15.9. SýralýListe<A,D>
+16. Soysallar
+    16.1. Soysal
+17. Delegeler
+    17.1. Delege
+18. Yansýma
+    18.1. Yansý
+19. Anonim Fonksiyon
+    19.1. Anonim fonksiyon
+20. ÇokluGörevleme
+    20.1. Çoklugörevleme
     20.2. Thread Life Cycle
     20.3. Thread class
     20.4. Main Thread

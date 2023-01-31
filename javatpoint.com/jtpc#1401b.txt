@@ -1,0 +1,5 @@
+System.IO siniflari: BinaryReader, BinaryWriter, BufferedStream, Directory, DirectoryInfo, DirectoryNotFoundException, DriveInfo, DirectoryNotFoundException, EndOfStreamException, ErrorEventArgs, File, FileFormatException, FileInfo, FileLoadException, FileNotFoundException, FileStream, FileSystemEventArgs, FileSystemInfo, FileSystemWatcher, InternalBufferOverflowException, InvalidDataException, IODescriptionAttribute, IOException, MemoryStream, Path, PathTooLongException, PipeException, RenamedEventArgs, Stream, StreamReader, StringReader, StringWriter, TextReader, TextWriter, UnmanagedMemoryAccessor, UnmanagedMemoryStream
+
+Delegeler: ErrorEventHandler, FileSystemEventHandler, RenamedEventHandler
+
+Sayilanabilenler: DriveType, FileAccess, FileAttributes, FileMode, FileOptions, FileShare, HandleInheritability, NotifyFilters, SearchOption, SeekOrigin, WatcherChangeTypes

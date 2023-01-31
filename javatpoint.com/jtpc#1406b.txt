@@ -1,0 +1,10 @@
+Bu metin, [jtpc#1406b.txt] dosyasına StreamWriter sınıfıyla eklendi.
+Dosya kapatılıp, sonrasında StreamReader'la okunup, yansıtılacak.
+Bu metin, [jtpc#1406b.txt] dosyasına StreamWriter sınıfıyla eklendi.
+Dosya kapatılıp, sonrasında StreamReader'la okunup, yansıtılacak.
+Bu metin, [jtpc#1406b.txt] dosyasına StreamWriter sınıfıyla eklendi.
+Dosya kapatılıp, sonrasında StreamReader'la okunup, yansıtılacak.
+Bu metin, [jtpc#1406b.txt] dosyasına StreamWriter sınıfıyla eklendi.
+Dosya kapatılıp, sonrasında StreamReader'la okunup, yansıtılacak.
+Bu metin, [jtpc#1406b.txt] dosyasına StreamWriter sınıfıyla eklendi.
+Dosya kapatılıp, sonrasında StreamReader'la okunup, yansıtılacak.
