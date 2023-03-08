@@ -1,7 +1,9 @@
-"https://www.javatpoint.com/c-sharp-tutorial" örnekleri (adet)
+ÝÇÝNDEKÝLER
+---------------
+"https://www.javatpoint.com/c-sharp-tutorial" örnekleri (187 adet)
 -----------------------------------------------------------------------
 
-1. .Net Framework
+1. .Net Framework (3)
     1.1. .NET Framework
         jtpc#0101.cs: .NET Framework hakkýnda kýsa açýklamalar örneði.
         jtpc#0101.exe: AðÝskeleti, NetFramework koþturulabilir örneði.
@@ -11,7 +13,7 @@
     1.3. FCL
         jtpc#0103.cs: FCL ile ilgili kýsa açýklamalar örneði.
         jtpc#0103.exe: AðÝskeleti, FCL koþturulabilir örneði.
-2. CSEðitimi
+2. CSEðitimi (11)
     2.1. CSEðitimi
         jtpc#0201.cs: CS eðitimiyle ilgili kýsa açýklamalar örneði.
         jtpc#0201.exe: CSEðitimi, CSEðitimi koþturulabilir örneði.
@@ -42,7 +44,7 @@
     2.8. Anahtarkelimeler
         jtpc#0208.cs: Ayrýlmýþ anahtarkelimelerin listelenmesi örneði.
         jtpc#0208.exe: CSEðitimi, Anahtarkelimeler koþturulabilir örneði.
-3. Kontrol Ýfadeleri
+3. Kontrol Ýfadeleri (11)
     3.1. if-else
         jtpc#0301a.cs: If ile sayýnýn tek/çift tespiti örneði.
         jtpc#0301a.exe: ControlÝfadeleri, If koþturulabilir örneði.
@@ -74,7 +76,7 @@
     3.9. Yorumlar
         jtpc#0309.cs: Kodlama içinde tek yada çok satýrlý yorum açýklamalarý yazma örneði.
         jtpc#0309.exe: ControlÝfadeleri, Break koþturulabilir örneði.
-4. Fonksiyonlar
+4. Fonksiyonlar (4)
     4.1. Fonksiyon
         jtpc#0401.cs: Statik ve genel, parametresiz ve tek parametreli, geridönüþsüz ve dönüþlü fonksiyonlar örneði.
         jtpc#0401.exe: Fonksiyonlar, Fonksiyon koþturulabilir örneði.
@@ -87,7 +89,7 @@
     4.4. Out parametresi
         jtpc#0404.cs: "out" ilkdeðersiz argümaný onaylarken "ref"in hata vermesi örneði.
         jtpc#0401.exe: Fonksiyonlar, OutÇaðrý koþturulabilir örneði.
-5. Diziler
+5. Diziler (7)
     5.1. Dizi
         jtpc#0501.cs: Tekboyutlu bir dizinin çeþitli tanýmlanma ve ilkdeðer atanma örneði.
         jtpc#0501.exe: Diziler, Dizi koþturulabilir örneði.
@@ -101,7 +103,7 @@
         jtpc#0504.cs: Ýki boyutlu 2x4-6 ve 4x4-6-2-7'li çentikli dizilerin beyan, ilkdeðerleme ve döküm örneði.
         jtpc#0504.exe: Diziler, ÇentikliDizi koþturulabilir örneði.
     5.5. Parametreler
-        'params'lý fonksiyona deðiþken sayýda argüman aktarabilme örneði.
+        jtpc#0505..cs: 'params'lý fonksiyona deðiþken sayýda argüman aktarabilme örneði.
         jtpc#0505.exe: Diziler, ParamsDizi koþturulabilir örneði.
     5.6. Dizi sýnýfý
         jtpc#0506.cs: Dizi kopyalama, sýralama, tersleme ve dökümleme örneði.
@@ -109,7 +111,7 @@
     5.7. Komutsatýrlý dizi
         jtpc#0507.cs: Komutsatýrý verilerinin dizgesel dizi olarak yakalanýp iþlenmesi örneði.
         jtpc#0507.exe: Diziler, KomutsatýrlýDizi koþturulabilir örneði.
-6. Nesne Sýnýfý
+6. Nesne Sýnýfý (9)
     6.1. Nesne sýnýf
         jtpc#0601.cs: Sýnýftan yaratýlan nesnel tiplemenin deðiþken ve metod üyeleri örneði.
         jtpc#0601.exe: NesneSýnýfý, NesneSýnýf koþturulabilir örneði.
@@ -137,18 +139,18 @@
     6.9. Sayýlanabilen
         jtpc#0609.cs: 'enu' sayýlanabilenle mevsimlerin ve haftanýn günleri örneði.
         jtpc#0609.exe: NesneSýnýfý, Sayýlanabilen koþturulabilir örneði.
-7. Özellikler
+7. Özellikler (1)
     7.1. Özellik
         jtpc#0701.cs: 'set-get'le deðer atanýp-okunan 'private' sýnýf alanlý özellik örneði.
         jtpc#0701.exe: Özellikler, Özellik koþturulabilir örneði.
-8. Kalýtsallýk
+8. Kalýtsallýk (2)
     8.1. Miras
         jtpc#0801.cs: Ebeveyn-yavru-lar mirasýyla atalarýn tüm üyelerini kullanabilme örneði.
         jtpc#0801.exe: Kalýtsallýk, Miras koþturulabilir örneði.
         jtpc#0802.cs: Bir sýnýfýn diðerine nesnel tip deðiþkeni olarak tanýmlanýp eklenmesi örneði.
         jtpc#0802.exe: Kalýtsallýk, Ekleme koþturulabilir örneði.
     8.2. Ekleme
-9. Çoklubiçim
+9. Çoklubiçim (5)
     9.1. Metod aþýrýyükleme
         jtpc#0901.cs: Ayný adlý fakat farklý sayýlý veya tipli argümanlarla toplama örneði.
         jtpc#0901.exe: Çoklubiçim, MetodAþýrýyükleme koþturulabilir örneði.
@@ -164,14 +166,14 @@
     9.5. Mühürlü
         jtpc#0905.cs: Mühürlü 'sealed' sýnýf miraslanmaz, metod esgeçilmez, deðiþken görüntülenmez örneði.
         jtpc#0905.exe: Çoklubiçim, Mühürlü koþturulabilir örneði.
-10. Soyutlama
+10. Soyutlama (2)
     10.1. Soyut
         jtpc#1001.cs: Soyut sýnýfýn soyut metodunun miraslayanýn metoduyla esgeçilmesi örneði.
         jtpc#1001.exe: Soyutlama, Soyut koþturulabilir örneði.
     10.2. Arayüz
         jtpc#1002.cs: Arayüz metodunun miraslayanýn metoduyla esgeçilmesi örneði.
         jtpc#1002.exe: Soyutlama, Arayüz koþturulabilir örneði.
-11. Aduzamlar
+11. Aduzamlar (7)
     11.1. Aduzam
         jtpc#1101.cs: Beþ farklý aduzamýn ayný/farklý adlý sýnýf ve metodunu çaðýrma örneði.
         jtpc#1101.exe: Aduzamlar, Aduzam koþturulabilir örneði.
@@ -189,11 +191,11 @@
     11.3. Kapsülleme
         jtpc#1103.cs: Kapsüllenen öðrenci sýnýf özelliklerine eriþim örneði.
         jtpc#1103.exe: Aduzamlar, Kapsülleme koþturulabilir örneði.
-12. Dizgeler
+12. Dizgeler (1)
     12.1. Dizge
         jtpc#1201.cs: Dizge yaratma ve dizge metodlarý örneði.
         jtpc#1201.exe: Dizgeler, Dizge koþturulabilir örneði.
-13. Ýstisna yönetimi
+13. Ýstisna yönetimi (5)
     13.1. TryCatch
         jtpc#1301.cs: Fýrlatýlan sýfýra bölüm istisnasýnýn yakalanýp yönetilmesi örneði.
         jtpc#1301.exe: ÝstisnaYönetimi, TryCatch koþturulabilir örneði.
@@ -209,7 +211,7 @@
     13.5. Systemexception
         jtpc#1305.cs: SystemException ile sistemle ilgili istisnalarýn yönetimi örneði.
         jtpc#1305.exe: ÝstisnaYönetimi, Systemexception koþturulabilir örneði.
-14. Dosya G/Ç
+14. Dosya G/Ç (16)
     14.1. DosyaAkýþý
         jtpc#1401.cs: 0-255 ASCII karakterleri dosyaya yazma ve okuma örneði.
         jtpc#1401.exe: DosyaGÇ, DosyaAkýþý koþturulabilir örneði.
@@ -242,7 +244,7 @@
         jtpc#1408.cs: Tiplenen nesnenin ikili serileþtirilmesi ve serisizleþtirilmesi örneði.
         jtpc#1408.exe: DosyaGÇ, SerileþSÝZtirme koþturulabilir örneði.
         jtpc#1408.txt: 10 adet serileþtirilen kayýtlý metin dosyasý.
-15. Koleksiyonlar
+15. Koleksiyonlar (9)
     15.1. Liste<Tip>
         jtpc#1501.cs: Koleksiyon soysal aduzamlý liste sýnýfý örneði.
         jtpc#1501.exe: Koleksiyonlar, Liste koþturulabilir örneði.
@@ -270,23 +272,23 @@
     15.9. SýralýSözlük<A,D>
         jtpc#1509.cs: Koleksiyon soysal aduzamlý sýralý sözlük sýnýfý örneði.
         jtpc#1509.exe: Koleksiyonlar, SýralýSözlük koþturulabilir örneði.
-16. Soysallar
+16. Soysallar (1)
     16.1. Soysal
         jtpc#1601.cs: Genel <Tip>'li soysal sýnýf kurucu parametresini doldurma örneði.
         jtpc#1601.exe: Soysallar, Soysal koþturulabilir örneði.
-17. Delegeler
+17. Delegeler (1)
     17.1. Delege
         jtpc#1701.cs: Statik metodlarý delegeleyen hesaplayýcý tiplemesi örneði.
         jtpc#1701.exe: Delegeler, Delege koþturulabilir örneði.
-18. Yansýma
+18. Yansýma (1)
     18.1. Yansý
         jtpc#1801.cs: Yansýtma Type sýnýfýyla çeþitli nesne tip bilgilerine ulaþma örneði.
         jtpc#1801.exe: Yansýma, Yansý koþturulabilir örneði.
-19. Anonim Fonksiyon
+19. Anonim Fonksiyon (1)
     19.1. Anonim fonksiyon
         jtpc#1901.cs: Parametreli ve parametresiz anonim delegeli fonksiyonlar örneði.
         jtpc#1901.exe: AnonimFonksiyon, Anonimfonksiyon koþturulabilir örneði.
-20. ÇokluGörevleme
+20. ÇokluGörevleme (11)
     20.1. AnaSicim
         jtpc#2001.cs: Çoklu görevlemenin ana sicimini adlandýrma örneði.
         jtpc#2001.exe: ÇokluGörevleme, AnaSicim koþturulabilir örneði.
@@ -317,7 +319,7 @@
         jtpc#2008a.exe: ÇokluGörevleme, Eþzamansýz koþturulabilir örneði.
         jtpc#2008b.cs: Çoklu görevlemenin lock ile müdahelelerden korunmasý örneði.
         jtpc#2008b.exe: ÇokluGörevleme, Eþzamanlý koþturulabilir örneði.
-21. Formlar
+21. Formlar (15)
         jtpc#2101a1.cs: Windows.Forms ile ekrana boþ bir form kondurma örneði.
         jtpc#2101a1.exe: Formlar, FormumA koþturulabilir örneði.
         jtpc#2101a2.cs: Windows.Forms ile ekrana baþlýklý ortalanmýþ bir form kondurma örneði.
@@ -348,7 +350,7 @@
         jtpc#2101l2.exe: Formlar, ListeKutusuB koþturulabilir örneði.
         jtpc#2101m.cs: Düðme olaylarýyla veri tablo kayýtlarýný aktarma örneði.
         jtpc#2101m.exe: Formlar, ÇokluOlaylar koþturulabilir örneði.
-22. Çeþitli
+22. Çeþitli (13)
     22.1. Olaylar
         jtpc#2201.cs: Delege olayý tiplemesinin referanslý metodlarla rakamlarý biçimleme örneði.
         jtpc#2201.exe: Çeþitli, Olaylar koþturulabilir örneði.
@@ -381,105 +383,164 @@
     22.6. Ýþlemci aþýrýyükleme
         jtpc#2206.cs: -+iþlemci ve Equals aþýrýyükleme örneði.
         jtpc#2206.exe: Çeþitli, ÝþlemciAþýrýyükleme koþturulabilir örneði.
-23. Yeni Özellikler
+23. Yeni Özellikler (38)
     23.1. C# 2.0
-        23.1.1 Kýsmi tipler
-            jtpc#230101.cs: Ýki ayrý kýsmi altprogramýn anaprogramla çalýþtýrýlmasý örneði.
-            jtpc#230101a.cs: Müþterinin son yatýrdýðý tutar ve güncel bakiye alt örneði.
-            jtpc#230101b.cs: Müþterinin son çektiði tutar ve güncel bakiye alt örneði.
-            jtpc#230101.exe: YeniÖzellikler, KýsmiTipler koþturulabilir örneði.
-        23.1.2 Tarayýcýlar
-            tpc#230102.cs: Dizi ve koleksiyon elemanlarýný yalýn ve yield-foreach'le tarama örneði.
-            jtpc#230102.exe: YeniÖzellikler, Tarayýcýlar koþturulabilir örneði.
-        23.1.3 Hiçlenebilen tipler
-            jtpc#230103.cs: Hiçlenebilen deðer de alabilen deðiþkenler örneði.
-            jtpc#230103.exe: YeniÖzellikler, HiçlenebilenTipler koþturulabilir örneði.
-        23.1.4 Delege eþdeðiþinti
-            jtpc#230104.cs: Ebeveyn delegeli metodlarýn tipleme geridönüþleri örneði.
-            jtpc#230104.exe: YeniÖzellikler, DelegeEþdeðiþinti koþturulabilir örneði.
-        23.1.5 Delege çýkarýmý
-            jtpc#230105.cs: Sarýmsýz doðrudan delegeli tiplemeye metot atama örneði.
-            jtpc#230105.exe: YeniÖzellikler, DelegeÇýkarýmý koþturulabilir örneði.
-        23.1.6 Statik sýnýf
-            jtpc#230106.cs: Statik sýnýf üyelerinin tiplemesiz kullanýmý örneði.
-            jtpc#230106.exe: YeniÖzellikler, StatikSýnýf koþturulabilir örneði.
+        23.1.a Kýsmi tipler
+            jtpc#2301a.cs: Ýki ayrý kýsmi altprogramýn anaprogramla çalýþtýrýlmasý örneði.
+            jtpc#2301a1.cs: Müþterinin son yatýrdýðý tutar ve güncel bakiye alt örneði.
+            jtpc#2301a2.cs: Müþterinin son çektiði tutar ve güncel bakiye alt örneði.
+            jtpc#2301a.exe: YeniÖzellikler, KýsmiTipler koþturulabilir örneði.
+        23.1.b Tarayýcýlar
+            tpc#2301b.cs: Dizi ve koleksiyon elemanlarýný yalýn ve yield-foreach'le tarama örneði.
+            jtpc#2301b.exe: YeniÖzellikler, Tarayýcýlar koþturulabilir örneði.
+        23.1.c Hiçlenebilen tipler
+            jtpc#2301c.cs: Hiçlenebilen deðer de alabilen deðiþkenler örneði.
+            jtpc#2301c.exe: YeniÖzellikler, HiçlenebilenTipler koþturulabilir örneði.
+        23.1.d Delege eþdeðiþinti
+            jtpc#2301d.cs: Ebeveyn delegeli metodlarýn tipleme geridönüþleri örneði.
+            jtpc#2301d.exe: YeniÖzellikler, DelegeEþdeðiþinti koþturulabilir örneði.
+        23.1.e Delege çýkarýmý
+            jtpc#2301e.cs: Sarýmsýz doðrudan delegeli tiplemeye metot atama örneði.
+            jtpc#2301e.exe: YeniÖzellikler, DelegeÇýkarýmý koþturulabilir örneði.
+        23.1.f Statik sýnýf
+            jtpc#2301f.cs: Statik sýnýf üyelerinin tiplemesiz kullanýmý örneði.
+            jtpc#2301f.exe: YeniÖzellikler, StatikSýnýf koþturulabilir örneði.
     23.2. C# 3.0
-        23.2.1 Anonim tip
-            jtpc#230201.cs: Anonim tipli kayýtlara deðer atama veya koleksiyon sorgusunda kullanma örneði.
-            jtpc#230201.exe: YeniÖzellikler, AnonimTip koþturulabilir örneði.
-        23.2.2 Uzantý metodu
-            jtpc#230202.cs: Statik uzantý tiplemeli metodun çaðrýlmasý örneði.
-            jtpc#230202.exe: YeniÖzellikler, Uzantý metodu koþturulabilir örneði.
-        23.2.3 Sorgu ifadesi
-            jtpc#230203.cs: LINQ sorgu ifadesiyle tikel sayýlarý ve öðrencileri filitreleme örneði.
-            jtpc#230203.exe: YeniÖzellikler, SorguÝfadesi koþturulabilir örneði.
-        23.2.4 Kýsmi metod
-            jtpc#230204.cs: Kýsmi sýnýflardaki kýsmi metodla mesajlar yansýtma örneði.
-            jtpc#230204.exe: YeniÖzellikler, KýsmiMetod koþturulabilir örneði.
-        23.2.5 Örtük tipler
-            jtpc#230205.cs: "var" anahtarkelimeli ilkdeðerlemeyle tiplenen deðiþkenler tanýmlama örneði.
-            jtpc#230205.exe: YeniÖzellikler, ÖrtükTipler koþturulabilir örneði.
-        23.2.6 Nesne koleksiyon ilkdeðerleme
-            jtpc#230206.cs: Ýlk yaratým deðerlemesiyle nesne ve koleksiyon kayýtlarý atama örneði.
-            jtpc#230206.exe: YeniÖzellikler, NesneKoleksiyonÝlkdeðerleme koþturulabilir örneði.
-        23.2.7 AlKoyÖzellikler
-            jtpc#230207.cs: Sýnýf özelliklerine 'get-set'le deðer atama-okuma örneði.
-            jtpc#230207.exe: YeniÖzellikler, AlKoyÖzellikler koþturulabilir örneði.
+        23.2.a Anonim tip
+            jtpc#2302a.cs: Anonim tipli kayýtlara deðer atama veya koleksiyon sorgusunda kullanma örneði.
+            jtpc#2302a.exe: YeniÖzellikler, AnonimTip koþturulabilir örneði.
+        23.2.b Uzantý metodu
+            jtpc#2302b.cs: Statik uzantý tiplemeli metodun çaðrýlmasý örneði.
+            jtpc#2302b.exe: YeniÖzellikler, Uzantý metodu koþturulabilir örneði.
+        23.2.c Sorgu ifadesi
+            jtpc#2302c.cs: LINQ sorgu ifadesiyle tikel sayýlarý ve öðrencileri filitreleme örneði.
+            jtpc#2302c.exe: YeniÖzellikler, SorguÝfadesi koþturulabilir örneði.
+        23.2.d Kýsmi metod
+            jtpc#2302d.cs: Kýsmi sýnýflardaki kýsmi metodla mesajlar yansýtma örneði.
+            jtpc#2302d.exe: YeniÖzellikler, KýsmiMetod koþturulabilir örneði.
+        23.2.e Örtük tipler
+            jtpc#2302e.cs: "var" anahtarkelimeli ilkdeðerlemeyle tiplenen deðiþkenler tanýmlama örneði.
+            jtpc#2302e.exe: YeniÖzellikler, ÖrtükTipler koþturulabilir örneði.
+        23.2.f Nesne koleksiyon ilkdeðerleme
+            jtpc#2302f.cs: Ýlk yaratým deðerlemesiyle nesne ve koleksiyon kayýtlarý atama örneði.
+            jtpc#2302f.exe: YeniÖzellikler, NesneKoleksiyonÝlkdeðerleme koþturulabilir örneði.
+        23.2.g AlKoyÖzellikler
+            jtpc#2302g.cs: Sýnýf özelliklerine 'get-set'le deðer atama-okuma örneði.
+            jtpc#2302g.exe: YeniÖzellikler, AlKoyÖzellikler koþturulabilir örneði.
     23.3. C# 4.0
-        23.3.1 Dinamik baðlama
-            jtpc#230301.cs: Tipleri çalýþma zamanlý dinamik baðlanan deðiþken ve metodlar örneði.
-            jtpc#230301.exe: YeniÖzellikler, DinamikBaðlama koþturulabilir örneði.
-        23.3.2 Adlý ve seçenekli argümanlar
-            jtpc#230302.cs: Adlý ve seçenekli argümanlarla metod çaðýrma örneði.
-            jtpc#230302.exe: YeniÖzellikler, AdlýSeçenekiArgüman koþturulabilir örneði.
+        23.3.a Dinamik baðlama
+            jtpc#2303a.cs: Tipleri çalýþma zamanlý dinamik baðlanan deðiþken ve metodlar örneði.
+            jtpc#2303a.exe: YeniÖzellikler, DinamikBaðlama koþturulabilir örneði.
+        23.3.b Adlý ve seçenekli argümanlar
+            jtpc#2303b.cs: Adlý ve seçenekli argümanlarla metod çaðýrma örneði.
+            jtpc#2303b.exe: YeniÖzellikler, AdlýSeçenekiArgüman koþturulabilir örneði.
     23.4. C# 5.0
-        23.4.1 Eþzamansýz metodlar
-            jtpc#230401.cs: Senkron, asenkron, geridönüþlü await Task metodlarý örneði.
-            jtpc#230401.exe: YeniÖzellikler, EþzamansýzMetodlar koþturulabilir örneði.
-        23.4.2 Çaðýran vasýflarý
-            jtpc#230402.cs: Çaðýran ifadenin metod adý, tam yollu dosya adý ve satýr no vasýflarý örneði.
-            jtpc#230401.exe: YeniÖzellikler, ÇaðýranVasýflarý koþturulabilir örneði.
+        23.4.a Eþzamansýz metodlar
+            jtpc#2304a.cs: Senkron, asenkron, geridönüþlü await Task metodlarý örneði.
+            jtpc#2304a.exe: YeniÖzellikler, EþzamansýzMetodlar koþturulabilir örneði.
+        23.4.b Çaðýran vasýflarý
+            jtpc#2304b.cs: Çaðýran ifadenin metod adý, tam yollu dosya adý ve satýr no vasýflarý örneði.
+            jtpc#2304b.exe: YeniÖzellikler, ÇaðýranVasýflarý koþturulabilir örneði.
     23.5. C# 6.0
-        23.5.1 Using static directive
-        23.5.2 Exception filters
-        23.5.3 Await in catch/finally blocks
-        23.5.4 Auto property initializers
-        23.5.5 Default values for getter-only properties
-        23.5.6 Expression-bodied members
-        23.5.7 Null propagator
-        23.5.8 String interpolation
-        23.5.9 Nameof operator
-        23.5.10 Dictionary initializer
+        23.5.a Statik direktif
+            jtpc#2305a.cs: 'using static TamSýnýfAdlýTip' direktifiyle ilgili üyelerinin doðrudan kullanýlmasý örneði.
+            jtpc#2305a.exe: YeniÖzellikler, StatikDirektif koþturulabilir örneði.
+        23.5.b Süzgeçli istisna
+            jtpc#2305b.cs: Try-catch bloðunun when anahtarkelimeli þartlý kýlýnmasý örneði.
+            jtpc#2305b.exe: YeniÖzellikler, SüzgeçliÝstisna koþturulabilir örneði.
+        23.5.c Await'li Catch Finally
+            jtpc#2305c.cs: Try-catch-finally bloðundan await'li asenkron metod çaðýrma örneði.
+            jtpc#2305c.exe: YeniÖzellikler, AwaitliCatchFinally koþturulabilir örneði.
+        23.5.d Oto ilkdeðerleme
+            jtpc#2305d.cs: Oto ilkdeðerlemeyle özelliðe kurucusuz deðer atama örneði.
+            jtpc#2305d.exe: YeniÖzellikler, OtoÝlkdeðerleme koþturulabilir örneði.
+        23.5.e Set'siz özellik
+            jtpc#2305e.cs: 'set'siz oto ilkdeðerlemeyle deðitirilemez özellik örneði.
+            jtpc#2305e.exe: YeniÖzellikler, SetsizÖzellik koþturulabilir örneði.
+        23.5.f Ýfade sembolü
+            jtpc#2305f.cs: Metodu '=>' ve özelliði 'ExpressionGet'le temsil etme örneði.
+            jtpc#2305f.exe: YeniÖzellikler, ÝfadeSembolü koþturulabilir örneði.
+        23.5.g Soru sembolü
+            jtpc#2305g.cs: '?' sembollü doðrudan null nesne kontrolu örneði.
+            jtpc#2305g.exe: YeniÖzellikler, SoruSembolü koþturulabilir örneði.
+        23.5.h Dolar sembolü
+            jtpc#2305h.cs: '$' sembolle çoklu deðiþkenli dizgeleþtirme örneði.
+            jtpc#2305h.exe: YeniÖzellikler, DolarSembolü koþturulabilir örneði.
+        23.5.i Nameof iþlemci
+            jtpc#2305i.cs: 'nameof' iþlemciyle deðiþken, metod ve sýnýf adlarýný alma örneði.
+            jtpc#2305i.exe: YeniÖzellikler, NameofÝþlemci koþturulabilir örneði.
+        23.5.j Sözlük ilkdeðerleme
+            jtpc#2305j.cs: Sözlük koleksiyon anahtar-deðer kayýtlarýný ilkdeðerleme örneði.
+            jtpc#2305j.exe: YeniÖzellikler, SözlükÝlkdeðerleme koþturulabilir örneði.
     23.6. C# 7.0
-        23.6.1 Pattern matching
-        23.6.2 Tuples
-        23.6.3 Deconstruction
-        23.6.4 Local functions
-        23.6.5 Digit separator
-        23.6.6 Binary literals
-        23.6.7 Ref returns and locals
-        23.6.8 Expression bodied constructors and finalizers
-        23.6.9 Expression bodied getters and setters
-        23.6.10 Out variables
+        23.6.a Kalýba uyum
+            jtpc#2306a.cs: 'Nesne is Tip' ve 'switch-case Tip nesne' kontrollarýyla kalýba uyum örneði.
+            jtpc#2306a.exe: YeniÖzellikler, KalýbaUyum koþturulabilir örneði.
+        23.6.b Tüple
+            jtpc#2306b.cs: Farklý tipleri içeren tüple veri yapýsý örneði.
+            jtpc#2306b.exe: YeniÖzellikler, Tüple koþturulabilir örneði.
+        23.6.c OutAl
+            jtpc#2306c.cs: Deconstruct-out ile yaratýlan nesnenin çoklu alan deðerlerini okuma örneði.
+            jtpc#2306c.exe: YeniÖzellikler, OutAl koþturulabilir örneði.
+        23.6.d Yerel fonksiyon
+            jtpc#2306d.cs: Ayný metod içinden yerel fonksiyon çaðýrma örneði.
+            jtpc#2306d.exe: YeniÖzellikler, YerelFonksiyon koþturulabilir örneði.
+        23.6.e Rakam ayracý
+            jtpc#2306e.cs: Sayýsal rakamlar arasýndaki altçizgi ayracý örneði.
+            jtpc#2306e.exe: YeniÖzellikler, RakamAyracý koþturulabilir örneði.
+        23.6.f Ýkili harfler
+            jtpc#2306f.cs: Ýkili deðerleri 0b ve 0x ile tamsayý deðiþkene atama örneði.
+            jtpc#2306f.exe: YeniÖzellikler, ÝkiliHarfler koþturulabilir örneði.
+        23.6.g Ref geridönüþ
+            jtpc#2306g.cs: Metod geridönüþünü deðerle deðil 'ref' adresle yapma örneði.
+            jtpc#2306g.exe: YeniÖzellikler, RefGeridönüþ koþturulabilir örneði.
+        23.6.h Kurucu sonlandýrýcý
+            jtpc#2306h.cs: Tek '=>' ifadeli kurucu ve sonlandýrýcý metotlar örneði.
+            jtpc#2306h.exe: YeniÖzellikler, KurucuSonlandýrýcý koþturulabilir örneði.
+        23.6.9 Alýcý koyucu
+        23.6.10 Out parametre
     23.7. C# 7.1
-        23.7.1 Async main
-        23.7.2 Default expressions
-24. Programs
-    24.1. Programs
-    24.2. Fibonacci Series
-    24.3. Prime Number
-    24.4. Palindrome Number
-    24.5. Factorial
-    24.6. Armstrong Number
-    24.7. Sum of digits
-    24.8. Reverse Number
-    24.9. Swap Number
-    24.10. Decimal to Binary
-    24.11. Number in Characters
-    24.12. Alphabet Triangle
-    24.13. Number Triangle
-    24.14. Fibonacci Triangle
-25. ADO.NET Tutorial
-    25.1. ADO.NET Tutorial (10+)
-26. ASP.NET Tutorial
-    26.1. ASP.NET Tutorial (50+)
+        23.7.a Eþzamansýz Main
+            jtpc#2307a.cs: Ana Main() metodun 'async Task' olarak tanýmlanabilmesi örneði.
+            jtpc#2307a.exe: YeniÖzellikler, EþzamansýzMain koþturulabilir örneði.
+        23.7.b Varsayýlý ifade
+            jtpc#2307b.cs: Varsayýlý ifadeyle tiplemelerin özellik ve metodlarýný gösterme örneði.
+            jtpc#2307b.exe: YeniÖzellikler, VarsayýlýÝfade koþturulabilir örneði.
+24. Örnekler (13)
+    24.1. Fibonaki serisi
+        jtpc#2401.cs: Önceki iki sayýnýn toplamýyla fibonaki serisi örneði.
+        jtpc#2401.exe: Örnekler, FibonakiSerisi koþturulabilir örneði.
+    24.2. Asal sayýlar
+        jtpc#2402.cs: Sadece 1 ve kendisiyle bölünebilen asal tamsayýlar örneði.
+        jtpc#2402.exe: Örnekler, AsalSayýlar koþturulabilir örneði.
+    24.3. Palindrom sayý
+        jtpc#2403.cs: Tersiyle düzü ayný olan palindrom tamsayý örneði.
+        jtpc#2403.exe: Örnekler, PalindromSayý koþturulabilir örneði.
+    24.4. Ardýþýk çarpýným
+        jtpc#2404.cs: Tamsayýnýn 1'e deðin azalarak öncekilerle çarpýnýmý olan faktöryel örneði.
+        jtpc#2404.exe: Örnekler, ArdýþýkÇarpýným koþturulabilir örneði.
+    24.5. Armstrong sayý
+        jtpc#2405.cs: Sayý hanelerinin küplerinin toplamý sayýyla ayný olan Armstrong tamsayý örneði.
+        jtpc#2405.exe: Örnekler, ArmstrongSayý koþturulabilir örneði.
+    24.6. Haneler toplamý
+        jtpc#2406.cs: Sayý hanelerinin toplamýnýn hesaplanmasý örneði.
+        jtpc#2406.exe: Örnekler, HanelerToplamý koþturulabilir örneði.
+    24.7. Sayýnýn tersi
+        jtpc#2407.cs: Sayýnýn tersine çevrilmesi örneði.
+        jtpc#2407.exe: Örnekler, SayýnýnTersi koþturulabilir örneði.
+    24.8. Sayý takasý
+        jtpc#2408.cs: Ýki tamsayýnýn karþýlýklý takasý örneði.
+        jtpc#2408.exe: Örnekler, SayýTakasý koþturulabilir örneði.
+    24.9. Ondalýktan ikiliye
+        jtpc#2409.cs: Girilen ondalýk tamsayýnýn ikiliye çevrilmesi örneði.
+        jtpc#2409.exe: Örnekler, OndalýktanÝkiliye koþturulabilir örneði.
+    24.10. Rakamlarýn türkçesi
+        jtpc#2410.cs: Girilen tamsayý hanelerinin karþýlýk kelimelere çevrilmesi örneði.
+        jtpc#2410.exe: Örnekler, SRakamlarýnTürkçesi koþturulabilir örneði.
+    24.11. Harf üçgeni
+        jtpc#2411a.cs: A-Z harflerle, girilen tamsayý basamaklý üçgen piramit kurma örneði.
+        jtpc#2411a.exe: Örnekler, HarfÜçgeni koþturulabilir örneði.
+        jtpc#2411b.cs: 0-9 rakamlarla, girilen tamsayý basamaklý üçgen piramit kurma örneði.
+        jtpc#2411b.exe: Örnekler, RakamÜçgeni koþturulabilir örneði.
+        jtpc#2411c.cs: Fibonaki serisiyle, girilen tamsayý basamaklý diküçgen piramit kurma örneði.
+        jtpc#2411c.exe: Örnekler, FibonakiÜçgeni koþturulabilir örneði.
