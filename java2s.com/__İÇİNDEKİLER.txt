@@ -43,210 +43,261 @@ Security
 unsafe
 --------------------------------------------------------------------------------
 1.Dil Temelleri
-    1.1.Giriþ (5)
+    1.1.Giriþ
         1.1.1. Bir C# programý Main()'e çaðrýyla baþlar
-            cs010101.exe: DilTemelleri, Giriþ1 koþturulabilir örneði.
-        1.1.2. Using csc.exe, the C# Command-Line Compiler
-        1.1.3. The C# Keywords
-        1.1.4. C# has the following reserved keywords:
-        1.1.5. Compile csharp source code in command line	 
-    1.2.Documentation Comments (8)
-        1.2.1. Documentation Comments for class
-        1.2.2. Documentation Comments for A member variable
-        1.2.3. Documentation Comments for A property
-        1.2.4. Documentation Comments for a method with parameters
-        1.2.5. Documentation Comments for Main function
-        1.2.6. Compiler Support Tags
-        1.2.7. XML Documentation
-        1.2.8. Recommended Code Comment XML Elements	 
-    1.3.Comments (2)
-        1.3.1. Use comment in C#
-        1.3.2. Illustrates the use of comments	 
-    1.4.Main (7)
-        1.4.1. The Main Function
-        1.4.2. The Main Function: use foreach to loop through command-line parameters
-        1.4.3. The main function: returning an int status
-        1.4.4. Main Entry Point
-        1.4.5. Looking for Command-Line Options
-        1.4.6. Looking for Command-Line Options (Simplified)
-        1.4.7. Using foreach to loop through the parameter from Main function
-    1.5.Namespace (17)
-        1.5.1. Namespace Introduction
-        1.5.2. Full qualify name
-        1.5.3. Simplest namespace with class definition
-        1.5.4. Declare a namespace
-        1.5.5. Demonstrate a namespace.
-        1.5.6. Use fully qualified class name
-        1.5.7. Two levels of Namespaces
-        1.5.8. Namespace with dot
-        1.5.9. Rename the namespaces	 
-    1.6.Namespace Alias (7)
-        1.6.1. Use the global alias.
-        1.6.2. Aliasing Namespace Names
-        1.6.3. Aliasing Class Names
-        1.6.4. Using a Namespace Directive
-        1.6.5. Using the alias keyword to refer to a nested namespace.
-        1.6.6. Simple Aliases for namespace
-        1.6.7. Global Namespace Alias	 
-    1.7.System (5)
-        1.7.1. System defines the core of the C# library.
-        1.7.2. System defines the following structures:
-        1.7.3. System defines the following interfaces:
-        1.7.4. System defines the following delegates:
-        1.7.5. System defines these enumerations:	
-    1.8.Variable Definition (3)
-        1.8.1. Variable definition
-        1.8.2. Define and assign value to variables
-        1.8.3. Dynamic initialization. 	
-    1.9.Variable Identifier (1)
-        1.9.1. Demonstrate an @ identifier.
-    1.10.Variable Scope (3)
-        1.10.1. The Scope and Lifetime of Variables
-        1.10.2. Block scope.
-        1.10.3. Lifetime of a variable. 	 
-    1.11.ref (8)
-        1.11.1. Use ref to pass a value type by reference
-        1.11.2. Swap two values
-        1.11.3. Swap two references.
-        1.11.4. Use out for reference type
-        1.11.5. Use ref for int value
-        1.11.6. Use ref for reference type
-        1.11.7. Change string using ref keyword
-        1.11.8. Passing Parameters by Value	 
-    1.12.out (5)
-        1.12.1. Use 'out' keyword (no need to assign because it is an out)
-        1.12.2. Ref and Out Parameters
-        1.12.3. Out Parameters
-        1.12.4. Use out
-        1.12.5. Use two out parameters	 
-    1.13.Parameter Reference (4)
-        1.13.1. Pass references to methods
-        1.13.2. Objects are passed by reference.
-        1.13.3. Use ref to pass an int value type by reference
-        1.13.4. Passing value types by reference
-    1.14.Parameter Value (2)
-        1.14.1. Passing ref-types by value
-        1.14.2. Value types are passed by value
-    1.15.Variable Length Parameters (2)
-        1.15.1. Variable-Length Parameter Lists
-        1.15.2. Use params to mark a parameter
-    1.16.params (6)
-        1.16.1. Demonstrate params
-        1.16.2. Use regular parameter with a params parameter.
-        1.16.3. Mix params array type with other data types
-        1.16.4. Array As Actual Param: params int[] inVals
-        1.16.5. Use 'params int[]'
-        1.16.6. Sending in args using params keyword: object, int and string
-    1.17.Exception (8)
-        1.17.1. The Exception Hierarchy
-        1.17.2. The System.Exception Class
-        1.17.3. A Closer Look at Exception
-        1.17.4. Using Exception members
-        1.17.5. Exception propagation with methods
-        1.17.6. An unhandled exception
-        1.17.7. Commonly Used Exceptions Defined Within the System Namespace
-        1.17.8. Handling a possible exception.
-    1.18.Try Catch (12)
-        1.18.1. Exception Handling Fundamentals
-        1.18.2. Exception handling with trying and catching
-        1.18.3. Handle error gracefully and continue.
-        1.18.4. Use multiple catch statements.
-        1.18.5. Use the 'catch all' catch statement.
-        1.18.6. Use a nested try block.
-        1.18.7. Catch exception with wrong type inside a function
-        1.18.8. A try, catch, and finally block without Exception class declaration
-        1.18.9. How to handle a specific exception
-    1.19.Finally (3)
-        1.19.1. Using finally
-        1.19.2. finally block is always executed even if an exception was thrown in the try
-        1.19.3. Dispose a StreamWriter in finally block
-    1.20.throw (1)
-        1.20.1. Throwing an exception. 
-    1.21.Exception in Method (2)
-        1.21.1. An exception can be generated by one method and caught by another
-        1.21.2. System.Exception is the base exception class. All exceptions in .NET are derived from System.Exception.
-    1.22.Exception Throw (6)
-        1.22.1. Manually throw an exception.
-        1.22.2. Rethrow an exception
-        1.22.3. Throw Exception from a function
-        1.22.4. Wrap exception in another one, adding additional context
-        1.22.5. Throw Exception in finally statement
-        1.22.6. Creating and throwing an exception object
-    1.23.Predefined Exception (6)
-        1.23.1. Use the NullReferenceException.
-        1.23.2. Throwing Exceptions: ArgumentNullException
-        1.23.3. Handle ArgumentOutOfRangeException
-        1.23.4. Check OverflowException for long
-        1.23.5. Generate an index out-of-bounds exception
-        1.23.6. Define exception variable in catch statement: DivideByZero
-    1.24.Custom Exception (7)
-        1.24.1. User-Defined Exception Classes
-        1.24.2. Use a custom Exception
-        1.24.3. Derived exceptions must appear before base class exceptions.
-        1.24.4. A custom exception with HelpLink and Source
-        1.24.5. Extends Exception
-        1.24.6. Create your own exception class based on Exception
-        1.24.7. CustomException is an application exception that supports remoting.
+            j2sc#0101a.cs: Ýlk basit bir C# program örneði.
+            cs0101a.exe: DilTemelleri, Giriþ1 koþturulabilir örneði.
+        1.1.2. C# komut satýrý ve csc.exe derleyici-baðlayýcý
+            j2sc#0101b.cs: C# derleyicisi ve baðlayýcýsý olan csc.exe örneði.
+            cs0101b.exe: DilTemelleri, Giriþ2 koþturulabilir örneði.
+        1.1.3. C# ayrýlmýþ anahtarkelimeleri
+            j2sc#0101c.cs: C# anahtarkelimelerinin listesi örneði.
+            cs0101c.exe: DilTemelleri, Giriþ3 koþturulabilir örneði.
+        1.1.4. Programýn 'dll' kütüphanelerle derlenmesi
+            j2sc#0101d.cs: C# '.dll' kütüphaneleriyle derleme örneði.
+            cs0101d.exe: DilTemelleri, Giriþ4 koþturulabilir örneði.
+    1.2.Belgeleme yorumlarý
+        1.2.1. Genel belgeleme yorum katagorileri
+            j2sc#0102a.cs: Genel bir XML belgeleme yorum elemanlarý örneði.
+            cs0102a.exe: DilTemelleri, BelgelemeYorumlarý1 koþturulabilir örneði.
+        1.2.2. Uygulamalý bir belgeleme yorumlarý
+            j2sc#0102b.cs: Özel bir öðrenci nesneli XML belgeleme yorum elemanlarý örneði.
+            cs0102b.exe: DilTemelleri, BelgelemeYorumlarý2 koþturulabilir örneði.
+        1.2.3. XML belgeleme kod yorum elemanlarý
+            j2sc#0102c.cs: XML belgeleme yorum elemanlarýnýn listesi örneði.
+            cs0102c.exe: DilTemelleri, BelgelemeYorumlarý3 koþturulabilir örneði.	 
+    1.3.Yorumlar
+        j2sc#0103.cs: Tek ve çok satýrlý yorumlar örneði.
+        cs010a.exe: DilTemelleri, Yorumlar koþturulabilir örneði.
+    1.4.Main metodu
+        1.4.1. Main fonksiyonu: komut-satýrý argümanlarýný sergileyen foreach döngüsü
+            j2sc#0104a.cs: Programýn giriþ noktasý olan Main() metod örneði.
+            j2sc#0104a.exe: DilTemelleri, MainMetodu1 koþturulabilir örneði.
+        1.4.2. Farklý Main giriþ yöntemleri
+            j2sc#0104b.cs: Main metod çeþitlemeleri örneði.
+            j2sc#0104b.exe: DilTemelleri, MainMetodu2 koþturulabilir örneði.
+        1.4.3. Geridönüþsüz yerine int geridönüþlü Main fonksiyonu
+            j2sc#0104c.cs: Int tip geridönüþlü Main metod örneði.
+            j2sc#0104c.exe: DilTemelleri, MainMetodu3 koþturulabilir örneði.
+    1.5.Aduzam
+        1.5.1. Ýçiçe aduzamlar
+            j2sc#0105a.cs: 'using System' ve içiçe aduzamlar örneði.
+            j2sc#0105a.exe: DilTemelleri, Aduzam1 koþturulabilir örneði.
+        1.5.2. Aduzam ve sýnýf adýyla tipleme
+            j2sc#0105b.cs: Aduzam içi sýnýf üyelerine tiplemeyle eriþim örneði.
+            j2sc#0105b.exe: DilTemelleri, Aduzam2 koþturulabilir örneði.
+        1.5.3. Ýçiçe aduzam özelleþmesi
+            j2sc#0105c.cs: Ýçiçe aduzam.sýnýf adlarýnýn özelleþtirilmesi örneði.
+            j2sc#0105c.exe: DilTemelleri, Aduzam3 koþturulabilir örneði.
+        1.5.4. Farklý aduzamlarýnýndaki ayný üyeler
+            j2sc#0105d.cs: Aduzamlarýn ayný adlý sýnýf ve üyelerin karýþmasýný önlemesi örneði.
+            j2sc#0105d.exe: DilTemelleri, Aduzam4 koþturulabilir örneði.
+        1.5.5. Ayný adlý aduzamlarýn eklemlenmesi
+            j2sc#0105e.cs: Ayný adlý aduzam üyelerinin tek bir aduzammýþcasýma eklemlenmesi örneði.
+            j2sc#0105e.exe: DilTemelleri, Aduzam5 koþturulabilir örneði.
+        1.5.6. Ýçiçe aduzam tiplemesi
+            j2sc#0105f.cs: Ýçiçe aduzam sýnýf tiplemeleri örneði.
+            j2sc#0105f.exe: DilTemelleri, Aduzam6 koþturulabilir örneði.
+        1.5.7. Aduzamlarýn arma sembolü
+            j2sc#0105g.cs: Aduzamlarý armalarý tiplemesinde :: sembolü örneði.
+            j2sc#0105g.exe: DilTemelleri, Aduzam7 koþturulabilir örneði.
+        1.5.8. Ýçiçe aduzamlarýn armalý tiplenmesi
+            j2sc#0105h.cs: Ýçiçe armalý aduzamlarý tiplemesi örneði.
+            j2sc#0105h.exe: DilTemelleri, Aduzam8 koþturulabilir örneði.
+        1.5.9. Farklý aduzamlarýndaki yegane sýnýf tiplemeleri
+            j2sc#0105i.cs: 'using aduzam' ile yegane sýnýf adlarýnýn yalnýz kullanýlabilmesi örneði.
+            j2sc#0105i.exe: DilTemelleri, Aduzam9 koþturulabilir örneði.
+        1.5.10.	Farklý aduzamlarýndaki ayný sýnýf tiplemeleri
+            j2sc#0105j.cs: Üyeleri birbirinin ayný aduzamlarýn tiplemede zikredilmeleri örneði.
+            j2sc#0105j.exe: DilTemelleri, Aduzam10 koþturulabilir örneði.
+    1.6.Aduzam armasý
+        1.6.1. Global armalar
+            j2sc#0106a.cs: Aduzamsýz global armalý sýnýf tipleme örneði.
+            j2sc#0106a.exe: DilTemelleri, Arma1 koþturulabilir örneði.
+        1.6.2. Aduzam ve aduzam+sýnýf armalarý
+            j2sc#0106b.cs: Sadece aduzamlý ve aduzam+sýnýflý armalarýn tiplenme farký örneði.
+            j2sc#0106b.exe: DilTemelleri, Arma2 koþturulabilir örneði.
+        1.6.3. Ýçiçe çoklu aduzalý sýnýf armalarý
+            j2sc#0106c.cs: Ýçiçe aduzamlý sýnýf armalý statik metotlar örneði.
+            j2sc#0106c.exe: DilTemelleri, Arma3 koþturulabilir örneði.
+    1.7.Sistem
+        j2sc#0107.cs: Sistein tanýmlý kütüphane, yapý, arayüz, delege ve sayýlanabilen listesi örneði.
+        j2sc#0107.exe: DilTemelleri, Sistem koþturulabilir örneði.
+    1.8.Deðiþken tanýmý
+        j2sc#0108.cs: Deðiþken tanýmý, ilk ve dinamik deðer atama örneði.
+        j2sc#0108.exe: DilTemelleri, DeðiþkenTanýmý koþturulabilir örneði.
+    1.9.Deðiþken kimlikleyici
+        j2sc#0109.cs: Deðiþken kimlikleyici kurallar örneði.
+        j2sc#0109.exe: DilTemelleri, DeðiþkenKimlikleyici koþturulabilir örneði.
+    1.10.Deðiþken kapsamý
+        j2sc#0110.cs: Deðiþkenlerin tanýmlandýklarý blok ve altbloklarýnda geçerliliði örneði.
+        j2sc#0110.exe: DilTemelleri, DeðiþkenKapsamý koþturulabilir örneði.
+    1.11.Ref
+        j2sc#0111.cs: Metod ref parametreleriyle karþýlýklý çoklu deðer aktarýmý örneði.
+        j2sc#0111.exe: DilTemelleri, Ref koþturulabilir örneði.
+    1.12.Out
+        j2sc#0112.cs: Metodun 'out' parametrik çoklu geridönüþ saðlamasý örneði.
+        j2sc#0112.exe: DilTemelleri, Out koþturulabilir örneði.
+    1.13.Parametre referansý (1)
+        j2sc#0113.cs: Sýnýf nesnesi deðiþkenlerine metod parametresiyle deðer aktarma örneði.
+        j2sc#0113.exe: DilTemelleri, ParametreReferansý koþturulabilir örneði.
+    1.14.Parametre deðeri (1)
+        j2sc#0114.cs: Metod argümanlarýnýn tek-yönlü deðer olarak dönderilmesi örneði.
+        j2sc#0114.exe: DilTemelleri, ParametreDeðeri koþturulabilir örneði.
+    1.15.Deðiþir uzunlukta parametreler (1)
+        j2sc#0115.cs: Metod parametre uzunluðunu 'params object[]' ile deðiþebilir kýlma örneði.
+        j2sc#0115.exe: DilTemelleri, DeðiþirUzunluktaParametreler koþturulabilir örneði.
+    1.16.Params (1)
+        j2sc#0116.cs: Deðiþebilir adet metot argümanlarýnýn 'params' ile idaresi örneði.
+        j2sc#0116.exe: DilTemelleri, Params koþturulabilir örneði.
+    1.17.Ýstisna
+        j2sc#0117.cs: 'try-catch' ile çalýþmazamanlý istisnalarýn idaresi örneði.
+        j2sc#0117.exe: DilTemelleri, Ýstisna koþturulabilir örneði.
+    1.18.Try Catch
+        j2sc#0118.cs: Try-catch-finally-throw anahtarkelimelerle istisnalarýn yönetilmesi örneði.
+        j2sc#0118.exe: DilTemelleri, TryCatch koþturulabilir örneði.
+    1.19.Finally
+        j2sc#0119.cs: Ýstisna oluþsun oluþmasýn nihai iþletilen finally bloðu örneði.
+        j2sc#0119.exe: DilTemelleri, Finally koþturulabilir örneði.
+    1.20.Throw
+        j2sc#0120.cs: Þarta baðlý olarak throw'la fýrlatýlan özel açýklamalý istisna örneði.
+        j2sc#0120.exe: DilTemelleri, Throw koþturulabilir örneði.
+    1.21.Metottaki istisna
+        j2sc#0121.cs: Çaðrýlan metotta oluþan bir istisnanýn yönetilmesi örneði.
+        j2sc#0121.exe: DilTemelleri, MetottakiÝstisna koþturulabilir örneði.
+    1.22.Ýstisna fýrlatýþ
+        j2sc#0122.cs: Throw ile fýrlatýlan Exception ve türevleri örneði.
+        j2sc#0122.exe: DilTemelleri, ÝstisnaFýrlatýþ koþturulabilir örneði.
+    1.23.Öntanýmlý istisna
+        j2sc#0123.cs: Odaklý istisna yönetimiyle sorun çözme örneði.
+        j2sc#0123.exe: DilTemelleri, ÖntanýmlýÝstisna koþturulabilir örneði.
+    1.24.Özel istisna
+        j2sc#0124.cs: Ebeveyn 'Application&Exception' temelli özel istisnalar yaratma örneði.
+        j2sc#0124.exe: DilTemelleri, ÖzelÝstisna koþturulabilir örneði.
 
-2.Data Type
-2.1.Data Type (26)
-2.2.boolean Data Type (7)
-2.3.sbyte (2)
-2.4.Integer Family (6)
-2.5.int array (5)
-2.6.int Box Unbox (3)
-2.7.int Calculation (7)	
-2.8.int format (2)
-2.9.int parse (2)
-2.10.Integer format (1)
-2.11.Hexadecimal (3)
-2.12.long box unbox (2)
-2.13.long Calculation (4)
-2.14.long cast (1)
-2.15.byte box unbox (3)
-2.16.byte overflow (2)
-2.17.ushort (4)
-2.18.char (18)	
-2.19.Escape sequences (8)	
-2.20.char array (4)
-2.21.char cast (1)
-2.22.float Point Number (6)
-2.23.float parse (2)
-2.24.float format (1)
-2.25.float (4)
-2.26.double (5)
-2.27.double Calculation (8)	
-2.28.double Format (9)
-2.29.double parse (5)	
-2.30.decimal (9)
-2.31.decimal Calculation (2)
-2.32.decimal convert back and forth (3)
-2.33.decimal format (1)
-2.34.decimal parse (2)
-2.35.Currency (1)
-2.36.enum (16)
-2.37.enum base type (11)
-2.38.enum format (3)
-2.39.enum switch (3)
-2.40.enums Definition (4)
-2.41.System.Enum (11)
-2.42.Bits (4)
-2.43.Bitwise AND (3)
-2.44.Bitwise NOT (2)
-2.45.Bitwise OR (2)
-2.46.Bitwise Shift (5)
-2.47.XOR (1)
-2.48.checked (4)
-2.49.unchecked (4)
-2.50.Data Type Cast (28)
-2.51.Convert from string (7)
-2.52.Convert to string (2)
-2.53.Boxing Unboxing (5)
-2.54.Nullable (11)
-2.55.Number format (16)
-2.56.System Convert (4)
-2.57.Variable Assignment (1)
-2.58.nullable (16)
+2.Veri Tipleri
+    2.1.Veri tipi
+        j2sc#0201a.cs: Tüm c# veri tipleri ve enküçük/enbüyük deðerleri örneði.
+        j2sc#0201a.exe: VeriTipleri, VeriTipi1 koþturulabilir örneði.
+
+	2.1.1.	C#'s Value Types
+	2.1.2.	The C# Value Types
+	2.1.3.	Converting Numeric Strings to Their Internal Representation
+	2.1.4.	Literals
+	2.1.5.	Primitives in C#
+	2.1.6.	System Types and C# Shorthand
+	2.1.7.	Data type default value
+	2.1.8.	The differences between int and double.
+	2.1.9.	Explicit numeric conversions
+	2.1.10.	Convert numeric types explicit to 'smaller' types
+	2.1.11.	System.Int32 value
+	2.1.12.	UInt16.MaxValue/MinValue
+	2.1.13.	System.UInt16 value
+	2.1.14.	bool: False/True string
+	2.1.15.	ulong: Max/Min value
+	2.1.16.	Parsing strings to create data types
+	2.1.17.	Parsing strings to create data types: int
+	2.1.18.	Parsing strings to create data types: char
+	2.1.19.	CTS Types and Aliases
+	2.1.20.	Specifying Literal Values
+	2.1.21.	Data type Functionality
+	2.1.22.	Default values for primitive types
+	2.1.23.	Data Declarations
+	2.1.24.	Using new to create intrinsic data types
+	2.1.25.	Default Value Comparison
+	2.1.26.	Modular calculation for int, double, decimal and double
+    2.2.boolean Data Type (7)
+	2.2.1.	The bool Type
+2.2.2.	Output a boolean variable with Console.WriteLine
+2.2.3.	bool values in if statement
+2.2.4.	if statement with bool variable
+2.2.5.	Declare 3 bools on a single line
+2.2.6.	Using ToString() to Convert to a string
+2.2.7.	Generic and nongeneric versions of the CompareTo method for Boolean type
+    2.3.sbyte (2)
+	2.3.1.	Display a positive/negative SByte value using the standard numeric format specifiers and a number of specific CultureInfo objects.
+2.3.2.	Display an SByte value using the default ToString()()() method
+    2.4.Integer Family (6)
+2.4.1.	Family of Integers
+2.4.2.	Integer Types
+2.4.3.	Integer ranges
+2.4.4.	Use 'is' for int value type
+2.4.5.	A C# int is a shorthand for System.Int32, which inherits the following members from System.Object
+2.4.6.	Shifting an integer value
+    2.5.int array (5)
+2.5.1.	int arrays
+2.5.2.	Initialize int arrays
+2.5.3.	Use a foreach loop through an int array
+2.5.4.	int array with for loop
+2.5.5.	Get the Max Value in an array
+    2.6.int Box Unbox (3)
+2.6.1.	Integer Autobox
+2.6.2.	Box int to object and unbox it back
+2.6.3.	implicit boxing from i to object
+    2.7.int Calculation (7)
+	2.7.1.	integers and arithmetic operators
+2.7.2.	int variable assignment
+2.7.3.	Overflowing an Integer Value
+2.7.4.	Bitwise AND of Integer
+2.7.5.	Comparing integers
+2.7.6.	Comparing the Prefix and Postfix Increment Operators
+2.7.7.	Using Binary Operators	
+    2.8.int format (2)
+	2.8.1.	Formatting integers
+2.8.2.	int format: {0:C}, {0:D}, {0:E}, {0:F}, {0:G}, {0:N}, {0:P}, {0:X}
+    2.9.int parse (2)
+2.9.1.	Int Parsing
+2.9.2.	Use TryParse from int
+    2.10.Integer format (1)
+2.10.1.	Use ToString() to format integers
+    2.11.Hexadecimal (3)
+    2.12.long box unbox (2)
+    2.13.long Calculation (4)
+    2.14.long cast (1)
+    2.15.byte box unbox (3)
+    2.16.byte overflow (2)
+    2.17.ushort (4)
+    2.18.char (18)	
+    2.19.Escape sequences (8)	
+    2.20.char array (4)
+    2.21.char cast (1)
+    2.22.float Point Number (6)
+    2.23.float parse (2)
+    2.24.float format (1)
+    2.25.float (4)
+    2.26.double (5)
+    2.27.double Calculation (8)	
+    2.28.double Format (9)
+    2.29.double parse (5)	
+    2.30.decimal (9)
+    2.31.decimal Calculation (2)
+    2.32.decimal convert back and forth (3)
+    2.33.decimal format (1)
+    2.34.decimal parse (2)
+    2.35.Currency (1)
+    2.36.enum (16)
+    2.37.enum base type (11)
+    2.38.enum format (3)
+    2.39.enum switch (3)
+    2.40.enums Definition (4)
+    2.41.System.Enum (11)
+    2.42.Bits (4)
+    2.43.Bitwise AND (3)
+    2.44.Bitwise NOT (2)
+    2.45.Bitwise OR (2)
+    2.46.Bitwise Shift (5)
+    2.47.XOR (1)
+    2.48.checked (4)
+    2.49.unchecked (4)
+    2.50.Data Type Cast (28)
+    2.51.Convert from string (7)
+    2.52.Convert to string (2)
+    2.53.Boxing Unboxing (5)
+    2.54.Nullable (11)
+    2.55.Number format (16)
+    2.56.System Convert (4)
+    2.57.Variable Assignment (1)
+    2.58.nullable (16)
 
 3.Operator
 3.1.Assignment Operator (4)
