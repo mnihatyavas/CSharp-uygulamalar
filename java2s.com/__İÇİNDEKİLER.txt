@@ -3,123 +3,99 @@
 http://www.java2s.com/Tutorial/CSharp/CatalogCSharp.htm
 C# / CSharp Tutorial
 --------------------------------------------------------------------------------
-Home
-C# / CSharp Tutorial
-Language Basics
-Data Type
-Operator
-Statement
-String
-struct
-Class
-Operator Overload
-delegate
-Attribute
-Data Structure
-Assembly
-Date Time
-Development
-File Directory Stream
-Preprocessing Directives
-Regular Expression
-Generic
-Reflection
-Thread
-I18N Internationalization
-LINQ
-GUI Windows Forms
-Windows Presentation Foundation
-Windows Communication Foundation
-Workflow
-2D
-Design Patterns
-Windows
-XML
-XML LINQ
-ADO.Net
-Network
-Directory Services
-Security
-unsafe
+C# / CSharp Eðitimi
+1.Dil Temelleri
+2.Veri Tipleri
+3.Operator
+4.Statement
+5.String
+6.struct
+7.Class
+8.Operator Overload
+9.delegate
+10.Attribute
+11.Data Structure
+12.Assembly
+13.Date Time
+14.Development
+15.File Directory Stream
+16.Preprocessing Directives
+17.Regular Expression
+18.Generic
+19.Reflection
+20.Thread
+21.I18N Internationalization
+22.LINQ
+23.GUI Windows Forms
+24.Windows Presentation Foundation
+25.Windows Communication Foundation
+26.Workflow
+27.2D
+28.Design Patterns
+29.Windows
+30.XML
+31.XML LINQ
+32.ADO.Net
+33.Network
+34.Directory Services
+35.Security
+36.unsafe
 --------------------------------------------------------------------------------
 1.Dil Temelleri
     1.1.Giriþ
-        1.1.1. Bir C# programý Main()'e çaðrýyla baþlar
-            j2sc#0101a.cs: Ýlk basit bir C# program örneði.
-            cs0101a.exe: DilTemelleri, Giriþ1 koþturulabilir örneði.
-        1.1.2. C# komut satýrý ve csc.exe derleyici-baðlayýcý
-            j2sc#0101b.cs: C# derleyicisi ve baðlayýcýsý olan csc.exe örneði.
-            cs0101b.exe: DilTemelleri, Giriþ2 koþturulabilir örneði.
-        1.1.3. C# ayrýlmýþ anahtarkelimeleri
-            j2sc#0101c.cs: C# anahtarkelimelerinin listesi örneði.
-            cs0101c.exe: DilTemelleri, Giriþ3 koþturulabilir örneði.
-        1.1.4. Programýn 'dll' kütüphanelerle derlenmesi
-            j2sc#0101d.cs: C# '.dll' kütüphaneleriyle derleme örneði.
-            cs0101d.exe: DilTemelleri, Giriþ4 koþturulabilir örneði.
+        j2sc#0101a.cs: Ýlk basit bir C# program örneði.
+        cs0101a.exe: DilTemelleri, Giriþ1 koþturulabilir örneði.
+        j2sc#0101b.cs: C# derleyicisi ve baðlayýcýsý olan csc.exe örneði.
+        cs0101b.exe: DilTemelleri, Giriþ2 koþturulabilir örneði.
+        j2sc#0101c.cs: C# anahtarkelimelerinin listesi örneði.
+        cs0101c.exe: DilTemelleri, Giriþ3 koþturulabilir örneði.
+        j2sc#0101d.cs: C# '.dll' kütüphaneleriyle derleme örneði.
+        cs0101d.exe: DilTemelleri, Giriþ4 koþturulabilir örneði.
     1.2.Belgeleme yorumlarý
-        1.2.1. Genel belgeleme yorum katagorileri
-            j2sc#0102a.cs: Genel bir XML belgeleme yorum elemanlarý örneði.
-            cs0102a.exe: DilTemelleri, BelgelemeYorumlarý1 koþturulabilir örneði.
-        1.2.2. Uygulamalý bir belgeleme yorumlarý
-            j2sc#0102b.cs: Özel bir öðrenci nesneli XML belgeleme yorum elemanlarý örneði.
-            cs0102b.exe: DilTemelleri, BelgelemeYorumlarý2 koþturulabilir örneði.
-        1.2.3. XML belgeleme kod yorum elemanlarý
-            j2sc#0102c.cs: XML belgeleme yorum elemanlarýnýn listesi örneði.
-            cs0102c.exe: DilTemelleri, BelgelemeYorumlarý3 koþturulabilir örneði.	 
+        j2sc#0102a.cs: Genel bir XML belgeleme yorum elemanlarý örneði.
+        cs0102a.exe: DilTemelleri, BelgelemeYorumlarý1 koþturulabilir örneði.
+        j2sc#0102b.cs: Özel bir öðrenci nesneli XML belgeleme yorum elemanlarý örneði.
+        cs0102b.exe: DilTemelleri, BelgelemeYorumlarý2 koþturulabilir örneði.
+        j2sc#0102c.cs: XML belgeleme yorum elemanlarýnýn listesi örneði.
+        cs0102c.exe: DilTemelleri, BelgelemeYorumlarý3 koþturulabilir örneði.	 
     1.3.Yorumlar
         j2sc#0103.cs: Tek ve çok satýrlý yorumlar örneði.
         cs010a.exe: DilTemelleri, Yorumlar koþturulabilir örneði.
     1.4.Main metodu
-        1.4.1. Main fonksiyonu: komut-satýrý argümanlarýný sergileyen foreach döngüsü
-            j2sc#0104a.cs: Programýn giriþ noktasý olan Main() metod örneði.
-            j2sc#0104a.exe: DilTemelleri, MainMetodu1 koþturulabilir örneði.
-        1.4.2. Farklý Main giriþ yöntemleri
-            j2sc#0104b.cs: Main metod çeþitlemeleri örneði.
-            j2sc#0104b.exe: DilTemelleri, MainMetodu2 koþturulabilir örneði.
-        1.4.3. Geridönüþsüz yerine int geridönüþlü Main fonksiyonu
-            j2sc#0104c.cs: Int tip geridönüþlü Main metod örneði.
-            j2sc#0104c.exe: DilTemelleri, MainMetodu3 koþturulabilir örneði.
+        j2sc#0104a.cs: Programýn giriþ noktasý olan Main() metod örneði.
+        j2sc#0104a.exe: DilTemelleri, MainMetodu1 koþturulabilir örneði.
+        j2sc#0104b.cs: Main metod çeþitlemeleri örneði.
+        j2sc#0104b.exe: DilTemelleri, MainMetodu2 koþturulabilir örneði.
+        j2sc#0104c.cs: Int tip geridönüþlü Main metod örneði.
+        j2sc#0104c.exe: DilTemelleri, MainMetodu3 koþturulabilir örneði.
     1.5.Aduzam
-        1.5.1. Ýçiçe aduzamlar
-            j2sc#0105a.cs: 'using System' ve içiçe aduzamlar örneði.
-            j2sc#0105a.exe: DilTemelleri, Aduzam1 koþturulabilir örneði.
-        1.5.2. Aduzam ve sýnýf adýyla tipleme
-            j2sc#0105b.cs: Aduzam içi sýnýf üyelerine tiplemeyle eriþim örneði.
-            j2sc#0105b.exe: DilTemelleri, Aduzam2 koþturulabilir örneði.
-        1.5.3. Ýçiçe aduzam özelleþmesi
-            j2sc#0105c.cs: Ýçiçe aduzam.sýnýf adlarýnýn özelleþtirilmesi örneði.
-            j2sc#0105c.exe: DilTemelleri, Aduzam3 koþturulabilir örneði.
-        1.5.4. Farklý aduzamlarýnýndaki ayný üyeler
-            j2sc#0105d.cs: Aduzamlarýn ayný adlý sýnýf ve üyelerin karýþmasýný önlemesi örneði.
-            j2sc#0105d.exe: DilTemelleri, Aduzam4 koþturulabilir örneði.
-        1.5.5. Ayný adlý aduzamlarýn eklemlenmesi
-            j2sc#0105e.cs: Ayný adlý aduzam üyelerinin tek bir aduzammýþcasýma eklemlenmesi örneði.
-            j2sc#0105e.exe: DilTemelleri, Aduzam5 koþturulabilir örneði.
-        1.5.6. Ýçiçe aduzam tiplemesi
-            j2sc#0105f.cs: Ýçiçe aduzam sýnýf tiplemeleri örneði.
-            j2sc#0105f.exe: DilTemelleri, Aduzam6 koþturulabilir örneði.
-        1.5.7. Aduzamlarýn arma sembolü
-            j2sc#0105g.cs: Aduzamlarý armalarý tiplemesinde :: sembolü örneði.
-            j2sc#0105g.exe: DilTemelleri, Aduzam7 koþturulabilir örneði.
-        1.5.8. Ýçiçe aduzamlarýn armalý tiplenmesi
-            j2sc#0105h.cs: Ýçiçe armalý aduzamlarý tiplemesi örneði.
-            j2sc#0105h.exe: DilTemelleri, Aduzam8 koþturulabilir örneði.
-        1.5.9. Farklý aduzamlarýndaki yegane sýnýf tiplemeleri
-            j2sc#0105i.cs: 'using aduzam' ile yegane sýnýf adlarýnýn yalnýz kullanýlabilmesi örneði.
-            j2sc#0105i.exe: DilTemelleri, Aduzam9 koþturulabilir örneði.
-        1.5.10.	Farklý aduzamlarýndaki ayný sýnýf tiplemeleri
-            j2sc#0105j.cs: Üyeleri birbirinin ayný aduzamlarýn tiplemede zikredilmeleri örneði.
-            j2sc#0105j.exe: DilTemelleri, Aduzam10 koþturulabilir örneði.
+        j2sc#0105a.cs: 'using System' ve içiçe aduzamlar örneði.
+        j2sc#0105a.exe: DilTemelleri, Aduzam1 koþturulabilir örneði.
+        j2sc#0105b.cs: Aduzam içi sýnýf üyelerine tiplemeyle eriþim örneði.
+        j2sc#0105b.exe: DilTemelleri, Aduzam2 koþturulabilir örneði.
+        j2sc#0105c.cs: Ýçiçe aduzam.sýnýf adlarýnýn özelleþtirilmesi örneði.
+        j2sc#0105c.exe: DilTemelleri, Aduzam3 koþturulabilir örneði.
+        j2sc#0105d.cs: Aduzamlarýn ayný adlý sýnýf ve üyelerin karýþmasýný önlemesi örneði.
+        j2sc#0105d.exe: DilTemelleri, Aduzam4 koþturulabilir örneði.
+        j2sc#0105e.cs: Ayný adlý aduzam üyelerinin tek bir aduzammýþcasýma eklemlenmesi örneði.
+        j2sc#0105e.exe: DilTemelleri, Aduzam5 koþturulabilir örneði.
+        j2sc#0105f.cs: Ýçiçe aduzam sýnýf tiplemeleri örneði.
+        j2sc#0105f.exe: DilTemelleri, Aduzam6 koþturulabilir örneði.
+        j2sc#0105g.cs: Aduzamlarý armalarý tiplemesinde :: sembolü örneði.
+        j2sc#0105g.exe: DilTemelleri, Aduzam7 koþturulabilir örneði.
+        j2sc#0105h.cs: Ýçiçe armalý aduzamlarý tiplemesi örneði.
+        j2sc#0105h.exe: DilTemelleri, Aduzam8 koþturulabilir örneði.
+        j2sc#0105i.cs: 'using aduzam' ile yegane sýnýf adlarýnýn yalnýz kullanýlabilmesi örneði.
+        j2sc#0105i.exe: DilTemelleri, Aduzam9 koþturulabilir örneði.
+        j2sc#0105j.cs: Üyeleri birbirinin ayný aduzamlarýn tiplemede zikredilmeleri örneði.
+        j2sc#0105j.exe: DilTemelleri, Aduzam10 koþturulabilir örneði.
     1.6.Aduzam armasý
-        1.6.1. Global armalar
-            j2sc#0106a.cs: Aduzamsýz global armalý sýnýf tipleme örneði.
-            j2sc#0106a.exe: DilTemelleri, Arma1 koþturulabilir örneði.
-        1.6.2. Aduzam ve aduzam+sýnýf armalarý
-            j2sc#0106b.cs: Sadece aduzamlý ve aduzam+sýnýflý armalarýn tiplenme farký örneði.
-            j2sc#0106b.exe: DilTemelleri, Arma2 koþturulabilir örneði.
-        1.6.3. Ýçiçe çoklu aduzalý sýnýf armalarý
-            j2sc#0106c.cs: Ýçiçe aduzamlý sýnýf armalý statik metotlar örneði.
-            j2sc#0106c.exe: DilTemelleri, Arma3 koþturulabilir örneði.
+        j2sc#0106a.cs: Aduzamsýz global armalý sýnýf tipleme örneði.
+        j2sc#0106a.exe: DilTemelleri, Arma1 koþturulabilir örneði.
+        j2sc#0106b.cs: Sadece aduzamlý ve aduzam+sýnýflý armalarýn tiplenme farký örneði.
+        j2sc#0106b.exe: DilTemelleri, Arma2 koþturulabilir örneði.
+        j2sc#0106c.cs: Ýçiçe aduzamlý sýnýf armalý statik metotlar örneði.
+        j2sc#0106c.exe: DilTemelleri, Arma3 koþturulabilir örneði.
     1.7.Sistem
         j2sc#0107.cs: Sistein tanýmlý kütüphane, yapý, arayüz, delege ve sayýlanabilen listesi örneði.
         j2sc#0107.exe: DilTemelleri, Sistem koþturulabilir örneði.
@@ -179,159 +155,176 @@ unsafe
     2.1.Veri tipi
         j2sc#0201a.cs: Tüm c# veri tipleri ve enküçük/enbüyük deðerleri örneði.
         j2sc#0201a.exe: VeriTipleri, VeriTipi1 koþturulabilir örneði.
+        j2sc#0201b.cs: Deðiþken tanýmý, ilkdeðer atamasý, belirtisiz/belirtili/parse çevrimler örneði.
+        j2sc#0201b.exe: VeriTipleri, VeriTipi2 koþturulabilir örneði.
+    2.2.Bool
+        j2sc#0202.cs: Bool mantýksal true/false özellikleri ve metodlarý örneði.
+        j2sc#0202.exe: VeriTipleri, Bool koþturulabilir örneði.
+    2.3.Sbyte
+	j2sc#0203.cs: Ýþaretli bayt ile çevrim ve kültürel biçimlemeler örneði.
+        j2sc#0203.exe: VeriTipleri, Sbyte koþturulabilir örneði.
+    2.4.Tamsayýlar
+        j2sc#0204.cs: C# tamsayý ailesinin kapsam, özellik, metot ve saða-kaydýrma örneði.
+        j2sc#0204.exe: VeriTipleri, Tamsayýlar koþturulabilir örneði.
+    2.5.Tamsayý dizi
+        j2sc#0205.cs: 'int[] tsDizi' deðerlerine endeksle eriþim örneði.
+        j2sc#0205.exe: VeriTipleri, TamsayýDizi koþturulabilir örneði.
+    2.6.Tamsayýyý kutulama kutusuzlama
+        j2sc#0206.cs: Tamsayý deðeri dizgeye/nesneye kutulama ve tekrar geri kutusuzlama örneði.
+        j2sc#0206.exe: VeriTipleri, TamsayýyýKutulamaKutusuzlama koþturulabilir örneði.
+    2.7.Tamsayý hesap
+        j2sc#0207.cs: Tamsayýlarla aritmetik, mantýksal, bitsel, artan/azalan ve bölüm hesaplamalarý örneði.
+        j2sc#0207.exe: VeriTipleri, TamsayýHesap koþturulabilir örneði.
+    2.8.Tamsayý biçim
+        j2sc#0208.cs: Tamsayýnýn ondalýk, hexa, parasal, üslü, küsürlü, virgüllü ve yüzde biçimlenme örneði.
+        j2sc#0208.exe: VeriTipleri, TamsayýBiçim koþturulabilir örneði.
+    2.9.Tamsayýya ayrýþtýr
+        j2sc#0209.cs: Parse() metotla girilen dizgenin tamsayýya ayrýþtýrýlmasý örneði.
+        j2sc#0209.exe: VeriTipleri, TamsayýyaAyrýþtýr koþturulabilir örneði.
+    2.10.Onaltýlýk
+        j2sc#0210.cs: Ondalýk ve onaltýlýk sayýlar arasýnda çevrimler örneði.
+        j2sc#0210.exe: VeriTipleri, Onaltýlýk koþturulabilir örneði.
+    2.11.Long
+        j2sc#0211.cs: Uzun tamsayý long ile kutulama ve hesaplamalar örneði.
+        j2sc#0211.exe: VeriTipleri, Long koþturulabilir örneði.
+    2.12.Byte
+        j2sc#0212.cs: Kontrollu/kontrolsuz/belirtisiz byte taþmalarýnýn try-catch yönetimi örneði.
+        j2sc#0212.exe: VeriTipleri, Byte koþturulabilir örneði.
+    2.13.Short
+        j2sc#0213.cs: Kýsa/short tamsayý, kutulama/kutusuzlama örneði.
+        j2sc#0213.exe: VeriTipleri, Short koþturulabilir örneði.
+    2.14.Ushort
+        j2sc#0214.cs: Ýþaretsis kýsa tamsayý/ushort tip, kapsam be biçimlenme örneði.
+        j2sc#0214.exe: VeriTipleri, UShort koþturulabilir örneði.
+    2.15.Karakter
+        j2sc#0215.cs: Karakter unicode 2 byte 65535 harf sembolleri örneði.
+        j2sc#0215.exe: VeriTipleri, Karakter koþturulabilir örneði.
+    2.16.EscDizisi
+        j2sc#0216.cs: Tüm ESC kontrol karakterleri, ascii/hex=unicode deðerleri ve etkinlikleri örneði.
+        j2sc#0216.exe: VeriTipleri, EscDizisi koþturulabilir örneði.
+    2.17.char dizisi
+        j2sc#0217.cs: Karakter diziye ilkdeðerli veya atamalý deðer atama örneði.
+        j2sc#0217.exe: VeriTipleri, CharDizisi koþturulabilir örneði.
+    2.18.Float
+        j2sc#0218.cs: Tek hassasiyetli küsüratlý kayan-noktalý sayýlar örneði.
+        j2sc#0218.exe: VeriTipleri, Float koþturulabilir örneði.
+    2.19.Double
+        j2sc#0219.cs: Çift hassasiyetli duble -+1,79769313486232E+308 kapsamlý sayýlar örneði.
+        j2sc#0219.exe: VeriTipleri, Double koþturulabilir örneði.
+    2.20.Desimal
+        j2sc#0220.cs: Parasal verilerde kullanýlan -+7.9E+28 kapsamlý decimal-M örneði.
+        j2sc#0220.exe: VeriTipleri, Desimal koþturulabilir örneði.
+    2.21.Enum
+        j2sc#0221a.cs: Sayýlanabilen sabit enum birimlerine adla veya sayýyla eriþim örneði.
+        j2sc#0221a.exe: VeriTipleri, Enum1 koþturulabilir örneði.
+        j2sc#0221b.cs: Enum üyelerine varsayýlýdan farklý deðerler atama örneði.
+        j2sc#0221b.exe: VeriTipleri, Enum2 koþturulabilir örneði.
+        j2sc#0221c.cs: Enum üyelerini |, & tercihli kullanabilme örneði.
+        j2sc#0221c.exe: VeriTipleri, Enum3 koþturulabilir örneði.
+        j2sc#0221d.cs: Enum üyelerini for döngüsüyle artan sýralý kullanma örneði.
+        j2sc#0221d.exe: VeriTipleri, Enum4 koþturulabilir örneði.
+        j2sc#0221e.cs: Enum üyelerini foreach döngüsüyle olan geliþigüzel deðerleriyle kullanma örneði.
+        j2sc#0221e.exe: VeriTipleri, Enum5 koþturulabilir örneði.
+    2.22.Bitler
+        j2sc#0222a.cs: Ondalýktan bitsel-hex çevrimleri ve &|^~ iþlemler örneði.
+        j2sc#0222a.exe: VeriTipleri, Bitler1 koþturulabilir örneði.
+        Ýki sayýnýn AND-&'lenmesi ve bitsel sola-çarp/saða-böl kaydýrma örneði.
+        j2sc#0222b.exe: VeriTipleri, Bitler2 koþturulabilir örneði.
+        j2sc#0222c.cs: Bitsel ^:XOR'la karakterleri kodlama ve dekodlama örneði.
+        j2sc#0222c.exe: VeriTipleri, Bitler3 koþturulabilir örneði.
+    2.23.CheckedUnchecked
+        j2sc#0223.cs: Checked ve unchecked bloklarýyla sayý taþmalarýna farklý tutumlar örneði.
+        j2sc#0223.exe: VeriTipleri, CheckedUnchecked koþturulabilir örneði.
+    2.24.TipUyarlama
+        j2sc#0224a.cs: Geniþten dar sayý tiplerine atamanýn veri kaybý oluþturabilmesi örneði.
+        j2sc#0224a.exe: VeriTipleri, TipUyarlama1 koþturulabilir örneði.
+        j2sc#0224b.cs: Taþma hatasýz/hatalý unchecked/checked bloklarý ve daralan/geniþleyen atama farký örneði.
+        j2sc#0224b.exe: VeriTipleri, TipUyarlama2 koþturulabilir örneði.
+    2.25.DizgeselÇevrimler
+        j2sc#0225a.cs: sayý.ToString() ve dizge+sayý yöntemleriyle dizgesele çevrim örneði.
+        j2sc#0225a.exe: VeriTipleri, DizgeselÇevrimler1 koþturulabilir örneði.
+        j2sc#0225b.cs: Parse(), TryParse(), Convert.To/From, BitConverter() sayýsala çeviriciler örneði.
+        j2sc#0225b.exe: VeriTipleri, DizgeselÇevrimler2 koþturulabilir örneði.
+        j2sc#0225c.cs: Convert.To ve haricen-imaen çeþitli tipler arasý çevrimler örneði.
+        j2sc#0225c.exe: VeriTipleri, DizgeselÇevrimler3 koþturulabilir örneði.
+    2.26.Hiçlenebilir
+        j2sc#0226a.cs: Hiçlenebilir deðiþkenlerin deðer kontrollarý ve yansýtýlmalarý örneði.
+        j2sc#0226a.exe: VeriTipleri, Hiçlenebilir1 koþturulabilir örneði.
+        j2sc#0226b.cs: Hiçlenebilir sayýnýn kontrollu gösterimleri örneði.
+        j2sc#0226b.exe: VeriTipleri, Hiçlenebilir2 koþturulabilir örneði.
+        j2sc#0226c.cs: Hiçlenebilir sayýnýn kontrollu gösterimleri ve kompleks iþlemler örneði.
+        j2sc#0226c.exe: VeriTipleri, Hiçlenebilir3 koþturulabilir örneði.
+        j2sc#0226d.cs: Hiçlenebilir sayýlarla kýyas ve kontrollu gösterim örneði.
+        j2sc#0226d.exe: VeriTipleri, Hiçlenebilir4 koþturulabilir örneði.
+    2.27.SayýBiçimleme
+        j2sc#0227a.cs: Tüm sayý çeþitlerini D, F, G, N, E, C ile biçimleme örneði.
+        j2sc#0227a.exe: VeriTipleri, SayýBiçimleme1 koþturulabilir örneði.
+        j2sc#0227b.cs: Sayý biçimlemede '#0.00#' tercihi-#/mecburi-0 tamsayý ve küsürat kapsamlarý örneði.
+        j2sc#0227b.exe: VeriTipleri, SayýBiçimleme2 koþturulabilir örneði.
 
-	2.1.1.	C#'s Value Types
-	2.1.2.	The C# Value Types
-	2.1.3.	Converting Numeric Strings to Their Internal Representation
-	2.1.4.	Literals
-	2.1.5.	Primitives in C#
-	2.1.6.	System Types and C# Shorthand
-	2.1.7.	Data type default value
-	2.1.8.	The differences between int and double.
-	2.1.9.	Explicit numeric conversions
-	2.1.10.	Convert numeric types explicit to 'smaller' types
-	2.1.11.	System.Int32 value
-	2.1.12.	UInt16.MaxValue/MinValue
-	2.1.13.	System.UInt16 value
-	2.1.14.	bool: False/True string
-	2.1.15.	ulong: Max/Min value
-	2.1.16.	Parsing strings to create data types
-	2.1.17.	Parsing strings to create data types: int
-	2.1.18.	Parsing strings to create data types: char
-	2.1.19.	CTS Types and Aliases
-	2.1.20.	Specifying Literal Values
-	2.1.21.	Data type Functionality
-	2.1.22.	Default values for primitive types
-	2.1.23.	Data Declarations
-	2.1.24.	Using new to create intrinsic data types
-	2.1.25.	Default Value Comparison
-	2.1.26.	Modular calculation for int, double, decimal and double
-    2.2.boolean Data Type (7)
-	2.2.1.	The bool Type
-2.2.2.	Output a boolean variable with Console.WriteLine
-2.2.3.	bool values in if statement
-2.2.4.	if statement with bool variable
-2.2.5.	Declare 3 bools on a single line
-2.2.6.	Using ToString() to Convert to a string
-2.2.7.	Generic and nongeneric versions of the CompareTo method for Boolean type
-    2.3.sbyte (2)
-	2.3.1.	Display a positive/negative SByte value using the standard numeric format specifiers and a number of specific CultureInfo objects.
-2.3.2.	Display an SByte value using the default ToString()()() method
-    2.4.Integer Family (6)
-2.4.1.	Family of Integers
-2.4.2.	Integer Types
-2.4.3.	Integer ranges
-2.4.4.	Use 'is' for int value type
-2.4.5.	A C# int is a shorthand for System.Int32, which inherits the following members from System.Object
-2.4.6.	Shifting an integer value
-    2.5.int array (5)
-2.5.1.	int arrays
-2.5.2.	Initialize int arrays
-2.5.3.	Use a foreach loop through an int array
-2.5.4.	int array with for loop
-2.5.5.	Get the Max Value in an array
-    2.6.int Box Unbox (3)
-2.6.1.	Integer Autobox
-2.6.2.	Box int to object and unbox it back
-2.6.3.	implicit boxing from i to object
-    2.7.int Calculation (7)
-	2.7.1.	integers and arithmetic operators
-2.7.2.	int variable assignment
-2.7.3.	Overflowing an Integer Value
-2.7.4.	Bitwise AND of Integer
-2.7.5.	Comparing integers
-2.7.6.	Comparing the Prefix and Postfix Increment Operators
-2.7.7.	Using Binary Operators	
-    2.8.int format (2)
-	2.8.1.	Formatting integers
-2.8.2.	int format: {0:C}, {0:D}, {0:E}, {0:F}, {0:G}, {0:N}, {0:P}, {0:X}
-    2.9.int parse (2)
-2.9.1.	Int Parsing
-2.9.2.	Use TryParse from int
-    2.10.Integer format (1)
-2.10.1.	Use ToString() to format integers
-    2.11.Hexadecimal (3)
-    2.12.long box unbox (2)
-    2.13.long Calculation (4)
-    2.14.long cast (1)
-    2.15.byte box unbox (3)
-    2.16.byte overflow (2)
-    2.17.ushort (4)
-    2.18.char (18)	
-    2.19.Escape sequences (8)	
-    2.20.char array (4)
-    2.21.char cast (1)
-    2.22.float Point Number (6)
-    2.23.float parse (2)
-    2.24.float format (1)
-    2.25.float (4)
-    2.26.double (5)
-    2.27.double Calculation (8)	
-    2.28.double Format (9)
-    2.29.double parse (5)	
-    2.30.decimal (9)
-    2.31.decimal Calculation (2)
-    2.32.decimal convert back and forth (3)
-    2.33.decimal format (1)
-    2.34.decimal parse (2)
-    2.35.Currency (1)
-    2.36.enum (16)
-    2.37.enum base type (11)
-    2.38.enum format (3)
-    2.39.enum switch (3)
-    2.40.enums Definition (4)
-    2.41.System.Enum (11)
-    2.42.Bits (4)
-    2.43.Bitwise AND (3)
-    2.44.Bitwise NOT (2)
-    2.45.Bitwise OR (2)
-    2.46.Bitwise Shift (5)
-    2.47.XOR (1)
-    2.48.checked (4)
-    2.49.unchecked (4)
-    2.50.Data Type Cast (28)
-    2.51.Convert from string (7)
-    2.52.Convert to string (2)
-    2.53.Boxing Unboxing (5)
-    2.54.Nullable (11)
-    2.55.Number format (16)
-    2.56.System Convert (4)
-    2.57.Variable Assignment (1)
-    2.58.nullable (16)
+3.Ýþlemciler
+    3.1.Tüm iþlemciler
+        j2sc#0301.cs: Tüm c# iþlemcileri, sembolleri ve çeþitleri örneði.
+        j2sc#0301.exe: Ýþlemciler, TümÝþlemciler koþturulabilir örneði.
+    3.2.Aritmetik iþlemciler
+        j2sc#0302.cs: Aritmetik, kýsakesek ve birartýr/birazalt iþlemleri örneði.
+        j2sc#0302.exe: Ýþlemciler, AritmetikÝþlemci koþturulabilir örneði.
+    3.3.ÖnekSonek iþlemcisi
+        j2sc#0303.cs: Birartýr ve bireksilt iþlemcilerin önekli ve sonekli örneði.
+        j2sc#0303.exe: Ýþlemciler, ÖnekSonekÝþlemci koþturulabilir örneði.
+    3.4.Kalan iþlemci
+        j2sc#0304.cs: % kalan'la bölünemeyen son artýðýn bulunmasý örneði.
+        j2sc#0304.exe: Ýþlemciler, KalanÝþlemci koþturulabilir örneði.
+    3.5.Kýsakesek iþlemci
+        j2sc#0305.cs: Kýsakesek birartýr++/azalt--, +=, -=, *=, /=, %=, <<=, >>=, &=, |=, ^= örneði.
+        j2sc#0305.exe: Ýþlemciler, KýsakesekÝþlemci koþturulabilir örneði.
+    3.6.MantýksalBaðýntýsal iþlemciler
+        j2sc#0306a.cs: Baðýntýsal iþlemcilerle seçici bilgiye eriþme örneði.
+        j2sc#0306a.exe: Ýþlemciler, MantýksalBaðýntýsalÝþlemci1 koþturulabilir örneði.
+        j2sc#0306b.cs: Mantýksal iþlemcilerle seçici bilgiye eriþme örneði.
+        j2sc#0306b.exe: Ýþlemciler, MantýksalBaðýntýsalÝþlemci2 koþturulabilir örneði.
+    3.7.Kýsadevre iþlemcisi
+        j2sc#0307.cs: Kýsadevre && ve ||'un ikinci kriteri esgeçmesi örneði.
+        j2sc#0307.exe: Ýþlemciler, KýsadevreÝþlemci koþturulabilir örneði.
+    3.8.Üçlemeli iþlemci
+        j2sc#0308.cs: Üçlemeli "ifade1 ? ifade2 : ifade3" örneði.
+        j2sc#0308.exe: Ýþlemciler, ÜçlemeliÝþlemci koþturulabilir örneði.
+    3.9.Bitvari iþlemci
+        j2sc#0309.cs: Bitvari iþlemler (AND=&, OR=|, XOR=^, DEÐÝL=~, KAYDIR=<<>>) örneði.
+        j2sc#0309.exe: Ýþlemciler, BitvariÝþlemci koþturulabilir örneði.
+    3.10.Kaydýran iþlemci
+        j2sc#0310.cs: Bitsel sola (a<<=b) ve saða (a>>=b) kaydýrma örneði.
+        j2sc#0310.exe: Ýþlemciler, KaydýranÝþlemci koþturulabilir örneði.
+    3.11.Ýmasal iþlemci
+        j2sc#0311.cs: Kýsadevre AND=&& ve OR=||'da ilk false ve true'nun sonucu imasý örneði.
+        j2sc#0311.exe: Ýþlemciler, ÝmasalÝþlemci koþturulabilir örneði.
+    3.12.is
+        j2sc#0312.cs: "a is tip" ile deðiþken tipinin irdelenmesi örneði.
+        j2sc#0312.exe: Ýþlemciler, is_Ýþlemci koþturulabilir örneði.
+    3.13.as
+        j2sc#0313.cs: "a as tip" ile deðiþken tipleme kabulünün irdelenmesi örneði.
+        j2sc#0313.exe: Ýþlemciler, as_Ýþlemci koþturulabilir örneði.
+    3.14.not iþlemci
+        j2sc#0314.exe: Ýþlemciler, as_Ýþlemci koþturulabilir örneði.
 
-3.Operator
-3.1.Assignment Operator (4)
-3.2.Arithmetic Operators (4)
-3.3.Prefix Postfix Operator (10)
-3.4.Remainder Operator (2)
-3.5.Shortcut Operator (2)
-3.6.Logical Relational Operators (9)
-3.7.Short Circuit Operators (2)
-3.8.Ternary Operator (5)
-3.9.Bitwise Operator (2)
-3.10.shift operator (3)
-3.11.Implication Operator (1)
-3.12.is (7)
-3.13.as (4)
-3.14.not operator (1)
-3.15.sizeof (1)
-3.16.typeof (6)
-3.17.Address Operator (1)
-3.18.Operator Precedence (4)
+    3.15.sizeof
+    3.16.typeof
+    3.17.Adres iþlemcisi
+    3.18.Ýþlemcilerin öncelikleri
 
-4.Statement
-4.1.If (9)
-4.2.Switch (11)	
-4.3.For (15)
-4.4.Foreach (4)
-4.5.While (5)
-4.6.Do While (5)
-4.7.Break (5)
-4.8.Continue (1)
-4.9.Goto (4)
-4.10.using (6)
+4.Ýfadeler
+4.1.If
+4.2.Switch
+4.3.For
+4.4.Foreach
+4.5.While
+4.6.Do While
+4.7.Break
+4.8.Continue
+4.9.Goto
+4.10.using
 
-5.String
+5.Dizge
 5.1.String (25)
 5.2.Verbatim literal strings (4)
 5.3.Chars in String (3)
