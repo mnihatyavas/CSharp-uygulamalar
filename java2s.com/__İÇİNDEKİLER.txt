@@ -304,130 +304,199 @@ C# / CSharp Eðitimi
     3.13.as
         j2sc#0313.cs: "a as tip" ile deðiþken tipleme kabulünün irdelenmesi örneði.
         j2sc#0313.exe: Ýþlemciler, as_Ýþlemci koþturulabilir örneði.
-    3.14.not iþlemci
-        j2sc#0314.exe: Ýþlemciler, as_Ýþlemci koþturulabilir örneði.
-
-    3.15.sizeof
-    3.16.typeof
-    3.17.Adres iþlemcisi
-    3.18.Ýþlemcilerin öncelikleri
+    3.14.AND iþlemci
+        j2sc#0314.cs: Özelleþtirilen & iþlemciyle çiftboyutlu AND'leme örneði.
+        j2sc#0314.exe: Ýþlemciler, AND_Ýþlemci koþturulabilir örneði.
+    3.15.Adres iþlemcisi
+        j2sc#0315.cs: Deðiþkenin deðerini yada adresini kullanma  örneði.
+        j2sc#0315.exe: Ýþlemciler, AdresÝþlemci koþturulabilir örneði.
+    3.16.sizeof
+        j2sc#0316.cs: Arþiv yada özel tanýmlý tipin byte ebatý sizeof örneði.
+        j2sc#0316.exe: Ýþlemciler, sizeof_Ýþlemci koþturulabilir örneði.
+    3.17.typeof
+        j2sc#0317.cs: typeof iþlemci ve GetType() metotla tip tespiti örneði.
+        j2sc#0317.exe: Ýþlemciler, typeof_Ýþlemci koþturulabilir örneði.
+    3.18.Ýþlemci önceliði
+        j2sc#0318.cs: Tüm iþlemcilerin enönemliden enönemsize sýralanmasý örneði.
+        j2sc#0318.exe: Ýþlemciler, ÝþlemciÖnceliði koþturulabilir örneði.
 
 4.Ýfadeler
-4.1.If
-4.2.Switch
-4.3.For
-4.4.Foreach
-4.5.While
-4.6.Do While
-4.7.Break
-4.8.Continue
-4.9.Goto
-4.10.using
+    4.1.Ýf
+        j2sc#0401.cs: Çeþitli iþ(þart1){ifadeler}else if(þart2){ifadeler}...else{ifadeler} örneði.
+        j2sc#0401.exe: Ýfadeler, Ýf koþturulabilir örneði.
+    4.2.Switch
+        j2sc#0402.cs: Switch-case-default-break yapýlý tercihler örneði.
+        j2sc#0402.exe: Ýfadeler, Switch koþturulabilir örneði.
+    4.3.For
+        j2sc#0403.cs: For döngüsünde (ilk; þart; tara) çeþitlemeleri örneði.
+        j2sc#0403.exe: Ýfadeler, For koþturulabilir örneði.
+    4.4.Foreach
+        j2sc#0404.cs: ForEach ile koleksiyondaki tip'li elemanlarýn taranmasý örneði.
+        j2sc#0404.exe: Ýfadeler, ForEach koþturulabilir örneði.
+    4.5.While
+        j2sc#0405.cs: While(þart){ifade-ler} döngü örneði.
+        j2sc#0405.exe: Ýfadeler, While koþturulabilir örneði.
+    4.6.DoWhile
+        j2sc#0406.cs: Þartsýz enaz 1 kez iþletilen do{ifade-ler}while(þart) döngüsü örneði.
+        j2sc#0406.exe: Ýfadeler, DoWhile koþturulabilir örneði.
+    4.7.Break
+        j2sc#0407.cs: Break ile döngülerin kapsam öncesi özel þart'la kýrýlmasý örneði.
+        j2sc#0407.exe: Ýfadeler, Break koþturulabilir örneði.
+    4.8.Continue
+        j2sc#0408.cs: Þartlý continue ile döngü kalanýnýn esgeçilmesi örneði.
+        j2sc#0408.exe: Ýfadeler, Continue koþturulabilir örneði.
+    4.9.Goto
+        j2sc#0409.cs: 'Goto etiket' ile þartsýz 'etiket:'e atlama örneði.
+        j2sc#0409.exe: Ýfadeler, Goto koþturulabilir örneði.
+    4.10.Using
+        j2sc#0410.cs: Using aduzam.sýnýf ile arþiv veya özel tiplemelerin tanýmýný kýsaltma örneði.
+        j2sc#0410.exe: Ýfadeler, Using koþturulabilir örneði.
 
-5.Dizge
-5.1.String (25)
-5.2.Verbatim literal strings (4)
-5.3.Chars in String (3)
-5.4.String Creation (1)
-5.5.String Array (4)
-5.6.String SubString (2)
-5.7.String Length (2)
-5.8.String Concat (6)	
-5.9.String Case (4)
-5.10.String Compare (12)
-5.11.String Contain (1)	
-5.12.String Copy (2)
-5.13.String Escape (7)	
-5.14.String Format (7)
-5.15.String Insert Replace (6)
-5.16.String Pad Trim (6)
-5.17.String Remove (1)
-5.18.String Search (9)
-5.19.String Split Join (8)
-5.20.StringBuilder (18)
-5.21.String Switch (1)
-5.22.StringReader (3)
-5.23.StringWriter (1)
+5.Dizgeler
+    5.1.String
+        j2sc#0501a.cs: Dizgelerde temel iþlemler ve dizgesel metotlar örneði.
+        j2sc#0501a.exe: Dizgeler, String1 koþturulabilir örneði.
+        j2sc#0501b.cs: Dizgelerde join, split, indexof, insert, padleft, trim, substring metotlarý örneði.
+        j2sc#0501b.exe: Dizgeler, String2 koþturulabilir örneði.
+        j2sc#0501c.cs: Dizgelerde toupper, tolower, contains, isinterned, normalize metotlarý örneði.
+        j2sc#0501c.exe: Dizgeler, String3 koþturulabilir örneði.
+    5.2.@Dizge
+        j2sc#0502.cs: @dizge ile çoklu satýr formlarýnýn muhafazasý örneði.
+        j2sc#0502.exe: Dizgeler, @Dizge koþturulabilir örneði.
+    5.3.DizgeKarakterleri
+        j2sc#0503.cs: Karakter dizisiyle dizge arasýnda çevrimler ve eriþimler örneði.
+        j2sc#0503.exe: Dizgeler, DizgeKarakterleri koþturulabilir örneði.
+    5.4.DizgeselDizi
+        j2sc#0504.cs: Tek ve çok boyutlu dizgesel diziler örneði.
+        j2sc#0504.exe: Dizgeler, DizgeselDizi koþturulabilir örneði.
+    5.5.DizgeselEkleme
+        j2sc#0505.cs: Concat metoduyla her tür veriyi dizgesel ekleme örneði.
+        j2sc#0505.exe: Dizgeler, DizgeselEkleme koþturulabilir örneði.
+    5.6.BüyükKüçükHarf
+        j2sc#0506.cs: Büyük/Küçük-harf ve baþlýk-illharfý metotlarý örneði.
+        j2sc#0506.exe: Dizgeler, BüyükKüçükHarf koþturulabilir örneði.
+    5.7.Kýyaslama
+        j2sc#0507.cs: Equals/==/Compare ile dizgelerin karþýlaþtýrýlmalarý örneði.
+        j2sc#0507.exe: Dizgeler, Kýyaslama koþturulabilir örneði.
+    5.8.Kopyalama
+        j2sc#0508.cs: Copy ve CopyTo ile farklý kopyalama teferruatlarý örneði.
+        j2sc#0508.exe: Dizgeler, Kopyalama koþturulabilir örneði.
+    5.9.Deðiþtirme
+        j2sc#0509a.cs: Replace, Insert, Append ile dizgeyi deðiþtirme örneði.
+        j2sc#0509a.exe: Dizgeler, Deðiþtirme1 koþturulabilir örneði.
+        j2sc#0509b.cs: Substring ve Remove ile istenilen ibareyi alma ve eksiltme örneði.
+        j2sc#0509b.exe: Dizgeler, Deðiþtirme2 koþturulabilir örneði.
+    5.10.DizgedenDiziye
+        j2sc#0510.cs: Join, Split, ToCharArray ile dizgesel ayrýþtýrma ve birleþtirme örneði.
+        j2sc#0510.exe: Dizgeler, DizgedenDiziye koþturulabilir örneði.
+    5.11.Arama
+        j2sc#0511.cs: Last/IndexOf/Any çeþitlemeleriyle dizgedeki ibare/krk endeks tespiti örneði.
+        j2sc#0511.exe: Dizgeler, Arama koþturulabilir örneði.
+    5.12.KýrpDoldur
+        j2sc#0512.cs: PadLeft/Right ve Trim-Start/End ile dizge ön/arkaya boþluk/krk doldurma/kýrpma örneði.
+        j2sc#0512.exe: Dizgeler, KýrpDoldur koþturulabilir örneði.
+    5.13.Biçimleme
+        j2sc#0513.cs: Sayýlarýn FNeRPXDC harfleriyle biçimlendirilmesi örneði.
+        j2sc#0513.exe: Dizgeler, Biçimleme koþturulabilir örneði.
+    5.14.KaçýþTuþlarý
+        j2sc#0514.cs: Sýk kullanýlan kçþ-tuþlarý (", n, t, \) örneði.
+        j2sc#0514.exe: Dizgeler, KaçýþTuþlarý koþturulabilir örneði.
+    5.15.DizgeÝnþacý
+        j2sc#0515a.cs: StringBuilder, metotlarý ve özellikleri örneði.
+        j2sc#0515a.exe: Dizgeler, DizgeÝnþacý1 koþturulabilir örneði.
+        j2sc#0515b.cs: StringBuilder'in Append, Insert, Remove, Replace, ToString metotlarý örneði.
+        j2sc#0515b.exe: Dizgeler, DizgeÝnþacý2 koþturulabilir örneði.
+    5.16.DizgeOkurYazar
+        j2sc#0516.cs: StringReader ve StringWriter ile dizge okuma/yazma örneði.
+        j2sc#0516.exe: Dizgeler, DizgeOkurYazar koþturulabilir örneði.
 
-6.struct
-6.1.struct (8)
-6.2.struct definition (7)
-6.3.Constructor (4)
-6.4.struct initialization (2)
-6.5.this (1)
-6.6.Properties (2)	
-6.7.public field (1)
-6.8.struct copy (2)
-6.9.struct interface (1)
-6.10.struct parameter (2)
-6.11.struct unsafe code (3)	
-6.12.struct array (1)
-6.13.Equals (2)
-6.14.Box Unbox (3)
-6.15.Generic struct (2)
+6.Yapýlar
+    6.1.Yapý
+        j2sc#0601.cs: Yapý, yaratma, deðer ve ref tipli üyeleri, kopyalama örneði.
+        j2sc#0601.exe: Yapýlar, Yapý koþturulabilir örneði.
+    6.2.YapýTanýmý
+        j2sc#0602.cs: Çeþitli tekli, çoklu, içiçe yapý tanýmlarý örneði.
+        j2sc#0602.exe: Yapýlar, YapýTanýmý koþturulabilir örneði.
+    6.3.Kurucu
+        j2sc#0603a.cs: Varsayýlý/tanýmlý parametresiz/parametreli kurucular örneði.
+        j2sc#0603a.exe: Yapýlar, Kurucu1 koþturulabilir örneði.
+        j2sc#0603b.cs: Varsayýlý, soysal tipli ve farklý parametreli kurucu tanýmlarý örneði.
+        j2sc#0603b.exe: Yapýlar, Kurucu2 koþturulabilir örneði.
+    6.4.Eþitlik
+        j2sc#0604.cs: Yapýlarda özel/arþiv Equals eþitlik ve this kullanýmlarý örneði.
+        j2sc#0604.exe: Yapýlar, Eþitlik koþturulabilir örneði.
+    6.5.YapýAlanlarý
+        j2sc#0605a.cs: Yapý özelliði, alaný, kopyalanmasý ve arayüz mirasý örneði.
+        j2sc#0605a.exe: Yapýlar, YapýAlanlarý1 koþturulabilir örneði.
+        j2sc#0605b.cs: Deðer/ref aktarým, yapýsal dizi, arayüzlü kutulama/kutusuzlama örneði.
+        j2sc#0605b.exe: Yapýlar, YapýAlanlarý2 koþturulabilir örneði.
+        j2sc#0605c.cs: *&adresli yapýlarýn unsafe/güvenilmez kodlamalarý örneði.
+        j2sc#0605c.exe: Yapýlar, YapýAlanlarý3 koþturulabilir örneði.
 
-7.Class
-7.1.Class Definition (17)
-7.2.Class Instance (6)	
-7.3.Object Reference (16)
-7.4.Member Method (6)
-7.5.Member Variable (8)
-7.6.Method Parameter (16)
-7.7.Method Return (6)
-7.8.Method Overload (6)
-7.9.Method Recursion (4)
-7.10.this (4)
-7.11.new (1)
-7.12.null (1)
-7.13.Constructor (14)
-7.14.destructor (7)
-7.15.Access Modifier (4)
-7.16.private (4)
-7.17.public (3)
-7.18.protected (1)
-7.19.internal (2)
-7.20.Class hierarchy (5)	
-7.21.Derived Class (4)
-7.22.Base Class (5)
-7.23.virtual (13)
-7.24.override (9)
-7.25.base (3)
-7.26.Name Hiding (3)
-7.27.Abstract Class (6)
-7.28.Nested Class (3)
-7.29.Partial Class (2)
-7.30.cast (2)
-7.31.Class as Parameter (2)
-7.32.interface (15)	
-7.33.Interface hierarchy (5)
-7.34.Explicit Interface Implementation (5)
-7.35.const (4)
-7.36.readonly (5)
-7.37.sealed (4)
-7.38.Properties (15)
-7.39.Virtual Properties (1)
-7.40.Indexer (14)
-7.41.Two Dimensional Indexer (1)
-7.42.static Class (3)
-7.43.static constructor (2)
-7.44.static field (7)
-7.45.static method (2)
-7.46.static Properties (2)
-7.47.System.Object (6)
-7.48.ToString (6)
-7.49.Hash Code (1)
-7.50.MemberwiseClone (3)
-7.51.ICloneable (3)
-7.52.ICustomFormatter (1)
-7.53.IDisposable with using (2)
-7.54.IDisposable (3)
-7.55.IEquatable (1)
-7.56.IFormattable (4)
-7.57.IEnumerable (3)
-7.58.IEnumerator (1)
-7.59.Class Serialization (1)
-7.60.Extension (8)
-7.61.Partial Class (1)
+7.Sýnýflar
+    7.1.SýnýfTanýmý
+        j2sc#0701a.exe: Sýnýflar, SýnýfTanýmý1 koþturulabilir örneði.
+
+    7.2.Class Instance (6)	
+    7.3.Object Reference (16)
+    7.4.Member Method (6)
+    7.5.Member Variable (8)
+    7.6.Method Parameter (16)
+    7.7.Method Return (6)
+    7.8.Method Overload (6)
+    7.9.Method Recursion (4)
+    7.10.this (4)
+    7.11.new (1)
+    7.12.null (1)
+    7.13.Constructor (14)
+    7.14.destructor (7)
+    7.15.Access Modifier (4)
+    7.16.private (4)
+    7.17.public (3)
+    7.18.protected (1)
+    7.19.internal (2)
+    7.20.Class hierarchy (5)	
+    7.21.Derived Class (4)
+    7.22.Base Class (5)
+    7.23.virtual (13)
+    7.24.override (9)
+    7.25.base (3)
+    7.26.Name Hiding (3)
+    7.27.Abstract Class (6)
+    7.28.Nested Class (3)
+    7.29.Partial Class (2)
+    7.30.cast (2)
+    7.31.Class as Parameter (2)
+    7.32.interface (15)	
+    7.33.Interface hierarchy (5)
+    7.34.Explicit Interface Implementation (5)
+    7.35.const (4)
+    7.36.readonly (5)
+    7.37.sealed (4)
+    7.38.Properties (15)
+    7.39.Virtual Properties (1)
+    7.40.Indexer (14)
+    7.41.Two Dimensional Indexer (1)
+    7.42.static Class (3)
+    7.43.static constructor (2)
+    7.44.static field (7)
+    7.45.static method (2)
+    7.46.static Properties (2)
+    7.47.System.Object (6)
+    7.48.ToString (6)
+    7.49.Hash Code (1)
+    7.50.MemberwiseClone (3)
+    7.51.ICloneable (3)
+    7.52.ICustomFormatter (1)
+    7.53.IDisposable with using (2)
+    7.54.IDisposable (3)
+    7.55.IEquatable (1)
+    7.56.IFormattable (4)
+    7.57.IEnumerable (3)
+    7.58.IEnumerator (1)
+    7.59.Class Serialization (1)
+    7.60.Extension (8)
+    7.61.Partial Class (1)
 
 8.Operator Overload
 8.1.operator overload (4)
