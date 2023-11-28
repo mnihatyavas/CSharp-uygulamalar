@@ -435,84 +435,132 @@ C# / CSharp Eðitimi
 
 7.Sýnýflar
     7.1.SýnýfTanýmý
+        j2sc#0701a.cs: Sýnýf alan, metot, ebeveyn taþmasý, içiçe sýnýf çaðýrma örneði.
         j2sc#0701a.exe: Sýnýflar, SýnýfTanýmý1 koþturulabilir örneði.
+        j2sc#0701b.cs: Ebeveyn sýnýf/arayüzler, yapýyla/sýnýfla al/koy'lu selsiyüs/F/K çevrimleri örneði.
+        j2sc#0701b.exe: Sýnýflar, SýnýfTanýmý2 koþturulabilir örneði.
+    7.2.SýnýfTiplemesi
+        j2sc#0702.cs: 'new Sýnýf()' tiplemesi, üyelerine deðer atama/okuma örneði.
+        j2sc#0702.exe: Sýnýflar, SýnýfTiplemesi koþturulabilir örneði.
+    7.3.SýnýfNesnesiReferansý
+        j2sc#0703a.cs: Referanssal eþitsiz sýnýf nesnelerini deðersel eþitliðe çevirme örneði.
+        j2sc#0703a.exe: Sýnýflar, SýnýfNesnesiReferansý1 koþturulabilir örneði.
+        j2sc#0703b.cs: Çoklu arayüz miraslý metotlar ve int/string/class/object eþitlikleri örneði.
+        j2sc#0703b.exe: Sýnýflar, SýnýfNesnesiReferansý2 koþturulabilir örneði.
+    7.4.ÜyeMetod
+        j2sc#0704.cs: Sýnýf metot üyelerinin parametreli/parametresiz çaðrýlmasý örneði.
+        j2sc#0704.exe: Sýnýflar, ÜyeMetod koþturulabilir örneði.
+    7.5.ÜyeDeðiþken
+        j2sc#0705.cs: Sýnýf üye deðiþkenlerine deðer atama ve eriþim örneði.
+        j2sc#0705.exe: Sýnýflar, ÜyeDeðiþken koþturulabilir örneði.
+    7.6.MetotParametresi
+        j2sc#0706a.cs: Deðersel, referanssal, ref, params parametreleri örneði.
+        j2sc#0706a.exe: Sýnýflar, MetotParametresi1 koþturulabilir örneði.
+        j2sc#0706b.cs: Deðer, params, out, ref ve delegeli parametreler örneði.
+        j2sc#0706b.exe: Sýnýflar, MetotParametresi2 koþturulabilir örneði.
+    7.7.MetotGeridönüþü
+        j2sc#0707.cs: Tipli metotlarýn sayýsal, dizgesel, nesnel ve dizisel geridönüþleri örneði.
+        j2sc#0707.exe: Sýnýflar, MetotGeridönüþü koþturulabilir örneði.
+    7.8.MetotAþýrýYükleme
+        j2sc#0708.cs: Sayýsal parametrelerde, çoklu kurucularda ve miraslayanda aþýrýyükleme örneði.
+        j2sc#0708.exe: Sýnýflar, MetotAþýrýYükleme koþturulabilir örneði.
+    7.9.MetotÖzyineleme
+        j2sc#0709.cs: Özyinelemeli ve taramalý metotlarla ayný sonuçlarýn kýyasý örneði.
+        j2sc#0709.exe: Sýnýflar, MetotÖzyineleme koþturulabilir örneði.
+    7.10.ThisNewNull
+        j2sc#0710.cs: Sýnýf alan 'this', 'new'le nesnel tipleme, 'null'la nesnel hiçleme örneði.
+        j2sc#0710.exe: Sýnýflar, ThisNewNull koþturulabilir örneði.
+    7.11.Kurucu
+        j2sc#0711a.cs: Parametriz ilkdeðerli ve aþýrýyüklü parametli kurucular örneði.
+        j2sc#0711a.exe: Sýnýflar, Kurucu1 koþturulabilir örneði.
+        j2sc#0711b.cs: Anasýnýf, altsýnýf ve istisnasýnýf kurucularýnýn iliþkileri örneði.
+        j2sc#0711b.exe: Sýnýflar, Kurucu2 koþturulabilir örneði.
+    7.12.Yýkýcý
+        j2sc#0712.cs: Yaratýlan nesne sonlanýrken otomatik çaðrýlan yýkýcý örneði.
+        j2sc#0712.exe: Sýnýflar, Yýkýcý koþturulabilir örneði.
+    7.13.EriþimDeðiþtireci
+        j2sc#0713a.cs: Sýnýf alan eriþim deðiþtireçlerinden public ve private örneði.
+        j2sc#0713a.exe: Sýnýflar, EriþimDeðiþtireci1 koþturulabilir örneði.
+        j2sc#0713b.cs: Tüm alan eriþimlerinin karþýlaþtýrýlmalarý örneði.
+        j2sc#0713b.exe: Sýnýflar, EriþimDeðiþtireci2 koþturulabilir örneði.
+    7.14.SýnýfHiyerarþisi
+        j2sc#0714a.cs: Temel, türedi, arayüz, hiyerarþi, base.temel, new üye örneði.
+        j2sc#0714a.exe: Sýnýflar, SýnýfHiyerarþisi1 koþturulabilir örneði.
+        j2sc#0714b.cs: Çoklu aþýrýyüklü temel kurucular ve harici temelin miraslanmasý örneði.
+        j2sc#0714bx.cs: Temel sýnýfýn harici uygulamadan miraslanmasý örneði.
+        j2sc#0714b.exe: Sýnýflar, SýnýfHiyerarþisi2 koþturulabilir örneði.
+    7.15.SanalMetot
+        j2sc#0715a.cs: Temel/türedi ayný adlý virtual/override metotlarýn çaðrýlmasý örneði.
+        j2sc#0715a.exe: Sýnýflar, SanalMetot1 koþturulabilir örneði.
+        j2sc#0715b.cs: Çoklu hiyerarþide virtual-override-new iliþkileri örneði.
+        j2sc#0715b.exe: Sýnýflar, SanalMetot2 koþturulabilir örneði.
+        j2sc#0715c.cs: System metotlarýnýn override ve temel'den alan alma örneði.
+        j2sc#0715c.exe: Sýnýflar, SanalMetot3 koþturulabilir örneði.
+    7.16.SoyutSýnýf
+        j2sc#0716.cs: Temel soyut sýnýfýn soyut metodunun türedilerce esgeçilmesi örneði.
+        j2sc#0716.exe: Sýnýflar, SoyutSýnýf koþturulabilir örneði.
+    7.17.Arayüz
+        j2sc#0717a.cs: Arayüz þablon metot esaslý gövdeli türedi metotlar örneði.
+        j2sc#0717a.exe: Sýnýflar, Arayüz1 koþturulabilir örneði.
+        j2sc#0717b.cs: Miraslanan çoklu arayüzlerin hiyrarþisi örneði.
+        j2sc#0717b.exe: Sýnýflar, Arayüz2 koþturulabilir örneði.
+        j2sc#0717c.cs: Arayüz metotlarýnýn doðrudan ve referanslý çaðrýlmasý örneði.
+        j2sc#0717c.exe: Sýnýflar, Arayüz3 koþturulabilir örneði.
+    7.18.Özellik
+        j2sc#0718a.cs: Sýnýf alan deðerinin set-get'li özellikle konulmasý-alýnmasý örneði.
+        j2sc#0718a.exe: Sýnýflar, Özellik1 koþturulabilir örneði.
+        j2sc#0718b.cs: Sýnýf alan deðerinin set-get'li özellikle konulmasý-alýnmasý örneði.
+        j2sc#0718b.exe: Sýnýflar, Özellik2 koþturulabilir örneði.
+    7.19.Endeksleyici
+        j2sc#0719a.cs: Tek/çift boyutlu, yalýn ve ArrayList/ListDictionary'li endeksleyici örneði.
+        j2sc#0719a.exe: Sýnýflar, Endeksleyici1 koþturulabilir örneði.
+        j2sc#0719b.cs: Esgeçmeyle ayný sýnýfýn farklý tipli endeksleyicileri örneði.
+        j2sc#0719b.exe: Sýnýflar, Endeksleyici2 koþturulabilir örneði.
+    7.20.Uzantý
+        j2sc#0720.cs: Metodun parametrik giriþini this'le önuzantý'ya çevirme örneði.
+        j2sc#0720.exe: Sýnýflar, Uzantý koþturulabilir örneði.
+    7.21.Statik
+        j2sc#0721a.cs: Statik sýnýf metotlarýnýn tiplemesiz uzantýlý yürütülmesi örneði.
+        j2sc#0721a.exe: Sýnýflar, Statik1 koþturulabilir örneði.
+        j2sc#0721b.cs: Tiplemesiz sýnýf uzantýlý statik alanlar örneði.
+        j2sc#0721b.exe: Sýnýflar, Statik2 koþturulabilir örneði.
+        j2sc#0721c.cs: Statik metot, özellik ve alan iliþkileri örneði.
+        j2sc#0721c.exe: Sýnýflar, Statik3 koþturulabilir örneði.
+    7.22.Çeþitli1
+        j2sc#0722a.cs: Ebeveyn base, ayný adlý new alan/metot ve içiçe sýnýflar örneði.
+        j2sc#0722a.exe: Sýnýflar, Çeþitli1 koþturulabilir örneði.
+        j2sc#0722b.cs: Kýsmi sýnýflar ve temel-türedi esgeçen metotlar örneði.
+        j2sc#0722b.exe: Sýnýflar, Çeþitli2 koþturulabilir örneði.
+        j2sc#0722c.cs: Parametrik sýnýf, sabitler ve serileþtirme/serisizleþtirme örneði.
+        j2sc#0722c.exe: Sýnýflar, Çeþitli3 koþturulabilir örneði.
+        j2sc#0722d.cs: Sadeceokunabilir/readonly deðiþkene ilkdeðer-li/siz veri atama örneði.
+        j2sc#0722d.exe: Sýnýflar, Çeþitli4 koþturulabilir örneði.
+        j2sc#0722e.cs: Mühürlü sýnýf/metot ve birkaç hazýr system metotlarýnýn testi örneði.
+        j2sc#0722e.exe: Sýnýflar, Çeþitli5 koþturulabilir örneði.
+        j2sc#0748.cs: Esgeçen ToString() metotla sýnýf alan deðerlerini gösterme örneði.
+        j2sc#0722f.exe: Sýnýflar, Çeþitli6 koþturulabilir örneði.
+        j2sc#0722g.cs: ICloneable.Clone() arayüz þablonlu klonla kopyalama örneði.
+        j2sc#0722g.exe: Sýnýflar, Çeþitli7 koþturulabilir örneði.
+        j2sc#0722h.cs: IFormattable þablonla gösterim biçemlerini özelleþtirme örneði.
+        j2sc#0722h.exe: Sýnýflar, Çeþitli8 koþturulabilir örneði.
+        j2sc#0722i.cs: ~Sýnýf' baskýlayan using'li/siz istemli Sýnýf.Dispose() tipleme silme örneði.
+        j2sc#0722i.exe: Sýnýflar, Çeþitli9 koþturulabilir örneði.
+        j2sc#0722j.cs: IEnumerable, IEnumerator'la foreach tarayýcý dökümleme örneði.
+        j2sc#0722j.exe: Sýnýflar, Çeþitli10 koþturulabilir örneði.
 
-    7.2.Class Instance (6)	
-    7.3.Object Reference (16)
-    7.4.Member Method (6)
-    7.5.Member Variable (8)
-    7.6.Method Parameter (16)
-    7.7.Method Return (6)
-    7.8.Method Overload (6)
-    7.9.Method Recursion (4)
-    7.10.this (4)
-    7.11.new (1)
-    7.12.null (1)
-    7.13.Constructor (14)
-    7.14.destructor (7)
-    7.15.Access Modifier (4)
-    7.16.private (4)
-    7.17.public (3)
-    7.18.protected (1)
-    7.19.internal (2)
-    7.20.Class hierarchy (5)	
-    7.21.Derived Class (4)
-    7.22.Base Class (5)
-    7.23.virtual (13)
-    7.24.override (9)
-    7.25.base (3)
-    7.26.Name Hiding (3)
-    7.27.Abstract Class (6)
-    7.28.Nested Class (3)
-    7.29.Partial Class (2)
-    7.30.cast (2)
-    7.31.Class as Parameter (2)
-    7.32.interface (15)	
-    7.33.Interface hierarchy (5)
-    7.34.Explicit Interface Implementation (5)
-    7.35.const (4)
-    7.36.readonly (5)
-    7.37.sealed (4)
-    7.38.Properties (15)
-    7.39.Virtual Properties (1)
-    7.40.Indexer (14)
-    7.41.Two Dimensional Indexer (1)
-    7.42.static Class (3)
-    7.43.static constructor (2)
-    7.44.static field (7)
-    7.45.static method (2)
-    7.46.static Properties (2)
-    7.47.System.Object (6)
-    7.48.ToString (6)
-    7.49.Hash Code (1)
-    7.50.MemberwiseClone (3)
-    7.51.ICloneable (3)
-    7.52.ICustomFormatter (1)
-    7.53.IDisposable with using (2)
-    7.54.IDisposable (3)
-    7.55.IEquatable (1)
-    7.56.IFormattable (4)
-    7.57.IEnumerable (3)
-    7.58.IEnumerator (1)
-    7.59.Class Serialization (1)
-    7.60.Extension (8)
-    7.61.Partial Class (1)
+8.Ýþlemci AþýrýYükleme
+    8.1.ÝþlemciAþýrýYüklenme
+        j2sc#0801.cs: Aritmetik (+, -, *, /, ++) ve mantýksal (&, |, &&, ||, true, false) iþlemci aþýrýyüklenme örneði.
+        j2sc#0801.exe: Sýnýflar, ÝþlemciAþýrýYükleme1 koþturulabilir örneði.
+        j2sc#0801.exe: Sýnýflar, ÝþlemciAþýrýYükleme2 koþturulabilir örneði.
 
-8.Operator Overload
-8.1.operator overload (4)
-8.2.Logic Operator Overload (2)
-8.3.Relotional Operator Overload (2)
-8.4.Conversion Operator Overload (4)
-8.5.Explicit Conversion Operator (1)
-8.6.Implicit Conversion Operator (2)
-8.7.int plus object (1)	
-8.8.object plus int (1)
-8.9.operator overload Binary Plus Subtract (3)
-8.10.bool operator (1)
-8.11.Cast operator (2)
-8.12.pipe operator (1)
-8.13.True false operator (3)
-8.14.unary minus plusplus (1)
+    8.4.Conversion Operator Overload (4)
+    8.5.Explicit Conversion Operator (1)
+    8.6.Implicit Conversion Operator (2)
+    8.7.int plus object (1)	
+    8.8.object plus int (1)
+    8.9.operator overload Binary Plus Subtract (3)
+    8.11.Cast operator (2)
 
 9.delegate
 9.1.delegate (14)
