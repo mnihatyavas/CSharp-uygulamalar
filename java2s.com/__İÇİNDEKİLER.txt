@@ -551,89 +551,86 @@ C# / CSharp Eðitimi
 8.Ýþlemci AþýrýYükleme
     8.1.ÝþlemciAþýrýYüklenme
         j2sc#0801.cs: Aritmetik (+, -, *, /, ++) ve mantýksal (&, |, &&, ||, true, false) iþlemci aþýrýyüklenme örneði.
-        j2sc#0801.exe: Sýnýflar, ÝþlemciAþýrýYükleme1 koþturulabilir örneði.
-        j2sc#0801.exe: Sýnýflar, ÝþlemciAþýrýYükleme2 koþturulabilir örneði.
+        j2sc#0801.exe: AþýrýYükleme, ÝþlemciAþýrýYükleme1 koþturulabilir örneði.
+        j2sc#0802.cs: Aþýrýyüklü kýyas, aritmetik, bool ve int iþlemcileri örneði.
+        j2sc#0802.exe: AþýrýYükleme, ÝþlemciAþýrýYükleme2 koþturulabilir örneði.
+        j2sc#0803.cs: Parametrik kaynak tipin hedef tipe imalý ve aleni çevrimi örneði.
+        j2sc#0803.exe: AþýrýYükleme, ÝþlemciAþýrýYükleme3 koþturulabilir örneði.
 
-    8.4.Conversion Operator Overload (4)
-    8.5.Explicit Conversion Operator (1)
-    8.6.Implicit Conversion Operator (2)
-    8.7.int plus object (1)	
-    8.8.object plus int (1)
-    8.9.operator overload Binary Plus Subtract (3)
-    8.11.Cast operator (2)
+9.Yetki Aktarma
+    9.1.Delege
+        j2sc#0901.cs: Delege fonksiyonla parametre-li/siz tekli/çoklu metot çaðýrma örneði.
+        j2sc#0901.exe: YetkiAktarma, Delege1 koþturulabilir örneði.
+        j2sc#0902.cs: Çoklu metotlarý delegeye +-toplama/çýkarma örneði.
+        j2sc#0902.exe: YetkiAktarma, Delege2 koþturulabilir örneði.
+        j2sc#0903.cs: Anonim delegeli metotla üslenilen görevlerin icrasý örneði.
+        j2sc#0903.exe: YetkiAktarma, Delege3 koþturulabilir örneði.
+        j2sc#0904a.cs: Delegeli olay yönetimleri eklemeli sýnýf tiplemeleri örneði.
+        j2sc#0904a.exe: YetkiAktarma, Delege4a koþturulabilir örneði.
+        j2sc#0904b.cs: Delegeli olay metotlarý arasýnda parametrik deðer aktarma örneði.
+        j2sc#0904b.exe: YetkiAktarma, Delege4b koþturulabilir örneði.
+        j2sc#0905.cs: Delege parametresi, geridönüþü ve tipli delegeler örneði.
+        j2sc#0905.exe: YetkiAktarma, Delege5 koþturulabilir örneði.
 
-9.delegate
-9.1.delegate (14)
-9.2.Multi cast delegate (4)	
-9.3.Chained delegate (3)
-9.4.Anonymous delegate (9)
-9.5.Delegate Array (1)
-9.6.delegate parameter (2)
-9.7.Return delegate (1)
-9.8.delegate event (12)
-9.9.Generic delegate (5)	
+10.Vasýflar
+        j2sc#1001.cs: Vasýf/Attribute sýnýfý ve vasýfkullaným/AttributeUsage arþiv vasfý örneði.
+        j2sc#1001.exe: Vasýflar, Vasýf1 koþturulabilir örneði.
+        j2sc#1002.cs: Özel vasýf sýnýflarýnýn alan deðerlerinin yazýlmasý/okunmasý örneði.
+        j2sc#1002.exe: Vasýflar, Vasýf2 koþturulabilir örneði.
+        j2sc#1005.cs: Reflection/Assembly, conditional/þartlý ve obsolete/tedavülsüz vasýflar örneði.
+        j2sc#1003.exe: Vasýflar, Vasýf3 koþturulabilir örneði.
 
-10.Attribute
-10.1.Attribute (6)
-10.2.Obsolete Attribute (5)
-10.3.Conditional Attribute (3)
-10.4.Attribute Definition (7)
-10.5.Attributes Reflection (5)
-10.6.AttributeUsage (2)
+11.Veri Yapýlarý
+        j2sc#1101a.cs: Dizi, tipi, ebatý, elemanlarý, endeksi, eriþim ve döküm örneði.
+        j2sc#1101a.exe: VeriYapýlarý, VeriYapýsý1A koþturulabilir örneði.
+        j2sc#1102.cs: Dizi ebatý, ilk/son endeksi, uzunluk ve derecesi örneði.
+        j2sc#1101b.exe: VeriYapýlarý, VeriYapýsý1B koþturulabilir örneði.
+        j2sc#1101c.cs: Çok boyutlu d[,,,] ve çentikli d[][] dizide ebat, derece, alt/üst sýnýr örneði.
+        j2sc#1101c.exe: VeriYapýlarý, VeriYapýsý1C koþturulabilir örneði.
+        j2sc#1101d.cs: Çokboyutlu, çentikli, istisna, nesne, klon ve kopya diziler örneði.
+        j2sc#1101d.exe: VeriYapýlarý, VeriYapýsý1D koþturulabilir örneði.
+        j2sc#1101e.cs: CreateInstance, Exists, Find/Last/All, TrueForAll ve Last/IndeksOf örneði.
+        j2sc#1101e.exe: VeriYapýlarý, VeriYapýsý1E koþturulabilir örneði.
+        j2sc#1101f.cs: Array.ForEach ve Array.BinarySearch örneði.
+        j2sc#1101f.exe: VeriYapýlarý, VeriYapýsý1F koþturulabilir örneði.
+        j2sc#1101g.cs: Array.Sort/Reverse(dizi), Array.ConverAll ve IEnumerator örneði.
+        j2sc#1101g.exe: VeriYapýlarý, VeriYapýsý1G koþturulabilir örneði.
+        j2sc#1102a.exe: VeriYapýlarý, VeriYapýsý2A koþturulabilir örneði.
 
-11.Data Structure
-11.1.Array (14)
-11.2.Array Index (6)
-11.3.Array object (5)
-11.4.Array Length (7)
-11.5.Array Bound (2)	
-11.6.Multi Dimensional Array (16)
-11.7.Jagged Arrays (5)
-11.8.Array Rank (1)
-11.9.Array Exception (1)
-11.10.Array Cast (1)
-11.11.Array Clone (3)
-11.12.Array Copy (3)
-11.13.Array CreateInstance (3)
-11.14.Array Exist Find (8)
-11.15.Array ForEach (5)
-11.16.Array Reverse (7)
-11.17.Array Search (4)
-11.18.Array Sort (7)
-11.19.Array ConvertAll (2)	
-11.20.Array IEnumerator (1)
-11.21.ArrayList (33)
-11.22.ArrayList object (11)
-11.23.ArrayList Display (2)
-11.24.ArrayList ToArray (3)
-11.25.ArrayList Serialization (4)
-11.26.ICollection (6)
-11.27.BitArray (6)
-11.28.Dictionary (3)
-11.29.Hashtable (11)
-11.30.IDictionary (7)
-11.31.IDictionaryEnumerator (2)
-11.32.SortedDictionary (1)
-11.33.SortedList (15)
-11.34.List (22)
-11.35.IList (3)
-11.36.LinkList (7)
-11.37.Generic LinkedList (1)
-11.38.Queue (7)
-11.39.Stack (5)
-11.40.Your Stack (1)
-11.41.IComparable (4)
-11.42.IComparer (6)
-11.43.IEnumerable (7)
-11.44.IEnumerator (11)
-11.45.yield (7)
-11.46.Collection Event (1)
-11.47.Sort (2)
-11.48.CollectionBase (1)
-11.49.DictionaryBase (1)
-11.50.ReadOnlyCollectionBase (1)
+    11.21.ArrayList (33)
+    11.22.ArrayList object (11)
+    11.23.ArrayList Display (2)
+    11.24.ArrayList ToArray (3)
+    11.25.ArrayList Serialization (4)
 
-12.Assembly
+    11.26.ICollection (6)
+    11.27.BitArray (6)
+    11.28.Dictionary (3)
+    11.29.Hashtable (11)
+    11.30.IDictionary (7)
+    11.31.IDictionaryEnumerator (2)
+    11.32.SortedDictionary (1)
+    11.33.SortedList (15)
+    11.34.List (22)
+    11.35.IList (3)
+    11.36.LinkList (7)
+    11.37.Generic LinkedList (1)
+    11.38.Queue (7)
+    11.39.Stack (5)
+    11.40.Your Stack (1)
+    11.41.IComparable (4)
+    11.42.IComparer (6)
+    11.43.IEnumerable (7)
+    11.44.IEnumerator (11)
+    11.45.yield (7)
+    11.46.Collection Event (1)
+    11.47.Sort (2)
+    11.48.CollectionBase (1)
+    11.49.DictionaryBase (1)
+    11.50.ReadOnlyCollectionBase (1)
+
+12.Kurulumlar
+        j2sc#1201.exe: Kurulum, Kurgu1 koþturulabilir örneði.
 12.1.AppDomain (13)
 12.2.AppDomainSetup (1)
 12.3.Assembly Attributes (3)
@@ -643,7 +640,7 @@ C# / CSharp Eðitimi
 12.7.PortableExecutableKinds (1)
 12.8.Evidence (1)
 
-13.Date Time
+13.Tarih ve Saat
 13.1.DateTime (22)
 13.2.DateTime Now (3)
 13.3.DateTime Format (21)
@@ -653,7 +650,7 @@ C# / CSharp Eðitimi
 13.7.Stopwatch (1)
 13.8.Calendar I18N (12)
 
-14.Development
+14.Geliþimler
 14.1.Application (5)
 14.2.Environment (21)
 14.3.Console Output (16)
@@ -699,7 +696,7 @@ C# / CSharp Eðitimi
 14.43.PerformanceCounterCategory (1)
 14.44.RuntimeHelpers (1)
 
-15.File Directory Stream
+15.Dosya ve Dizin Akýþý
 15.1.File (6)
 15.2.File Create (3)
 15.3.File Delete (1)
