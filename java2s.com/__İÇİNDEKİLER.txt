@@ -583,7 +583,7 @@ C# / CSharp Eðitimi
 11.Veri Yapýlarý
         j2sc#1101a.cs: Dizi, tipi, ebatý, elemanlarý, endeksi, eriþim ve döküm örneði.
         j2sc#1101a.exe: VeriYapýlarý, VeriYapýsý1A koþturulabilir örneði.
-        j2sc#1102.cs: Dizi ebatý, ilk/son endeksi, uzunluk ve derecesi örneði.
+        j2sc#1101b.cs: Dizi ebatý, ilk/son endeksi, uzunluk ve derecesi örneði.
         j2sc#1101b.exe: VeriYapýlarý, VeriYapýsý1B koþturulabilir örneði.
         j2sc#1101c.cs: Çok boyutlu d[,,,] ve çentikli d[][] dizide ebat, derece, alt/üst sýnýr örneði.
         j2sc#1101c.exe: VeriYapýlarý, VeriYapýsý1C koþturulabilir örneði.
@@ -595,26 +595,31 @@ C# / CSharp Eðitimi
         j2sc#1101f.exe: VeriYapýlarý, VeriYapýsý1F koþturulabilir örneði.
         j2sc#1101g.cs: Array.Sort/Reverse(dizi), Array.ConverAll ve IEnumerator örneði.
         j2sc#1101g.exe: VeriYapýlarý, VeriYapýsý1G koþturulabilir örneði.
+        j2sc#1102a.cs: ArrayList yaratma, eleman ekleme, silme, arayagirme ve sunum örneði.
         j2sc#1102a.exe: VeriYapýlarý, VeriYapýsý2A koþturulabilir örneði.
+        j2sc#1102b.cs: DiziListe Add/InsertRange, Set/GetRange ve özelleþtirilen Sort/Reverse örneði.
+        j2sc#1102b.exe: VeriYapýlarý, VeriYapýsý2B koþturulabilir örneði.
+        j2sc#1102c.cs: Çok deðerli nesnel liste elemanlarýný girme, sýralama ve sunma örneði.
+        j2sc#1102c.exe: VeriYapýlarý, VeriYapýsý2C koþturulabilir örneði.
+        j2sc#1102d.cs: DiziListe ve ToArray sunumlarý, dosyaya ikili/sabun yazma/okuma örneði.
+        j2sc#1102d.exe: VeriYapýlarý, VeriYapýsý2D koþturulabilir örneði.
+        j2sc#1103.cs: 'ICollection<T>, new Collection<T>()' ve 'BitArray, new BitArray(byte)' örneði.
+        j2sc#1103.exe: VeriYapýlarý, VeriYapýsý3 koþturulabilir örneði.
+        j2sc#1104.cs: ICollection, IDictionary ve SortedDictionary örneði.
+        j2sc#1104.exe: VeriYapýlarý, VeriYapýsý4 koþturulabilir örneði.
+        j2sc#1105.exe: VeriYapýlarý, VeriYapýsý5 koþturulabilir örneði.
 
-    11.21.ArrayList (33)
-    11.22.ArrayList object (11)
-    11.23.ArrayList Display (2)
-    11.24.ArrayList ToArray (3)
-    11.25.ArrayList Serialization (4)
 
-    11.26.ICollection (6)
-    11.27.BitArray (6)
-    11.28.Dictionary (3)
     11.29.Hashtable (11)
-    11.30.IDictionary (7)
+
     11.31.IDictionaryEnumerator (2)
-    11.32.SortedDictionary (1)
+
     11.33.SortedList (15)
     11.34.List (22)
     11.35.IList (3)
     11.36.LinkList (7)
     11.37.Generic LinkedList (1)
+
     11.38.Queue (7)
     11.39.Stack (5)
     11.40.Your Stack (1)
