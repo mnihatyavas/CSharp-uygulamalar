@@ -549,7 +549,6 @@ C# / CSharp Eðitimi
         j2sc#0722j.exe: Sýnýflar, Çeþitli10 koþturulabilir örneði.
 
 8.Ýþlemci AþýrýYükleme
-    8.1.ÝþlemciAþýrýYüklenme
         j2sc#0801.cs: Aritmetik (+, -, *, /, ++) ve mantýksal (&, |, &&, ||, true, false) iþlemci aþýrýyüklenme örneði.
         j2sc#0801.exe: AþýrýYükleme, ÝþlemciAþýrýYükleme1 koþturulabilir örneði.
         j2sc#0802.cs: Aþýrýyüklü kýyas, aritmetik, bool ve int iþlemcileri örneði.
@@ -558,7 +557,6 @@ C# / CSharp Eðitimi
         j2sc#0803.exe: AþýrýYükleme, ÝþlemciAþýrýYükleme3 koþturulabilir örneði.
 
 9.Yetki Aktarma
-    9.1.Delege
         j2sc#0901.cs: Delege fonksiyonla parametre-li/siz tekli/çoklu metot çaðýrma örneði.
         j2sc#0901.exe: YetkiAktarma, Delege1 koþturulabilir örneði.
         j2sc#0902.cs: Çoklu metotlarý delegeye +-toplama/çýkarma örneði.
@@ -581,6 +579,7 @@ C# / CSharp Eðitimi
         j2sc#1003.exe: Vasýflar, Vasýf3 koþturulabilir örneði.
 
 11.Veri Yapýlarý
+    11.1.Diziler
         j2sc#1101a.cs: Dizi, tipi, ebatý, elemanlarý, endeksi, eriþim ve döküm örneði.
         j2sc#1101a.exe: VeriYapýlarý, VeriYapýsý1A koþturulabilir örneði.
         j2sc#1101b.cs: Dizi ebatý, ilk/son endeksi, uzunluk ve derecesi örneði.
@@ -595,6 +594,7 @@ C# / CSharp Eðitimi
         j2sc#1101f.exe: VeriYapýlarý, VeriYapýsý1F koþturulabilir örneði.
         j2sc#1101g.cs: Array.Sort/Reverse(dizi), Array.ConverAll ve IEnumerator örneði.
         j2sc#1101g.exe: VeriYapýlarý, VeriYapýsý1G koþturulabilir örneði.
+    11.2.ArrayList
         j2sc#1102a.cs: ArrayList yaratma, eleman ekleme, silme, arayagirme ve sunum örneði.
         j2sc#1102a.exe: VeriYapýlarý, VeriYapýsý2A koþturulabilir örneði.
         j2sc#1102b.cs: DiziListe Add/InsertRange, Set/GetRange ve özelleþtirilen Sort/Reverse örneði.
@@ -603,44 +603,56 @@ C# / CSharp Eðitimi
         j2sc#1102c.exe: VeriYapýlarý, VeriYapýsý2C koþturulabilir örneði.
         j2sc#1102d.cs: DiziListe ve ToArray sunumlarý, dosyaya ikili/sabun yazma/okuma örneði.
         j2sc#1102d.exe: VeriYapýlarý, VeriYapýsý2D koþturulabilir örneði.
+    11.3.Collection
         j2sc#1103.cs: 'ICollection<T>, new Collection<T>()' ve 'BitArray, new BitArray(byte)' örneði.
         j2sc#1103.exe: VeriYapýlarý, VeriYapýsý3 koþturulabilir örneði.
+    11.4.Dictionary
         j2sc#1104.cs: ICollection, IDictionary ve SortedDictionary örneði.
         j2sc#1104.exe: VeriYapýlarý, VeriYapýsý4 koþturulabilir örneði.
+    11.5.HashTable
+        j2sc#1105.cs: Hashtable/AdreslemeTablosu verilerinin sayýsal/dizgesel anahtarla özgü sýralanmasý örneði.
         j2sc#1105.exe: VeriYapýlarý, VeriYapýsý5 koþturulabilir örneði.
-
-
-    11.29.Hashtable (11)
-
-    11.31.IDictionaryEnumerator (2)
-
-    11.33.SortedList (15)
-    11.34.List (22)
-    11.35.IList (3)
-    11.36.LinkList (7)
-    11.37.Generic LinkedList (1)
-
-    11.38.Queue (7)
-    11.39.Stack (5)
-    11.40.Your Stack (1)
-    11.41.IComparable (4)
-    11.42.IComparer (6)
-    11.43.IEnumerable (7)
-    11.44.IEnumerator (11)
-    11.45.yield (7)
-    11.46.Collection Event (1)
-    11.47.Sort (2)
-    11.48.CollectionBase (1)
-    11.49.DictionaryBase (1)
-    11.50.ReadOnlyCollectionBase (1)
+    11.6.List
+        j2sc#1106a.cs: List<T> ve select-from ile listeleri süzgeçleme/sýralama örneði.
+        j2sc#1106a.exe: VeriYapýlarý, VeriYapýsý6A koþturulabilir örneði.
+        j2sc#1106b.cs: List<T> sýrala, ekle/sil/gir/al, Capacity/Count ve delege örneði.
+        j2sc#1106b.exe: VeriYapýlarý, VeriYapýsý6B koþturulabilir örneði.
+        j2sc#1106c.cs: LinkedList<T> AddFirst/Last/Before/After ekleme ve düðme takibi örneði.
+        j2sc#1106c.exe: VeriYapýlarý, VeriYapýsý6C koþturulabilir örneði.
+        j2sc#1106d.cs: SortedList anahtar-deðer çiftiyle otomatik sýralý liste örneði.
+        j2sc#1106d.exe: VeriYapýlarý, VeriYapýsý6D koþturulabilir örneði.
+    11.7.Queue ve Stack
+        j2sc#1107.cs: Queue sona-ekle önden-çýkar ve Stack öne-ekle önden-çýkar örneði.
+        j2sc#1107.exe: VeriYapýlarý, VeriYapýsý7 koþturulabilir örneði.
+    11.8.Yield-return
+        j2sc#1108.cs: IEnumerble Liste() metodunun yield-return'le çoklu deðer üretmesi örneði.
+        j2sc#1108.exe: VeriYapýlarý, VeriYapýsý8 koþturulabilir örneði.
+    11.9.IComparable/IComparer ve IEnumerable/IEnumerator
+        j2sc#1109a.cs: IComparable/CompareTo() ve IComparer/Compare() ile özel sýralama örneði.
+        j2sc#1109a.exe: VeriYapýlarý, VeriYapýsý9A koþturulabilir örneði.
+        j2sc#1109b.cs: IComparer ebeveynli Compare()'le düz/ters sýralama örneði.
+        j2sc#1109b.exe: VeriYapýlarý, VeriYapýsý9B koþturulabilir örneði.
+        j2sc#1109c.cs: IEnumerable/IEnumerator ve yield-return'la koleksiyonlar üretme örneði.
+        j2sc#1109c.exe: VeriYapýlarý, VeriYapýsý9C koþturulabilir örneði.
+        j2sc#1109d.cs: Özelleþtirilen IEnumerable ve IEnumerator'la dizi/liste tarama örneði.
+        j2sc#1109d.exe: VeriYapýlarý, VeriYapýsý9D koþturulabilir örneði.
+        j2sc#1109e.cs: Hashtable'n IDictionaryEnumerator'la taranmasý örneði.
+        j2sc#1109e.exe: VeriYapýlarý, VeriYapýsý9E koþturulabilir örneði.
+    11.10.Base, event ve sort
+        j2sc#1110.cs: Collection/Dictionary/ReadOnly-base, klk-olay ve kabarcýk/hýzlý sýralama örneði.
+        j2sc#1110.exe: VeriYapýlarý, VeriYapýsý10 koþturulabilir örneði.
 
 12.Kurulumlar
+        j2sc#1201.cs: AppDomain/UygSahasý ile program yükleme, çalýþtýrma ve boþaltma örneði.
         j2sc#1201.exe: Kurulum, Kurgu1 koþturulabilir örneði.
-12.1.AppDomain (13)
+        j2sc#1202.cs: Assembly kurgusuyla mevcut tipleme ve metotlarýn iþletilmesi örneði.
+        j2sc#1202.exe: Kurulum, Kurgu2 koþturulabilir örneði.
+        j2sc#1203.exe: Kurulum, Kurgu3 koþturulabilir örneði.
+
+12.5.Assembly Properties (11)
+
 12.2.AppDomainSetup (1)
 12.3.Assembly Attributes (3)
-12.4.Assembly Load (11)
-12.5.Assembly Properties (11)
 12.6.AssemblyName (2)
 12.7.PortableExecutableKinds (1)
 12.8.Evidence (1)
