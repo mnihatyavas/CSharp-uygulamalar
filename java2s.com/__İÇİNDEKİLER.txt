@@ -647,42 +647,59 @@ C# / CSharp Eðitimi
         j2sc#1201.exe: Kurulum, Kurgu1 koþturulabilir örneði.
         j2sc#1202.cs: Assembly kurgusuyla mevcut tipleme ve metotlarýn iþletilmesi örneði.
         j2sc#1202.exe: Kurulum, Kurgu2 koþturulabilir örneði.
+        j2sc#1203.cs: Assembly kurulumlarýnýn özelliklerinin sunulmasý örneði.
         j2sc#1203.exe: Kurulum, Kurgu3 koþturulabilir örneði.
-
-12.5.Assembly Properties (11)
-
-12.2.AppDomainSetup (1)
-12.3.Assembly Attributes (3)
-12.6.AssemblyName (2)
-12.7.PortableExecutableKinds (1)
-12.8.Evidence (1)
+        j2sc#1204.cs: Dinamik kurgu, kurgu tamadý detaylarý ve kanýtlarý örneði.
+        j2sc#1204.exe: Kurulum, Kurgu4 koþturulabilir örneði.
 
 13.Tarih ve Saat
-13.1.DateTime (22)
-13.2.DateTime Now (3)
-13.3.DateTime Format (21)
-13.4.DateTime Parse ParseExact (12)
-13.5.TimeSpan (17)
-13.6.TimeSpan Parse (2)
-13.7.Stopwatch (1)
-13.8.Calendar I18N (12)
+    13.1.DateTime/TarihZaman
+        j2sc#1301.cs: DateTime ve detaylarýyla çeþitli TarihZaman hesaplarý örneði.
+        j2sc#1301.exe: Tarih, TarihZaman koþturulabilir örneði.
+    13.2.TarihZaman biçimleme
+        j2sc#1302.cs: Tüm büyük/küçük-harf tarih-zaman biçimleme harfleri örneði.
+        j2sc#1302.exe: Tarih, TarihBiçimleme koþturulabilir örneði.
+    13.3.TarihZaman çevrimleri
+        j2sc#1303.cs: DateTime.Parse(dizge) çevrimi ve TimeSpan(g,S,d,s,ms) zamanaralýðý örneði.
+        j2sc#1303.exe: Tarih, TarihÇevrimi koþturulabilir örneði.
+    13.4.Takvim
+        j2sc#1304.cs: Çeþitli kültür ve takvim özelliklerinin karþýlaþtýrýlmalarý örneði.
+        j2sc#1304.exe: Tarih, Takvim koþturulabilir örneði.
 
 14.Geliþimler
-14.1.Application (5)
-14.2.Environment (21)
-14.3.Console Output (16)
-14.4.Console Output Format (13)
-14.5.Custom Format (13)
-14.6.Console Read (8)
-14.7.Console Redirect (2)
-14.8.Console window settings (6)
-14.9.ConsoleKey (2)
+    14.1.Uygulama
+        j2sc#1401.cs: Application'la Form'dan çýkýþ ve sol-týklama mesajlarý örneði.
+        j2sc#1401.exe: Geliþimler, Uygulama koþturulabilir örneði.
+    14.2.Çevre
+        j2sc#1402.cs: Environment çevreye dair tüm komutlar örneði.
+        j2sc#1402.exe: Geliþimler, Çevre koþturulabilir örneði.
+    14.3.Konsol
+        j2sc#1403a.cs: Console.Write/WriteLine/Error/SetIn/SetOut konsol çýktýlarý örneði.
+        j2sc#1403a.exe: Geliþimler, KonsolA koþturulabilir örneði.
+        j2sc#1403b.cs: Harflerle {0,-20:H#,0.0#} veya ToString("H") çýktý biçimleme örneði.
+        j2sc#1403b.exe: Geliþimler, KonsolB koþturulabilir örneði.
+        j2sc#1403c.cs: Read(), ReadLine(), ReadKey(), TextWriter ve StreamWriter örneði.
+        j2sc#1403c.exe: Geliþimler, KonsolC koþturulabilir örneði.
+        j2sc#1403d.cs: DOS veya windows pencere renk/ebat ayarlarý örneði.
+        j2sc#1403d.exe: Geliþimler, KonsolD koþturulabilir örneði.
+        j2sc#1403e.cs: Özelleþtirilen IFormattable ve harf formatlarý örneði.
+        j2sc#1403e.exe: Geliþimler, KonsolE koþturulabilir örneði.
+    14.4.Math
+        j2sc#1404.cs: Math.Sin/Cos/Tan, Math.Sign/Max/Sqrt/PI ve Random() uygulamalarý örneði.
+        j2sc#1404.exe: Geliþimler, MathFonksiyonu koþturulabilir örneði.
+    14.5.Process
+        j2sc#1405.exe: Geliþimler, Ýþlet koþturulabilir örneði.
+
+
+14.15.Process (24)
+
 14.10.Command Line (4)
 14.11.config file (1)
-14.12.AppSettingsReader (3)	
-14.13.Math Function (9)
-14.14.Random (2)
-14.15.Process (24)
+14.12.AppSettingsReader (3)
+	
+
+
+
 14.16.ProcessStartInfo (4)
 14.17.Timer (15)
 14.18.GC (6)
