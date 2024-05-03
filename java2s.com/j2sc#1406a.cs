@@ -1,4 +1,4 @@
-// j2sc#1406a.cs: ve System.Threading.Timer ve System.Timers.Timer zamanlayýcýlar örneði.
+// j2sc#1406a.cs: System.Threading.Timer ve System.Timers.Timer zamanlayýcýlar örneði.
 
 using System;
 using System.Threading; //Thread ve System.Threading.Timer için
