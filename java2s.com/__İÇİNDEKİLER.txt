@@ -695,90 +695,77 @@ C# / CSharp Eðitimi
         j2sc#1405c.cs: ProcessStartInfo ve Process ile tek/çoklu iþlere eriþim örneði.
         j2sc#1405c.exe: Geliþimler, ÝþletC koþturulabilir örneði.
     14.6.Timer
-        j2sc#1406a.cs: ve System.Threading.Timer ve System.Timers.Timer zamanlayýcýlar örneði.
+        j2sc#1406a.cs: System.Threading.Timer ve System.Timers.Timer zamanlayýcýlar-1 örneði.
         j2sc#1406a.exe: Geliþimler, ZamanlyýcýA koþturulabilir örneði.
+        j2sc#1406a.cs: System.Threading.Timer ve System.Timers.Timer zamanlayýcýlar-2 örneði.
         j2sc#1406b.exe: Geliþimler, ZamanlyýcýB koþturulabilir örneði.
-
-
-14.17.Timer (15)
-
-14.10.Command Line (4)
-14.11.config file (1)
-14.12.AppSettingsReader (3)
-	
-
-14.18.GC (6)
-14.19.BitConverter (6)
-14.20.Guid (1)
-14.21.Printer (3)
-14.22.Context (3)
-14.23.BooleanSwitch (1)
-14.24.Debug (7)
-14.25.StackTrace (2)
-14.26.Log (1)
-14.27.Trace Listener (9)
-14.28.Trace (7)
-14.29.TraceSource (3)
-14.30.TraceSwitch (2)
-14.31.Warning (1)
-14.32.COM Port SerialPort (2)
-14.33.Beep (2)
-14.34.SoundPlayer (2)
-14.35.QuartzTypeLib (1)
-14.36.Async Delegate (1)
-14.37.Attribute (1)
-14.38.ContextProperty (1)
-14.39.EventArgs (1)
-14.40.Evidence (1)
-14.41.Action (3)
-14.42.Install (1)
-14.43.PerformanceCounterCategory (1)
-14.44.RuntimeHelpers (1)
+    14.7.Trace
+        j2sc#1407a.cs: TextWriterTraceListener ve Trace.Listeners.Add'le hata takibi örneði.
+        j2sc#1407a.exe: Geliþimler, ÝzleyiciA koþturulabilir örneði.
+        j2sc#1407b.cs: Trace.Listeners.Add(new TextWriterTraceListener(Console.Out/dosya)) ile Assert örneði.
+        j2sc#1407b.exe: Geliþimler, ÝzleyiciB koþturulabilir örneði.
+        j2sc#1407c.cs: TraceSwitch, StackTrace ve StackFrame örneði.
+        j2sc#1407c.exe: Geliþimler, ÝzleyiciC koþturulabilir örneði.
+    14.8.Çeþitli
+        j2sc#1408a.cs: Komut satýrý argümanlarý, ReadLine(), xml ve Connection örneði.
+        j2sc#1408a.exe: Geliþimler, ÇeþitliA koþturulabilir örneði.
+        j2sc#1408b.cs: GC.Dispose(), Guid, BooleanSwitch ve PrinterSettings örneði.
+        j2sc#1408b.exe: Geliþimler, ÇeþitliB koþturulabilir örneði.
+        j2sc#1408c.cs: BitConverter, Context, derleme warning/ikazý, SerialPort ve Beep örneði.
+        j2sc#1408c.exe: Geliþimler, ÇeþitliC koþturulabilir örneði.
+        j2sc#1408d.cs: Application.Run, SoundPlayer, AsyncResult ve [Conditional('DEBUG')] örneði.
+        j2sc#1408d.exe: Geliþimler, ÇeþitliD koþturulabilir örneði.
+        j2sc#1408e.cs: Action, Context, EventArgs, Evidence, Installer örneði.
+        j2sc#1408e.exe: Geliþimler, ÇeþitliE koþturulabilir örneði.
 
 15.Dosya ve Dizin Akýþý
-15.1.File (6)
-15.2.File Create (3)
-15.3.File Delete (1)
-15.4.File Copy (3)
-15.5.File Move (1)
-15.6.File Compare (1)
-15.7.File Attribute (3)
-15.8.File Properties (3)
-15.9.File Access Mode (6)
-15.10.File Byte Read Write (3)
-15.11.File Access Rule (3)
-15.12.File Permission (7)
-15.13.FileInfo (6)
-15.14.Drive (4)
-15.15.Directory (26)
-15.16.Directory Copy (1)
-15.17.Directory Size (2)
-15.18.Stream (10)
-15.19.FileStream (20)
-15.20.StreamReader (11)
-15.21.StreamWriter (14)
-15.22.TextReader TextWriter (4)
-15.23.Text File Read Write (11)
-15.24.BufferedStream (3)
-15.25.MemoryStream (5)	
-15.26.BinaryReader (4)
-15.27.BinaryWriter (7)
-15.28.Serializable annotation (4)
-15.29.Binary Formatter (2)
-15.30.Binary Serialization (6)
-15.31.Temp File (1)
-15.32.Random File Name (1)
-15.33.Using Statement (7)
-15.34.FileSecurity (1)
-15.35.Encrypt Decrypt File (2)
-15.36.FileSystemWatcher (5)
-15.37.FileVersionInfo (3)
-15.38.IsolatedStorage (10)
-15.39.Asynchronous Input Output (5)
-15.40.GZipStream (1)
-15.41.CSV File (1)
+    15.1.Dosya
+        j2sc#1501a.cs: OpenFileDialog, File.Read/WriteAllLines, Create ve Delete örneði.
+        j2sc#1501a.exe: DosyaDizin, DosyaA koþturulabilir örneði.
+        j2sc#1501b.cs: CopyTo/kopyala, MoveTo/taþý, Hash-no'larý kýyasla örneði.
+        j2sc#1501b.exe: DosyaDizin, DosyaB koþturulabilir örneði.
+        j2sc#1501c.cs: Dosya vasýflarý, özellikleri, eriþimleri ve deðiþiklik örneði.
+        j2sc#1501c.exe: DosyaDizin, DosyaC koþturulabilir örneði.
+        j2sc#1501d.cs: FileStream, StreamWriter, Read/Write ve Read/WriteByte örneði.
+        j2sc#1501d.exe: DosyaDizin, DosyaD koþturulabilir örneði.
+        j2sc#1501e.cs: FileInfo, [FileIOPermission] ve FileStream örneði.
+        j2sc#1501e.exe: DosyaDizin, DosyaE koþturulabilir örneði.
+        j2sc#1501f.cs: FileStream, FileMode, FileAccess, Decoder/Encoder örneði.
+        j2sc#1501f.exe: DosyaDizin, DosyaF koþturulabilir örneði.
+        j2sc#1501g.exe: DosyaDizin, DosyaG koþturulabilir örneði.
 
-16.Preprocessing Directives
+
+    15.20.StreamReader (11)
+    15.21.StreamWriter (14)
+
+    15.22.TextReader TextWriter (4)
+    15.23.Text File Read Write (11)
+    15.24.BufferedStream (3)
+    15.25.MemoryStream (5)	
+    15.26.BinaryReader (4)
+    15.27.BinaryWriter (7)
+
+
+    15.14.Drive (4)
+    15.15.Directory (26)
+    15.16.Directory Copy (1)
+    15.17.Directory Size (2)
+    15.28.Serializable annotation (4)
+    15.29.Binary Formatter (2)
+    15.30.Binary Serialization (6)
+    15.31.Temp File (1)
+    15.32.Random File Name (1)
+    15.33.Using Statement (7)
+    15.34.FileSecurity (1)
+    15.35.Encrypt Decrypt File (2)
+    15.36.FileSystemWatcher (5)
+    15.37.FileVersionInfo (3)
+    15.38.IsolatedStorage (10)
+    15.39.Asynchronous Input Output (5)
+    15.40.GZipStream (1)
+    15.41.CSV File (1)
+
+16.Öniþlem Talimatlarý
 16.1.define (4)
 16.2.elif (1)
 16.3.if (2)
@@ -787,7 +774,7 @@ C# / CSharp Eðitimi
 16.6.region (1)
 16.7.warning (2)
 
-17.Regular Expression
+17.Düzenli Ýfade
 17.1.Regular Expression (17)
 17.2.Regex Area code (1)
 17.3.Regex Email (2)
@@ -801,7 +788,7 @@ C# / CSharp Eðitimi
 17.11.Regex Replace (1)
 17.12.RegexCompilationInfo (1)
 
-18.Generic
+18.Soysal
 18.1.Introduction (2)
 18.2.Generic List (8)
 18.3.Generic Collection (3)
