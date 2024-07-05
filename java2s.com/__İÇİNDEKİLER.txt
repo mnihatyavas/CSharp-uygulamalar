@@ -549,34 +549,34 @@ C# / CSharp Eðitimi
         j2sc#0722j.exe: Sýnýflar, Çeþitli10 koþturulabilir örneði.
 
 8.Ýþlemci AþýrýYükleme
-        j2sc#0801.cs: Aritmetik (+, -, *, /, ++) ve mantýksal (&, |, &&, ||, true, false) iþlemci aþýrýyüklenme örneði.
-        j2sc#0801.exe: AþýrýYükleme, ÝþlemciAþýrýYükleme1 koþturulabilir örneði.
-        j2sc#0802.cs: Aþýrýyüklü kýyas, aritmetik, bool ve int iþlemcileri örneði.
-        j2sc#0802.exe: AþýrýYükleme, ÝþlemciAþýrýYükleme2 koþturulabilir örneði.
-        j2sc#0803.cs: Parametrik kaynak tipin hedef tipe imalý ve aleni çevrimi örneði.
-        j2sc#0803.exe: AþýrýYükleme, ÝþlemciAþýrýYükleme3 koþturulabilir örneði.
+    j2sc#0801.cs: Aritmetik (+, -, *, /, ++) ve mantýksal (&, |, &&, ||, true, false) iþlemci aþýrýyüklenme örneði.
+    j2sc#0801.exe: AþýrýYükleme, ÝþlemciAþýrýYükleme1 koþturulabilir örneði.
+    j2sc#0802.cs: Aþýrýyüklü kýyas, aritmetik, bool ve int iþlemcileri örneði.
+    j2sc#0802.exe: AþýrýYükleme, ÝþlemciAþýrýYükleme2 koþturulabilir örneði.
+    j2sc#0803.cs: Parametrik kaynak tipin hedef tipe imalý ve aleni çevrimi örneði.
+    j2sc#0803.exe: AþýrýYükleme, ÝþlemciAþýrýYükleme3 koþturulabilir örneði.
 
 9.Yetki Aktarma
-        j2sc#0901.cs: Delege fonksiyonla parametre-li/siz tekli/çoklu metot çaðýrma örneði.
-        j2sc#0901.exe: YetkiAktarma, Delege1 koþturulabilir örneði.
-        j2sc#0902.cs: Çoklu metotlarý delegeye +-toplama/çýkarma örneði.
-        j2sc#0902.exe: YetkiAktarma, Delege2 koþturulabilir örneði.
-        j2sc#0903.cs: Anonim delegeli metotla üslenilen görevlerin icrasý örneði.
-        j2sc#0903.exe: YetkiAktarma, Delege3 koþturulabilir örneði.
-        j2sc#0904a.cs: Delegeli olay yönetimleri eklemeli sýnýf tiplemeleri örneði.
-        j2sc#0904a.exe: YetkiAktarma, Delege4a koþturulabilir örneði.
-        j2sc#0904b.cs: Delegeli olay metotlarý arasýnda parametrik deðer aktarma örneði.
-        j2sc#0904b.exe: YetkiAktarma, Delege4b koþturulabilir örneði.
-        j2sc#0905.cs: Delege parametresi, geridönüþü ve tipli delegeler örneði.
-        j2sc#0905.exe: YetkiAktarma, Delege5 koþturulabilir örneði.
+    j2sc#0901.cs: Delege fonksiyonla parametre-li/siz tekli/çoklu metot çaðýrma örneði.
+    j2sc#0901.exe: YetkiAktarma, Delege1 koþturulabilir örneði.
+    j2sc#0902.cs: Çoklu metotlarý delegeye +-toplama/çýkarma örneði.
+    j2sc#0902.exe: YetkiAktarma, Delege2 koþturulabilir örneði.
+    j2sc#0903.cs: Anonim delegeli metotla üslenilen görevlerin icrasý örneði.
+    j2sc#0903.exe: YetkiAktarma, Delege3 koþturulabilir örneði.
+    j2sc#0904a.cs: Delegeli olay yönetimleri eklemeli sýnýf tiplemeleri örneði.
+    j2sc#0904a.exe: YetkiAktarma, Delege4a koþturulabilir örneði.
+    j2sc#0904b.cs: Delegeli olay metotlarý arasýnda parametrik deðer aktarma örneði.
+    j2sc#0904b.exe: YetkiAktarma, Delege4b koþturulabilir örneði.
+    j2sc#0905.cs: Delege parametresi, geridönüþü ve tipli delegeler örneði.
+    j2sc#0905.exe: YetkiAktarma, Delege5 koþturulabilir örneði.
 
 10.Vasýflar
-        j2sc#1001.cs: Vasýf/Attribute sýnýfý ve vasýfkullaným/AttributeUsage arþiv vasfý örneði.
-        j2sc#1001.exe: Vasýflar, Vasýf1 koþturulabilir örneði.
-        j2sc#1002.cs: Özel vasýf sýnýflarýnýn alan deðerlerinin yazýlmasý/okunmasý örneði.
-        j2sc#1002.exe: Vasýflar, Vasýf2 koþturulabilir örneði.
-        j2sc#1005.cs: Reflection/Assembly, conditional/þartlý ve obsolete/tedavülsüz vasýflar örneði.
-        j2sc#1003.exe: Vasýflar, Vasýf3 koþturulabilir örneði.
+    j2sc#1001.cs: Vasýf/Attribute sýnýfý ve vasýfkullaným/AttributeUsage arþiv vasfý örneði.
+    j2sc#1001.exe: Vasýflar, Vasýf1 koþturulabilir örneði.
+    j2sc#1002.cs: Özel vasýf sýnýflarýnýn alan deðerlerinin yazýlmasý/okunmasý örneði.
+    j2sc#1002.exe: Vasýflar, Vasýf2 koþturulabilir örneði.
+    j2sc#1005.cs: Reflection/Assembly, conditional/þartlý ve obsolete/tedavülsüz vasýflar örneði.
+    j2sc#1003.exe: Vasýflar, Vasýf3 koþturulabilir örneði.
 
 11.Veri Yapýlarý
     11.1.Diziler
@@ -643,14 +643,14 @@ C# / CSharp Eðitimi
         j2sc#1110.exe: VeriYapýlarý, VeriYapýsý10 koþturulabilir örneði.
 
 12.Kurulumlar
-        j2sc#1201.cs: AppDomain/UygSahasý ile program yükleme, çalýþtýrma ve boþaltma örneði.
-        j2sc#1201.exe: Kurulum, Kurgu1 koþturulabilir örneði.
-        j2sc#1202.cs: Assembly kurgusuyla mevcut tipleme ve metotlarýn iþletilmesi örneði.
-        j2sc#1202.exe: Kurulum, Kurgu2 koþturulabilir örneði.
-        j2sc#1203.cs: Assembly kurulumlarýnýn özelliklerinin sunulmasý örneði.
-        j2sc#1203.exe: Kurulum, Kurgu3 koþturulabilir örneði.
-        j2sc#1204.cs: Dinamik kurgu, kurgu tamadý detaylarý ve kanýtlarý örneði.
-        j2sc#1204.exe: Kurulum, Kurgu4 koþturulabilir örneði.
+    j2sc#1201.cs: AppDomain/UygSahasý ile program yükleme, çalýþtýrma ve boþaltma örneði.
+    j2sc#1201.exe: Kurulum, Kurgu1 koþturulabilir örneði.
+    j2sc#1202.cs: Assembly kurgusuyla mevcut tipleme ve metotlarýn iþletilmesi örneði.
+    j2sc#1202.exe: Kurulum, Kurgu2 koþturulabilir örneði.
+    j2sc#1203.cs: Assembly kurulumlarýnýn özelliklerinin sunulmasý örneði.
+    j2sc#1203.exe: Kurulum, Kurgu3 koþturulabilir örneði.
+    j2sc#1204.cs: Dinamik kurgu, kurgu tamadý detaylarý ve kanýtlarý örneði.
+    j2sc#1204.exe: Kurulum, Kurgu4 koþturulabilir örneði.
 
 13.Tarih ve Saat
     13.1.DateTime/TarihZaman
@@ -732,80 +732,79 @@ C# / CSharp Eðitimi
         j2sc#1501e.exe: DosyaDizin, DosyaE koþturulabilir örneði.
         j2sc#1501f.cs: FileStream, FileMode, FileAccess, Decoder/Encoder örneði.
         j2sc#1501f.exe: DosyaDizin, DosyaF koþturulabilir örneði.
+        j2sc#1501g.cs: Stream, FileStream, Stream-Writer/Reader ve String-Writer/Reader örneði.
         j2sc#1501g.exe: DosyaDizin, DosyaG koþturulabilir örneði.
-
-
-    15.20.StreamReader (11)
-    15.21.StreamWriter (14)
-
-    15.22.TextReader TextWriter (4)
-    15.23.Text File Read Write (11)
-    15.24.BufferedStream (3)
-    15.25.MemoryStream (5)	
-    15.26.BinaryReader (4)
-    15.27.BinaryWriter (7)
-
-
-    15.14.Drive (4)
-    15.15.Directory (26)
-    15.16.Directory Copy (1)
-    15.17.Directory Size (2)
-    15.28.Serializable annotation (4)
-    15.29.Binary Formatter (2)
-    15.30.Binary Serialization (6)
-    15.31.Temp File (1)
-    15.32.Random File Name (1)
-    15.33.Using Statement (7)
-    15.34.FileSecurity (1)
-    15.35.Encrypt Decrypt File (2)
-    15.36.FileSystemWatcher (5)
-    15.37.FileVersionInfo (3)
-    15.38.IsolatedStorage (10)
-    15.39.Asynchronous Input Output (5)
-    15.40.GZipStream (1)
-    15.41.CSV File (1)
+        j2sc#1501h.cs: StreamWriter ve StreamReader'la dosya yaratma/yazma/okuma örneði.
+        j2sc#1501h.exe: DosyaDizin, DosyaH koþturulabilir örneði.
+        j2sc#1501i.cs: Stram,FileStream, FileInfo, File, StreamWriter ve StreamReader örneði.
+        j2sc#1501i.exe: DosyaDizin, DosyaÝ koþturulabilir örneði.
+        j2sc#1501j.cs: Bellekte BufferedStream ve MemoryStream akýþlarý örneði.
+        j2sc#1501j.exe: DosyaDizin, DosyaJ koþturulabilir örneði.
+        j2sc#1501k.cs: BinaryWriter ve BinaryReader'la dosyaya yazma/okuma örneði.
+        j2sc#1501k.exe: DosyaDizin, DosyaK koþturulabilir örneði.
+    15.2.SürücüDizin
+        j2sc#1502a.cs: DriveInfo sürücü ve DirectoryInfo dizin örneði.
+        j2sc#1502a.exe: SürücüDizin, DirA koþturulabilir örneði.
+        j2sc#1502b.cs: Dizin, altdizin ve dosyalar yaratma, kopyalama ve silme örneði.
+        j2sc#1502b.exe: SürücüDizin, DirB koþturulabilir örneði.
+        j2sc#1502c.cs: Dizin kopyalama, toplam ebat hesaplama, dizin/altdizin/dosya listeleme örneði.
+        j2sc#1502c.exe: SürücüDizin, DirC koþturulabilir örneði.
+    15.3.Çeþitli
+        j2sc#1503a.cs: Verileri dosyaya serileþtirip ikili veya xml biçemde yazma örneði.
+        j2sc#1503a.exe: SürücüDizin, SerileþtirmeA koþturulabilir örneði.
+        j2sc#1503b.cs: BinaryFormatter.Serialize/Deserialize, Path.GetTempFileName ve Path.GetRandomFileName örneði.
+        j2sc#1503b.exe: SürücüDizin, SerileþtirmeB koþturulabilir örneði.
+        j2sc#1503c.cs: using ifadesi, FileSecurity ve TripleDESCryptoServiceProvider örneði.
+        j2sc#1503c.exe: DosyaDizin, ÇeþitliC koþturulabilir örneði.
+        j2sc#1503d.cs: FileSystemWatcher'la seçili dosyanýn olaylara duyarlýlýk gözlemi örneði.
+        j2sc#1503d.exe: DosyaDizin, ÇeþitliD koþturulabilir örneði.
+        j2sc#1503e.cs: FileVersionInfo, IsolatedStorageFile, GZipStream ve CSV dosya örneði.
+        j2sc#1503e.exe: DosyaDizin, ÇeþitliE koþturulabilir örneði.
+        j2sc#1503f.cs: AsyncCallback ve Thread'le dosyaya asenkron yazma ve okuma örneði.
+        j2sc#1503f.exe: DosyaDizin, ÇeþitliF koþturulabilir örneði.
 
 16.Öniþlem Talimatlarý
-16.1.define (4)
-16.2.elif (1)
-16.3.if (2)
-16.4.undef (2)
-16.5.line (1)	
-16.6.region (1)
-16.7.warning (2)
+    j2sc#1601.cs: Öniþlem direktifleri, #define/undef/if/line/region/warning örneði.
+    j2sc#1601.exe: Öniþlemler, Direktif koþturulabilir örneði.
 
 17.Düzenli Ýfade
-17.1.Regular Expression (17)
-17.2.Regex Area code (1)
-17.3.Regex Email (2)
-17.4.Regex Group (5)
-17.5.Regex IP (2)
-17.6.Regex Match (22)
-17.7.Regex Money (4)
-17.8.Regex Phone number (3)
-17.9.Regex SIN (2)
-17.10.Regex Split (1)
-17.11.Regex Replace (1)
-17.12.RegexCompilationInfo (1)
+    j2sc#1701a.cs: Regex'le Split, Replace, IsMatch ve Match örneði.
+    j2sc#1701a.exe: DüzenliÝfade, Regex1A koþturulabilir örneði.
+    j2sc#1701b.cs: Regex.Match'le tümce, kalýp, düzif ve uyan örneði.
+    j2sc#1701b.exe: DüzenliÝfade, Regex1B koþturulabilir örneði.
+    j2sc#1701c.cs: Matches, Replace ve Split'le Regex eþleþenleri örneði.
+    j2sc#1701c.exe: DüzenliÝfade, Regex1C koþturulabilir örneði.
+    j2sc#1702.cs: 'Group grup in eþleþen.Groups' örneði.
+    j2sc#1702.exe: DüzenliÝfade, Düzif koþturulabilir örneði.
+    j2sc#1703.cs: Tlf, eposta, para, sayýsal-kod'larýn geçerlilik testi örneði.
+    j2sc#1703.exe: DüzenliÝfade, Düzif koþturulabilir örneði.
 
 18.Soysal
-18.1.Introduction (2)
-18.2.Generic List (8)
-18.3.Generic Collection (3)
+    18.1.Soysal Liste
+        j2sc#1801a.cs: Soysal List<T> ile listeye farklý tip elemanlar ekleme örneði.
+        j2sc#1801a.exe: SoysalListe, Liste koþturulabilir örneði.
+        j2sc#1801b.cs: Soysal<T> normal, delegeli ve aksiyonlu koleksiyonlar örneði.
+        j2sc#1801b.exe: SoysalListe, Koleksiyon koþturulabilir örneði.
+        j2sc#1801c.exe: SoysalListe, Yýðýn koþturulabilir örneði.
+
+
 18.4.Generic Stack (3)
 18.5.Generic Queue (1)
 18.6.Generic Dictionary (1)
 18.7.Generic SortedList (2)
+
 18.8.Generic IComparable (2)
 18.9.Generic IComparer (2)
 18.10.Generic IEnumerator (5)	
 18.11.Define Generic Collection (2)
+
 18.12.Generic Method (7)	
 18.13.Generic Class (3)
 18.14.Generic delegate (2)
 18.15.Generic Parameter (2)
 18.16.Generic Hiearchy (4)
 18.17.Generic Interface (6)
+
 18.18.Interface constraint (1)
 18.19.Base class constaint (2)
 18.20.new constaint (1)
