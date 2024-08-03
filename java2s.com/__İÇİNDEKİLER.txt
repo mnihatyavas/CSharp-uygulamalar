@@ -785,41 +785,40 @@ C# / CSharp Eðitimi
         j2sc#1801a.exe: SoysalListe, Liste koþturulabilir örneði.
         j2sc#1801b.cs: Soysal<T> normal, delegeli ve aksiyonlu koleksiyonlar örneði.
         j2sc#1801b.exe: SoysalListe, Koleksiyon koþturulabilir örneði.
+        j2sc#1801c.cs: Stack yýðýna Push, Peek ve Pop'la kayýt koyma/alma örneði.
         j2sc#1801c.exe: SoysalListe, Yýðýn koþturulabilir örneði.
+        j2sc#1801d.cs: Queue<T>, Dictionary/SortedDictionary<T,T> ve SortedList örneði.
+        j2sc#1801d.exe: SoysalListe, KuyrukSözlükSýralý koþturulabilir örneði.
+    18.2.Soysal Tarayýcý
+        j2sc#1802a.cs: IEnumerator<T> ve IEnumerable<T> ile taramalar örneði.
+        j2sc#1802a.exe: SoysalDökümleyici, SoysalTarayýcý koþturulabilir örneði.
+        j2sc#1802b.cs: IComparable<T> ve IComparer<T> ile kýyaslý artan/azalan sýralama örneði.
+        j2sc#1802b.exe: SoysalDökümleyici, SoysalKýyascý koþturulabilir örneði.
+    18.3.Soysal Sýnýf
+        j2sc#1803a.cs: SoysalSýnýf<T1,T2> ve SoysalMetot<T>(T prm) örneði.
+        j2sc#1803a.exe: SoysalSýnýf, Sýnýf<T> koþturulabilir örneði.
+        j2sc#1803b.cs: Soysal parametre, delege, varsayýlý deðer ve where ref örneði.
+        j2sc#1803b.exe: SoysalSýnýf, Sýnýf<T> koþturulabilir örneði.
+        j2sc#1803c.cs: Ebeveynin base(arg) kurucusu ve IArayüz þablon alan-metot örneði.
+        j2sc#1803c.exe: SoysalSýnýf, Sýnýf<T> koþturulabilir örneði.
+        j2sc#1803d.cs: Ebeveyn, new(), class, struct ve Main<T> kýsýtlamalarý örneði.
+        j2sc#1803d.exe: SoysalSýnýf, Sýnýf<T> koþturulabilir örneði.
+
+19.Yansýtma
+    19.1.Tip Bilgileri
+        j2sc#1901a.cs: typeof(Sýnýf) ve new Sýnýf().GetType() tip bilgi detaylarý örneði.
+        j2sc#1901a.exe: TipBilgileri, Tip koþturulabilir örneði.
+        j2sc#1901b.exe: TipBilgileri, Vasýf koþturulabilir örneði.
 
 
-18.4.Generic Stack (3)
-18.5.Generic Queue (1)
-18.6.Generic Dictionary (1)
-18.7.Generic SortedList (2)
 
-18.8.Generic IComparable (2)
-18.9.Generic IComparer (2)
-18.10.Generic IEnumerator (5)	
-18.11.Define Generic Collection (2)
-
-18.12.Generic Method (7)	
-18.13.Generic Class (3)
-18.14.Generic delegate (2)
-18.15.Generic Parameter (2)
-18.16.Generic Hiearchy (4)
-18.17.Generic Interface (6)
-
-18.18.Interface constraint (1)
-18.19.Base class constaint (2)
-18.20.new constaint (1)
-18.21.Type constaint (3)
-18.22.default (2)
-18.23.where (3)
-
-19.Reflection
-19.1.Type (24)
 19.2.Attributes (4)
 19.3.Constructor (7)
 19.4.Field (6)
 19.5.Method (13)
 19.6.Parameter (3)	
 19.7.Property (6)
+
 19.8.Delegate (3)
 19.9.Interface (4)	
 19.10.Generic Type (3)
