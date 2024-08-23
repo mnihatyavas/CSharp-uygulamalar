@@ -808,25 +808,33 @@ C# / CSharp Eðitimi
     19.1.Tip Bilgileri
         j2sc#1901a.cs: typeof(Sýnýf) ve new Sýnýf().GetType() tip bilgi detaylarý örneði.
         j2sc#1901a.exe: TipBilgileri, Tip koþturulabilir örneði.
+        j2sc#1901b.cs: Assembly.GetCustomAttributes()'le mevcut kurgu vasýflarý örneði.
         j2sc#1901b.exe: TipBilgileri, Vasýf koþturulabilir örneði.
+        j2sc#1901c.cs: ConstructorInfo ve ParameterInfo ile parametreli kurucu örneði.
+        j2sc#1901c.exe: TipBilgileri, Kurucu koþturulabilir örneði.
+        j2sc#1901d.cs: FieldInfo ve MemberInfo'yla tiplemelerin alan bilgileri örneði.
+        j2sc#1901d.exe: TipBilgileri, Alan koþturulabilir örneði.
+        j2sc#1901e.cs: typeof(Sýnýf), MethodInfo, ParameterInfo ve mi.Invoke(snfTipleme,args) örneði.
+        j2sc#1901e.exe: TipBilgileri, Metot koþturulabilir örneði.
+        j2sc#1901f.cs: Kurucu ve desteklenen tüm metotlarýn parametreleri örneði.
+        j2sc#1901f.exe: TipBilgileri, Parametre koþturulabilir örneði.
+        j2sc#1901g.cs: PropertyInfo, pi.Name ve pi.PropertyType örneði.
+        j2sc#1901g.exe: TipBilgileri, Özellik koþturulabilir örneði.
+    19.2.Tipli Ýþlemler
+        j2sc#1902a.cs: Type, delegate, EventHandler ve tip.InvokeMember örneði.
+        j2sc#1902a.exe: TipliÝþlemler, Delege koþturulabilir örneði.
+        j2sc#1902b.cs: Arayüz metotlarý ve soysal delege fonksiyon geridönüþleri örneði.
+        j2sc#1902b.exe: TipliÝþlemler, Arayüz koþturulabilir örneði.
+        j2sc#1902c.cs: Assembly kurgu detaylarý ve metot.Invoke (ns,null) örneði.
+        j2sc#1902c.exe: TipliÝþlemler, Kurgu koþturulabilir örneði.
+        j2sc#1902d.cs: MakeGenericType, IsGenericType, GetGenericArguments, Activator-InvokeMember-Builder örneði.
+        j2sc#1902d.exe: TipliÝþlemler, SoysalTip koþturulabilir örneði.
+
+20.Sicim
+    20.1.Çoklu Görev
+        j2sc#2001a.exe: ÇokluGörev, Sicimler koþturulabilir örneði.
 
 
-
-19.2.Attributes (4)
-19.3.Constructor (7)
-19.4.Field (6)
-19.5.Method (13)
-19.6.Parameter (3)	
-19.7.Property (6)
-
-19.8.Delegate (3)
-19.9.Interface (4)	
-19.10.Generic Type (3)
-19.11.Activator (1)
-19.12.Assembly (9)
-19.13.TypeBuilder (1)
-
-20.Thread
 20.1.Thread Creation (13)
 20.2.Thread Start (3)
 20.3.Thread Sleep (3)
@@ -835,27 +843,28 @@ C# / CSharp Eðitimi
 20.6.Thread Interrupt (3)
 20.7.Thread Priority (3)
 20.8.Thread Attribute (2)
-20.9.Background Thread (3)
 20.10.Thread State (2)
-20.11.Current Thread (3)
+
+20.29.WaitHandle (1)
 20.12.Main Thread (5)
+20.11.Current Thread (3)
+20.9.Background Thread (3)
+20.28.ThreadPool (17)
 20.13.Thread DeadLock (2)
 20.14.Interlocked (4)
 20.15.lock (7)
-20.16.synchronized (4)
 20.17.Custom Lock (1)
+20.21.ReaderWriterLock (3)
+20.16.synchronized (4)
+20.23.Asynchronous (13)
 20.18.Semaphore (1)
 20.19.Monitor (11)
 20.20.Mutex (6)
-20.21.ReaderWriterLock (3)
 20.22.Producer Consumer (4)
-20.23.Asynchronous (13)
 20.24.AutoResetEvent (3)
 20.25.ManualResetEvent (1)
 20.26.LocalDataStoreSlot (5)
 20.27.Static Thread Field (2)
-20.28.ThreadPool (17)
-20.29.WaitHandle (1)
 20.30.ProcessThreadCollection (1)
 
 21.I18N Internationalization
