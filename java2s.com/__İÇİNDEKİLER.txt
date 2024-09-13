@@ -832,37 +832,46 @@ C# / CSharp Eðitimi
 
 20.Sicim
     20.1.Çoklu Görev
-        j2sc#2001a.exe: ÇokluGörev, Sicimler koþturulabilir örneði.
+        j2sc#2001a.cs: Sicimlerin parametre-siz/li baþlatýlmasý, uyuma, iþlemler ve sonlanma örneði.
+        j2sc#2001a.exe: ÇokluGörev, SicimlerA koþturulabilir örneði.
+        j2sc#2001b.cs: Start baþlat, Sleep uyut, Abort kýr örneði.
+        j2sc#2001b.exe: ÇokluGörev, SicimlerB koþturulabilir örneði.
+        j2sc#2001c.cs: Join birleþtir ve Interrupt uyku iptali örneði.
+        j2sc#2001c.exe: ÇokluGörev, SicimlerC koþturulabilir örneði.
+        j2sc#2001d.cs: ThreadPriority, [vasýf], ThreadState örneði.
+        j2sc#2001d.exe: ÇokluGörev, SicimlerD koþturulabilir örneði.
+    20.2.Sicim Havuzu
+        j2sc#2002a.cs: ThreadPool ve metodun durum parametreli mesajý örneði.
+        j2sc#2002a.exe: SicimHavuzu, HavuzA koþturulabilir örneði.
+        j2sc#2002b.cs: ThreadPool.QueueUserWorkItem(new WaitCallback(SicimMtodu), mesaj) örneði.
+        j2sc#2002b.exe: SicimHavuzu, HavuzB koþturulabilir örneði.
+        j2sc#2003a.cs: Main senkron ve asenkron 'new Thread' ile 'IAsyncResult dlg.Begin/EndInvoke' örneði.
+        j2sc#2003a.exe: Sicimler, SenkronAsenkron koþturulabilir örneði.
+        j2sc#2003b.exe: Sicimler, Asenkron koþturulabilir örneði.
 
 
-20.1.Thread Creation (13)
-20.2.Thread Start (3)
-20.3.Thread Sleep (3)
-20.4.Thread Abort (4)
-20.5.Thread Join (4)
-20.6.Thread Interrupt (3)
-20.7.Thread Priority (3)
-20.8.Thread Attribute (2)
-20.10.Thread State (2)
+20.23.Asynchronous (13)
+
+20.19.Monitor (11)
+20.20.Mutex (6)
 
 20.29.WaitHandle (1)
 20.12.Main Thread (5)
 20.11.Current Thread (3)
 20.9.Background Thread (3)
-20.28.ThreadPool (17)
+
 20.13.Thread DeadLock (2)
 20.14.Interlocked (4)
 20.15.lock (7)
 20.17.Custom Lock (1)
 20.21.ReaderWriterLock (3)
-20.16.synchronized (4)
-20.23.Asynchronous (13)
+
 20.18.Semaphore (1)
-20.19.Monitor (11)
-20.20.Mutex (6)
 20.22.Producer Consumer (4)
+
 20.24.AutoResetEvent (3)
 20.25.ManualResetEvent (1)
+
 20.26.LocalDataStoreSlot (5)
 20.27.Static Thread Field (2)
 20.30.ProcessThreadCollection (1)
