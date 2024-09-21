@@ -845,26 +845,31 @@ C# / CSharp Eðitimi
         j2sc#2002a.exe: SicimHavuzu, HavuzA koþturulabilir örneði.
         j2sc#2002b.cs: ThreadPool.QueueUserWorkItem(new WaitCallback(SicimMtodu), mesaj) örneði.
         j2sc#2002b.exe: SicimHavuzu, HavuzB koþturulabilir örneði.
+    20.3.Senkron Asenkron
         j2sc#2003a.cs: Main senkron ve asenkron 'new Thread' ile 'IAsyncResult dlg.Begin/EndInvoke' örneði.
         j2sc#2003a.exe: Sicimler, SenkronAsenkron koþturulabilir örneði.
+        j2sc#2003b.cs: Asenkron AsyncCallback ve IAsyncResult'la delegeli metot örneði.
         j2sc#2003b.exe: Sicimler, Asenkron koþturulabilir örneði.
+    20.4.Monitor
+        j2sc#2004a.cs: Monitor.Enter/TryEnter/Exit/Wait/Pulse örneði.
+        j2sc#2004a.exe: Sicimler, MonitorA koþturulabilir örneði.
+        j2sc#2004b.cs: Ortak lock(kilit)'li Monitor.Enter/TryEnter/Exit/Wait/Pulse örneði.
+        j2sc#2004b.exe: Sicimler, MonitorB koþturulabilir örneði.
+    20.5.Kilit
+        j2sc#2005a.exe: Sicimler, KilitA koþturulabilir örneði.
 
+20.15.lock (7)
+20.14.Interlocked (4)
+20.17.Custom Lock (1)
+20.21.ReaderWriterLock (3)
+20.13.Thread DeadLock (2)
 
-20.23.Asynchronous (13)
-
-20.19.Monitor (11)
 20.20.Mutex (6)
 
 20.29.WaitHandle (1)
 20.12.Main Thread (5)
 20.11.Current Thread (3)
 20.9.Background Thread (3)
-
-20.13.Thread DeadLock (2)
-20.14.Interlocked (4)
-20.15.lock (7)
-20.17.Custom Lock (1)
-20.21.ReaderWriterLock (3)
 
 20.18.Semaphore (1)
 20.22.Producer Consumer (4)
