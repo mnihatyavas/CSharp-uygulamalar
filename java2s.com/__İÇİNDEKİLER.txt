@@ -856,30 +856,23 @@ C# / CSharp Eðitimi
         j2sc#2004b.cs: Ortak lock(kilit)'li Monitor.Enter/TryEnter/Exit/Wait/Pulse örneði.
         j2sc#2004b.exe: Sicimler, MonitorB koþturulabilir örneði.
     20.5.Kilit
+        j2sc#2005a.cs: Sicimi lock'la bloklama ve sayacý Interlocked.Increment(ref)'le birartýrma örneði.
         j2sc#2005a.exe: Sicimler, KilitA koþturulabilir örneði.
+        j2sc#2005b.cs: ÖzelKilit, mutexSicim, ölükilit, okuyazKilit örneði.
+        j2sc#2005b.exe: Sicimler, KilitB koþturulabilir örneði.
+        j2sc#2005c.cs: lock{} bloðu gibi Mutex.WaitOne-ReleaseMutex örneði.
+        j2sc#2005c.exe: Sicimler, MutexBlok koþturulabilir örneði.
+    20.6.ÝpTipleri
+        j2sc#2006a.cs: AnaÝp, AktüelÝp, detaylarý, ArkazeminÝp örneði.
+        j2sc#2006a.exe: ÝpTipleri, AnaÝp koþturulabilir örneði.
+        j2sc#2006b.cs: [ThreadStatic], Process, WaitHandle, Semaphore, Manual/AutoResetEvent örneði.
+        j2sc#2006b.exe: ÝpTipleri, AktüelÝp koþturulabilir örneði.
+        j2sc#2006c.exe: ÝpTipleri, AlmaþýkÝp koþturulabilir örneði.
 
-20.15.lock (7)
-20.14.Interlocked (4)
-20.17.Custom Lock (1)
-20.21.ReaderWriterLock (3)
-20.13.Thread DeadLock (2)
 
-20.20.Mutex (6)
-
-20.29.WaitHandle (1)
-20.12.Main Thread (5)
-20.11.Current Thread (3)
-20.9.Background Thread (3)
-
-20.18.Semaphore (1)
 20.22.Producer Consumer (4)
-
-20.24.AutoResetEvent (3)
-20.25.ManualResetEvent (1)
-
 20.26.LocalDataStoreSlot (5)
-20.27.Static Thread Field (2)
-20.30.ProcessThreadCollection (1)
+
 
 21.I18N Internationalization
 21.1.CultureInfo (12)
