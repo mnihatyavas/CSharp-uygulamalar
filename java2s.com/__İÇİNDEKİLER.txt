@@ -867,96 +867,80 @@ C# / CSharp Eðitimi
         j2sc#2006a.exe: ÝpTipleri, AnaÝp koþturulabilir örneði.
         j2sc#2006b.cs: [ThreadStatic], Process, WaitHandle, Semaphore, Manual/AutoResetEvent örneði.
         j2sc#2006b.exe: ÝpTipleri, AktüelÝp koþturulabilir örneði.
+        j2sc#2006c.cs: Ýkili almaþýk süreçler ve YerelVeriDepoYuvasý örneði.
         j2sc#2006c.exe: ÝpTipleri, AlmaþýkÝp koþturulabilir örneði.
 
+21.I18N Uluslararasýcýlýk
+    21.1.Kültürler
+        j2sc#2101a.cs: Thread.CurrentThread.CurrentCulture ve CultureInfo örneði.
+        j2sc#2101a.exe: Kültürler, KültürA koþturulabilir örneði.
+        j2sc#2101b.cs: Sayýlarýn gruplama, küsürat, para sembolü formatlanmasý örneði.
+        j2sc#2101b.exe: Kültürler, FormatA koþturulabilir örneði.
+        j2sc#2101c.cs: Çoklu kültürlerle gün, ay tarih, para ve sayý biçimleme örneði.
+        j2sc#2101c.exe: Kültürler, FormatB koþturulabilir örneði.
+        j2sc#2101d.cs: RegionInfo, InputLanguage, ResourceManager örneði.
+        j2sc#2101d.exe: Kültürler, KültürB koþturulabilir örneði.
+    21.2.Kodlama Çeþitleri
+        j2sc#2102a.cs: ASCII, UTF8, UTF16, Base64String kodlamalarý örneði.
+        j2sc#2102a.exe: Kodlama, Ascii koþturulabilir örneði.
+        j2sc#2102b.cs: Encoding.UTF8/Unicode/GetEncoding(1254).GetBytes(dizge) örneði.
+        j2sc#2102b.exe: Kodlama, Unicode koþturulabilir örneði.
 
-20.22.Producer Consumer (4)
-20.26.LocalDataStoreSlot (5)
+22.LINQ Sorgulama
+    22.1.Tipler
+        j2sc#2201a.cs: 'Var' anonim tip ve from-select sorgular örneði.
+        j2sc#2201a.exe: AnonimTip, Var_1 koþturulabilir örneði.
+        j2sc#2201b.cs: Var, let, Func/Action, var new[]{} anonim iþlemler örneði.
+        j2sc#2201b.exe: LokalTip, Let_1 koþturulabilir örneði.
+        j2sc#2201c.cs: Anonim Action, Predicate, delegeli lambda, Select örneði.
+        j2sc#2201c.exe: Anonimler, Delege koþturulabilir örneði.
+        j2sc#2201d.cs: Func, delegeli ve lambda'lý fonksiyonlar örneði.
+        j2sc#2201d.exe: Anonimler, Lambda koþturulabilir örneði.
+        j2sc#2201e.cs: Cast, OfType tip ayýklama ve sýnýf özellik get-set'le ilkdeðerleme örneði.
+        j2sc#2201e.exe: Tipleme, Cast_OfType koþturulabilir örneði.
+        j2sc#2201f.cs: Anonim soysal delegeli/lambda'lý Func<> örneði.
+        j2sc#2201f.exe: AnonimFunc, Delegeli_Lambdalý koþturulabilir örneði.
+        j2sc#2201g.cs: Anonim Func'un parametrik lambdalý Expression ifadeli derlenmesi örneði.
+        j2sc#2201g.exe: AnonimFunc, DerlemeExpression koþturulabilir örneði.
+    22.2.Linq Metotlarý
+        j2sc#2202a.cs: Ling from-select sorgularýnýn foreach'le sunumu örneði.
+        j2sc#2202a.exe: LinqMetot, Foreach koþturulabilir örneði.
+        j2sc#2202b.cs: Union ve concat'le dizilerin doðrudan/sorgulu birleþimleri örneði.
+        j2sc#2202b.exe: LinqMetot, Union_Concat koþturulabilir örneði.
+        j2sc#2202c.cs: Linq-Count, Min, Max, Distinct, Range, LongCount metotlarý örneði.
+        j2sc#2202c.exe: LinqMetot, Count_Long koþturulabilir örneði.
+        j2sc#2202d.cs: IComparable<T>.CompareTo (T þu) ile özel kýyas alaný örneði.
+        j2sc#2202d.exe: LinqMetot, Compareto koþturulabilir örneði.
+        j2sc#2202e.exe: LinqMetot, Contains_Average koþturulabilir örneði.
 
-
-21.I18N Internationalization
-21.1.CultureInfo (12)
-21.2.CurrentUICulture (2)
-21.3.RegionInfo (1)
-21.4.CompareInfo (3)
-21.5.NumberFormatInfo (1)
-21.6.Culture Format (17)
-21.7.CultureAndRegionInfoBuilder (1)
-21.8.InputLanguage (1)
-21.9.Number Parse (2)
-21.10.Encoding ACSII (3)
-21.11.Encoding Based64 (4)
-21.12.Encoding Unicode (5)
-21.13.Encoding UTF16 (1)
-21.14.Encoding UTF8 (3)
-21.15.Unicode (7)
-21.16.Resource File (2)
-
-22.LINQ
-22.1.var (11)
-22.2.Lambda (12)
-22.3.Query (18)
-22.4.Let (1)
-22.5.Nested Query (2)
-22.6.Object Query (4)
-22.7.Sub Query (2)
-22.8.Join (10)
-22.9.where (29)
-22.10.OrderBy (25)	
-22.11.OrderByDescending (1)
-22.12.Anonymous (14)
-22.13.Class Init (1)
-22.14.foreach loop (7)
-22.15.Expressions (7)
+22.19.Average (6)
 22.16.Aggregate (11)
 22.17.All (6)
 22.18.Any (7)	
-22.19.Average (6)
-22.20.Union (7)
-22.21.ToArray (7)
-22.22.ToDictionary (6)
-22.23.ToList (4)
-22.24.ToLookup (4)
-22.25.Cast (1)
-22.26.Compound from (6)
-22.27.Concat (7)
-22.28.Contains (6)
-22.29.Count (8)
-22.30.DefaultIfEmpty (3)
-22.31.Distinct (7)
-22.32.ElementAt (5)
-22.33.ElementAtOrDefault (3)
-22.34.Enumerable.Empty (1)
-22.35.Enumerable.Range (2)
-22.36.Enumerable.Repeat (2)
-22.37.Enumerable (1)
-22.38.Equals (1)
-22.39.Except (6)
-22.40.Extension Method (4)
-22.41.Filter (4)
-22.42.FindAll (1)
-22.43.First (6)
-22.44.FirstOrDefault (7)
-22.45.Func (8)
-22.46.Group (5)
-22.47.GroupBy (5)
-22.48.GroupJoin (1)
-22.49.Index (4)
-22.50.Intersect (6)
-22.51.Last (3)
-22.52.LastOrDefault (4)
-22.53.LongCount (2)
-22.54.Max (9)
-22.55.Min (8)
-22.56.OfType (3)
-22.57.Projection (3)
-22.58.Prototype (4)
-22.59.Range (6)
-22.60.Restriction (1)
-22.61.Reverse (3)
+
+22.3.Query (18)
+22.5.Nested Query (2)
+22.6.Object Query (4)
+22.7.Sub Query (2)
+22.9.where (29)
+22.10.OrderBy (25)	
+22.11.OrderByDescending (1)
 22.62.select new (5)
 22.63.select (20)
 22.64.SelectMany (3)
+22.8.Join (10)
+22.32.ElementAt (5)
+22.33.ElementAtOrDefault (3)
+22.38.Equals (1)
+22.39.Except (6)
+22.43.First (6)
+22.44.FirstOrDefault (7)
+22.51.Last (3)
+22.52.LastOrDefault (4)
+22.50.Intersect (6)
+22.54.Max (9)
+22.55.Min (8)
+22.61.Reverse (3)
 22.65.SequenceEqual (4)
 22.66.Single (3)
 22.67.SingleOrDefault (5)
@@ -965,9 +949,36 @@ C# / CSharp Eðitimi
 22.70.Sum (7)
 22.71.Take (7)
 22.72.TakeWhile (6)
+
+22.21.ToArray (7)
+22.22.ToDictionary (6)
+22.23.ToList (4)
+22.24.ToLookup (4)
+
+22.30.DefaultIfEmpty (3)
+22.31.Distinct (7)
+
+22.34.Enumerable.Empty (1)
+22.35.Enumerable.Range (2)
+22.36.Enumerable.Repeat (2)
+22.37.Enumerable (1)
+
+22.40.Extension Method (4)
+22.41.Filter (4)
+22.42.FindAll (1)
+22.49.Index (4)
+22.57.Projection (3)
+22.58.Prototype (4)
+22.60.Restriction (1)
+22.75.SQL (1)
+
+22.46.Group (5)
+22.47.GroupBy (5)
+22.48.GroupJoin (1)
+
+22.59.Range (6)
 22.73.ThenBy (3)
 22.74.ThenByDescending (1)
-22.75.SQL (1)
 22.76.Deferred Query (7)
 22.77.DataGridView (1)
 22.78.DataSet (3)
