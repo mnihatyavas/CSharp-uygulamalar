@@ -911,74 +911,65 @@ C# / CSharp Eðitimi
         j2sc#2202c.exe: LinqMetot, Count_Long koþturulabilir örneði.
         j2sc#2202d.cs: IComparable<T>.CompareTo (T þu) ile özel kýyas alaný örneði.
         j2sc#2202d.exe: LinqMetot, Compareto koþturulabilir örneði.
+        j2sc#2202e.cs: Ýçeren Linq-->dizi.Contains() ve ortalama dizi.Average() örneði.
         j2sc#2202e.exe: LinqMetot, Contains_Average koþturulabilir örneði.
+        j2sc#2202f.cs: Aggregate ile kümülatif topla-çýkar-çarp-böl, adlarý ekle-tersle örneði.
+        j2sc#2202f.exe: LinqMetot, Aggregate koþturulabilir örneði.
+        j2sc#2202g.cs: All ve Any'yle diziyi tümden yada enazbir ile irdeleme örneði.
+        j2sc#2202g.exe: LinqMetot, All_Any koþturulabilir örneði.
+        j2sc#2202h.cs: Take, Skip, TakeWhile, SkipWhile öncekiler-sonrakiler örneði.
+        j2sc#2202h.exe: LinqMetot, Take_TakeWhile koþturulabilir örneði.
+        j2sc#2202i.cs: ElementAt, ElementAtOrDefault, Equals, SequenceEqual örneði.
+        j2sc#2202i.exe: LinqMetot, ElementAt_Equals koþturulabilir örneði.
+        j2sc#2202j.cs: Linq-->First/OrDefault(), Last/OrDefault() metotlarý örneði.
+        j2sc#2202j.exe: LinqMetot, First_Last koþturulabilir örneði.
+        j2sc#2202k.cs: Except/Intersect ile dýþlayan/jesiþen elemanlar örneði.
+        j2sc#2202k.exe: LinqMetot, Except_Intersect koþturulabilir örneði.
+        j2sc#2202l.cs: Min()/Max() ile dizi elemanlarýnýn enküçüðü/enbüyüðü örneði.
+        j2sc#2202l.exe: LinqMetot, Max_Min koþturulabilir örneði.
+        j2sc#2202m.cs: Skip, Take, SkipWhile, TakeWhile kýyaslarý örneði.
+        j2sc#2202m.exe: LinqMetot, Skip_SWhile koþturulabilir örneði.
+        j2sc#2202n.cs: Yegane Distinct ve sayýsal toplam Sum metotlarý örneði.
+        j2sc#2202n.exe: LinqMetot, Distinct_Sum koþturulabilir örneði.
+        j2sc#2202o.cs: Single ile tek sonuç, Reverse ile ters dizi örneði.
+        j2sc#2202o.exe: LinqMetot, Single_Reverse koþturulabilir örneði.
+        j2sc#2202p.cs: ForEach, FindAll ve Enumerable.Range örneði.
+        j2sc#2202p.exe: LinqMetot, FindAll_Range koþturulabilir örneði.
+        j2sc#2202q.cs: Enumerable.Repeat/Where/Empty, uzantý, filitre örneði.
+        j2sc#2202q.exe: LinqMetot, Enumerable_Filitre koþturulabilir örneði.
+        j2sc#2202r.cs: Sorgularda endeks, çýkarým, ilkörnek ve sýnýrlama örneði.
+        j2sc#2202r.exe: LinqMetot, Endeks koþturulabilir örneði.
+    22.3.To-dönüþümler
+        j2sc#2203a.cs: Taranabilirlerin ToArray<T> array-dizi'ye dönüþümü örneði.
+        j2sc#2203a.exe: To_Dönüþümler, ToArray koþturulabilir örneði.
+        j2sc#2203b.cs: ToDictionary() ile yegane anahtarla kayýtlara eriþim örneði.
+        j2sc#2203b.exe: To_Dönüþümler, ToDictionary koþturulabilir örneði.
+        j2sc#2203c.cs: Soysal ToList<>() ve çoklu anahtarlý ToLookup() örneði.
+        j2sc#2203c.exe: To_Dönüþümler, ToList_Lookup koþturulabilir örneði.
+    22.4.Query_Sorgular
+        j2sc#2204a.cs: Linq sorgu from-join-where-group-orderby-thenby-select örneði.
+        j2sc#2204a.exe: Query_Sorgu, Sorgu koþturulabilir örneði.
+        j2sc#2204b.cs: Ýçiçe sorgular, nesnel sorgu alanlarý, Split.First/Last örneði.
+        j2sc#2204b.exe: Query_Sorgu, Sorgu2 koþturulabilir örneði.
+        j2sc#2204c.exe: Query_Sorgu, Where koþturulabilir örneði.
 
-22.19.Average (6)
-22.16.Aggregate (11)
-22.17.All (6)
-22.18.Any (7)	
 
-22.3.Query (18)
-22.5.Nested Query (2)
-22.6.Object Query (4)
-22.7.Sub Query (2)
+
 22.9.where (29)
 22.10.OrderBy (25)	
 22.11.OrderByDescending (1)
+22.73.ThenBy (3)
+22.74.ThenByDescending (1)
 22.62.select new (5)
 22.63.select (20)
 22.64.SelectMany (3)
 22.8.Join (10)
-22.32.ElementAt (5)
-22.33.ElementAtOrDefault (3)
-22.38.Equals (1)
-22.39.Except (6)
-22.43.First (6)
-22.44.FirstOrDefault (7)
-22.51.Last (3)
-22.52.LastOrDefault (4)
-22.50.Intersect (6)
-22.54.Max (9)
-22.55.Min (8)
-22.61.Reverse (3)
-22.65.SequenceEqual (4)
-22.66.Single (3)
-22.67.SingleOrDefault (5)
-22.68.Skip (7)
-22.69.SkipWhile (5)
-22.70.Sum (7)
-22.71.Take (7)
-22.72.TakeWhile (6)
-
-22.21.ToArray (7)
-22.22.ToDictionary (6)
-22.23.ToList (4)
-22.24.ToLookup (4)
-
-22.30.DefaultIfEmpty (3)
-22.31.Distinct (7)
-
-22.34.Enumerable.Empty (1)
-22.35.Enumerable.Range (2)
-22.36.Enumerable.Repeat (2)
-22.37.Enumerable (1)
-
-22.40.Extension Method (4)
-22.41.Filter (4)
-22.42.FindAll (1)
-22.49.Index (4)
-22.57.Projection (3)
-22.58.Prototype (4)
-22.60.Restriction (1)
-22.75.SQL (1)
 
 22.46.Group (5)
 22.47.GroupBy (5)
 22.48.GroupJoin (1)
 
-22.59.Range (6)
-22.73.ThenBy (3)
-22.74.ThenByDescending (1)
+22.75.SQL (1)
 22.76.Deferred Query (7)
 22.77.DataGridView (1)
 22.78.DataSet (3)
