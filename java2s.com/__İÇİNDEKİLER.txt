@@ -951,18 +951,17 @@ C# / CSharp Eðitimi
         j2sc#2204a.exe: Query_Sorgu, Sorgu koþturulabilir örneði.
         j2sc#2204b.cs: Ýçiçe sorgular, nesnel sorgu alanlarý, Split.First/Last örneði.
         j2sc#2204b.exe: Query_Sorgu, Sorgu2 koþturulabilir örneði.
+        j2sc#2204c.cs: Linq.Where()/where sorgu filitresi örneði.
         j2sc#2204c.exe: Query_Sorgu, Where koþturulabilir örneði.
+        j2sc#2204d.cs: Artan/azalan ikili sýralamada OrderBy/Descending().ThenBy/Descending() örneði.
+        j2sc#2204d.exe: Query_Sorgu, OrderBy_ThenBy koþturulabilir örneði.
+        j2sc#2204e.cs: Dizi.Where().Select() ile sorgulu seçimler örneði.
+        j2sc#2204e.exe: Query_Sorgu, Select koþturulabilir örneði.
+        j2sc#2204f.cs: SelectMany<char> ve 'select new{}' örneði.
+        j2sc#2204f.exe: Query_Sorgu, SelectMany_new koþturulabilir örneði.
+        j2sc#2204g.exe: Query_Sorgu, Join koþturulabilir örneði.
 
 
-
-22.9.where (29)
-22.10.OrderBy (25)	
-22.11.OrderByDescending (1)
-22.73.ThenBy (3)
-22.74.ThenByDescending (1)
-22.62.select new (5)
-22.63.select (20)
-22.64.SelectMany (3)
 22.8.Join (10)
 
 22.46.Group (5)
