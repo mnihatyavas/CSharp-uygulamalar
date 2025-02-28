@@ -959,29 +959,37 @@ C# / CSharp Eðitimi
         j2sc#2204e.exe: Query_Sorgu, Select koþturulabilir örneði.
         j2sc#2204f.cs: SelectMany<char> ve 'select new{}' örneði.
         j2sc#2204f.exe: Query_Sorgu, SelectMany_new koþturulabilir örneði.
+        j2sc#2204g.cs: Join-on ile çoklu liste alanlarý iliþkili sorgular örneði.
         j2sc#2204g.exe: Query_Sorgu, Join koþturulabilir örneði.
+        j2sc#2204h.cs: Gruplama, 'group a into b' veya 'a.GroupBy/GroupJoin' örneði.
+        j2sc#2204h.exe: Query_Sorgu, Group_By_Join koþturulabilir örneði.
+        j2sc#2204i.cs: Tehirli sorgu, sql, DataGridView, DataSet örneði.
+        j2sc#2204i.exe: Query_Sorgu, TehirliSorgu koþturulabilir örneði.
+
+23.GUI Pencereler
+    23.1.Formlar
+        j2sc#2301a.cs: Form, Text, Size Button, TextBox, Click, Controls.Add örneði.
+        j2sc#2301a.exe: Formlar, Giriþ koþturulabilir örneði.
+        j2sc#2301b.cs: Form, kurucusu, koþturulmasý, bileþenleri örneði.
+        j2sc#2301b.exe: Formlar, FormA koþturulabilir örneði.
+        j2sc#2301c.cs: Form, düðme, etiket, menü, çöpe, imleç örneði.
+        j2sc#2301c.exe: Formlar, FormB koþturulabilir örneði.
+        j2sc#2301c.exe: Formlar, FormB koþturulabilir örneði.
+        j2sc#2301d.cs: EventHandler(metot) ile olaylarýn yönetilmesi örneði.
+        j2sc#2301d.exe: Formlar, FormEventA koþturulabilir örneði.
+        j2sc#2301e.cs: EventHandler(metot) ile olaylarýn yönetilmesi-2 örneði.
+        j2sc#2301e.exe: Formlar, FormEventB koþturulabilir örneði.
+        j2sc#2301f.cs: Formun kurucu, bileþenler, olaylar, ebat-konum özellikleri örneði.
+        j2sc#2301f.exe: Formlar, FormÖzellikleri koþturulabilir örneði.
+        j2sc#2301g.cs: Paint'le yazma ve MDI'yla basamaklý-dikey-yatay serilimler örneði.
+        j2sc#2301g.exe: Formlar, Paint_MDI koþturulabilir örneði.
+    23.2.Bileþenler
+        j2sc#2302a.exe: Bileþenler, Label_Button koþturulabilir örneði.
 
 
-22.8.Join (10)
-
-22.46.Group (5)
-22.47.GroupBy (5)
-22.48.GroupJoin (1)
-
-22.75.SQL (1)
-22.76.Deferred Query (7)
-22.77.DataGridView (1)
-22.78.DataSet (3)
-
-23.GUI Windows Forms
-23.1.Introduction (8)
-23.2.Form (21)
-23.3.Form Event (12)
-23.4.Form Paint (3)
-23.5.Form Properties (15)
-23.6.MDI (4)
 23.7.Label (4)
 23.8.Button (18)
+
 23.9.CheckBox (3)
 23.10.ComboBox (8)
 23.11.RadioButton (6)
@@ -1002,6 +1010,7 @@ C# / CSharp Eðitimi
 23.26.LinkLabel (6)
 23.27.ListBox (10)
 23.28.CheckedListBox (5)
+
 23.29.ListView (4)
 23.30.ListViewItem (2)
 23.31.TreeView (8)
@@ -1018,6 +1027,7 @@ C# / CSharp Eðitimi
 23.42.ToolStripMenuItem (1)
 23.43.NotifyIcon (4)
 23.44.MessageBox (6)
+
 23.45.OpenFileDialog (5)
 23.46.SaveFileDialog (1)
 23.47.ColorDialog (5)
@@ -1026,6 +1036,7 @@ C# / CSharp Eðitimi
 23.50.Print Preview Dialog (3)
 23.51.Print PrintDocument (10)
 23.52.Dialog (8)
+
 23.53.Control (10)
 23.54.Control Event (2)
 23.55.Control Relation (2)
@@ -1051,12 +1062,14 @@ C# / CSharp Eðitimi
 23.75.Timer (1)
 23.76.File Explore (1)
 23.77.Screen capture (1)
+
 23.78.DataBinding DataGrid (6)
 23.79.DataBinding DataSet (1)
 23.80.DataBinding Label (2)
 23.81.DataBinding ListBox (2)
 23.82.DataBinding TextBox (2)
 23.83.DataGridView (6)
+
 23.84.ActiveX (1)
 23.85.Clipboard (4)
 23.86.Binder (2)
