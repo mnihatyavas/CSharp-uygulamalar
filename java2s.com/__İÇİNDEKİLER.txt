@@ -984,22 +984,24 @@ C# / CSharp Eðitimi
         j2sc#2301g.cs: Paint'le yazma ve MDI'yla basamaklý-dikey-yatay serilimler örneði.
         j2sc#2301g.exe: Formlar, Paint_MDI koþturulabilir örneði.
     23.2.Bileþenler
+        j2sc#2302a.cs: Form pencerede etiket ve düðme bileþenleri örneði.
         j2sc#2302a.exe: Bileþenler, Label_Button koþturulabilir örneði.
+        j2sc#2302b.cs: Düðme çeþitleri, týklama yönetimi ve resimli düðmeler örneði.
+        j2sc#2302b.exe: Bileþenler, Label_Button2 koþturulabilir örneði.
+        j2sc#2302c.cs: Düðme ortalama ve çentikkutulu yazýstilleme örneði.
+        j2sc#2302c.exe: Bileþenler, Label_Button3_CheckBox koþturulabilir örneði.
+        j2sc#2302d.cs: Çoklu taraklýkutu birimleri ve tek radyodüðmesi seçimi örneði.
+        j2sc#2302d.exe: Bileþenler, ComboBox_RadioButton koþturulabilir örneði.
+        j2sc#2302e.exe: Bileþenler, Masked_TextBox koþturulabilir örneði.
 
+23.17.TextBox (13)
+23.18.MaskedTextBox (6)
 
-23.7.Label (4)
-23.8.Button (18)
-
-23.9.CheckBox (3)
-23.10.ComboBox (8)
-23.11.RadioButton (6)
 23.12.NumericUpDown (6)
 23.13.DomainUpDown (7)
 23.14.DateTimePicker (4)
 23.15.MonthCalendar (3)
 23.16.ProgressBar (1)
-23.17.TextBox (13)
-23.18.MaskedTextBox (6)
 23.19.Password Field (2)
 23.20.RichTextBox (5)	
 23.21.TrackBar (4)
