@@ -697,7 +697,7 @@ C# / CSharp Eðitimi
     14.6.Timer
         j2sc#1406a.cs: System.Threading.Timer ve System.Timers.Timer zamanlayýcýlar-1 örneði.
         j2sc#1406a.exe: Geliþimler, ZamanlyýcýA koþturulabilir örneði.
-        j2sc#1406a.cs: System.Threading.Timer ve System.Timers.Timer zamanlayýcýlar-2 örneði.
+        j2sc#1406b.cs: System.Threading.Timer ve System.Timers.Timer zamanlayýcýlar-2 örneði.
         j2sc#1406b.exe: Geliþimler, ZamanlyýcýB koþturulabilir örneði.
     14.7.Trace
         j2sc#1407a.cs: TextWriterTraceListener ve Trace.Listeners.Add'le hata takibi örneði.
@@ -1004,29 +1004,24 @@ C# / CSharp Eðitimi
         j2sc#2302i.exe: Bileþenler, ListView_TreeView koþturulabilir örneði.
         j2sc#2302j.cs: Menu, MenuItem, MenuStrip, ToolStripMenuItem ve ContextMenu örneði.
         j2sc#2302j.exe: Bileþenler, Menuler koþturulabilir örneði.
-        j2sc#2302k.exe: Bileþenler, PasswordField_MessageBox koþturulabilir örneði.
+        j2sc#2302k.cs: MessageBox, NumericUpDown, ProgressBar ve ImageList örneði.
+        j2sc#2302k.exe: Bileþenler, MessageBox_NumericUpDown_ProgressBar_ImageList koþturulabilir örneði.
+        j2sc#2302l.cs: ToolBar araççubuk düðmeleri ve TrackBar sürgüçubuk bileþenleri örneði.
+        j2sc#2302l.exe: Bileþenler, ToolBar_TrackBar koþturulabilir örneði.
+        j2sc#2302m.exe: Bileþenler, NotifyIcon_DomainUpDown koþturulabilir örneði.v
 
+23.35.TabControl (2)
+23.36.FloatLayoutPanel (1)
+23.37.TableLayoutPanel (1)
 
-23.44.MessageBox (6)
-23.19.Password Field (2)
-23.12.NumericUpDown (6)
-
-23.38.Toolbar (12)
-23.16.ProgressBar (1)
-23.21.TrackBar (4)
-23.43.NotifyIcon (4)
-23.67.ImageList (2)
-
-23.13.DomainUpDown (7)
 23.14.DateTimePicker (4)
 23.15.MonthCalendar (3)
+
 23.26.LinkLabel (6)
 23.32.ErrorProvider (3)
 23.33.HelpProvider (1)
 23.34.WebBrowser (4)
-23.35.TabControl (2)
-23.36.FloatLayoutPanel (1)
-23.37.TableLayoutPanel (1)
+
 
 23.45.OpenFileDialog (5)
 23.46.SaveFileDialog (1)
