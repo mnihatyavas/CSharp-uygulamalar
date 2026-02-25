@@ -1016,30 +1016,25 @@ C# / CSharp Eğitimi
         j2sc#2302o.exe: Bileşenler, LinkLabel_WebBrowser koşturulabilir örneği.
         j2sc#2302p.cs: Form'dan özelleşen Dialog ve XPS yazımlı PrintDialog örneği.
         j2sc#2302p.exe: Bileşenler, Dialog_PrintDialog koşturulabilir örneği.
-
+        j2sc#2302q.cs: PreviewDialog GösterDiyalog ve PrintDocument DökümanıYaz örneği.
         j2sc#2302q.exe: Bileşenler, PreviewDialog_PrintDocument koşturulabilir örneği.
+        j2sc#2302r.cs: OpenFile_SaveFile_Color_FontDialog_Cursors örneği.
+        j2sc#2302r.exe: Bileşenler, OpenFile_SaveFile_Color_FontDialog_Cursors koşturulabilir örneği.
+        j2sc#2302s.cs: Font_File_Thread_Timer_Screen_Anchor bileşenleri örneği.
+        j2sc#2302s.exe: Font_File_Thread_Timer_Screen_Anchor koşturulabilir örneği.
+        j2sc#2302ş.cs: Dock_DragDrop_DragMove_Internationalization_DoubleBuffering_Resx_UserControl bileşenleri örneği.
+        j2sc#2302ş.exe: Dock_DragDrop_DragMove_Internationalization_DoubleBuffering_Resx_UserControl koşturulabilir örneği.
+    23.3.Kontroller ve Olaylar
 
-
-23.50.Print Preview Dialog (3)
-23.51.Print PrintDocument (10)
-
-
-23.45.OpenFileDialog (5)
-23.46.SaveFileDialog (1)
-23.47.ColorDialog (5)
-23.48.FontDialog (5)
-
-
-
+        j2sc#2303a.exe: Olaylar,  Kontrol koşturulabilir örneği.
 
 23.53.Control (10)
+
 23.54.Control Event (2)
 23.55.Control Relation (2)
 23.56.Custom Control (3)
-23.57.Anchoring (3)
-23.58.Dock (3)
-23.59.Drag Drop (3)
-23.60.Drag Move (1)
+
+
 23.61.KeyEvent (3)
 23.62.Mouse Event (5)
 23.63.Event System (2)
@@ -1047,16 +1042,7 @@ C# / CSharp Eğitimi
 23.65.EventArgs (1)
 23.66.Generic Event (2)
 
-23.68.Cursors (2)
-23.69.Internationalization (1)
-23.70.Font (8)
-23.71.Double Buffering (1)
-23.72.Resource File (2)
-23.73.Resx (3)
-23.74.Thread UI (2)
-23.75.Timer (1)
-23.76.File Explore (1)
-23.77.Screen capture (1)
+
 
 23.78.DataBinding DataGrid (6)
 23.79.DataBinding DataSet (1)
@@ -1069,7 +1055,6 @@ C# / CSharp Eğitimi
 23.85.Clipboard (4)
 23.86.Binder (2)
 23.87.Validation (2)
-23.88.UserControl (1)
 
 24.Windows Presentation Foundation
 24.1.Button (12)
