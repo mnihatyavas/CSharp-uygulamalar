@@ -43,688 +43,688 @@ C# / CSharp Eğitimi
 --------------------------------------------------------------------------------
 1.Dil Temelleri
     1.1.Giriş
-        j2sc#0101a.cs: �lk basit bir C# program örneği.
+        j2sc#0101a.cs: İlk basit bir C# program örneği.
         cs0101a.exe: DilTemelleri, Giriş1 koşturulabilir örneği.
-        j2sc#0101b.cs: C# derleyicisi ve ba�lay�c�s� olan csc.exe örneği.
+        j2sc#0101b.cs: C# derleyicisi ve bağlayıcısı olan csc.exe örneği.
         cs0101b.exe: DilTemelleri, Giriş2 koşturulabilir örneği.
         j2sc#0101c.cs: C# anahtarkelimelerinin listesi örneği.
         cs0101c.exe: DilTemelleri, Giriş3 koşturulabilir örneği.
-        j2sc#0101d.cs: C# '.dll' k�t�phaneleriyle derleme örneği.
+        j2sc#0101d.cs: C# '.dll' kütüphaneleriyle derleme örneği.
         cs0101d.exe: DilTemelleri, Giriş4 koşturulabilir örneği.
-    1.2.Belgeleme yorumlar�
-        j2sc#0102a.cs: Genel bir XML belgeleme yorum elemanlar� örneği.
-        cs0102a.exe: DilTemelleri, BelgelemeYorumlar�1 koşturulabilir örneği.
-        j2sc#0102b.cs: �zel bir ��renci nesneli XML belgeleme yorum elemanlar� örneği.
-        cs0102b.exe: DilTemelleri, BelgelemeYorumlar�2 koşturulabilir örneği.
-        j2sc#0102c.cs: XML belgeleme yorum elemanlar�n�n listesi örneği.
-        cs0102c.exe: DilTemelleri, BelgelemeYorumlar�3 koşturulabilir örneği.	 
+    1.2.Belgeleme yorumlar 
+        j2sc#0102a.cs: Genel bir XML belgeleme yorum elemanlar  örneği.
+        cs0102a.exe: DilTemelleri, BelgelemeYorumları1 koşturulabilir örneği.
+        j2sc#0102b.cs: Özel bir öğrenci nesneli XML belgeleme yorum elemanlar  örneği.
+        cs0102b.exe: DilTemelleri, BelgelemeYorumları2 koşturulabilir örneği.
+        j2sc#0102c.cs: XML belgeleme yorum elemanlarının listesi örneği.
+        cs0102c.exe: DilTemelleri, BelgelemeYorumları3 koşturulabilir örneği.	 
     1.3.Yorumlar
-        j2sc#0103.cs: Tek ve �ok sat�rl� yorumlar örneği.
+        j2sc#0103.cs: Tek ve çok satırlı yorumlar örneği.
         cs010a.exe: DilTemelleri, Yorumlar koşturulabilir örneği.
     1.4.Main metodu
-        j2sc#0104a.cs: Program�n giri� noktas� olan Main() metod örneği.
+        j2sc#0104a.cs: Programın giriş noktası olan Main() metod örneği.
         j2sc#0104a.exe: DilTemelleri, MainMetodu1 koşturulabilir örneği.
-        j2sc#0104b.cs: Main metod �e�itlemeleri örneği.
+        j2sc#0104b.cs: Main metod çeşitlemeleri örneği.
         j2sc#0104b.exe: DilTemelleri, MainMetodu2 koşturulabilir örneği.
-        j2sc#0104c.cs: Int tip gerid�n��l� Main metod örneği.
+        j2sc#0104c.cs: Int tip geridönüşlü Main metod örneği.
         j2sc#0104c.exe: DilTemelleri, MainMetodu3 koşturulabilir örneği.
     1.5.Aduzam
-        j2sc#0105a.cs: 'using System' ve i�i�e aduzamlar örneği.
+        j2sc#0105a.cs: 'using System' ve içiçe aduzamlar örneği.
         j2sc#0105a.exe: DilTemelleri, Aduzam1 koşturulabilir örneği.
-        j2sc#0105b.cs: Aduzam i�i s�n�f �yelerine tiplemeyle eri�im örneği.
+        j2sc#0105b.cs: Aduzam içi sınıf üyelerine tiplemeyle erişim örneği.
         j2sc#0105b.exe: DilTemelleri, Aduzam2 koşturulabilir örneği.
-        j2sc#0105c.cs: ��i�e aduzam.s�n�f adlar�n�n �zelle�tirilmesi örneği.
+        j2sc#0105c.cs: İçiçe aduzam.sınıf adlarının özelleştirilmesi örneği.
         j2sc#0105c.exe: DilTemelleri, Aduzam3 koşturulabilir örneği.
-        j2sc#0105d.cs: Aduzamlar�n ayn� adl� s�n�f ve �yelerin kar��mas�n� �nlemesi örneği.
+        j2sc#0105d.cs: Aduzamların aynı adlı sınıf ve üyelerin karışmasının önlenmesi örneği.
         j2sc#0105d.exe: DilTemelleri, Aduzam4 koşturulabilir örneği.
-        j2sc#0105e.cs: Ayn� adl� aduzam �yelerinin tek bir aduzamm��cas�ma eklemlenmesi örneği.
+        j2sc#0105e.cs: Aynı adlı aduzam üyelerinin tek bir aduzamın çatısına eklemlenmesi örneği.
         j2sc#0105e.exe: DilTemelleri, Aduzam5 koşturulabilir örneği.
-        j2sc#0105f.cs: ��i�e aduzam s�n�f tiplemeleri örneği.
+        j2sc#0105f.cs: İçiçe aduzam sınıf tiplemeleri örneği.
         j2sc#0105f.exe: DilTemelleri, Aduzam6 koşturulabilir örneği.
-        j2sc#0105g.cs: Aduzamlar� armalar� tiplemesinde :: sembol� örneği.
+        j2sc#0105g.cs: Aduzamları armaları tiplemesinde :: sembol  örneği.
         j2sc#0105g.exe: DilTemelleri, Aduzam7 koşturulabilir örneği.
-        j2sc#0105h.cs: ��i�e armal� aduzamlar� tiplemesi örneği.
+        j2sc#0105h.cs: İçiçe armalı aduzamlar  tiplemesi örneği.
         j2sc#0105h.exe: DilTemelleri, Aduzam8 koşturulabilir örneği.
-        j2sc#0105i.cs: 'using aduzam' ile yegane s�n�f adlar�n�n yaln�z kullan�labilmesi örneği.
+        j2sc#0105i.cs: 'using aduzam' ile yegane sınıf adlarının yalnız kullanılabilmesi örneği.
         j2sc#0105i.exe: DilTemelleri, Aduzam9 koşturulabilir örneği.
-        j2sc#0105j.cs: �yeleri birbirinin ayn� aduzamlar�n tiplemede zikredilmeleri örneği.
+        j2sc#0105j.cs: Üyeleri birbirinin aynı aduzamların tiplemede zikredilmeleri örneği.
         j2sc#0105j.exe: DilTemelleri, Aduzam10 koşturulabilir örneği.
-    1.6.Aduzam armas�
-        j2sc#0106a.cs: Aduzams�z global armal� s�n�f tipleme örneği.
+    1.6.Aduzam arması
+        j2sc#0106a.cs: Aduzamsız global armalı sınıf tipleme örneği.
         j2sc#0106a.exe: DilTemelleri, Arma1 koşturulabilir örneği.
-        j2sc#0106b.cs: Sadece aduzaml� ve aduzam+s�n�fl� armalar�n tiplenme fark� örneği.
+        j2sc#0106b.cs: Sadece aduzamlı ve aduzam+sınıflı armaların tiplenme farkı örneği.
         j2sc#0106b.exe: DilTemelleri, Arma2 koşturulabilir örneği.
-        j2sc#0106c.cs: ��i�e aduzaml� s�n�f armal� statik metotlar örneği.
+        j2sc#0106c.cs: İçiçe aduzamlı sınıf armalı statik metotlar örneği.
         j2sc#0106c.exe: DilTemelleri, Arma3 koşturulabilir örneği.
     1.7.Sistem
-        j2sc#0107.cs: Sistein tan�ml� k�t�phane, yap�, aray�z, delege ve say�lanabilen listesi örneği.
+        j2sc#0107.cs: Sistein tanımlı kütüphane, yapı, arayüz, delege ve sayılanabilen listesi örneği.
         j2sc#0107.exe: DilTemelleri, Sistem koşturulabilir örneği.
-    1.8.De�i�ken tan�m�
-        j2sc#0108.cs: De�i�ken tan�m�, ilk ve dinamik de�er atama örneği.
-        j2sc#0108.exe: DilTemelleri, De�i�kenTan�m� koşturulabilir örneği.
-    1.9.De�i�ken kimlikleyici
-        j2sc#0109.cs: De�i�ken kimlikleyici kurallar örneği.
-        j2sc#0109.exe: DilTemelleri, De�i�kenKimlikleyici koşturulabilir örneği.
-    1.10.De�i�ken kapsam�
-        j2sc#0110.cs: De�i�kenlerin tan�mland�klar� blok ve altbloklar�nda ge�erlili�i örneği.
-        j2sc#0110.exe: DilTemelleri, De�i�kenKapsam� koşturulabilir örneği.
+    1.8.Değişken tanımı
+        j2sc#0108.cs: Değişken tanımı, ilk ve dinamik değer atama örneği.
+        j2sc#0108.exe: DilTemelleri, DeğişkenTanımı koşturulabilir örneği.
+    1.9.Değişken kimlikleyici
+        j2sc#0109.cs: Değişken kimlikleyici kurallar örneği.
+        j2sc#0109.exe: DilTemelleri, DeğişkenKimlikleyici koşturulabilir örneği.
+    1.10.Değişken kapsamı
+        j2sc#0110.cs: Değişkenlerin tanımlandıklar  blok ve altbloklarında geçerliliği örneği.
+        j2sc#0110.exe: DilTemelleri, DeğişkenKapsamı koşturulabilir örneği.
     1.11.Ref
-        j2sc#0111.cs: Metod ref parametreleriyle kar��l�kl� �oklu de�er aktar�m� örneği.
+        j2sc#0111.cs: Metod ref parametreleriyle karşılıklı çoklu değer aktarımı örneği.
         j2sc#0111.exe: DilTemelleri, Ref koşturulabilir örneği.
     1.12.Out
-        j2sc#0112.cs: Metodun 'out' parametrik �oklu gerid�n�� sa�lamas� örneği.
+        j2sc#0112.cs: Metodun 'out' parametrik çoklu geridönüş sağlaması örneği.
         j2sc#0112.exe: DilTemelleri, Out koşturulabilir örneği.
-    1.13.Parametre referans� (1)
-        j2sc#0113.cs: S�n�f nesnesi de�i�kenlerine metod parametresiyle de�er aktarma örneği.
-        j2sc#0113.exe: DilTemelleri, ParametreReferans� koşturulabilir örneği.
-    1.14.Parametre de�eri (1)
-        j2sc#0114.cs: Metod arg�manlar�n�n tek-y�nl� de�er olarak d�nderilmesi örneği.
-        j2sc#0114.exe: DilTemelleri, ParametreDe�eri koşturulabilir örneği.
-    1.15.De�i�ir uzunlukta parametreler (1)
-        j2sc#0115.cs: Metod parametre uzunlu�unu 'params object[]' ile de�i�ebilir k�lma örneği.
-        j2sc#0115.exe: DilTemelleri, De�i�irUzunluktaParametreler koşturulabilir örneği.
+    1.13.Parametre referans  (1)
+        j2sc#0113.cs: Sınıf nesnesi değişkenlerine metod parametresiyle değer aktarma örneği.
+        j2sc#0113.exe: DilTemelleri, ParametreReferans  koşturulabilir örneği.
+    1.14.Parametre değeri (1)
+        j2sc#0114.cs: Metod argümanlarının tek-yönlü değer olarak dönderilmesi örneği.
+        j2sc#0114.exe: DilTemelleri, ParametreDeğeri koşturulabilir örneği.
+    1.15.Değişir uzunlukta parametreler (1)
+        j2sc#0115.cs: Metod parametre uzunluğunu 'params object[]' ile değişebilir kılma örneği.
+        j2sc#0115.exe: DilTemelleri, DeğişirUzunluktaParametreler koşturulabilir örneği.
     1.16.Params (1)
-        j2sc#0116.cs: De�i�ebilir adet metot arg�manlar�n�n 'params' ile idaresi örneği.
+        j2sc#0116.cs: Değişebilir adet metot argümanlarının 'params' ile idaresi örneği.
         j2sc#0116.exe: DilTemelleri, Params koşturulabilir örneği.
-    1.17.�stisna
-        j2sc#0117.cs: 'try-catch' ile �al��mazamanl� istisnalar�n idaresi örneği.
-        j2sc#0117.exe: DilTemelleri, �stisna koşturulabilir örneği.
+    1.17. stisna
+        j2sc#0117.cs: 'try-catch' ile çalışmazamanlı istisnaların idaresi örneği.
+        j2sc#0117.exe: DilTemelleri,  itisna koşturulabilir örneği.
     1.18.Try Catch
-        j2sc#0118.cs: Try-catch-finally-throw anahtarkelimelerle istisnalar�n y�netilmesi örneği.
+        j2sc#0118.cs: Try-catch-finally-throw anahtarkelimelerle istisnaların yönetilmesi örneği.
         j2sc#0118.exe: DilTemelleri, TryCatch koşturulabilir örneği.
     1.19.Finally
-        j2sc#0119.cs: �stisna olu�sun olu�mas�n nihai i�letilen finally blo�u örneği.
+        j2sc#0119.cs:İ stisna oluşsun oluşmasın nihai işletilen finally bloğu örneği.
         j2sc#0119.exe: DilTemelleri, Finally koşturulabilir örneği.
     1.20.Throw
-        j2sc#0120.cs: �arta ba�l� olarak throw'la f�rlat�lan �zel a��klamal� istisna örneği.
+        j2sc#0120.cs: Şarta bağlı olarak throw'la fırlatılan özel açıklamalı istisna örneği.
         j2sc#0120.exe: DilTemelleri, Throw koşturulabilir örneği.
     1.21.Metottaki istisna
-        j2sc#0121.cs: �a�r�lan metotta olu�an bir istisnan�n y�netilmesi örneği.
-        j2sc#0121.exe: DilTemelleri, Metottaki�stisna koşturulabilir örneği.
-    1.22.�stisna f�rlat��
-        j2sc#0122.cs: Throw ile f�rlat�lan Exception ve t�revleri örneği.
-        j2sc#0122.exe: DilTemelleri, �stisnaF�rlat�� koşturulabilir örneği.
-    1.23.�ntan�ml� istisna
-        j2sc#0123.cs: Odakl� istisna y�netimiyle sorun ��zme örneği.
-        j2sc#0123.exe: DilTemelleri, �ntan�ml��stisna koşturulabilir örneği.
-    1.24.�zel istisna
-        j2sc#0124.cs: Ebeveyn 'Application&Exception' temelli �zel istisnalar yaratma örneği.
-        j2sc#0124.exe: DilTemelleri, �zel�stisna koşturulabilir örneği.
+        j2sc#0121.cs: Çağrılan metotta oluşan bir istisnanın yönetilmesi örneği.
+        j2sc#0121.exe: DilTemelleri, Metottaki stisna koşturulabilir örneği.
+    1.22. stisna f rlat  
+        j2sc#0122.cs: Throw ile fırlatılan Exception ve türevleri örneği.
+        j2sc#0122.exe: DilTemelleri, istisnaFırlatış koşturulabilir örneği.
+    1.23.Öntanımlı istisna
+        j2sc#0123.cs: Odaklı istisna yönetimiyle sorun çözme örneği.
+        j2sc#0123.exe: DilTemelleri, öntanımlıİstisna koşturulabilir örneği.
+    1.24.Özel istisna
+        j2sc#0124.cs: Ebeveyn 'Application&Exception' temelli özel istisnalar yaratma örneği.
+        j2sc#0124.exe: DilTemelleri, özelİstisna koşturulabilir örneği.
 
 2.Veri Tipleri
     2.1.Veri tipi
-        j2sc#0201a.cs: T�m c# veri tipleri ve enk���k/enb�y�k de�erleri örneği.
+        j2sc#0201a.cs: T m c# veri tipleri ve enk   k/enb y k de erleri örneği.
         j2sc#0201a.exe: VeriTipleri, VeriTipi1 koşturulabilir örneği.
-        j2sc#0201b.cs: De�i�ken tan�m�, ilkde�er atamas�, belirtisiz/belirtili/parse �evrimler örneği.
+        j2sc#0201b.cs: De i ken tan m , ilkde er atamas , belirtisiz/belirtili/parse  evrimler örneği.
         j2sc#0201b.exe: VeriTipleri, VeriTipi2 koşturulabilir örneği.
     2.2.Bool
-        j2sc#0202.cs: Bool mant�ksal true/false �zellikleri ve metodlar� örneği.
+        j2sc#0202.cs: Bool mantıksal true/false özellikleri ve metodları örneği.
         j2sc#0202.exe: VeriTipleri, Bool koşturulabilir örneği.
     2.3.Sbyte
-	j2sc#0203.cs: ��aretli bayt ile �evrim ve k�lt�rel bi�imlemeler örneği.
+	j2sc#0203.cs: İşaretli bayt ile çevrim ve kültürel biçimlemeler örneği.
         j2sc#0203.exe: VeriTipleri, Sbyte koşturulabilir örneği.
-    2.4.Tamsay�lar
-        j2sc#0204.cs: C# tamsay� ailesinin kapsam, �zellik, metot ve sa�a-kayd�rma örneği.
-        j2sc#0204.exe: VeriTipleri, Tamsay�lar koşturulabilir örneği.
-    2.5.Tamsay� dizi
-        j2sc#0205.cs: 'int[] tsDizi' de�erlerine endeksle eri�im örneği.
-        j2sc#0205.exe: VeriTipleri, Tamsay�Dizi koşturulabilir örneği.
-    2.6.Tamsay�y� kutulama kutusuzlama
-        j2sc#0206.cs: Tamsay� de�eri dizgeye/nesneye kutulama ve tekrar geri kutusuzlama örneği.
-        j2sc#0206.exe: VeriTipleri, Tamsay�y�KutulamaKutusuzlama koşturulabilir örneği.
-    2.7.Tamsay� hesap
-        j2sc#0207.cs: Tamsay�larla aritmetik, mant�ksal, bitsel, artan/azalan ve b�l�m hesaplamalar� örneği.
-        j2sc#0207.exe: VeriTipleri, Tamsay�Hesap koşturulabilir örneği.
-    2.8.Tamsay� bi�im
-        j2sc#0208.cs: Tamsay�n�n ondal�k, hexa, parasal, �sl�, k�s�rl�, virg�ll� ve y�zde bi�imlenme örneği.
-        j2sc#0208.exe: VeriTipleri, Tamsay�Bi�im koşturulabilir örneği.
-    2.9.Tamsay�ya ayr��t�r
-        j2sc#0209.cs: Parse() metotla girilen dizgenin tamsay�ya ayr��t�r�lmas� örneği.
-        j2sc#0209.exe: VeriTipleri, Tamsay�yaAyr��t�r koşturulabilir örneği.
-    2.10.Onalt�l�k
-        j2sc#0210.cs: Ondal�k ve onalt�l�k say�lar aras�nda �evrimler örneği.
-        j2sc#0210.exe: VeriTipleri, Onalt�l�k koşturulabilir örneği.
+    2.4.Tamsayılar
+        j2sc#0204.cs: C# tamsayı ailesinin kapsam, özellik, metot ve sağa-kaydırma örneği.
+        j2sc#0204.exe: VeriTipleri, Tamsayılar koşturulabilir örneği.
+    2.5.Tamsayı dizi
+        j2sc#0205.cs: 'int[] tsDizi' değerlerine endeksle erişim örneği.
+        j2sc#0205.exe: VeriTipleri, TamsayıDizi koşturulabilir örneği.
+    2.6.Tamsayıyı kutulama kutusuzlama
+        j2sc#0206.cs: Tamsayı değeri dizgeye/nesneye kutulama ve tekrar geri kutusuzlama örneği.
+        j2sc#0206.exe: VeriTipleri, TamsayıyıKutulamaKutusuzlama koşturulabilir örneği.
+    2.7.Tamsayı hesap
+        j2sc#0207.cs: Tamsayılarla aritmetik, mantıksal, bitsel, artan/azalan ve bölüm hesaplamalar  örneği.
+        j2sc#0207.exe: VeriTipleri, TamsayıHesap koşturulabilir örneği.
+    2.8.Tamsay  biçim
+        j2sc#0208.cs: Tamsayının ondalık, hexa, parasal, üslü, kesirli, virgüllü ve yüzde biçimlenme örneği.
+        j2sc#0208.exe: VeriTipleri, TamsayıBiçim koşturulabilir örneği.
+    2.9.Tamsayıya ayrıştır
+        j2sc#0209.cs: Parse() metotla girilen dizgenin tamsayıya ayrıştırılması örneği.
+        j2sc#0209.exe: VeriTipleri, TamsayıyaAyrıştır koşturulabilir örneği.
+    2.10.Onaltılık
+        j2sc#0210.cs: Ondalık ve onaltılık sayılar arasında çevrimler örneği.
+        j2sc#0210.exe: VeriTipleri, Onaltılık koşturulabilir örneği.
     2.11.Long
-        j2sc#0211.cs: Uzun tamsay� long ile kutulama ve hesaplamalar örneği.
+        j2sc#0211.cs: Uzun tamsayı long ile kutulama ve hesaplamalar örneği.
         j2sc#0211.exe: VeriTipleri, Long koşturulabilir örneği.
     2.12.Byte
-        j2sc#0212.cs: Kontrollu/kontrolsuz/belirtisiz byte ta�malar�n�n try-catch y�netimi örneği.
+        j2sc#0212.cs: Kontrollu/kontrolsuz/belirtisiz byte taşmalarının try-catch yönetimi örneği.
         j2sc#0212.exe: VeriTipleri, Byte koşturulabilir örneği.
     2.13.Short
-        j2sc#0213.cs: K�sa/short tamsay�, kutulama/kutusuzlama örneği.
+        j2sc#0213.cs: Kısa/short tamsayı, kutulama/kutusuzlama örneği.
         j2sc#0213.exe: VeriTipleri, Short koşturulabilir örneği.
     2.14.Ushort
-        j2sc#0214.cs: ��aretsis k�sa tamsay�/ushort tip, kapsam be bi�imlenme örneği.
+        j2sc#0214.cs: İşaretsiz kısa tamsayı/ushort tip, kapsam ve biçimlenme örneği.
         j2sc#0214.exe: VeriTipleri, UShort koşturulabilir örneği.
     2.15.Karakter
         j2sc#0215.cs: Karakter unicode 2 byte 65535 harf sembolleri örneği.
         j2sc#0215.exe: VeriTipleri, Karakter koşturulabilir örneği.
     2.16.EscDizisi
-        j2sc#0216.cs: T�m ESC kontrol karakterleri, ascii/hex=unicode de�erleri ve etkinlikleri örneği.
+        j2sc#0216.cs: Tüm ESC kontrol karakterleri, ascii/hex=unicode değerleri ve etkinlikleri örneği.
         j2sc#0216.exe: VeriTipleri, EscDizisi koşturulabilir örneği.
     2.17.char dizisi
-        j2sc#0217.cs: Karakter diziye ilkde�erli veya atamal� de�er atama örneği.
+        j2sc#0217.cs: Karakter diziye ilkdeğerli veya atamalı değer atama örneği.
         j2sc#0217.exe: VeriTipleri, CharDizisi koşturulabilir örneği.
     2.18.Float
-        j2sc#0218.cs: Tek hassasiyetli k�s�ratl� kayan-noktal� say�lar örneği.
+        j2sc#0218.cs: Tek hassasiyetli küsüratlı kayan-noktalı sayılar örneği.
         j2sc#0218.exe: VeriTipleri, Float koşturulabilir örneği.
     2.19.Double
-        j2sc#0219.cs: �ift hassasiyetli duble -+1,79769313486232E+308 kapsaml� say�lar örneği.
+        j2sc#0219.cs: Çift hassasiyetli duble -+1,79769313486232E+308 kapsamlı sayılar örneği.
         j2sc#0219.exe: VeriTipleri, Double koşturulabilir örneği.
     2.20.Desimal
-        j2sc#0220.cs: Parasal verilerde kullan�lan -+7.9E+28 kapsaml� decimal-M örneği.
+        j2sc#0220.cs: Parasal verilerde kullanılan -+7.9E+28 kapsamlı decimal-M örneği.
         j2sc#0220.exe: VeriTipleri, Desimal koşturulabilir örneği.
     2.21.Enum
-        j2sc#0221a.cs: Say�lanabilen sabit enum birimlerine adla veya say�yla eri�im örneği.
+        j2sc#0221a.cs: Sayılanabilen sabit enum birimlerine adla veya sayıyla erişm örneği.
         j2sc#0221a.exe: VeriTipleri, Enum1 koşturulabilir örneği.
-        j2sc#0221b.cs: Enum �yelerine varsay�l�dan farkl� de�erler atama örneği.
+        j2sc#0221b.cs: Enum  yelerine varsayılıdan farklı değerler atama örneği.
         j2sc#0221b.exe: VeriTipleri, Enum2 koşturulabilir örneği.
-        j2sc#0221c.cs: Enum �yelerini |, & tercihli kullanabilme örneği.
+        j2sc#0221c.cs: Enum üyelerini |, & tercihli kullanabilme örneği.
         j2sc#0221c.exe: VeriTipleri, Enum3 koşturulabilir örneği.
-        j2sc#0221d.cs: Enum �yelerini for d�ng�s�yle artan s�ral� kullanma örneği.
+        j2sc#0221d.cs: Enum  yelerini for döngüsüyle artan sıralı kullanma örneği.
         j2sc#0221d.exe: VeriTipleri, Enum4 koşturulabilir örneği.
-        j2sc#0221e.cs: Enum �yelerini foreach d�ng�s�yle olan geli�ig�zel de�erleriyle kullanma örneği.
+        j2sc#0221e.cs: Enum  yelerini foreach döngüsüyle olan gelişigüzel değerleriyle kullanma örneği.
         j2sc#0221e.exe: VeriTipleri, Enum5 koşturulabilir örneği.
     2.22.Bitler
-        j2sc#0222a.cs: Ondal�ktan bitsel-hex �evrimleri ve &|^~ i�lemler örneği.
+        j2sc#0222a.cs: Ondalıktan bitsel-hex çevrimleri ve &|^~ işlemler örneği.
         j2sc#0222a.exe: VeriTipleri, Bitler1 koşturulabilir örneği.
-        �ki say�n�n AND-&'lenmesi ve bitsel sola-�arp/sa�a-b�l kayd�rma örneği.
+        İki sayının AND-&'lenmesi ve bitsel sola-çarp/sağa-böl kaydırma örneği.
         j2sc#0222b.exe: VeriTipleri, Bitler2 koşturulabilir örneği.
         j2sc#0222c.cs: Bitsel ^:XOR'la karakterleri kodlama ve dekodlama örneği.
         j2sc#0222c.exe: VeriTipleri, Bitler3 koşturulabilir örneği.
     2.23.CheckedUnchecked
-        j2sc#0223.cs: Checked ve unchecked bloklar�yla say� ta�malar�na farkl� tutumlar örneği.
+        j2sc#0223.cs: Checked ve unchecked bloklarıyla sayı taşmalarına farklı tutumlar örneği.
         j2sc#0223.exe: VeriTipleri, CheckedUnchecked koşturulabilir örneği.
     2.24.TipUyarlama
-        j2sc#0224a.cs: Geni�ten dar say� tiplerine ataman�n veri kayb� olu�turabilmesi örneği.
+        j2sc#0224a.cs: Genişten dar sayı tiplerine atamanın veri kaybı oluşturabilmesi örneği.
         j2sc#0224a.exe: VeriTipleri, TipUyarlama1 koşturulabilir örneği.
-        j2sc#0224b.cs: Ta�ma hatas�z/hatal� unchecked/checked bloklar� ve daralan/geni�leyen atama fark� örneği.
+        j2sc#0224b.cs: Taşma hatasız/hatalı unchecked/checked bloklar  ve daralan/genişleyen atama farkı örneği.
         j2sc#0224b.exe: VeriTipleri, TipUyarlama2 koşturulabilir örneği.
-    2.25.Dizgesel�evrimler
-        j2sc#0225a.cs: say�.ToString() ve dizge+say� y�ntemleriyle dizgesele �evrim örneği.
-        j2sc#0225a.exe: VeriTipleri, Dizgesel�evrimler1 koşturulabilir örneği.
-        j2sc#0225b.cs: Parse(), TryParse(), Convert.To/From, BitConverter() say�sala �eviriciler örneği.
-        j2sc#0225b.exe: VeriTipleri, Dizgesel�evrimler2 koşturulabilir örneği.
-        j2sc#0225c.cs: Convert.To ve haricen-imaen �e�itli tipler aras� �evrimler örneği.
-        j2sc#0225c.exe: VeriTipleri, Dizgesel�evrimler3 koşturulabilir örneği.
-    2.26.Hi�lenebilir
-        j2sc#0226a.cs: Hi�lenebilir de�i�kenlerin de�er kontrollar� ve yans�t�lmalar� örneği.
-        j2sc#0226a.exe: VeriTipleri, Hi�lenebilir1 koşturulabilir örneği.
-        j2sc#0226b.cs: Hi�lenebilir say�n�n kontrollu g�sterimleri örneği.
-        j2sc#0226b.exe: VeriTipleri, Hi�lenebilir2 koşturulabilir örneği.
-        j2sc#0226c.cs: Hi�lenebilir say�n�n kontrollu g�sterimleri ve kompleks i�lemler örneği.
-        j2sc#0226c.exe: VeriTipleri, Hi�lenebilir3 koşturulabilir örneği.
-        j2sc#0226d.cs: Hi�lenebilir say�larla k�yas ve kontrollu g�sterim örneği.
-        j2sc#0226d.exe: VeriTipleri, Hi�lenebilir4 koşturulabilir örneği.
-    2.27.Say�Bi�imleme
-        j2sc#0227a.cs: T�m say� �e�itlerini D, F, G, N, E, C ile bi�imleme örneği.
-        j2sc#0227a.exe: VeriTipleri, Say�Bi�imleme1 koşturulabilir örneği.
-        j2sc#0227b.cs: Say� bi�imlemede '#0.00#' tercihi-#/mecburi-0 tamsay� ve k�s�rat kapsamlar� örneği.
-        j2sc#0227b.exe: VeriTipleri, Say�Bi�imleme2 koşturulabilir örneği.
+    2.25.Dizgesel çevrimler
+        j2sc#0225a.cs: sayı.ToString() ve dizge+sayı yöntemleriyle dizgesele çevrim örneği.
+        j2sc#0225a.exe: VeriTipleri, Dizgesel çevrimler1 koşturulabilir örneği.
+        j2sc#0225b.cs: Parse(), TryParse(), Convert.To/From, BitConverter() sayısala çeviriciler örneği.
+        j2sc#0225b.exe: VeriTipleri, Dizgesel çevrimler2 koşturulabilir örneği.
+        j2sc#0225c.cs: Convert.To ve haricen-imaen çeşitli tipler arası çevrimler örneği.
+        j2sc#0225c.exe: VeriTipleri, Dizgesel çevrimler3 koşturulabilir örneği.
+    2.26.Hiçlenebilir
+        j2sc#0226a.cs: Hiçlenebilir değişkenlerin değer kontrolları ve yansıtılmaları örneği.
+        j2sc#0226a.exe: VeriTipleri, Hiçlenebilir1 koşturulabilir örneği.
+        j2sc#0226b.cs: Hiçlenebilir sayının kontrollu gösterimleri örneği.
+        j2sc#0226b.exe: VeriTipleri, Hiçlenebilir2 koşturulabilir örneği.
+        j2sc#0226c.cs: Hiçlenebilir sayının kontrollu gösterimleri ve kompleks işlemler örneği.
+        j2sc#0226c.exe: VeriTipleri, Hiçlenebilir3 koşturulabilir örneği.
+        j2sc#0226d.cs: Hiçlenebilir sayılarla kıyas ve kontrollu gösterim örneği.
+        j2sc#0226d.exe: VeriTipleri, Hiçlenebilir4 koşturulabilir örneği.
+    2.27.SayıBiçimleme
+        j2sc#0227a.cs: Tam sayı çeşitlerini D, F, G, N, E, C ile biçimleme örneği.
+        j2sc#0227a.exe: VeriTipleri, SayıBiçimleme1 koşturulabilir örneği.
+        j2sc#0227b.cs: Sayı biçimlemede '#0.00#' tercihi-#/mecburi-0 tamsayı ve küsürat kapsamlar  örneği.
+        j2sc#0227b.exe: VeriTipleri, SayıBiçimleme2 koşturulabilir örneği.
 
-3.��lemciler
-    3.1.T�m i�lemciler
-        j2sc#0301.cs: T�m c# i�lemcileri, sembolleri ve �e�itleri örneği.
-        j2sc#0301.exe: ��lemciler, T�m��lemciler koşturulabilir örneği.
-    3.2.Aritmetik i�lemciler
-        j2sc#0302.cs: Aritmetik, k�sakesek ve birart�r/birazalt i�lemleri örneği.
-        j2sc#0302.exe: ��lemciler, Aritmetik��lemci koşturulabilir örneği.
-    3.3.�nekSonek i�lemcisi
-        j2sc#0303.cs: Birart�r ve bireksilt i�lemcilerin �nekli ve sonekli örneği.
-        j2sc#0303.exe: ��lemciler, �nekSonek��lemci koşturulabilir örneği.
-    3.4.Kalan i�lemci
-        j2sc#0304.cs: % kalan'la b�l�nemeyen son art���n bulunmas� örneği.
-        j2sc#0304.exe: ��lemciler, Kalan��lemci koşturulabilir örneği.
-    3.5.K�sakesek i�lemci
-        j2sc#0305.cs: K�sakesek birart�r++/azalt--, +=, -=, *=, /=, %=, <<=, >>=, &=, |=, ^= örneği.
-        j2sc#0305.exe: ��lemciler, K�sakesek��lemci koşturulabilir örneği.
-    3.6.Mant�ksalBa��nt�sal i�lemciler
-        j2sc#0306a.cs: Ba��nt�sal i�lemcilerle se�ici bilgiye eri�me örneği.
-        j2sc#0306a.exe: ��lemciler, Mant�ksalBa��nt�sal��lemci1 koşturulabilir örneği.
-        j2sc#0306b.cs: Mant�ksal i�lemcilerle se�ici bilgiye eri�me örneği.
-        j2sc#0306b.exe: ��lemciler, Mant�ksalBa��nt�sal��lemci2 koşturulabilir örneği.
-    3.7.K�sadevre i�lemcisi
-        j2sc#0307.cs: K�sadevre && ve ||'un ikinci kriteri esge�mesi örneği.
-        j2sc#0307.exe: ��lemciler, K�sadevre��lemci koşturulabilir örneği.
-    3.8.��lemeli i�lemci
-        j2sc#0308.cs: ��lemeli "ifade1 ? ifade2 : ifade3" örneği.
-        j2sc#0308.exe: ��lemciler, ��lemeli��lemci koşturulabilir örneği.
-    3.9.Bitvari i�lemci
-        j2sc#0309.cs: Bitvari i�lemler (AND=&, OR=|, XOR=^, DE��L=~, KAYDIR=<<>>) örneği.
-        j2sc#0309.exe: ��lemciler, Bitvari��lemci koşturulabilir örneği.
-    3.10.Kayd�ran i�lemci
-        j2sc#0310.cs: Bitsel sola (a<<=b) ve sa�a (a>>=b) kayd�rma örneği.
-        j2sc#0310.exe: ��lemciler, Kayd�ran��lemci koşturulabilir örneği.
-    3.11.�masal i�lemci
-        j2sc#0311.cs: K�sadevre AND=&& ve OR=||'da ilk false ve true'nun sonucu imas� örneği.
-        j2sc#0311.exe: ��lemciler, �masal��lemci koşturulabilir örneği.
+3.İşlemciler
+    3.1.Tüm işlemciler
+        j2sc#0301.cs: Tüm c# işlemcileri, sembolleri ve çeşitleri örneği.
+        j2sc#0301.exe: İşlemciler, Tümİşlemciler koşturulabilir örneği.
+    3.2.Aritmetik işlemciler
+        j2sc#0302.cs: Aritmetik, kısakesek ve birartır/birazalt işlemleri örneği.
+        j2sc#0302.exe: İşlemciler, Aritmetikİşlemci koşturulabilir örneği.
+    3.3.ÖnekSonek işlemcisi
+        j2sc#0303.cs: Birartır ve bireksilt işlemcilerin önekli ve sonekli örneği.
+        j2sc#0303.exe: İşlemciler, önekSonekİşlemci koşturulabilir örneği.
+    3.4.Kalan işlemci
+        j2sc#0304.cs: % kalan'la bölünemeyen son artığın bulunması örneği.
+        j2sc#0304.exe: İşlemciler, Kalanİşlemci koşturulabilir örneği.
+    3.5.Kısakesek işlemci
+        j2sc#0305.cs: Kısakesek birartır++/azalt--, +=, -=, *=, /=, %=, <<=, >>=, &=, |=, ^= örneği.
+        j2sc#0305.exe: İşlemciler, Kısakesekİşlemci koşturulabilir örneği.
+    3.6.MantıksalBağıntısal işlemciler
+        j2sc#0306a.cs: Bağıntısal işlemcilerle seçici bilgiye erişme örneği.
+        j2sc#0306a.exe: İşlemciler, MantıksalBağıntısalİşlemci1 koşturulabilir örneği.
+        j2sc#0306b.cs: Mantıksal işlemcilerle seçici bilgiye erişme örneği.
+        j2sc#0306b.exe: İşlemciler, MantıksalBağıntısalİşlemci2 koşturulabilir örneği.
+    3.7.Kısadevre işlemcisi
+        j2sc#0307.cs: Kısadevre && ve ||'un ikinci kriteri esgeçmesi örneği.
+        j2sc#0307.exe: İşlemciler, Kısadevreİşlemci koşturulabilir örneği.
+    3.8.Üçlemeli işlemci
+        j2sc#0308.cs: Üçlemeli "ifade1 ? ifade2 : ifade3" örneği.
+        j2sc#0308.exe: Üçlemciler, üçlemeliİşlemci koşturulabilir örneği.
+    3.9.Bitvari işlemci
+        j2sc#0309.cs: Bitvari işlemler (AND=&, OR=|, XOR=^, DE  L=~, KAYDIR=<<>>) örneği.
+        j2sc#0309.exe: İşlemciler, Bitvariİşlemci koşturulabilir örneği.
+    3.10.Kaydıran işlemci
+        j2sc#0310.cs: Bitsel sola (a<<=b) ve sağa (a>>=b) kaydırma örneği.
+        j2sc#0310.exe: İşlemciler, Kaydıranİşlemci koşturulabilir örneği.
+    3.11.İmasal işlemci
+        j2sc#0311.cs: Kısadevre AND=&& ve OR=||'da ilk false ve true'nun sonucu iması örneği.
+        j2sc#0311.exe: İşlemciler, imasalİşlemci koşturulabilir örneği.
     3.12.is
-        j2sc#0312.cs: "a is tip" ile de�i�ken tipinin irdelenmesi örneği.
-        j2sc#0312.exe: ��lemciler, is_��lemci koşturulabilir örneği.
+        j2sc#0312.cs: "a is tip" ile değişken tipinin irdelenmesi örneği.
+        j2sc#0312.exe: İşlemciler, is_işlemci koşturulabilir örneği.
     3.13.as
-        j2sc#0313.cs: "a as tip" ile de�i�ken tipleme kabul�n�n irdelenmesi örneği.
-        j2sc#0313.exe: ��lemciler, as_��lemci koşturulabilir örneği.
-    3.14.AND i�lemci
-        j2sc#0314.cs: �zelle�tirilen & i�lemciyle �iftboyutlu AND'leme örneği.
-        j2sc#0314.exe: ��lemciler, AND_��lemci koşturulabilir örneği.
-    3.15.Adres i�lemcisi
-        j2sc#0315.cs: De�i�kenin de�erini yada adresini kullanma  örneği.
-        j2sc#0315.exe: ��lemciler, Adres��lemci koşturulabilir örneği.
+        j2sc#0313.cs: "a as tip" ile değişken tipleme kabulünün irdelenmesi örneği.
+        j2sc#0313.exe: İşlemciler, as_işlemci koşturulabilir örneği.
+    3.14.AND işlemci
+        j2sc#0314.cs: Özelleştirilen & işlemciyle çiftboyutlu AND'leme örneği.
+        j2sc#0314.exe: İşlemciler, AND_ işemci koşturulabilir örneği.
+    3.15.Adres işlemcisi
+        j2sc#0315.cs: Değişkenin değerini yada adresini kullanma  örneği.
+        j2sc#0315.exe: İşlemciler, Adresİşlemci koşturulabilir örneği.
     3.16.sizeof
-        j2sc#0316.cs: Ar�iv yada �zel tan�ml� tipin byte ebat� sizeof örneği.
-        j2sc#0316.exe: ��lemciler, sizeof_��lemci koşturulabilir örneği.
+        j2sc#0316.cs: Arşiv yada özel tanımlı tipin byte ebat  sizeof örneği.
+        j2sc#0316.exe: İşlemciler, sizeof_işlemci koşturulabilir örneği.
     3.17.typeof
-        j2sc#0317.cs: typeof i�lemci ve GetType() metotla tip tespiti örneği.
-        j2sc#0317.exe: ��lemciler, typeof_��lemci koşturulabilir örneği.
-    3.18.��lemci �nceli�i
-        j2sc#0318.cs: T�m i�lemcilerin en�nemliden en�nemsize s�ralanmas� örneği.
-        j2sc#0318.exe: ��lemciler, ��lemci�nceli�i koşturulabilir örneği.
+        j2sc#0317.cs: typeof işlemci ve GetType() metotla tip tespiti örneği.
+        j2sc#0317.exe: İşlemciler, typeof_işlemci koşturulabilir örneği.
+    3.18.İşlemci önceliği
+        j2sc#0318.cs: Tüm işlemcilerin enönemliden enönemsize sıralanması örneği.
+        j2sc#0318.exe: İşlemciler, işlemciÖnceliği koşturulabilir örneği.
 
-4.�fadeler
-    4.1.�f
-        j2sc#0401.cs: �e�itli i�(�art1){ifadeler}else if(�art2){ifadeler}...else{ifadeler} örneği.
-        j2sc#0401.exe: �fadeler, �f koşturulabilir örneği.
+4.İfadeler
+    4.1.if
+        j2sc#0401.cs: Çeşitli if( art1){ifadeler}else if( art2){ifadeler}...else{ifadeler} örneği.
+        j2sc#0401.exe: İfadeler, if koşturulabilir örneği.
     4.2.Switch
-        j2sc#0402.cs: Switch-case-default-break yap�l� tercihler örneği.
-        j2sc#0402.exe: �fadeler, Switch koşturulabilir örneği.
+        j2sc#0402.cs: Switch-case-default-break yapılı tercihler örneği.
+        j2sc#0402.exe: İfadeler, Switch koşturulabilir örneği.
     4.3.For
-        j2sc#0403.cs: For d�ng�s�nde (ilk; �art; tara) �e�itlemeleri örneği.
-        j2sc#0403.exe: �fadeler, For koşturulabilir örneği.
+        j2sc#0403.cs: For döngüsünde (ilk;  art; tara)  eşitlemeleri örneği.
+        j2sc#0403.exe: İfadeler, For koşturulabilir örneği.
     4.4.Foreach
-        j2sc#0404.cs: ForEach ile koleksiyondaki tip'li elemanlar�n taranmas� örneği.
-        j2sc#0404.exe: �fadeler, ForEach koşturulabilir örneği.
+        j2sc#0404.cs: ForEach ile koleksiyondaki tip'li elemanların taranması örneği.
+        j2sc#0404.exe: İfadeler, ForEach koşturulabilir örneği.
     4.5.While
-        j2sc#0405.cs: While(�art){ifade-ler} d�ng� örneği.
-        j2sc#0405.exe: �fadeler, While koşturulabilir örneği.
+        j2sc#0405.cs: While(şart){ifade-ler} düngü örneği.
+        j2sc#0405.exe: İfadeler, While koşturulabilir örneği.
     4.6.DoWhile
-        j2sc#0406.cs: �arts�z enaz 1 kez i�letilen do{ifade-ler}while(�art) d�ng�s� örneği.
-        j2sc#0406.exe: �fadeler, DoWhile koşturulabilir örneği.
+        j2sc#0406.cs: Şartsız enaz 1 kez işletilen do{ifade-ler}while(şart) döngüsü örneği.
+        j2sc#0406.exe: İfadeler, DoWhile koşturulabilir örneği.
     4.7.Break
-        j2sc#0407.cs: Break ile d�ng�lerin kapsam �ncesi �zel �art'la k�r�lmas� örneği.
-        j2sc#0407.exe: �fadeler, Break koşturulabilir örneği.
+        j2sc#0407.cs: Break ile döngülerin kapsam öncesi özel şart'la kırılmas  örneği.
+        j2sc#0407.exe: İfadeler, Break koşturulabilir örneği.
     4.8.Continue
-        j2sc#0408.cs: �artl� continue ile d�ng� kalan�n�n esge�ilmesi örneği.
-        j2sc#0408.exe: �fadeler, Continue koşturulabilir örneği.
+        j2sc#0408.cs: Şartlı continue ile döngü kalanının esgeçilmesi örneği.
+        j2sc#0408.exe: İfadeler, Continue koşturulabilir örneği.
     4.9.Goto
-        j2sc#0409.cs: 'Goto etiket' ile �arts�z 'etiket:'e atlama örneği.
-        j2sc#0409.exe: �fadeler, Goto koşturulabilir örneği.
+        j2sc#0409.cs: 'Goto etiket' ile şartsız 'etiket:'e atlama örneği.
+        j2sc#0409.exe: İfadeler, Goto koşturulabilir örneği.
     4.10.Using
-        j2sc#0410.cs: Using aduzam.s�n�f ile ar�iv veya �zel tiplemelerin tan�m�n� k�saltma örneği.
-        j2sc#0410.exe: �fadeler, Using koşturulabilir örneği.
+        j2sc#0410.cs: Using aduzamının if ile arşiv veya özel tiplemelerin tanımını kısaltma örneği.
+        j2sc#0410.exe: İfadeler, Using koşturulabilir örneği.
 
 5.Dizgeler
     5.1.String
-        j2sc#0501a.cs: Dizgelerde temel i�lemler ve dizgesel metotlar örneği.
+        j2sc#0501a.cs: Dizgelerde temel işlemler ve dizgesel metotlar örneği.
         j2sc#0501a.exe: Dizgeler, String1 koşturulabilir örneği.
-        j2sc#0501b.cs: Dizgelerde join, split, indexof, insert, padleft, trim, substring metotlar� örneği.
+        j2sc#0501b.cs: Dizgelerde join, split, indexof, insert, padleft, trim, substring metotlar  örneği.
         j2sc#0501b.exe: Dizgeler, String2 koşturulabilir örneği.
-        j2sc#0501c.cs: Dizgelerde toupper, tolower, contains, isinterned, normalize metotlar� örneği.
+        j2sc#0501c.cs: Dizgelerde toupper, tolower, contains, isinterned, normalize metotlar  örneği.
         j2sc#0501c.exe: Dizgeler, String3 koşturulabilir örneği.
     5.2.@Dizge
-        j2sc#0502.cs: @dizge ile �oklu sat�r formlar�n�n muhafazas� örneği.
+        j2sc#0502.cs: @dizge ile çoklu satır formlarının muhafazas  örneği.
         j2sc#0502.exe: Dizgeler, @Dizge koşturulabilir örneği.
     5.3.DizgeKarakterleri
-        j2sc#0503.cs: Karakter dizisiyle dizge aras�nda �evrimler ve eri�imler örneği.
+        j2sc#0503.cs: Karakter dizisiyle dizge arasında çevrimler ve erişimler örneği.
         j2sc#0503.exe: Dizgeler, DizgeKarakterleri koşturulabilir örneği.
     5.4.DizgeselDizi
-        j2sc#0504.cs: Tek ve �ok boyutlu dizgesel diziler örneği.
+        j2sc#0504.cs: Tek ve çok boyutlu dizgesel diziler örneği.
         j2sc#0504.exe: Dizgeler, DizgeselDizi koşturulabilir örneği.
     5.5.DizgeselEkleme
-        j2sc#0505.cs: Concat metoduyla her t�r veriyi dizgesel ekleme örneği.
+        j2sc#0505.cs: Concat metoduyla her tür veriyi dizgesel ekleme örneği.
         j2sc#0505.exe: Dizgeler, DizgeselEkleme koşturulabilir örneği.
-    5.6.B�y�kK���kHarf
-        j2sc#0506.cs: B�y�k/K���k-harf ve ba�l�k-illharf� metotlar� örneği.
-        j2sc#0506.exe: Dizgeler, B�y�kK���kHarf koşturulabilir örneği.
-    5.7.K�yaslama
-        j2sc#0507.cs: Equals/==/Compare ile dizgelerin kar��la�t�r�lmalar� örneği.
-        j2sc#0507.exe: Dizgeler, K�yaslama koşturulabilir örneği.
+    5.6.BüyükKüçükHarf
+        j2sc#0506.cs: Büyük/Küçük-harf ve başlık-illharf  metotları örneği.
+        j2sc#0506.exe: Dizgeler, BüyükKüçükHarf koşturulabilir örneği.
+    5.7.Kıyaslama
+        j2sc#0507.cs: Equals/==/Compare ile dizgelerin karşılaştırılmaları örneği.
+        j2sc#0507.exe: Dizgeler, Kıyaslama koşturulabilir örneği.
     5.8.Kopyalama
-        j2sc#0508.cs: Copy ve CopyTo ile farkl� kopyalama teferruatlar� örneği.
+        j2sc#0508.cs: Copy ve CopyTo ile farklı kopyalama teferruatları örneği.
         j2sc#0508.exe: Dizgeler, Kopyalama koşturulabilir örneği.
-    5.9.De�i�tirme
-        j2sc#0509a.cs: Replace, Insert, Append ile dizgeyi de�i�tirme örneği.
-        j2sc#0509a.exe: Dizgeler, De�i�tirme1 koşturulabilir örneği.
+    5.9.Değiştirme
+        j2sc#0509a.cs: Replace, Insert, Append ile dizgeyi değiştirme örneği.
+        j2sc#0509a.exe: Dizgeler, Değiştirme1 koşturulabilir örneği.
         j2sc#0509b.cs: Substring ve Remove ile istenilen ibareyi alma ve eksiltme örneği.
-        j2sc#0509b.exe: Dizgeler, De�i�tirme2 koşturulabilir örneği.
+        j2sc#0509b.exe: Dizgeler, Değiştirme2 koşturulabilir örneği.
     5.10.DizgedenDiziye
-        j2sc#0510.cs: Join, Split, ToCharArray ile dizgesel ayr��t�rma ve birle�tirme örneği.
+        j2sc#0510.cs: Join, Split, ToCharArray ile dizgesel ayrıştırma ve birleştirme örneği.
         j2sc#0510.exe: Dizgeler, DizgedenDiziye koşturulabilir örneği.
     5.11.Arama
-        j2sc#0511.cs: Last/IndexOf/Any �e�itlemeleriyle dizgedeki ibare/krk endeks tespiti örneği.
+        j2sc#0511.cs: Last/IndexOf/Any çeşitlemeleriyle dizgedeki ibare/krk endeks tespiti örneği.
         j2sc#0511.exe: Dizgeler, Arama koşturulabilir örneği.
-    5.12.K�rpDoldur
-        j2sc#0512.cs: PadLeft/Right ve Trim-Start/End ile dizge �n/arkaya bo�luk/krk doldurma/k�rpma örneği.
-        j2sc#0512.exe: Dizgeler, K�rpDoldur koşturulabilir örneği.
-    5.13.Bi�imleme
-        j2sc#0513.cs: Say�lar�n FNeRPXDC harfleriyle bi�imlendirilmesi örneği.
-        j2sc#0513.exe: Dizgeler, Bi�imleme koşturulabilir örneği.
-    5.14.Ka���Tu�lar�
-        j2sc#0514.cs: S�k kullan�lan k��-tu�lar� (", n, t, \) örneği.
-        j2sc#0514.exe: Dizgeler, Ka���Tu�lar� koşturulabilir örneği.
-    5.15.Dizge�n�ac�
-        j2sc#0515a.cs: StringBuilder, metotlar� ve �zellikleri örneği.
-        j2sc#0515a.exe: Dizgeler, Dizge�n�ac�1 koşturulabilir örneği.
-        j2sc#0515b.cs: StringBuilder'in Append, Insert, Remove, Replace, ToString metotlar� örneği.
-        j2sc#0515b.exe: Dizgeler, Dizge�n�ac�2 koşturulabilir örneği.
+    5.12.K rpDoldur
+        j2sc#0512.cs: PadLeft/Right ve Trim-Start/End ile dizge  n/arkaya bo luk/krk doldurma/k rpma örneği.
+        j2sc#0512.exe: Dizgeler, K rpDoldur koşturulabilir örneği.
+    5.13.Bi imleme
+        j2sc#0513.cs: Say lar n FNeRPXDC harfleriyle bi imlendirilmesi örneği.
+        j2sc#0513.exe: Dizgeler, Bi imleme koşturulabilir örneği.
+    5.14.Ka   Tu lar 
+        j2sc#0514.cs: S k kullan lan k  -tu lar  (", n, t, \) örneği.
+        j2sc#0514.exe: Dizgeler, Ka   Tu lar  koşturulabilir örneği.
+    5.15.Dizge n ac 
+        j2sc#0515a.cs: StringBuilder, metotlar  ve  zellikleri örneği.
+        j2sc#0515a.exe: Dizgeler, Dizgeİnşacı1 koşturulabilir örneği.
+        j2sc#0515b.cs: StringBuilder'in Append, Insert, Remove, Replace, ToString metotları örneği.
+        j2sc#0515b.exe: Dizgeler, Dizgeİnşacı2 koşturulabilir örneği.
     5.16.DizgeOkurYazar
         j2sc#0516.cs: StringReader ve StringWriter ile dizge okuma/yazma örneği.
         j2sc#0516.exe: Dizgeler, DizgeOkurYazar koşturulabilir örneği.
 
-6.Yap�lar
-    6.1.Yap�
-        j2sc#0601.cs: Yap�, yaratma, de�er ve ref tipli �yeleri, kopyalama örneği.
-        j2sc#0601.exe: Yap�lar, Yap� koşturulabilir örneği.
-    6.2.Yap�Tan�m�
-        j2sc#0602.cs: �e�itli tekli, �oklu, i�i�e yap� tan�mlar� örneği.
-        j2sc#0602.exe: Yap�lar, Yap�Tan�m� koşturulabilir örneği.
+6.Yapılar
+    6.1.Yapı
+        j2sc#0601.cs: Yapı, yaratma, değer ve ref tipli üyeleri, kopyalama örneği.
+        j2sc#0601.exe: Yapılar, Yapı koşturulabilir örneği.
+    6.2.YapıTanımı
+        j2sc#0602.cs: Çeşitli tekli, çoklu, içiçe yapı tanımları örneği.
+        j2sc#0602.exe: Yapılar, YapıTanımı koşturulabilir örneği.
     6.3.Kurucu
-        j2sc#0603a.cs: Varsay�l�/tan�ml� parametresiz/parametreli kurucular örneği.
-        j2sc#0603a.exe: Yap�lar, Kurucu1 koşturulabilir örneği.
-        j2sc#0603b.cs: Varsay�l�, soysal tipli ve farkl� parametreli kurucu tan�mlar� örneği.
-        j2sc#0603b.exe: Yap�lar, Kurucu2 koşturulabilir örneği.
-    6.4.E�itlik
-        j2sc#0604.cs: Yap�larda �zel/ar�iv Equals e�itlik ve this kullan�mlar� örneği.
-        j2sc#0604.exe: Yap�lar, E�itlik koşturulabilir örneği.
-    6.5.Yap�Alanlar�
-        j2sc#0605a.cs: Yap� �zelli�i, alan�, kopyalanmas� ve aray�z miras� örneği.
-        j2sc#0605a.exe: Yap�lar, Yap�Alanlar�1 koşturulabilir örneği.
-        j2sc#0605b.cs: De�er/ref aktar�m, yap�sal dizi, aray�zl� kutulama/kutusuzlama örneği.
-        j2sc#0605b.exe: Yap�lar, Yap�Alanlar�2 koşturulabilir örneği.
-        j2sc#0605c.cs: *&adresli yap�lar�n unsafe/g�venilmez kodlamalar� örneği.
-        j2sc#0605c.exe: Yap�lar, Yap�Alanlar�3 koşturulabilir örneği.
+        j2sc#0603a.cs: Varsayılı/tanımlı parametresiz/parametreli kurucular örneği.
+        j2sc#0603a.exe: Yapılar, Kurucu1 koşturulabilir örneği.
+        j2sc#0603b.cs: Varsayılı, soysal tipli ve farklı parametreli kurucu tanımları örneği.
+        j2sc#0603b.exe: Yapılar, Kurucu2 koşturulabilir örneği.
+    6.4.Eşitlik
+        j2sc#0604.cs: Yapılarda özel/arşiv Equals eşitlik ve this kullanımları örneği.
+        j2sc#0604.exe: Yapılar, Eşitlik koşturulabilir örneği.
+    6.5.YapıAlanlar 
+        j2sc#0605a.cs: Yapı özelliği, alanı, kopyalanması ve arayüz mirası örneği.
+        j2sc#0605a.exe: Yapılar, YapıAlanları1 koşturulabilir örneği.
+        j2sc#0605b.cs: Değer/ref aktarım, yapısal dizi, arayüzlü kutulama/kutusuzlama örneği.
+        j2sc#0605b.exe: Yapılar, YapıAlanları2 koşturulabilir örneği.
+        j2sc#0605c.cs: *&adresli yapıların unsafe/güvenilmez kodlamaları örneği.
+        j2sc#0605c.exe: Yapılar, YapıAlanları3 koşturulabilir örneği.
 
-7.S�n�flar
-    7.1.S�n�fTan�m�
-        j2sc#0701a.cs: S�n�f alan, metot, ebeveyn ta�mas�, i�i�e s�n�f �a��rma örneği.
-        j2sc#0701a.exe: S�n�flar, S�n�fTan�m�1 koşturulabilir örneği.
-        j2sc#0701b.cs: Ebeveyn s�n�f/aray�zler, yap�yla/s�n�fla al/koy'lu selsiy�s/F/K �evrimleri örneği.
-        j2sc#0701b.exe: S�n�flar, S�n�fTan�m�2 koşturulabilir örneği.
-    7.2.S�n�fTiplemesi
-        j2sc#0702.cs: 'new S�n�f()' tiplemesi, �yelerine de�er atama/okuma örneği.
-        j2sc#0702.exe: S�n�flar, S�n�fTiplemesi koşturulabilir örneği.
-    7.3.S�n�fNesnesiReferans�
-        j2sc#0703a.cs: Referanssal e�itsiz s�n�f nesnelerini de�ersel e�itli�e �evirme örneği.
-        j2sc#0703a.exe: S�n�flar, S�n�fNesnesiReferans�1 koşturulabilir örneği.
-        j2sc#0703b.cs: �oklu aray�z mirasl� metotlar ve int/string/class/object e�itlikleri örneği.
-        j2sc#0703b.exe: S�n�flar, S�n�fNesnesiReferans�2 koşturulabilir örneği.
-    7.4.�yeMetod
-        j2sc#0704.cs: S�n�f metot �yelerinin parametreli/parametresiz �a�r�lmas� örneği.
-        j2sc#0704.exe: S�n�flar, �yeMetod koşturulabilir örneği.
-    7.5.�yeDe�i�ken
-        j2sc#0705.cs: S�n�f �ye de�i�kenlerine de�er atama ve eri�im örneği.
-        j2sc#0705.exe: S�n�flar, �yeDe�i�ken koşturulabilir örneği.
+7.Sınıflar
+    7.1.SınıfTanımı
+        j2sc#0701a.cs: Sınıf alan, metot, ebeveyn tarması, içiçe sınıf çağırma örneği.
+        j2sc#0701a.exe: Sınıflar, SınıfTanımı1 koşturulabilir örneği.
+        j2sc#0701b.cs: Ebeveyn sınıf/arayüzler, yapıyla/sınıfla al/koy'lu selsiyüs/F/K çevrimleri örneği.
+        j2sc#0701b.exe: Sınıflar, SınıfTanımı2 koşturulabilir örneği.
+    7.2.SınıfTiplemesi
+        j2sc#0702.cs: 'new Sınıf()' tiplemesi, üyelerine değer atama/okuma örneği.
+        j2sc#0702.exe: Sınıflar, SınıfTiplemesi koşturulabilir örneği.
+    7.3.SınıfNesnesiReferans 
+        j2sc#0703a.cs: Referanssal eşitsiz sınıf nesnelerini değersel eşitliğe çevirme örneği.
+        j2sc#0703a.exe: Sınıflar, SınıfNesnesiReferansı1 koşturulabilir örneği.
+        j2sc#0703b.cs: Çoklu arayüz miraslı metotlar ve int/string/class/object eşitlikleri örneği.
+        j2sc#0703b.exe: Sınıflar, SınıfNesnesiReferansı2 koşturulabilir örneği.
+    7.4.ÜyeMetod
+        j2sc#0704.cs: Sınıf metot üyelerinin parametreli/parametresiz çağrılması örneği.
+        j2sc#0704.exe: Sınıflar, ÜyeMetod koşturulabilir örneği.
+    7.5.ÜyeDeğişken
+        j2sc#0705.cs: Sınıf üye değişkenlerine değer atama ve erişim örneği.
+        j2sc#0705.exe: Sınıflar, ÜyeDeğişken koşturulabilir örneği.
     7.6.MetotParametresi
-        j2sc#0706a.cs: De�ersel, referanssal, ref, params parametreleri örneği.
-        j2sc#0706a.exe: S�n�flar, MetotParametresi1 koşturulabilir örneği.
-        j2sc#0706b.cs: De�er, params, out, ref ve delegeli parametreler örneği.
-        j2sc#0706b.exe: S�n�flar, MetotParametresi2 koşturulabilir örneği.
-    7.7.MetotGerid�n���
-        j2sc#0707.cs: Tipli metotlar�n say�sal, dizgesel, nesnel ve dizisel gerid�n��leri örneği.
-        j2sc#0707.exe: S�n�flar, MetotGerid�n��� koşturulabilir örneği.
-    7.8.MetotA��r�Y�kleme
-        j2sc#0708.cs: Say�sal parametrelerde, �oklu kurucularda ve miraslayanda a��r�y�kleme örneği.
-        j2sc#0708.exe: S�n�flar, MetotA��r�Y�kleme koşturulabilir örneği.
-    7.9.Metot�zyineleme
-        j2sc#0709.cs: �zyinelemeli ve taramal� metotlarla ayn� sonu�lar�n k�yas� örneği.
-        j2sc#0709.exe: S�n�flar, Metot�zyineleme koşturulabilir örneği.
+        j2sc#0706a.cs: Değersel, referanssal, ref, params parametreleri örneği.
+        j2sc#0706a.exe: Sınıflar, MetotParametresi1 koşturulabilir örneği.
+        j2sc#0706b.cs: Değer, params, out, ref ve delegeli parametreler örneği.
+        j2sc#0706b.exe: Sınıflar, MetotParametresi2 koşturulabilir örneği.
+    7.7.MetotGeridünüşü
+        j2sc#0707.cs: Tipli metotların sayısal, dizgesel, nesnel ve dizisel geridönüşleri örneği.
+        j2sc#0707.exe: Sınıflar, MetotGeridönüşü koşturulabilir örneği.
+    7.8.MetotAşırıYükleme
+        j2sc#0708.cs: Sayısal parametrelerde, çoklu kurucularda ve miraslayanda aşırıyükleme örneği.
+        j2sc#0708.exe: Sınıflar, MetotAşırıYükleme koşturulabilir örneği.
+    7.9.Metotözyineleme
+        j2sc#0709.cs: Özyinelemeli ve taramalı metotlarla aynı sonuçların kıyası örneği.
+        j2sc#0709.exe: Sınıflar, Metotözyineleme koşturulabilir örneği.
     7.10.ThisNewNull
-        j2sc#0710.cs: S�n�f alan 'this', 'new'le nesnel tipleme, 'null'la nesnel hi�leme örneği.
-        j2sc#0710.exe: S�n�flar, ThisNewNull koşturulabilir örneği.
+        j2sc#0710.cs: Sınıf alan 'this', 'new'le nesnel tipleme, 'null'la nesnel hiçleme örneği.
+        j2sc#0710.exe: Sınıflar, ThisNewNull koşturulabilir örneği.
     7.11.Kurucu
-        j2sc#0711a.cs: Parametriz ilkde�erli ve a��r�y�kl� parametli kurucular örneği.
-        j2sc#0711a.exe: S�n�flar, Kurucu1 koşturulabilir örneği.
-        j2sc#0711b.cs: Anas�n�f, alts�n�f ve istisnas�n�f kurucular�n�n ili�kileri örneği.
-        j2sc#0711b.exe: S�n�flar, Kurucu2 koşturulabilir örneği.
-    7.12.Y�k�c�
-        j2sc#0712.cs: Yarat�lan nesne sonlan�rken otomatik �a�r�lan y�k�c� örneği.
-        j2sc#0712.exe: S�n�flar, Y�k�c� koşturulabilir örneği.
-    7.13.Eri�imDe�i�tireci
-        j2sc#0713a.cs: S�n�f alan eri�im de�i�tire�lerinden public ve private örneği.
-        j2sc#0713a.exe: S�n�flar, Eri�imDe�i�tireci1 koşturulabilir örneği.
-        j2sc#0713b.cs: T�m alan eri�imlerinin kar��la�t�r�lmalar� örneği.
-        j2sc#0713b.exe: S�n�flar, Eri�imDe�i�tireci2 koşturulabilir örneği.
-    7.14.S�n�fHiyerar�isi
-        j2sc#0714a.cs: Temel, t�redi, aray�z, hiyerar�i, base.temel, new �ye örneği.
-        j2sc#0714a.exe: S�n�flar, S�n�fHiyerar�isi1 koşturulabilir örneği.
-        j2sc#0714b.cs: �oklu a��r�y�kl� temel kurucular ve harici temelin miraslanmas� örneği.
-        j2sc#0714bx.cs: Temel s�n�f�n harici uygulamadan miraslanmas� örneği.
-        j2sc#0714b.exe: S�n�flar, S�n�fHiyerar�isi2 koşturulabilir örneği.
+        j2sc#0711a.cs: Parametresiz ilkdeğerli ve aşırıyüklü parametreli kurucular örneği.
+        j2sc#0711a.exe: Sınıflar, Kurucu1 koşturulabilir örneği.
+        j2sc#0711b.cs: Anasınıf, altsınıf ve istisnasınıf kurucularının ilişkileri örneği.
+        j2sc#0711b.exe: Sınıflar, Kurucu2 koşturulabilir örneği.
+    7.12.Yıkıcı
+        j2sc#0712.cs: Yaratılan nesne sonlanırken otomatik çağrılan yıkıcı örneği.
+        j2sc#0712.exe: Sınıflar, Yıkıcı koşturulabilir örneği.
+    7.13.ErişimDeğiştireci
+        j2sc#0713a.cs: Sınıf alan erişim değiştireçlerinden public ve private örneği.
+        j2sc#0713a.exe: Sınıflar, ErişimDeğiştireci1 koşturulabilir örneği.
+        j2sc#0713b.cs: Tüm alan erişimlerinin karşılaştırılmaları örneği.
+        j2sc#0713b.exe: Sınıflar, ErişimDeğiştireci2 koşturulabilir örneği.
+    7.14.SınıfHiyerarşisi
+        j2sc#0714a.cs: Temel, türedi, arayüz, hiyerarşi, base.temel, new üye örneği.
+        j2sc#0714a.exe: Sınıflar, SınıfHiyerarşisi1 koşturulabilir örneği.
+        j2sc#0714b.cs: Çoklu aşırıyüklü temel kurucular ve harici temelin miraslanması örneği.
+        j2sc#0714bx.cs: Temel sınıfın harici uygulamadan miraslanması örneği.
+        j2sc#0714b.exe: Sınıflar, SınıfHiyerarşisi2 koşturulabilir örneği.
     7.15.SanalMetot
-        j2sc#0715a.cs: Temel/t�redi ayn� adl� virtual/override metotlar�n �a�r�lmas� örneği.
-        j2sc#0715a.exe: S�n�flar, SanalMetot1 koşturulabilir örneği.
-        j2sc#0715b.cs: �oklu hiyerar�ide virtual-override-new ili�kileri örneği.
-        j2sc#0715b.exe: S�n�flar, SanalMetot2 koşturulabilir örneği.
-        j2sc#0715c.cs: System metotlar�n�n override ve temel'den alan alma örneği.
-        j2sc#0715c.exe: S�n�flar, SanalMetot3 koşturulabilir örneği.
-    7.16.SoyutS�n�f
-        j2sc#0716.cs: Temel soyut s�n�f�n soyut metodunun t�redilerce esge�ilmesi örneği.
-        j2sc#0716.exe: S�n�flar, SoyutS�n�f koşturulabilir örneği.
-    7.17.Aray�z
-        j2sc#0717a.cs: Aray�z �ablon metot esasl� g�vdeli t�redi metotlar örneği.
-        j2sc#0717a.exe: S�n�flar, Aray�z1 koşturulabilir örneği.
-        j2sc#0717b.cs: Miraslanan �oklu aray�zlerin hiyrar�isi örneği.
-        j2sc#0717b.exe: S�n�flar, Aray�z2 koşturulabilir örneği.
-        j2sc#0717c.cs: Aray�z metotlar�n�n do�rudan ve referansl� �a�r�lmas� örneği.
-        j2sc#0717c.exe: S�n�flar, Aray�z3 koşturulabilir örneği.
-    7.18.�zellik
-        j2sc#0718a.cs: S�n�f alan de�erinin set-get'li �zellikle konulmas�-al�nmas� örneği.
-        j2sc#0718a.exe: S�n�flar, �zellik1 koşturulabilir örneği.
-        j2sc#0718b.cs: S�n�f alan de�erinin set-get'li �zellikle konulmas�-al�nmas� örneği.
-        j2sc#0718b.exe: S�n�flar, �zellik2 koşturulabilir örneği.
+        j2sc#0715a.cs: Temel/türedi aynı adlı virtual/override metotların çağrılması örneği.
+        j2sc#0715a.exe: Sınıflar, SanalMetot1 koşturulabilir örneği.
+        j2sc#0715b.cs: Çoklu hiyerarşide virtual-override-new ilişkileri örneği.
+        j2sc#0715b.exe: Sınıflar, SanalMetot2 koşturulabilir örneği.
+        j2sc#0715c.cs: System metotlarının override ve temel'den alan alma örneği.
+        j2sc#0715c.exe: Sınıflar, SanalMetot3 koşturulabilir örneği.
+    7.16.SoyutSınıf
+        j2sc#0716.cs: Temel soyut sınıfın soyut metodunun türedilerce esgeçilmesi örneği.
+        j2sc#0716.exe: Sınıflar, SoyutSınıf koşturulabilir örneği.
+    7.17.Arayüz
+        j2sc#0717a.cs: Arayüz şablon metot esaslı gövdeli türedi metotlar örneği.
+        j2sc#0717a.exe: Sınıflar, Arayüz1 koşturulabilir örneği.
+        j2sc#0717b.cs: Miraslanan çoklu arayüzlerin hiyrarşisi örneği.
+        j2sc#0717b.exe: Sınıflar, Arayüz2 koşturulabilir örneği.
+        j2sc#0717c.cs: Arayüz metotlarının doğrudan ve referanslı çağrılması örneği.
+        j2sc#0717c.exe: Sınıflar, Arayüz3 koşturulabilir örneği.
+    7.18.Özellik
+        j2sc#0718a.cs: Sınıf alan değerinin set-get'li özellikle konulması-alınması örneği.
+        j2sc#0718a.exe: Sınıflar, özellik1 koşturulabilir örneği.
+        j2sc#0718b.cs: Sınıf alan değerinin set-get'li özellikle konulması-alınması örneği.
+        j2sc#0718b.exe: Sınıflar, özellik2 koşturulabilir örneği.
     7.19.Endeksleyici
-        j2sc#0719a.cs: Tek/�ift boyutlu, yal�n ve ArrayList/ListDictionary'li endeksleyici örneği.
-        j2sc#0719a.exe: S�n�flar, Endeksleyici1 koşturulabilir örneği.
-        j2sc#0719b.cs: Esge�meyle ayn� s�n�f�n farkl� tipli endeksleyicileri örneği.
-        j2sc#0719b.exe: S�n�flar, Endeksleyici2 koşturulabilir örneği.
-    7.20.Uzant�
-        j2sc#0720.cs: Metodun parametrik giri�ini this'le �nuzant�'ya �evirme örneği.
-        j2sc#0720.exe: S�n�flar, Uzant� koşturulabilir örneği.
+        j2sc#0719a.cs: Tek/çift boyutlu, yalın ve ArrayList/ListDictionary'li endeksleyici örneği.
+        j2sc#0719a.exe: Sınıflar, Endeksleyici1 koşturulabilir örneği.
+        j2sc#0719b.cs: Esgeçmeyle aynı sınıfın farklı tipli endeksleyicileri örneği.
+        j2sc#0719b.exe: Sınıflar, Endeksleyici2 koşturulabilir örneği.
+    7.20.Uzantı
+        j2sc#0720.cs: Metodun parametrik girişini this'le önuzanto'ya çevirme örneği.
+        j2sc#0720.exe: Sınıflar, Uzantı koşturulabilir örneği.
     7.21.Statik
-        j2sc#0721a.cs: Statik s�n�f metotlar�n�n tiplemesiz uzant�l� y�r�t�lmesi örneği.
-        j2sc#0721a.exe: S�n�flar, Statik1 koşturulabilir örneği.
-        j2sc#0721b.cs: Tiplemesiz s�n�f uzant�l� statik alanlar örneği.
-        j2sc#0721b.exe: S�n�flar, Statik2 koşturulabilir örneği.
-        j2sc#0721c.cs: Statik metot, �zellik ve alan ili�kileri örneği.
-        j2sc#0721c.exe: S�n�flar, Statik3 koşturulabilir örneği.
-    7.22.�e�itli1
-        j2sc#0722a.cs: Ebeveyn base, ayn� adl� new alan/metot ve i�i�e s�n�flar örneği.
-        j2sc#0722a.exe: S�n�flar, �e�itli1 koşturulabilir örneği.
-        j2sc#0722b.cs: K�smi s�n�flar ve temel-t�redi esge�en metotlar örneği.
-        j2sc#0722b.exe: S�n�flar, �e�itli2 koşturulabilir örneği.
-        j2sc#0722c.cs: Parametrik s�n�f, sabitler ve serile�tirme/serisizle�tirme örneği.
-        j2sc#0722c.exe: S�n�flar, �e�itli3 koşturulabilir örneği.
-        j2sc#0722d.cs: Sadeceokunabilir/readonly de�i�kene ilkde�er-li/siz veri atama örneği.
-        j2sc#0722d.exe: S�n�flar, �e�itli4 koşturulabilir örneği.
-        j2sc#0722e.cs: M�h�rl� s�n�f/metot ve birka� haz�r system metotlar�n�n testi örneği.
-        j2sc#0722e.exe: S�n�flar, �e�itli5 koşturulabilir örneği.
-        j2sc#0748.cs: Esge�en ToString() metotla s�n�f alan de�erlerini g�sterme örneği.
-        j2sc#0722f.exe: S�n�flar, �e�itli6 koşturulabilir örneği.
-        j2sc#0722g.cs: ICloneable.Clone() aray�z �ablonlu klonla kopyalama örneği.
-        j2sc#0722g.exe: S�n�flar, �e�itli7 koşturulabilir örneği.
-        j2sc#0722h.cs: IFormattable �ablonla g�sterim bi�emlerini �zelle�tirme örneği.
-        j2sc#0722h.exe: S�n�flar, �e�itli8 koşturulabilir örneği.
-        j2sc#0722i.cs: ~S�n�f' bask�layan using'li/siz istemli S�n�f.Dispose() tipleme silme örneği.
-        j2sc#0722i.exe: S�n�flar, �e�itli9 koşturulabilir örneği.
-        j2sc#0722j.cs: IEnumerable, IEnumerator'la foreach taray�c� d�k�mleme örneği.
-        j2sc#0722j.exe: S�n�flar, �e�itli10 koşturulabilir örneği.
+        j2sc#0721a.cs: Statik sınıf metotlarının tiplemesiz uzantılı yürütülmesi örneği.
+        j2sc#0721a.exe: Sınıflar, Statik1 koşturulabilir örneği.
+        j2sc#0721b.cs: Tiplemesiz sınıf uzantılı statik alanlar örneği.
+        j2sc#0721b.exe: Sınıflar, Statik2 koşturulabilir örneği.
+        j2sc#0721c.cs: Statik metot, özellik ve alan ilişkileri örneği.
+        j2sc#0721c.exe: Sınıflar, Statik3 koşturulabilir örneği.
+    7.22.Çeşitli1
+        j2sc#0722a.cs: Ebeveyn base, aynı adlı new alan/metot ve içiçe sınıflar örneği.
+        j2sc#0722a.exe: Sınıflar, çeşitli1 koşturulabilir örneği.
+        j2sc#0722b.cs: Kısmi sınıflar ve temel-türedi esgeçen metotlar örneği.
+        j2sc#0722b.exe: Sınıflar, çeşitli2 koşturulabilir örneği.
+        j2sc#0722c.cs: Parametrik sınıf, sabitler ve serileştirme/serisizleştirme örneği.
+        j2sc#0722c.exe: Sınıflar, çeşitli3 koşturulabilir örneği.
+        j2sc#0722d.cs: Sadeceokunabilir/readonly değişkene ilkdeğer-li/siz veri atama örneği.
+        j2sc#0722d.exe: Sınıflar, çeşitli4 koşturulabilir örneği.
+        j2sc#0722e.cs: Mühürlü sınıf/metot ve birkaç hazır sistem metotlarının testi örneği.
+        j2sc#0722e.exe: Sınıflar, çeşitli5 koşturulabilir örneği.
+        j2sc#0722f: Esgeçen ToString() metotla sınıf alan değerlerini gösterme örneği.
+        j2sc#0722f.exe: Sınıflar, çeşitli6 koşturulabilir örneği.
+        j2sc#0722g.cs: ICloneable.Clone() arayüz şablonlu klonla kopyalama örneği.
+        j2sc#0722g.exe: Sınıflar, çeşitli7 koşturulabilir örneği.
+        j2sc#0722h.cs: IFormattable şablonla gösterim biçemlerini özelleştirme örneği.
+        j2sc#0722h.exe: Sınıflar, çeşitli8 koşturulabilir örneği.
+        j2sc#0722i.cs: ~Sınıf' baskılayan using'li/siz istemli Sınıf.Dispose() tipleme silme örneği.
+        j2sc#0722i.exe: Sınıflar, çeşitli9 koşturulabilir örneği.
+        j2sc#0722j.cs: IEnumerable, IEnumerator'la foreach tarayıcı dökümleme örneği.
+        j2sc#0722j.exe: Sınıflar, çeşitli10 koşturulabilir örneği.
 
-8.��lemci A��r�Y�kleme
-    j2sc#0801.cs: Aritmetik (+, -, *, /, ++) ve mant�ksal (&, |, &&, ||, true, false) i�lemci a��r�y�klenme örneği.
-    j2sc#0801.exe: A��r�Y�kleme, ��lemciA��r�Y�kleme1 koşturulabilir örneği.
-    j2sc#0802.cs: A��r�y�kl� k�yas, aritmetik, bool ve int i�lemcileri örneği.
-    j2sc#0802.exe: A��r�Y�kleme, ��lemciA��r�Y�kleme2 koşturulabilir örneği.
-    j2sc#0803.cs: Parametrik kaynak tipin hedef tipe imal� ve aleni �evrimi örneği.
-    j2sc#0803.exe: A��r�Y�kleme, ��lemciA��r�Y�kleme3 koşturulabilir örneği.
+8.İşlemci AşırıYükleme
+    j2sc#0801.cs: Aritmetik (+, -, *, /, ++) ve mant ksal (&, |, &&, ||, true, false) işlemci aşırıyüklenme örneği.
+    j2sc#0801.exe: AşırıYükleme, işlemciAşırıYükleme1 koşturulabilir örneği.
+    j2sc#0802.cs: Aşırıyüklü kıyas, aritmetik, bool ve int işlemcileri örneği.
+    j2sc#0802.exe: AşırıYükleme, işlemciAşırıYükleme2 koşturulabilir örneği.
+    j2sc#0803.cs: Parametrik kaynak tipin hedef tipe imalı ve aleni çevrimi örneği.
+    j2sc#0803.exe: AşırıYükleme, işlemciAşırıY kleme3 koşturulabilir örneği.
 
 9.Yetki Aktarma
-    j2sc#0901.cs: Delege fonksiyonla parametre-li/siz tekli/�oklu metot �a��rma örneği.
+    j2sc#0901.cs: Delege fonksiyonla parametre-li/siz tekli/çoklu metot çağırma örneği.
     j2sc#0901.exe: YetkiAktarma, Delege1 koşturulabilir örneği.
-    j2sc#0902.cs: �oklu metotlar� delegeye +-toplama/��karma örneği.
+    j2sc#0902.cs: Çoklu metotlar  delegeye +-toplama/çıkarma örneği.
     j2sc#0902.exe: YetkiAktarma, Delege2 koşturulabilir örneği.
-    j2sc#0903.cs: Anonim delegeli metotla �slenilen g�revlerin icras� örneği.
+    j2sc#0903.cs: Anonim delegeli metotla üslenilen görevlerin icrası örneği.
     j2sc#0903.exe: YetkiAktarma, Delege3 koşturulabilir örneği.
-    j2sc#0904a.cs: Delegeli olay y�netimleri eklemeli s�n�f tiplemeleri örneği.
+    j2sc#0904a.cs: Delegeli olay yönetimleri eklemeli sınıf tiplemeleri örneği.
     j2sc#0904a.exe: YetkiAktarma, Delege4a koşturulabilir örneği.
-    j2sc#0904b.cs: Delegeli olay metotlar� aras�nda parametrik de�er aktarma örneği.
+    j2sc#0904b.cs: Delegeli olay metotlar  arasında parametrik değer aktarma örneği.
     j2sc#0904b.exe: YetkiAktarma, Delege4b koşturulabilir örneği.
-    j2sc#0905.cs: Delege parametresi, gerid�n��� ve tipli delegeler örneği.
+    j2sc#0905.cs: Delege parametresi, geridönüşü ve tipli delegeler örneği.
     j2sc#0905.exe: YetkiAktarma, Delege5 koşturulabilir örneği.
 
-10.Vas�flar
-    j2sc#1001.cs: Vas�f/Attribute s�n�f� ve vas�fkullan�m/AttributeUsage ar�iv vasf� örneği.
-    j2sc#1001.exe: Vas�flar, Vas�f1 koşturulabilir örneği.
-    j2sc#1002.cs: �zel vas�f s�n�flar�n�n alan de�erlerinin yaz�lmas�/okunmas� örneği.
-    j2sc#1002.exe: Vas�flar, Vas�f2 koşturulabilir örneği.
-    j2sc#1005.cs: Reflection/Assembly, conditional/�artl� ve obsolete/tedav�ls�z vas�flar örneği.
-    j2sc#1003.exe: Vas�flar, Vas�f3 koşturulabilir örneği.
+10.Vasıflar
+    j2sc#1001.cs: Vasıf/Attribute sınıf  ve vasıfkullanım/AttributeUsage arşiv vasfı örneği.
+    j2sc#1001.exe: Vasıflar, Vasıf1 koşturulabilir örneği.
+    j2sc#1002.cs: Özel vasıf sınıflarının alan değerlerinin yazılması/okunması örneği.
+    j2sc#1002.exe: Vasıflar, Vasıf2 koşturulabilir örneği.
+    j2sc#1005.cs: Reflection/Assembly, conditional/şartl  ve obsolete/tedavülsüz vasıflar örneği.
+    j2sc#1003.exe: Vaı flar, Vasıf3 koşturulabilir örneği.
 
-11.Veri Yap�lar�
+11.Veri Yapıları
     11.1.Diziler
-        j2sc#1101a.cs: Dizi, tipi, ebat�, elemanlar�, endeksi, eri�im ve d�k�m örneği.
-        j2sc#1101a.exe: VeriYap�lar�, VeriYap�s�1A koşturulabilir örneği.
-        j2sc#1101b.cs: Dizi ebat�, ilk/son endeksi, uzunluk ve derecesi örneği.
-        j2sc#1101b.exe: VeriYap�lar�, VeriYap�s�1B koşturulabilir örneği.
-        j2sc#1101c.cs: �ok boyutlu d[,,,] ve �entikli d[][] dizide ebat, derece, alt/�st s�n�r örneği.
-        j2sc#1101c.exe: VeriYap�lar�, VeriYap�s�1C koşturulabilir örneği.
-        j2sc#1101d.cs: �okboyutlu, �entikli, istisna, nesne, klon ve kopya diziler örneği.
-        j2sc#1101d.exe: VeriYap�lar�, VeriYap�s�1D koşturulabilir örneği.
+        j2sc#1101a.cs: Dizi, tipi, ebatı, elemanları, endeksi, erişim ve döküm örneği.
+        j2sc#1101a.exe: VeriYapıları, VeriYapısı1A koşturulabilir örneği.
+        j2sc#1101b.cs: Dizi ebatı, ilk/son endeksi, uzunluk ve derecesi örneği.
+        j2sc#1101b.exe: VeriYapıları, VeriYapısı1B koşturulabilir örneği.
+        j2sc#1101c.cs: Çok boyutlu d[,,,] ve çentikli d[][] dizide ebat, derece, alt/üst sınır örneği.
+        j2sc#1101c.exe: VeriYapıları, VeriYapısı1C koşturulabilir örneği.
+        j2sc#1101d.cs: çokboyutlu, çentikli, istisna, nesne, klon ve kopya diziler örneği.
+        j2sc#1101d.exe: VeriYapıları, VeriYapısı1D koşturulabilir örneği.
         j2sc#1101e.cs: CreateInstance, Exists, Find/Last/All, TrueForAll ve Last/IndeksOf örneği.
-        j2sc#1101e.exe: VeriYap�lar�, VeriYap�s�1E koşturulabilir örneği.
+        j2sc#1101e.exe: VeriYapıları, VeriYapısı1E koşturulabilir örneği.
         j2sc#1101f.cs: Array.ForEach ve Array.BinarySearch örneği.
-        j2sc#1101f.exe: VeriYap�lar�, VeriYap�s�1F koşturulabilir örneği.
+        j2sc#1101f.exe: VeriYapıları, VeriYapısı1F koşturulabilir örneği.
         j2sc#1101g.cs: Array.Sort/Reverse(dizi), Array.ConverAll ve IEnumerator örneği.
-        j2sc#1101g.exe: VeriYap�lar�, VeriYap�s�1G koşturulabilir örneği.
+        j2sc#1101g.exe: VeriYapıları, VeriYapısı1G koşturulabilir örneği.
     11.2.ArrayList
         j2sc#1102a.cs: ArrayList yaratma, eleman ekleme, silme, arayagirme ve sunum örneği.
-        j2sc#1102a.exe: VeriYap�lar�, VeriYap�s�2A koşturulabilir örneği.
-        j2sc#1102b.cs: DiziListe Add/InsertRange, Set/GetRange ve �zelle�tirilen Sort/Reverse örneği.
-        j2sc#1102b.exe: VeriYap�lar�, VeriYap�s�2B koşturulabilir örneği.
-        j2sc#1102c.cs: �ok de�erli nesnel liste elemanlar�n� girme, s�ralama ve sunma örneği.
-        j2sc#1102c.exe: VeriYap�lar�, VeriYap�s�2C koşturulabilir örneği.
-        j2sc#1102d.cs: DiziListe ve ToArray sunumlar�, dosyaya ikili/sabun yazma/okuma örneği.
-        j2sc#1102d.exe: VeriYap�lar�, VeriYap�s�2D koşturulabilir örneği.
+        j2sc#1102a.exe: VeriYapıları, VeriYapısı2A koşturulabilir örneği.
+        j2sc#1102b.cs: DiziListe Add/InsertRange, Set/GetRange ve özelleştirilen Sort/Reverse örneği.
+        j2sc#1102b.exe: VeriYapıları, VeriYapısı2B koşturulabilir örneği.
+        j2sc#1102c.cs: Çok değerli nesnel liste elemanlarını girme, sıralama ve sunma örneği.
+        j2sc#1102c.exe: VeriYapıları, VeriYapısı2C koşturulabilir örneği.
+        j2sc#1102d.cs: DiziListe ve ToArray sunumları, dosyaya ikili/sabun yazma/okuma örneği.
+        j2sc#1102d.exe: VeriYapıları, VeriYapısı2D koşturulabilir örneği.
     11.3.Collection
         j2sc#1103.cs: 'ICollection<T>, new Collection<T>()' ve 'BitArray, new BitArray(byte)' örneği.
-        j2sc#1103.exe: VeriYap�lar�, VeriYap�s�3 koşturulabilir örneği.
+        j2sc#1103.exe: VeriYapıları, VeriYapısı3 koşturulabilir örneği.
     11.4.Dictionary
         j2sc#1104.cs: ICollection, IDictionary ve SortedDictionary örneği.
-        j2sc#1104.exe: VeriYap�lar�, VeriYap�s�4 koşturulabilir örneği.
+        j2sc#1104.exe: VeriYapıları, VeriYapısı4 koşturulabilir örneği.
     11.5.HashTable
-        j2sc#1105.cs: Hashtable/AdreslemeTablosu verilerinin say�sal/dizgesel anahtarla �zg� s�ralanmas� örneği.
-        j2sc#1105.exe: VeriYap�lar�, VeriYap�s�5 koşturulabilir örneği.
+        j2sc#1105.cs: Hashtable/AdreslemeTablosu verilerinin sayısal/dizgesel anahtarla özgü sıralanması örneği.
+        j2sc#1105.exe: VeriYapıları, VeriYapısı5 koşturulabilir örneği.
     11.6.List
-        j2sc#1106a.cs: List<T> ve select-from ile listeleri s�zge�leme/s�ralama örneği.
-        j2sc#1106a.exe: VeriYap�lar�, VeriYap�s�6A koşturulabilir örneği.
-        j2sc#1106b.cs: List<T> s�rala, ekle/sil/gir/al, Capacity/Count ve delege örneği.
-        j2sc#1106b.exe: VeriYap�lar�, VeriYap�s�6B koşturulabilir örneği.
-        j2sc#1106c.cs: LinkedList<T> AddFirst/Last/Before/After ekleme ve d��me takibi örneği.
-        j2sc#1106c.exe: VeriYap�lar�, VeriYap�s�6C koşturulabilir örneği.
-        j2sc#1106d.cs: SortedList anahtar-de�er �iftiyle otomatik s�ral� liste örneği.
-        j2sc#1106d.exe: VeriYap�lar�, VeriYap�s�6D koşturulabilir örneği.
+        j2sc#1106a.cs: List<T> ve select-from ile listeleri süügeçleme/sıralama örneği.
+        j2sc#1106a.exe: VeriYapıları, VeriYapısı6A koşturulabilir örneği.
+        j2sc#1106b.cs: List<T> sırala, ekle/sil/gir/al, Capacity/Count ve delege örneği.
+        j2sc#1106b.exe: VeriYapıları, VeriYapısı6B koşturulabilir örneği.
+        j2sc#1106c.cs: LinkedList<T> AddFirst/Last/Before/After ekleme ve düğme takibi örneği.
+        j2sc#1106c.exe: VeriYapıları, VeriYapısı6C koşturulabilir örneği.
+        j2sc#1106d.cs: SortedList anahtar-değer çiftiyle otomatik sıralı liste örneği.
+        j2sc#1106d.exe: VeriYapılarıı VeriYapısı6D koşturulabilir örneği.
     11.7.Queue ve Stack
-        j2sc#1107.cs: Queue sona-ekle �nden-��kar ve Stack �ne-ekle �nden-��kar örneği.
-        j2sc#1107.exe: VeriYap�lar�, VeriYap�s�7 koşturulabilir örneği.
+        j2sc#1107.cs: Queue sona-ekle önden-çıkar ve Stack öne-ekle önden-çıkar örneği.
+        j2sc#1107.exe: VeriYapıları, VeriYapısı7 koşturulabilir örneği.
     11.8.Yield-return
-        j2sc#1108.cs: IEnumerble Liste() metodunun yield-return'le �oklu de�er �retmesi örneği.
-        j2sc#1108.exe: VeriYap�lar�, VeriYap�s�8 koşturulabilir örneği.
+        j2sc#1108.cs: IEnumerble Liste() metodunun yield-return'le çoklu değer üretmesi örneği.
+        j2sc#1108.exe: VeriYapıları, VeriYapısı8 koşturulabilir örneği.
     11.9.IComparable/IComparer ve IEnumerable/IEnumerator
-        j2sc#1109a.cs: IComparable/CompareTo() ve IComparer/Compare() ile �zel s�ralama örneği.
-        j2sc#1109a.exe: VeriYap�lar�, VeriYap�s�9A koşturulabilir örneği.
-        j2sc#1109b.cs: IComparer ebeveynli Compare()'le d�z/ters s�ralama örneği.
-        j2sc#1109b.exe: VeriYap�lar�, VeriYap�s�9B koşturulabilir örneği.
-        j2sc#1109c.cs: IEnumerable/IEnumerator ve yield-return'la koleksiyonlar �retme örneği.
-        j2sc#1109c.exe: VeriYap�lar�, VeriYap�s�9C koşturulabilir örneği.
-        j2sc#1109d.cs: �zelle�tirilen IEnumerable ve IEnumerator'la dizi/liste tarama örneği.
-        j2sc#1109d.exe: VeriYap�lar�, VeriYap�s�9D koşturulabilir örneği.
-        j2sc#1109e.cs: Hashtable'n IDictionaryEnumerator'la taranmas� örneği.
-        j2sc#1109e.exe: VeriYap�lar�, VeriYap�s�9E koşturulabilir örneği.
+        j2sc#1109a.cs: IComparable/CompareTo() ve IComparer/Compare() ile özel sıralama örneği.
+        j2sc#1109a.exe: VeriYapıları, VeriYapısı9A koşturulabilir örneği.
+        j2sc#1109b.cs: IComparer ebeveynli Compare()'le düz/ters sıralama örneği.
+        j2sc#1109b.exe: VeriYapıları, VeriYapısı9B koşturulabilir örneği.
+        j2sc#1109c.cs: IEnumerable/IEnumerator ve yield-return'la koleksiyonlar üretme örneği.
+        j2sc#1109c.exe: VeriYapıları, VeriYapısı9C koşturulabilir örneği.
+        j2sc#1109d.cs: Özelleştirilen IEnumerable ve IEnumerator'la dizi/liste tarama örneği.
+        j2sc#1109d.exe: VeriYap lar , VeriYap s 9D koşturulabilir örneği.
+        j2sc#1109e.cs: Hashtable'ın IDictionaryEnumerator'la taranması örneği.
+        j2sc#1109e.exe: VeriYapıları, VeriYapısı9E koşturulabilir örneği.
     11.10.Base, event ve sort
-        j2sc#1110.cs: Collection/Dictionary/ReadOnly-base, klk-olay ve kabarc�k/h�zl� s�ralama örneği.
-        j2sc#1110.exe: VeriYap�lar�, VeriYap�s�10 koşturulabilir örneği.
+        j2sc#1110.cs: Collection/Dictionary/ReadOnly-base, klk-olay ve kabarcık/hızlı sıralama örneği.
+        j2sc#1110.exe: VeriYapıları, VeriYapısı10 koşturulabilir örneği.
 
 12.Kurulumlar
-    j2sc#1201.cs: AppDomain/UygSahas� ile program y�kleme, �al��t�rma ve bo�altma örneği.
+    j2sc#1201.cs: AppDomain/UygSahası ile program yükleme, çalıştırma ve boşaltma örneği.
     j2sc#1201.exe: Kurulum, Kurgu1 koşturulabilir örneği.
-    j2sc#1202.cs: Assembly kurgusuyla mevcut tipleme ve metotlar�n i�letilmesi örneği.
+    j2sc#1202.cs: Assembly kurgusuyla mevcut tipleme ve metotların işletilmesi örneği.
     j2sc#1202.exe: Kurulum, Kurgu2 koşturulabilir örneği.
-    j2sc#1203.cs: Assembly kurulumlar�n�n �zelliklerinin sunulmas� örneği.
+    j2sc#1203.cs: Assembly kurulumlarının özelliklerinin sunulması örneği.
     j2sc#1203.exe: Kurulum, Kurgu3 koşturulabilir örneği.
-    j2sc#1204.cs: Dinamik kurgu, kurgu tamad� detaylar� ve kan�tlar� örneği.
+    j2sc#1204.cs: Dinamik kurgu, kurgu tamadı detayları ve kanıtları örneği.
     j2sc#1204.exe: Kurulum, Kurgu4 koşturulabilir örneği.
 
 13.Tarih ve Saat
     13.1.DateTime/TarihZaman
-        j2sc#1301.cs: DateTime ve detaylar�yla �e�itli TarihZaman hesaplar� örneği.
+        j2sc#1301.cs: DateTime ve detaylarıyla çeşitli TarihZaman hesapları örneği.
         j2sc#1301.exe: Tarih, TarihZaman koşturulabilir örneği.
-    13.2.TarihZaman bi�imleme
-        j2sc#1302.cs: T�m b�y�k/k���k-harf tarih-zaman bi�imleme harfleri örneği.
-        j2sc#1302.exe: Tarih, TarihBi�imleme koşturulabilir örneği.
-    13.3.TarihZaman �evrimleri
-        j2sc#1303.cs: DateTime.Parse(dizge) �evrimi ve TimeSpan(g,S,d,s,ms) zamanaral��� örneği.
-        j2sc#1303.exe: Tarih, Tarih�evrimi koşturulabilir örneği.
+    13.2.TarihZaman biçimleme
+        j2sc#1302.cs: Tüm büyük/küçük-harf tarih-zaman biçimleme harfleri örneği.
+        j2sc#1302.exe: Tarih, TarihBiçimleme koşturulabilir örneği.
+    13.3.TarihZaman çevrimleri
+        j2sc#1303.cs: DateTime.Parse(dizge) çevrimi ve TimeSpan(g,S,d,s,ms) zamanaralığı örneği.
+        j2sc#1303.exe: Tarih, Tarih evrimi koşturulabilir örneği.
     13.4.Takvim
-        j2sc#1304.cs: �e�itli k�lt�r ve takvim �zelliklerinin kar��la�t�r�lmalar� örneği.
+        j2sc#1304.cs: Çeşitli kültür ve takvim özelliklerinin karşılaştırılmaları örneği.
         j2sc#1304.exe: Tarih, Takvim koşturulabilir örneği.
 
-14.Geli�imler
+14.Gelişimler
     14.1.Uygulama
-        j2sc#1401.cs: Application'la Form'dan ��k�� ve sol-t�klama mesajlar� örneği.
-        j2sc#1401.exe: Geli�imler, Uygulama koşturulabilir örneği.
-    14.2.�evre
-        j2sc#1402.cs: Environment �evreye dair t�m komutlar örneği.
-        j2sc#1402.exe: Geli�imler, �evre koşturulabilir örneği.
+        j2sc#1401.cs: Application'la Form'dan çıkış ve sol-tıklama mesajları örneği.
+        j2sc#1401.exe: Gelişimler, Uygulama koşturulabilir örneği.
+    14.2.Çevre
+        j2sc#1402.cs: Environment çevreye dair tüm komutlar örneği.
+        j2sc#1402.exe: Gelişimler, çevre koşturulabilir örneği.
     14.3.Konsol
-        j2sc#1403a.cs: Console.Write/WriteLine/Error/SetIn/SetOut konsol ��kt�lar� örneği.
-        j2sc#1403a.exe: Geli�imler, KonsolA koşturulabilir örneği.
-        j2sc#1403b.cs: Harflerle {0,-20:H#,0.0#} veya ToString("H") ��kt� bi�imleme örneği.
-        j2sc#1403b.exe: Geli�imler, KonsolB koşturulabilir örneği.
+        j2sc#1403a.cs: Console.Write/WriteLine/Error/SetIn/SetOut konsol çıktılar  örneği.
+        j2sc#1403a.exe: Gelişimler, KonsolA koşturulabilir örneği.
+        j2sc#1403b.cs: Harflerle {0,-20:H#,0.0#} veya ToString("H") çıktı biçimleme örneği.
+        j2sc#1403b.exe: Gelişimler, KonsolB koşturulabilir örneği.
         j2sc#1403c.cs: Read(), ReadLine(), ReadKey(), TextWriter ve StreamWriter örneği.
-        j2sc#1403c.exe: Geli�imler, KonsolC koşturulabilir örneği.
-        j2sc#1403d.cs: DOS veya windows pencere renk/ebat ayarlar� örneği.
-        j2sc#1403d.exe: Geli�imler, KonsolD koşturulabilir örneği.
-        j2sc#1403e.cs: �zelle�tirilen IFormattable ve harf formatlar� örneği.
-        j2sc#1403e.exe: Geli�imler, KonsolE koşturulabilir örneği.
+        j2sc#1403c.exe: Gelişimler, KonsolC koşturulabilir örneği.
+        j2sc#1403d.cs: DOS veya windows pencere renk/ebat ayarları örneği.
+        j2sc#1403d.exe: Gelişimler, KonsolD koşturulabilir örneği.
+        j2sc#1403e.cs: Özelleştirilen IFormattable ve harf formatları örneği.
+        j2sc#1403e.exe: Gelişimler, KonsolE koşturulabilir örneği.
     14.4.Math
-        j2sc#1404.cs: Math.Sin/Cos/Tan, Math.Sign/Max/Sqrt/PI ve Random() uygulamalar� örneği.
-        j2sc#1404.exe: Geli�imler, MathFonksiyonu koşturulabilir örneği.
+        j2sc#1404.cs: Math.Sin/Cos/Tan, Math.Sign/Max/Sqrt/PI ve Random() uygulamalar  örneği.
+        j2sc#1404.exe: Gelişimler, MathFonksiyonu koşturulabilir örneği.
     14.5.Process
-        j2sc#1405a.cs: Process ile t�m i�letilen komutlar� y�r�tebilme örneği.
-        j2sc#1405a.exe: Geli�imler, ��letA koşturulabilir örneği.
-        j2sc#1405b.cs: Process.Start ile s�re� ko�turma ve sicim takibi örneği.
-        j2sc#1405b.exe: Geli�imler, ��letB koşturulabilir örneği.
-        j2sc#1405c.cs: ProcessStartInfo ve Process ile tek/�oklu i�lere eri�im örneği.
-        j2sc#1405c.exe: Geli�imler, ��letC koşturulabilir örneği.
+        j2sc#1405a.cs: Process ile tüm işletilen komutları yürütebilme örneği.
+        j2sc#1405a.exe: Gelişimler, İşletA koşturulabilir örneği.
+        j2sc#1405b.cs: Process.Start ile süreç koşturma ve sicim takibi örneği.
+        j2sc#1405b.exe: Gelişimler, İşletB koşturulabilir örneği.
+        j2sc#1405c.cs: ProcessStartInfo ve Process ile tek/çoklu işlere erişim örneği.
+        j2sc#1405c.exe: Gelişimler, İşletC koşturulabilir örneği.
     14.6.Timer
-        j2sc#1406a.cs: System.Threading.Timer ve System.Timers.Timer zamanlay�c�lar-1 örneği.
-        j2sc#1406a.exe: Geli�imler, Zamanly�c�A koşturulabilir örneği.
-        j2sc#1406b.cs: System.Threading.Timer ve System.Timers.Timer zamanlay�c�lar-2 örneği.
-        j2sc#1406b.exe: Geli�imler, Zamanly�c�B koşturulabilir örneği.
+        j2sc#1406a.cs: System.Threading.Timer ve System.Timers.Timer zamanlayıcılar-1 örneği.
+        j2sc#1406a.exe: Gelişimler, ZamanlayıcıA koşturulabilir örneği.
+        j2sc#1406b.cs: System.Threading.Timer ve System.Timers.Timer zamanlayıcılar-2 örneği.
+        j2sc#1406b.exe: Gelişimler, ZamanlayıcıB koşturulabilir örneği.
     14.7.Trace
         j2sc#1407a.cs: TextWriterTraceListener ve Trace.Listeners.Add'le hata takibi örneği.
-        j2sc#1407a.exe: Geli�imler, �zleyiciA koşturulabilir örneği.
+        j2sc#1407a.exe: Gelişimler, İzleyiciA koşturulabilir örneği.
         j2sc#1407b.cs: Trace.Listeners.Add(new TextWriterTraceListener(Console.Out/dosya)) ile Assert örneği.
-        j2sc#1407b.exe: Geli�imler, �zleyiciB koşturulabilir örneği.
+        j2sc#1407b.exe: Gelişimler, İzleyiciB koşturulabilir örneği.
         j2sc#1407c.cs: TraceSwitch, StackTrace ve StackFrame örneği.
-        j2sc#1407c.exe: Geli�imler, �zleyiciC koşturulabilir örneği.
-    14.8.�e�itli
-        j2sc#1408a.cs: Komut sat�r� arg�manlar�, ReadLine(), xml ve Connection örneği.
-        j2sc#1408a.exe: Geli�imler, �e�itliA koşturulabilir örneği.
+        j2sc#1407c.exe: Gelişimler, İzleyiciC koşturulabilir örneği.
+    14.8.Çeşitli
+        j2sc#1408a.cs: Komut satırı argümanlar , ReadLine(), xml ve Connection örneği.
+        j2sc#1408a.exe: Gelişimler, çeşitliA koşturulabilir örneği.
         j2sc#1408b.cs: GC.Dispose(), Guid, BooleanSwitch ve PrinterSettings örneği.
-        j2sc#1408b.exe: Geli�imler, �e�itliB koşturulabilir örneği.
-        j2sc#1408c.cs: BitConverter, Context, derleme warning/ikaz�, SerialPort ve Beep örneği.
-        j2sc#1408c.exe: Geli�imler, �e�itliC koşturulabilir örneği.
+        j2sc#1408b.exe: Gelişimler, çeşitliB koşturulabilir örneği.
+        j2sc#1408c.cs: BitConverter, Context, derleme warning/ikaz , SerialPort ve Beep örneği.
+        j2sc#1408c.exe: Gelişimler, çeşitliC koşturulabilir örneği.
         j2sc#1408d.cs: Application.Run, SoundPlayer, AsyncResult ve [Conditional('DEBUG')] örneği.
-        j2sc#1408d.exe: Geli�imler, �e�itliD koşturulabilir örneği.
+        j2sc#1408d.exe: Gelişimler, ÇeşitliD koşturulabilir örneği.
         j2sc#1408e.cs: Action, Context, EventArgs, Evidence, Installer örneği.
-        j2sc#1408e.exe: Geli�imler, �e�itliE koşturulabilir örneği.
+        j2sc#1408e.exe: Gelişimler, ÇeşitliE koşturulabilir örneği.
 
-15.Dosya ve Dizin Ak���
+15.Dosya ve Dizin Akışı
     15.1.Dosya
         j2sc#1501a.cs: OpenFileDialog, File.Read/WriteAllLines, Create ve Delete örneği.
         j2sc#1501a.exe: DosyaDizin, DosyaA koşturulabilir örneği.
-        j2sc#1501b.cs: CopyTo/kopyala, MoveTo/ta��, Hash-no'lar� k�yasla örneği.
+        j2sc#1501b.cs: CopyTo/kopyala, MoveTo/ta  , Hash-no'lar  kıyasla örneği.
         j2sc#1501b.exe: DosyaDizin, DosyaB koşturulabilir örneği.
-        j2sc#1501c.cs: Dosya vas�flar�, �zellikleri, eri�imleri ve de�i�iklik örneği.
+        j2sc#1501c.cs: Dosya vasıfları, özellikleri, erişimleri ve değişiklik örneği.
         j2sc#1501c.exe: DosyaDizin, DosyaC koşturulabilir örneği.
         j2sc#1501d.cs: FileStream, StreamWriter, Read/Write ve Read/WriteByte örneği.
         j2sc#1501d.exe: DosyaDizin, DosyaD koşturulabilir örneği.
@@ -737,111 +737,111 @@ C# / CSharp Eğitimi
         j2sc#1501h.cs: StreamWriter ve StreamReader'la dosya yaratma/yazma/okuma örneği.
         j2sc#1501h.exe: DosyaDizin, DosyaH koşturulabilir örneği.
         j2sc#1501i.cs: Stram,FileStream, FileInfo, File, StreamWriter ve StreamReader örneği.
-        j2sc#1501i.exe: DosyaDizin, Dosya� koşturulabilir örneği.
-        j2sc#1501j.cs: Bellekte BufferedStream ve MemoryStream ak��lar� örneği.
+        j2sc#1501i.exe: DosyaDizin, Dosya  koşturulabilir örneği.
+        j2sc#1501j.cs: Bellekte BufferedStream ve MemoryStream akışlar  örneği.
         j2sc#1501j.exe: DosyaDizin, DosyaJ koşturulabilir örneği.
         j2sc#1501k.cs: BinaryWriter ve BinaryReader'la dosyaya yazma/okuma örneği.
         j2sc#1501k.exe: DosyaDizin, DosyaK koşturulabilir örneği.
-    15.2.S�r�c�Dizin
-        j2sc#1502a.cs: DriveInfo s�r�c� ve DirectoryInfo dizin örneği.
-        j2sc#1502a.exe: S�r�c�Dizin, DirA koşturulabilir örneği.
+    15.2.SürücüDizin
+        j2sc#1502a.cs: DriveInfo sürücü ve DirectoryInfo dizin örneği.
+        j2sc#1502a.exe: SürücüDizin, DirA koşturulabilir örneği.
         j2sc#1502b.cs: Dizin, altdizin ve dosyalar yaratma, kopyalama ve silme örneği.
-        j2sc#1502b.exe: S�r�c�Dizin, DirB koşturulabilir örneği.
+        j2sc#1502b.exe: SürücüDizin, DirB koşturulabilir örneği.
         j2sc#1502c.cs: Dizin kopyalama, toplam ebat hesaplama, dizin/altdizin/dosya listeleme örneği.
-        j2sc#1502c.exe: S�r�c�Dizin, DirC koşturulabilir örneği.
-    15.3.�e�itli
-        j2sc#1503a.cs: Verileri dosyaya serile�tirip ikili veya xml bi�emde yazma örneği.
-        j2sc#1503a.exe: S�r�c�Dizin, Serile�tirmeA koşturulabilir örneği.
+        j2sc#1502c.exe: SürücüDizin, DirC koşturulabilir örneği.
+    15.3.Çeşitli
+        j2sc#1503a.cs: Verileri dosyaya serileştirip ikili veya xml biçemde yazma örneği.
+        j2sc#1503a.exe: SürücüDizin, SerileştirmeA koşturulabilir örneği.
         j2sc#1503b.cs: BinaryFormatter.Serialize/Deserialize, Path.GetTempFileName ve Path.GetRandomFileName örneği.
-        j2sc#1503b.exe: S�r�c�Dizin, Serile�tirmeB koşturulabilir örneği.
+        j2sc#1503b.exe: SürücüDizin, SerileştirmeB koşturulabilir örneği.
         j2sc#1503c.cs: using ifadesi, FileSecurity ve TripleDESCryptoServiceProvider örneği.
-        j2sc#1503c.exe: DosyaDizin, �e�itliC koşturulabilir örneği.
-        j2sc#1503d.cs: FileSystemWatcher'la se�ili dosyan�n olaylara duyarl�l�k g�zlemi örneği.
-        j2sc#1503d.exe: DosyaDizin, �e�itliD koşturulabilir örneği.
+        j2sc#1503c.exe: DosyaDizin, ÇeşitliC koşturulabilir örneği.
+        j2sc#1503d.cs: FileSystemWatcher'la seçili dosyanın olaylara duyarlılık gözlemi örneği.
+        j2sc#1503d.exe: DosyaDizin, ÇeşitliD koşturulabilir örneği.
         j2sc#1503e.cs: FileVersionInfo, IsolatedStorageFile, GZipStream ve CSV dosya örneği.
-        j2sc#1503e.exe: DosyaDizin, �e�itliE koşturulabilir örneği.
+        j2sc#1503e.exe: DosyaDizin, ÇeşitliE koşturulabilir örneği.
         j2sc#1503f.cs: AsyncCallback ve Thread'le dosyaya asenkron yazma ve okuma örneği.
-        j2sc#1503f.exe: DosyaDizin, �e�itliF koşturulabilir örneği.
+        j2sc#1503f.exe: DosyaDizin, ÇeşitliF koşturulabilir örneği.
 
-16.�ni�lem Talimatlar�
-    j2sc#1601.cs: �ni�lem direktifleri, #define/undef/if/line/region/warning örneği.
-    j2sc#1601.exe: �ni�lemler, Direktif koşturulabilir örneği.
+16.Önişlem Talimatlar 
+    j2sc#1601.cs: Önişlem direktifleri, #define/undef/if/line/region/warning örneği.
+    j2sc#1601.exe: Önişlemler, Direktif koşturulabilir örneği.
 
-17.D�zenli �fade
+17.Düzenli İfade
     j2sc#1701a.cs: Regex'le Split, Replace, IsMatch ve Match örneği.
-    j2sc#1701a.exe: D�zenli�fade, Regex1A koşturulabilir örneği.
-    j2sc#1701b.cs: Regex.Match'le t�mce, kal�p, d�zif ve uyan örneği.
-    j2sc#1701b.exe: D�zenli�fade, Regex1B koşturulabilir örneği.
-    j2sc#1701c.cs: Matches, Replace ve Split'le Regex e�le�enleri örneği.
-    j2sc#1701c.exe: D�zenli�fade, Regex1C koşturulabilir örneği.
-    j2sc#1702.cs: 'Group grup in e�le�en.Groups' örneği.
-    j2sc#1702.exe: D�zenli�fade, D�zif koşturulabilir örneği.
-    j2sc#1703.cs: Tlf, eposta, para, say�sal-kod'lar�n ge�erlilik testi örneği.
-    j2sc#1703.exe: D�zenli�fade, D�zif koşturulabilir örneği.
+    j2sc#1701a.exe: Düzenli fade, Regex1A koşturulabilir örneği.
+    j2sc#1701b.cs: Regex.Match'le tümce, kalıp, düzif ve uyan örneği.
+    j2sc#1701b.exe: Düzenliİfade, Regex1B koşturulabilir örneği.
+    j2sc#1701c.cs: Matches, Replace ve Split'le Regex eşleşenleri örneği.
+    j2sc#1701c.exe: Düzenliİfade, Regex1C koşturulabilir örneği.
+    j2sc#1702.cs: 'Group grup in eşleşen.Groups' örneği.
+    j2sc#1702.exe: Düzenliİfade, Düzif koşturulabilir örneği.
+    j2sc#1703.cs: Tlf, eposta, para, sayısal-kod'ların geçerlilik testi örneği.
+    j2sc#1703.exe: Düzenliİfade, Düzif koşturulabilir örneği.
 
 18.Soysal
     18.1.Soysal Liste
-        j2sc#1801a.cs: Soysal List<T> ile listeye farkl� tip elemanlar ekleme örneği.
+        j2sc#1801a.cs: Soysal List<T> ile listeye farklı tip elemanlar ekleme örneği.
         j2sc#1801a.exe: SoysalListe, Liste koşturulabilir örneği.
         j2sc#1801b.cs: Soysal<T> normal, delegeli ve aksiyonlu koleksiyonlar örneği.
         j2sc#1801b.exe: SoysalListe, Koleksiyon koşturulabilir örneği.
-        j2sc#1801c.cs: Stack y���na Push, Peek ve Pop'la kay�t koyma/alma örneği.
-        j2sc#1801c.exe: SoysalListe, Y���n koşturulabilir örneği.
+        j2sc#1801c.cs: Stack yığına Push, Peek ve Pop'la kayıt koyma/alma örneği.
+        j2sc#1801c.exe: SoysalListe, Yığın koşturulabilir örneği.
         j2sc#1801d.cs: Queue<T>, Dictionary/SortedDictionary<T,T> ve SortedList örneği.
-        j2sc#1801d.exe: SoysalListe, KuyrukS�zl�kS�ral� koşturulabilir örneği.
-    18.2.Soysal Taray�c�
+        j2sc#1801d.exe: SoysalListe, KuyrukSözlükSıralı koşturulabilir örneği.
+    18.2.Soysal Tarayıcı
         j2sc#1802a.cs: IEnumerator<T> ve IEnumerable<T> ile taramalar örneği.
-        j2sc#1802a.exe: SoysalD�k�mleyici, SoysalTaray�c� koşturulabilir örneği.
-        j2sc#1802b.cs: IComparable<T> ve IComparer<T> ile k�yasl� artan/azalan s�ralama örneği.
-        j2sc#1802b.exe: SoysalD�k�mleyici, SoysalK�yasc� koşturulabilir örneği.
-    18.3.Soysal S�n�f
-        j2sc#1803a.cs: SoysalS�n�f<T1,T2> ve SoysalMetot<T>(T prm) örneği.
-        j2sc#1803a.exe: SoysalS�n�f, S�n�f<T> koşturulabilir örneği.
-        j2sc#1803b.cs: Soysal parametre, delege, varsay�l� de�er ve where ref örneği.
-        j2sc#1803b.exe: SoysalS�n�f, S�n�f<T> koşturulabilir örneği.
-        j2sc#1803c.cs: Ebeveynin base(arg) kurucusu ve IAray�z �ablon alan-metot örneği.
-        j2sc#1803c.exe: SoysalS�n�f, S�n�f<T> koşturulabilir örneği.
-        j2sc#1803d.cs: Ebeveyn, new(), class, struct ve Main<T> k�s�tlamalar� örneği.
-        j2sc#1803d.exe: SoysalS�n�f, S�n�f<T> koşturulabilir örneği.
+        j2sc#1802a.exe: SoysalDökümleyici, SoysalTarayıcı koşturulabilir örneği.
+        j2sc#1802b.cs: IComparable<T> ve IComparer<T> ile kıyaslı artan/azalan sıralama örneği.
+        j2sc#1802b.exe: SoysalDökümleyici, SoysalKıyascı koşturulabilir örneği.
+    18.3.Soysal Sınıf
+        j2sc#1803a.cs: SoysalSınıf<T1,T2> ve SoysalMetot<T>(T prm) örneği.
+        j2sc#1803a.exe: SoysalSınıf, Sınıf<T> koşturulabilir örneği.
+        j2sc#1803b.cs: Soysal parametre, delege, varsayılı değer ve where ref örneği.
+        j2sc#1803b.exe: SoysalSınıf, Sınıf<T> koşturulabilir örneği.
+        j2sc#1803c.cs: Ebeveynin base(arg) kurucusu ve IArayüz şablon alan-metot örneği.
+        j2sc#1803c.exe: SoysalSınıf, Sınıf<T> koşturulabilir örneği.
+        j2sc#1803d.cs: Ebeveyn, new(), class, struct ve Main<T> kısıtlamaları örneği.
+        j2sc#1803d.exe: SoysalSınıf, Sınıf<T> koşturulabilir örneği.
 
-19.Yans�tma
+19.Yansıtma
     19.1.Tip Bilgileri
-        j2sc#1901a.cs: typeof(S�n�f) ve new S�n�f().GetType() tip bilgi detaylar� örneği.
+        j2sc#1901a.cs: typeof(Sınıf) ve new Sınıf().GetType() tip bilgi detaylar  örneği.
         j2sc#1901a.exe: TipBilgileri, Tip koşturulabilir örneği.
-        j2sc#1901b.cs: Assembly.GetCustomAttributes()'le mevcut kurgu vas�flar� örneği.
-        j2sc#1901b.exe: TipBilgileri, Vas�f koşturulabilir örneği.
+        j2sc#1901b.cs: Assembly.GetCustomAttributes()'le mevcut kurgu vasıfları örneği.
+        j2sc#1901b.exe: TipBilgileri, Vasıf koşturulabilir örneği.
         j2sc#1901c.cs: ConstructorInfo ve ParameterInfo ile parametreli kurucu örneği.
         j2sc#1901c.exe: TipBilgileri, Kurucu koşturulabilir örneği.
         j2sc#1901d.cs: FieldInfo ve MemberInfo'yla tiplemelerin alan bilgileri örneği.
         j2sc#1901d.exe: TipBilgileri, Alan koşturulabilir örneği.
-        j2sc#1901e.cs: typeof(S�n�f), MethodInfo, ParameterInfo ve mi.Invoke(snfTipleme,args) örneği.
+        j2sc#1901e.cs: typeof(Sınıf), MethodInfo, ParameterInfo ve mi.Invoke(snfTipleme,args) örneği.
         j2sc#1901e.exe: TipBilgileri, Metot koşturulabilir örneği.
-        j2sc#1901f.cs: Kurucu ve desteklenen t�m metotlar�n parametreleri örneği.
+        j2sc#1901f.cs: Kurucu ve desteklenen tüm metotların parametreleri örneği.
         j2sc#1901f.exe: TipBilgileri, Parametre koşturulabilir örneği.
         j2sc#1901g.cs: PropertyInfo, pi.Name ve pi.PropertyType örneği.
-        j2sc#1901g.exe: TipBilgileri, �zellik koşturulabilir örneği.
-    19.2.Tipli ��lemler
+        j2sc#1901g.exe: TipBilgileri, özellik koşturulabilir örneği.
+    19.2.Tipli işlemler
         j2sc#1902a.cs: Type, delegate, EventHandler ve tip.InvokeMember örneği.
-        j2sc#1902a.exe: Tipli��lemler, Delege koşturulabilir örneği.
-        j2sc#1902b.cs: Aray�z metotlar� ve soysal delege fonksiyon gerid�n��leri örneği.
-        j2sc#1902b.exe: Tipli��lemler, Aray�z koşturulabilir örneği.
-        j2sc#1902c.cs: Assembly kurgu detaylar� ve metot.Invoke (ns,null) örneği.
-        j2sc#1902c.exe: Tipli��lemler, Kurgu koşturulabilir örneği.
+        j2sc#1902a.exe: Tipliİşlemler, Delege koşturulabilir örneği.
+        j2sc#1902b.cs: Arayüz metotlar  ve soysal delege fonksiyon geridönüşleri örneği.
+        j2sc#1902b.exe: Tipliİşlemler, Arayüz koşturulabilir örneği.
+        j2sc#1902c.cs: Assembly kurgu detaylar  ve metot.Invoke (ns,null) örneği.
+        j2sc#1902c.exe: Tipliİşlemler, Kurgu koşturulabilir örneği.
         j2sc#1902d.cs: MakeGenericType, IsGenericType, GetGenericArguments, Activator-InvokeMember-Builder örneği.
-        j2sc#1902d.exe: Tipli��lemler, SoysalTip koşturulabilir örneği.
+        j2sc#1902d.exe: Tipliİşlemler, SoysalTip koşturulabilir örneği.
 
 20.Sicim
-    20.1.�oklu G�rev
-        j2sc#2001a.cs: Sicimlerin parametre-siz/li ba�lat�lmas�, uyuma, i�lemler ve sonlanma örneği.
-        j2sc#2001a.exe: �okluG�rev, SicimlerA koşturulabilir örneği.
-        j2sc#2001b.cs: Start ba�lat, Sleep uyut, Abort k�r örneği.
-        j2sc#2001b.exe: �okluG�rev, SicimlerB koşturulabilir örneği.
-        j2sc#2001c.cs: Join birle�tir ve Interrupt uyku iptali örneği.
-        j2sc#2001c.exe: �okluG�rev, SicimlerC koşturulabilir örneği.
-        j2sc#2001d.cs: ThreadPriority, [vas�f], ThreadState örneği.
-        j2sc#2001d.exe: �okluG�rev, SicimlerD koşturulabilir örneği.
+    20.1.Çoklu Görev
+        j2sc#2001a.cs: Sicimlerin parametre-siz/li başlatılması, uyuma, işlemler ve sonlanma örneği.
+        j2sc#2001a.exe: ÇokluGörev, SicimlerA koşturulabilir örneği.
+        j2sc#2001b.cs: Start başlat, Sleep uyut, Abort kır örneği.
+        j2sc#2001b.exe: ÇokluGörev, SicimlerB koşturulabilir örneği.
+        j2sc#2001c.cs: Join birleştir ve Interrupt uyku iptali örneği.
+        j2sc#2001c.exe: ÇokluGörev, SicimlerC koşturulabilir örneği.
+        j2sc#2001d.cs: ThreadPriority, [vasıf], ThreadState örneği.
+        j2sc#2001d.exe: ÇokluGörev, SicimlerD koşturulabilir örneği.
     20.2.Sicim Havuzu
-        j2sc#2002a.cs: ThreadPool ve metodun durum parametreli mesaj� örneği.
+        j2sc#2002a.cs: ThreadPool ve metodun durum parametreli mesaj  örneği.
         j2sc#2002a.exe: SicimHavuzu, HavuzA koşturulabilir örneği.
         j2sc#2002b.cs: ThreadPool.QueueUserWorkItem(new WaitCallback(SicimMtodu), mesaj) örneği.
         j2sc#2002b.exe: SicimHavuzu, HavuzB koşturulabilir örneği.
@@ -856,32 +856,32 @@ C# / CSharp Eğitimi
         j2sc#2004b.cs: Ortak lock(kilit)'li Monitor.Enter/TryEnter/Exit/Wait/Pulse örneği.
         j2sc#2004b.exe: Sicimler, MonitorB koşturulabilir örneği.
     20.5.Kilit
-        j2sc#2005a.cs: Sicimi lock'la bloklama ve sayac� Interlocked.Increment(ref)'le birart�rma örneği.
+        j2sc#2005a.cs: Sicimi lock'la bloklama ve sayacı Interlocked.Increment(ref)'le birartırma örneği.
         j2sc#2005a.exe: Sicimler, KilitA koşturulabilir örneği.
-        j2sc#2005b.cs: �zelKilit, mutexSicim, �l�kilit, okuyazKilit örneği.
+        j2sc#2005b.cs: ÖzelKilit, mutexSicim, ölükilit, okuyazKilit örneği.
         j2sc#2005b.exe: Sicimler, KilitB koşturulabilir örneği.
-        j2sc#2005c.cs: lock{} blo�u gibi Mutex.WaitOne-ReleaseMutex örneği.
+        j2sc#2005c.cs: lock{} bloğu gibi Mutex.WaitOne-ReleaseMutex örneği.
         j2sc#2005c.exe: Sicimler, MutexBlok koşturulabilir örneği.
-    20.6.�pTipleri
-        j2sc#2006a.cs: Ana�p, Akt�el�p, detaylar�, Arkazemin�p örneği.
-        j2sc#2006a.exe: �pTipleri, Ana�p koşturulabilir örneği.
+    20.6.İpTipleri
+        j2sc#2006a.cs: Anaİp, Aktüelİp, detayları, Arkazeminİp örneği.
+        j2sc#2006a.exe: İpTipleri, Anaİp koşturulabilir örneği.
         j2sc#2006b.cs: [ThreadStatic], Process, WaitHandle, Semaphore, Manual/AutoResetEvent örneği.
-        j2sc#2006b.exe: �pTipleri, Akt�el�p koşturulabilir örneği.
-        j2sc#2006c.cs: �kili alma��k s�re�ler ve YerelVeriDepoYuvas� örneği.
-        j2sc#2006c.exe: �pTipleri, Alma��k�p koşturulabilir örneği.
+        j2sc#2006b.exe: İpTipleri, Aktüelİp koşturulabilir örneği.
+        j2sc#2006c.cs: İkili almaşık süreçler ve YerelVeriDepoYuvası örneği.
+        j2sc#2006c.exe: İpTipleri, Almaşıkİp koşturulabilir örneği.
 
-21.I18N Uluslararas�c�l�k
-    21.1.K�lt�rler
+21.I18N Uluslararasıcılık
+    21.1.Kültürler
         j2sc#2101a.cs: Thread.CurrentThread.CurrentCulture ve CultureInfo örneği.
-        j2sc#2101a.exe: K�lt�rler, K�lt�rA koşturulabilir örneği.
-        j2sc#2101b.cs: Say�lar�n gruplama, k�s�rat, para sembol� formatlanmas� örneği.
-        j2sc#2101b.exe: K�lt�rler, FormatA koşturulabilir örneği.
-        j2sc#2101c.cs: �oklu k�lt�rlerle g�n, ay tarih, para ve say� bi�imleme örneği.
-        j2sc#2101c.exe: K�lt�rler, FormatB koşturulabilir örneği.
+        j2sc#2101a.exe: Kültürler, KültürA koşturulabilir örneği.
+        j2sc#2101b.cs: Sayıların gruplama, küsürat, para sembol  formatlanması örneği.
+        j2sc#2101b.exe: Kültürler, FormatA koşturulabilir örneği.
+        j2sc#2101c.cs: Çoklu kültürlerle gün, ay tarih, para ve sayı biçimleme örneği.
+        j2sc#2101c.exe: Kültürler, FormatB koşturulabilir örneği.
         j2sc#2101d.cs: RegionInfo, InputLanguage, ResourceManager örneği.
-        j2sc#2101d.exe: K�lt�rler, K�lt�rB koşturulabilir örneği.
-    21.2.Kodlama �e�itleri
-        j2sc#2102a.cs: ASCII, UTF8, UTF16, Base64String kodlamalar� örneği.
+        j2sc#2101d.exe: Kültürler, KültürB koşturulabilir örneği.
+    21.2.Kodlama çeşitleri
+        j2sc#2102a.cs: ASCII, UTF8, UTF16, Base64String kodlamalar  örneği.
         j2sc#2102a.exe: Kodlama, Ascii koşturulabilir örneği.
         j2sc#2102b.cs: Encoding.UTF8/Unicode/GetEncoding(1254).GetBytes(dizge) örneği.
         j2sc#2102b.exe: Kodlama, Unicode koşturulabilir örneği.
@@ -890,76 +890,76 @@ C# / CSharp Eğitimi
     22.1.Tipler
         j2sc#2201a.cs: 'Var' anonim tip ve from-select sorgular örneği.
         j2sc#2201a.exe: AnonimTip, Var_1 koşturulabilir örneği.
-        j2sc#2201b.cs: Var, let, Func/Action, var new[]{} anonim i�lemler örneği.
+        j2sc#2201b.cs: Var, let, Func/Action, var new[]{} anonim işlemler örneği.
         j2sc#2201b.exe: LokalTip, Let_1 koşturulabilir örneği.
         j2sc#2201c.cs: Anonim Action, Predicate, delegeli lambda, Select örneği.
         j2sc#2201c.exe: Anonimler, Delege koşturulabilir örneği.
-        j2sc#2201d.cs: Func, delegeli ve lambda'l� fonksiyonlar örneği.
+        j2sc#2201d.cs: Func, delegeli ve lambda'lı fonksiyonlar örneği.
         j2sc#2201d.exe: Anonimler, Lambda koşturulabilir örneği.
-        j2sc#2201e.cs: Cast, OfType tip ay�klama ve s�n�f �zellik get-set'le ilkde�erleme örneği.
+        j2sc#2201e.cs: Cast, OfType tip ayıklama ve sınıf özellik get-set'le ilkdeğerleme örneği.
         j2sc#2201e.exe: Tipleme, Cast_OfType koşturulabilir örneği.
-        j2sc#2201f.cs: Anonim soysal delegeli/lambda'l� Func<> örneği.
-        j2sc#2201f.exe: AnonimFunc, Delegeli_Lambdal� koşturulabilir örneği.
-        j2sc#2201g.cs: Anonim Func'un parametrik lambdal� Expression ifadeli derlenmesi örneği.
+        j2sc#2201f.cs: Anonim soysal delegeli/lambda'l  Func<> örneği.
+        j2sc#2201f.exe: AnonimFunc, Delegeli_Lambdal  koşturulabilir örneği.
+        j2sc#2201g.cs: Anonim Func'un parametrik lambdalı Expression ifadeli derlenmesi örneği.
         j2sc#2201g.exe: AnonimFunc, DerlemeExpression koşturulabilir örneği.
-    22.2.Linq Metotlar�
-        j2sc#2202a.cs: Ling from-select sorgular�n�n foreach'le sunumu örneği.
+    22.2.Linq Metotlar 
+        j2sc#2202a.cs: Linqfrom-select sorgularının foreach'le sunumu örneği.
         j2sc#2202a.exe: LinqMetot, Foreach koşturulabilir örneği.
-        j2sc#2202b.cs: Union ve concat'le dizilerin do�rudan/sorgulu birle�imleri örneği.
+        j2sc#2202b.cs: Union ve concat'le dizilerin doğrudan/sorgulu birleşimleri örneği.
         j2sc#2202b.exe: LinqMetot, Union_Concat koşturulabilir örneği.
-        j2sc#2202c.cs: Linq-Count, Min, Max, Distinct, Range, LongCount metotlar� örneği.
+        j2sc#2202c.cs: Linq-Count, Min, Max, Distinct, Range, LongCount metotları örneği.
         j2sc#2202c.exe: LinqMetot, Count_Long koşturulabilir örneği.
-        j2sc#2202d.cs: IComparable<T>.CompareTo (T �u) ile �zel k�yas alan� örneği.
+        j2sc#2202d.cs: IComparable<T>.CompareTo (T  u) ile özel kıyas alanı örneği.
         j2sc#2202d.exe: LinqMetot, Compareto koşturulabilir örneği.
-        j2sc#2202e.cs: ��eren Linq-->dizi.Contains() ve ortalama dizi.Average() örneği.
+        j2sc#2202e.cs: İçeren Linq-->dizi.Contains() ve ortalama dizi.Average() örneği.
         j2sc#2202e.exe: LinqMetot, Contains_Average koşturulabilir örneği.
-        j2sc#2202f.cs: Aggregate ile k�m�latif topla-��kar-�arp-b�l, adlar� ekle-tersle örneği.
+        j2sc#2202f.cs: Aggregate ile kümülatif topla-çıkar-çarp-böl, adları ekle-tersle örneği.
         j2sc#2202f.exe: LinqMetot, Aggregate koşturulabilir örneği.
-        j2sc#2202g.cs: All ve Any'yle diziyi t�mden yada enazbir ile irdeleme örneği.
+        j2sc#2202g.cs: All ve Any'yle diziyi tümden yada enazbir ile irdeleme örneği.
         j2sc#2202g.exe: LinqMetot, All_Any koşturulabilir örneği.
-        j2sc#2202h.cs: Take, Skip, TakeWhile, SkipWhile �ncekiler-sonrakiler örneği.
+        j2sc#2202h.cs: Take, Skip, TakeWhile, SkipWhile öncekiler-sonrakiler örneği.
         j2sc#2202h.exe: LinqMetot, Take_TakeWhile koşturulabilir örneği.
         j2sc#2202i.cs: ElementAt, ElementAtOrDefault, Equals, SequenceEqual örneği.
         j2sc#2202i.exe: LinqMetot, ElementAt_Equals koşturulabilir örneği.
-        j2sc#2202j.cs: Linq-->First/OrDefault(), Last/OrDefault() metotlar� örneği.
+        j2sc#2202j.cs: Linq-->First/OrDefault(), Last/OrDefault() metotlar  örneği.
         j2sc#2202j.exe: LinqMetot, First_Last koşturulabilir örneği.
-        j2sc#2202k.cs: Except/Intersect ile d��layan/jesi�en elemanlar örneği.
+        j2sc#2202k.cs: Except/Intersect ile dışlayan/kesişen elemanlar örneği.
         j2sc#2202k.exe: LinqMetot, Except_Intersect koşturulabilir örneği.
-        j2sc#2202l.cs: Min()/Max() ile dizi elemanlar�n�n enk�����/enb�y��� örneği.
+        j2sc#2202l.cs: Min()/Max() ile dizi elemanlarının enküçük /enbüyük örneği.
         j2sc#2202l.exe: LinqMetot, Max_Min koşturulabilir örneği.
-        j2sc#2202m.cs: Skip, Take, SkipWhile, TakeWhile k�yaslar� örneği.
+        j2sc#2202m.cs: Skip, Take, SkipWhile, TakeWhile kıyaslar  örneği.
         j2sc#2202m.exe: LinqMetot, Skip_SWhile koşturulabilir örneği.
-        j2sc#2202n.cs: Yegane Distinct ve say�sal toplam Sum metotlar� örneği.
+        j2sc#2202n.cs: Yegane Distinct ve sayısal toplam Sum metotlar  örneği.
         j2sc#2202n.exe: LinqMetot, Distinct_Sum koşturulabilir örneği.
-        j2sc#2202o.cs: Single ile tek sonu�, Reverse ile ters dizi örneği.
+        j2sc#2202o.cs: Single ile tek sonuç, Reverse ile ters dizi örneği.
         j2sc#2202o.exe: LinqMetot, Single_Reverse koşturulabilir örneği.
         j2sc#2202p.cs: ForEach, FindAll ve Enumerable.Range örneği.
         j2sc#2202p.exe: LinqMetot, FindAll_Range koşturulabilir örneği.
-        j2sc#2202q.cs: Enumerable.Repeat/Where/Empty, uzant�, filitre örneği.
+        j2sc#2202q.cs: Enumerable.Repeat/Where/Empty, uzantı, filitre örneği.
         j2sc#2202q.exe: LinqMetot, Enumerable_Filitre koşturulabilir örneği.
-        j2sc#2202r.cs: Sorgularda endeks, ��kar�m, ilk�rnek ve s�n�rlama örneği.
+        j2sc#2202r.cs: Sorgularda endeks, çıkarım, ilkörnek ve sınırlama örneği.
         j2sc#2202r.exe: LinqMetot, Endeks koşturulabilir örneği.
-    22.3.To-d�n���mler
-        j2sc#2203a.cs: Taranabilirlerin ToArray<T> array-dizi'ye d�n���m� örneği.
-        j2sc#2203a.exe: To_D�n���mler, ToArray koşturulabilir örneği.
-        j2sc#2203b.cs: ToDictionary() ile yegane anahtarla kay�tlara eri�im örneği.
-        j2sc#2203b.exe: To_D�n���mler, ToDictionary koşturulabilir örneği.
-        j2sc#2203c.cs: Soysal ToList<>() ve �oklu anahtarl� ToLookup() örneği.
-        j2sc#2203c.exe: To_D�n���mler, ToList_Lookup koşturulabilir örneği.
+    22.3.To-dönüşümler
+        j2sc#2203a.cs: Taranabilirlerin ToArray<T> array-dizi'ye dönüşümü örneği.
+        j2sc#2203a.exe: To_Dönüşümler, ToArray koşturulabilir örneği.
+        j2sc#2203b.cs: ToDictionary() ile yegane anahtarla kayıtlara erişim örneği.
+        j2sc#2203b.exe: To_Dönüşümler, ToDictionary koşturulabilir örneği.
+        j2sc#2203c.cs: Soysal ToList<>() ve çoklu anahtarlı ToLookup() örneği.
+        j2sc#2203c.exe: To_Dönüşümler, ToList_Lookup koşturulabilir örneği.
     22.4.Query_Sorgular
         j2sc#2204a.cs: Linq sorgu from-join-where-group-orderby-thenby-select örneği.
         j2sc#2204a.exe: Query_Sorgu, Sorgu koşturulabilir örneği.
-        j2sc#2204b.cs: ��i�e sorgular, nesnel sorgu alanlar�, Split.First/Last örneği.
+        j2sc#2204b.cs: İçiçe sorgular, nesnel sorgu alanları, Split.First/Last örneği.
         j2sc#2204b.exe: Query_Sorgu, Sorgu2 koşturulabilir örneği.
         j2sc#2204c.cs: Linq.Where()/where sorgu filitresi örneği.
         j2sc#2204c.exe: Query_Sorgu, Where koşturulabilir örneği.
-        j2sc#2204d.cs: Artan/azalan ikili s�ralamada OrderBy/Descending().ThenBy/Descending() örneği.
+        j2sc#2204d.cs: Artan/azalan ikili sıralamada OrderBy/Descending().ThenBy/Descending() örneği.
         j2sc#2204d.exe: Query_Sorgu, OrderBy_ThenBy koşturulabilir örneği.
-        j2sc#2204e.cs: Dizi.Where().Select() ile sorgulu se�imler örneği.
+        j2sc#2204e.cs: Dizi.Where().Select() ile sorgulu seçimler örneği.
         j2sc#2204e.exe: Query_Sorgu, Select koşturulabilir örneği.
         j2sc#2204f.cs: SelectMany<char> ve 'select new{}' örneği.
         j2sc#2204f.exe: Query_Sorgu, SelectMany_new koşturulabilir örneği.
-        j2sc#2204g.cs: Join-on ile �oklu liste alanlar� ili�kili sorgular örneği.
+        j2sc#2204g.cs: Join-on ile çoklu liste alanları ilişkili sorgular örneği.
         j2sc#2204g.exe: Query_Sorgu, Join koşturulabilir örneği.
         j2sc#2204h.cs: Gruplama, 'group a into b' veya 'a.GroupBy/GroupJoin' örneği.
         j2sc#2204h.exe: Query_Sorgu, Group_By_Join koşturulabilir örneği.
@@ -970,49 +970,49 @@ C# / CSharp Eğitimi
     23.1.Formlar
         j2sc#2301a.cs: Form, Text, Size Button, TextBox, Click, Controls.Add örneği.
         j2sc#2301a.exe: Formlar, Giriş koşturulabilir örneği.
-        j2sc#2301b.cs: Form, kurucusu, ko�turulmas�, bile�enleri örneği.
+        j2sc#2301b.cs: Form, kurucusu, koşturulması, bileşenleri örneği.
         j2sc#2301b.exe: Formlar, FormA koşturulabilir örneği.
-        j2sc#2301c.cs: Form, d��me, etiket, men�, ��pe, imle� örneği.
+        j2sc#2301c.cs: Form, düğme, etiket, menü, çöpe, imleç örneği.
         j2sc#2301c.exe: Formlar, FormB koşturulabilir örneği.
         j2sc#2301c.exe: Formlar, FormB koşturulabilir örneği.
-        j2sc#2301d.cs: EventHandler(metot) ile olaylar�n y�netilmesi örneği.
+        j2sc#2301d.cs: EventHandler(metot) ile olayların yönetilmesi örneği.
         j2sc#2301d.exe: Formlar, FormEventA koşturulabilir örneği.
-        j2sc#2301e.cs: EventHandler(metot) ile olaylar�n y�netilmesi-2 örneği.
+        j2sc#2301e.cs: EventHandler(metot) ile olayların yönetilmesi-2 örneği.
         j2sc#2301e.exe: Formlar, FormEventB koşturulabilir örneği.
-        j2sc#2301f.cs: Formun kurucu, bile�enler, olaylar, ebat-konum �zellikleri örneği.
-        j2sc#2301f.exe: Formlar, Form�zellikleri koşturulabilir örneği.
-        j2sc#2301g.cs: Paint'le yazma ve MDI'yla basamakl�-dikey-yatay serilimler örneği.
+        j2sc#2301f.cs: Formun kurucu, bileşenler, olaylar, ebat-konum özellikleri örneği.
+        j2sc#2301f.exe: Formlar, FormÖzellikleri koşturulabilir örneği.
+        j2sc#2301g.cs: Paint'le yazma ve MDI'yla basamaklı-dikey-yatay serilimler örneği.
         j2sc#2301g.exe: Formlar, Paint_MDI koşturulabilir örneği.
     23.2.Bileşenler
-        j2sc#2302a.cs: Form pencerede etiket ve d��me bile�enleri örneği.
+        j2sc#2302a.cs: Form pencerede etiket ve düğme bileşenleri örneği.
         j2sc#2302a.exe: Bileşenler, Label_Button koşturulabilir örneği.
-        j2sc#2302b.cs: D��me �e�itleri, t�klama y�netimi ve resimli d��meler örneği.
+        j2sc#2302b.cs: Düğme çeşitleri, tıklama yönetimi ve resimli düğmeler örneği.
         j2sc#2302b.exe: Bileşenler, Label_Button2 koşturulabilir örneği.
-        j2sc#2302c.cs: D��me ortalama ve �entikkutulu yaz�stilleme örneği.
+        j2sc#2302c.cs: Düğme ortalama ve çentikkutulu yazıstilleme örneği.
         j2sc#2302c.exe: Bileşenler, Label_Button3_CheckBox koşturulabilir örneği.
-        j2sc#2302d.cs: �oklu tarakl�kutu birimleri ve tek radyod��mesi se�imi örneği.
+        j2sc#2302d.cs: Çoklu taraklıkutu birimleri ve tek radyodüğmesi seçimi örneği.
         j2sc#2302d.exe: Bileşenler, ComboBox_RadioButton koşturulabilir örneği.
-        j2sc#2302e.cs: Metinkutu �e�itleri ve maskeli metinkutusu-1 örneği.
+        j2sc#2302e.cs: Metinkutu çeşitleri ve maskeli metinkutusu-1 örneği.
         j2sc#2302e.exe: Bileşenler, Masked_TextBox koşturulabilir örneği.
-        j2sc#2302f.cs: Maskeli ve zengin metinkutusu ile durum�ubu�u örneği.
+        j2sc#2302f.cs: Maskeli ve zengin metinkutusu ile durumçubuğu örneği.
         j2sc#2302f.exe: Bileşenler, Masked_RichTextBox_StatusBar koşturulabilir örneği.
-        j2sc#2302g.cs: ResimKutusu, Kayd�ra��ubuklar� ve Ayra�lar örneği.
+        j2sc#2302g.cs: ResimKutusu, Kaydıraççubuklar  ve Ayraçlar örneği.
         j2sc#2302g.exe: Bileşenler, PictureBox_ScrollBar koşturulabilir örneği.
-        j2sc#2302h.cs: Metinkutu, listekutu ve �entikliListekutu örneği.
+        j2sc#2302h.cs: Metinkutu, listekutu ve çentikliListekutu örneği.
         j2sc#2302h.exe: Bileşenler, ListBox_CheckedListBox koşturulabilir örneği.
-        j2sc#2302i.cs: Listeg�r ve a�a�g�r örneği.
+        j2sc#2302i.cs: Listegör ve ağaçgör örneği.
         j2sc#2302i.exe: Bileşenler, ListView_TreeView koşturulabilir örneği.
         j2sc#2302j.cs: Menu, MenuItem, MenuStrip, ToolStripMenuItem ve ContextMenu örneği.
         j2sc#2302j.exe: Bileşenler, Menuler koşturulabilir örneği.
         j2sc#2302k.cs: MessageBox, NumericUpDown, ProgressBar ve ImageList örneği.
         j2sc#2302k.exe: Bileşenler, MessageBox_NumericUpDown_ProgressBar_ImageList koşturulabilir örneği.
-        j2sc#2302l.cs: ToolBar ara��ubuk d��meleri ve TrackBar s�rg��ubuk bile�enleri örneği.
+        j2sc#2302l.cs: ToolBar araççubuk düğmeleri ve TrackBar sürgüçubuk bileşenleri örneği.
         j2sc#2302l.exe: Bileşenler, ToolBar_TrackBar koşturulabilir örneği.
-        j2sc#2302m.cs: Tepsi�konu, Alan�stAlt ve SekmeKontrol bile�enleri örneği.
+        j2sc#2302m.cs: Tepsiİkonu, AlanÜstAlt ve SekmeKontrol bileşenleri örneği.
         j2sc#2302m.exe: Bileşenler, NotifyIcon_DomainUpDown_TabControl koşturulabilir örneği.
         j2sc#2302n.cs: Float/TableLayoutPanel, DateTime/Calendar, Help/ErrorProvider örneği.
         j2sc#2302n.exe: Bileşenler, FloatLayoutPanel_TableLayoutPanel_DateTimePicker_MonthCalendar koşturulabilir örneği.
-        j2sc#2302o.cs: LinkLabel Ba�lant�Fi� ve WebBrowser A�Taray�c� örneği.
+        j2sc#2302o.cs: LinkLabel BağlantıFiş ve WebBrowser AğTarayıcı örneği.
         j2sc#2302o.exe: Bileşenler, LinkLabel_WebBrowser koşturulabilir örneği.
         j2sc#2302p.cs: Form'dan özelleşen Dialog ve XPS yazımlı PrintDialog örneği.
         j2sc#2302p.exe: Bileşenler, Dialog_PrintDialog koşturulabilir örneği.
@@ -1025,407 +1025,17 @@ C# / CSharp Eğitimi
         j2sc#2302ş.cs: Dock_DragDrop_DragMove_Internationalization_DoubleBuffering_Resx_UserControl bileşenleri örneği.
         j2sc#2302ş.exe: Dock_DragDrop_DragMove_Internationalization_DoubleBuffering_Resx_UserControl koşturulabilir örneği.
     23.3.Kontroller ve Olaylar
-
-        j2sc#2303a.exe: Olaylar,  Kontrol koşturulabilir örneği.
-
-23.53.Control (10)
-
-23.54.Control Event (2)
-23.55.Control Relation (2)
-23.56.Custom Control (3)
-
-
-23.61.KeyEvent (3)
-23.62.Mouse Event (5)
-23.63.Event System (2)
-23.64.event (14)
-23.65.EventArgs (1)
-23.66.Generic Event (2)
-
-
-
-23.78.DataBinding DataGrid (6)
-23.79.DataBinding DataSet (1)
-23.80.DataBinding Label (2)
-23.81.DataBinding ListBox (2)
-23.82.DataBinding TextBox (2)
-23.83.DataGridView (6)
-
-23.84.ActiveX (1)
-23.85.Clipboard (4)
-23.86.Binder (2)
-23.87.Validation (2)
-
-24.Windows Presentation Foundation
-24.1.Button (12)
-24.2.Button Style (12)
-24.3.Button Animation (12)
-24.4.Button Action (17)
-24.5.RepeatButton (4)
-24.6.ToggleButton (4)
-24.7.TextBlock (22)
-24.8.TextBlock Style (15)
-24.9.TextBlock Animation (7)
-24.10.TextDecoration (10)
-24.11.TextRange (5)
-24.12.Span (1)
-24.13.TextBox (10)
-24.14.TextBox Action (11)
-24.15.TextBox Style (5)
-24.16.TextBox Validation (4)
-24.17.CheckBox (6)
-24.18.CheckBox Event (6)	
-24.19.ComboBox (11)	
-24.20.Label (5)	
-24.21.RadioButton (9)
-24.22.RadioButton Event (3)
-24.23.PasswordBox (3)
-24.24.Hyperlink (2)
-24.25.Thumb (2)
-24.26.Slider (9)	
-24.27.Slider Data Binding (13)
-24.28.ProgressBar (6)
-24.29.ListBox (19)
-24.30.ListBox Event (1)
-24.31.ListBox Item Content (12)
-24.32.ListBox Data (13)
-24.33.ListBox Style (7)
-24.34.ListView (15)
-24.35.Menu (18)	
-24.36.ContextMenu (3)
-24.37.Canvas (18)	
-24.38.Border (11)
-24.39.RichTextBox (10)
-24.40.Separator (1)
-24.41.StatusBar (12)
-24.42.Grid (21)
-24.43.Grid Row Column (17)
-24.44.Grid Events (4)
-24.45.Grid Operations (21)
-24.46.GridSplitter (13)
-24.47.UniformGrid (1)
-24.48.UI Element (17)
-24.49.ToolBar (11)
-24.50.ToolTip (18)
-24.51.TreeView (11)
-24.52.HeaderedItemsControl (1)
-24.53.ScrollViewer (6)
-24.54.GroupBox (3)
-24.55.Panel (17)
-24.56.StackPanel (15)
-24.57.DockPanel (12)
-24.58.WrapPanel (9)
-24.59.LayoutInformation (1)
-24.60.Margin (5)
-24.61.Padding (4)
-24.62.Expander (2)
-24.63.TabControl (11)
-24.64.Frame (9)
-24.65.Viewbox (2)
-24.66.Style (21)
-24.67.MessageBox (8)
-24.68.Common Dialogs (3)
-24.69.Page (6)	
-24.70.Window (42)
-24.71.Window Event (22)
-24.72.Window Style (7)
-24.73.Dialog (5)
-24.74.Forms (5)
-24.75.NavigationWindow (1)	
-24.76.ControlTemplate (15)	)
-24.77.Cursor (2)
-24.78.Popup (8)
-24.79.Drag Drop (1)
-24.80.Coordinate (2)
-24.81.Brush (16)	
-24.82.Color (21)
-24.83.Stroke (15)
-24.84.Line (7)
-24.85.Ellipse (19)
-24.86.Clip (4)
-24.87.Path (47)
-24.88.Curve (1)
-24.89.Polygon (20)
-24.90.Polyline (22)
-24.91.Rectangle (22)
-24.92.Font (6)
-24.93.Image (25)
-24.94.ImageBrush (17)
-24.95.VisualBrush (8)
-24.96.SolidColorBrush (13)
-24.97.BitmapEffect (10)
-24.98.DrawingBrush (10)
-24.99.DrawingGroup (2)
-24.100.DrawingImage (6)
-24.101.LinearGradientBrush (32)
-24.102.RadialGradientBrush (9)
-24.103.RenderTransform (23)
-24.104.Transform (3)
-24.105.Geometry (21)
-24.106.GeometryGroup (2)
-24.107.Glyphs (1)
-24.108.Animation (23)
-24.109.Color Animation (7)
-24.110.Speed Animation (6)
-24.111.Frame Animation (9)
-24.112.Path Animation (4)
-24.113.Ball Animation (6)
-24.114.Shape Animation (8)
-24.115.DoubleAnimation (10)
-24.116.Storyboard (8)
-24.117.Timeline (2)
-24.118.Timer (3)
-24.119.Event (21)
-24.120.EventSetter (1)
-24.121.EventTrigger (8)
-24.122.Key Event (22)
-24.123.Mouse (29)
-24.124.Dispatcher (8)
-24.125.InputGestureCollection (1)
-24.126.InputBinding (1)
-24.127.Application (32)
-24.128.Exception (13)
-24.129.Binding (34)
-24.130.Bind to Collection (3)
-24.131.Bind to Label (2)
-24.132.Bind to TextBox (1)
-24.133.Bind to Button (1)
-24.134.Bind to Property (8)
-24.135.Command (18)
-24.136.RoutedCommand (16)
-24.137.ApplicationCommand (11)
-24.138.DataContextProperty (2)
-24.139.CollectionViewSource (3)
-24.140.Resource (33)
-24.141.DataTemplate (6)
-24.142.HierarchicalDataTemplate (2)
-24.143.DataTrigger (3)
-24.144.ItemsControl (4)
-24.145.ItemsSource (1)
-24.146.IValueConverter (5)
-24.147.ObjectDataProvider (5)
-24.148.ObservableCollection (5)
-24.149.XmlDataProvider (11)
-24.150.DependencyProperty (2)
-24.151.DependencyPropertyDescriptor (1)
-24.152.BackgroundWorker (10)
-24.153.Thread (9)
-24.154.Xaml (16)
-24.155.XamlReader (2)
-24.156.FlowDocument (34)
-24.157.xps (1)
-24.158.Print (6)
-24.159.3D (15)
-24.160.Matrix3D (8)
-24.161.Speech Synthesis (2)
-24.162.MediaElement (12 
-24.163.SoundPlayerAction (2)
-24.164.AccessText (5)
-24.165.Focus (3)
-24.166.NavigationService (1)
-24.167.PresentationTraceSources (1)
-24.168.SystemParameters (1)
-24.169.SystemColors (2)
-24.170.Validation (3)
-24.171.DrawingContext (5)
-	
-
-25.Windows Communication Foundation
-25.1.Introduction (1)	
-
-26.Workflow
-26.1.Introduction (1)	
-
-27.2D
-27.1.Graphics (11)
-27.2.Coordinate (2)
-27.3.GraphicsUnit (7)
-27.4.Point (9)
-27.5.Rectangle (1)
-27.6.Line (2)
-27.7.Draw Rectangle (3)
-27.8.Ellipse (2)	
-27.9.Pie (3)
-27.10.Path (3)
-27.11.Region (4)
-27.12.Draw String (4)
-27.13.Hotkey (1)
-27.14.Measure String (1)
-27.15.Color (2)
-27.16.Font (10)
-27.17.Image (3)
-27.18.ImageCodecInfo (1)
-27.19.Draw Image (2)
-27.20.BMP (2)
-27.21.Gif (1)
-27.22.Ico (1)
-27.23.JPG (1)
-27.24.Tif (1)
-27.25.Pens (14)
-27.26.SolidBrush (7)
-27.27.Gradient Brush (3)
-27.28.LinearGradientBrush (2)
-27.29.HatchBrush (8)
-27.30.Texture Brush (5)
-27.31.Mouse Draw (1)
-27.32.SmoothingMode (1)
-27.33.Clip (2)
-27.34.Clock (2)
-
-28.Design Patterns
-28.1.Singleton Pattern (2)
-28.2.Factory Pattern (3)
-28.3.Observer Pattern (1)
-28.4.Adapter Pattern (1)
-28.5.Facade Pattern (1)
-28.6.MVC Pattern (1)	
-28.7.Observer Pattern (1)
-28.8.Strategy Pattern (1)
-28.9.Template Pattern (1)
-28.10.Chain Responsibility (1)
-28.11.Bridge Pattern (1)
-28.12.Decorator Pattern (1)
-
-29.Windows
-29.1.Registry Read (6)
-29.2.Registry Save (6)	
-29.3.Registry Network (8)
-29.4.EventLog (6)
-29.5.Service (4)
-29.6.MessageQueue (6)
-29.7.Shell Process (1)
-29.8.Windows Application Process (4)
-29.9.Windows Callback (1)
-29.10.Native Windows Function (15)
-29.11.DLL (6)
-29.12.DllImport (5)
-29.13.Memory (6)
-29.14.Office (2)
-29.15.Excel (3)
-29.16.Word (3)
-29.17.Bluetooth (1)
-29.18.Management (3)
-
-30.XML
-30.1.Xml Creation (5)
-30.2.Xml Comment (1)
-30.3.Xml String (2)
-30.4.Xml Read (7)
-30.5.XmlReader (9)
-30.6.Xml Write (11)
-30.7.XmlTextReader (10)
-30.8.XmlDocument (13)
-30.9.XmlDataDocument (2)
-30.10.Xml Atrributes (8)
-30.11.Xml Node (19)
-30.12.XmlReadMode (1)
-30.13.XNodeEqualityComparer (2)
-30.14.XmlElement (3)
-30.15.Xml Namespace (2)
-30.16.Xml Display (2)
-30.17.Xml Tree (2)
-30.18.Xml URL Local Name (1)
-30.19.Xml Validation (3)
-30.20.XmlSchema (3)
-30.21.XPath (35)
-30.22.XPathDocument (2)
-30.23.XmlPathNavigator (8)
-30.24.XPathNodeIterator (1)
-30.25.Xslt (2)
-30.26.Xml transformation (8)
-30.27.Xml DataGrid (2)
-30.28.Xml DataSet (6)
-30.29.Xml DataTable (2)
-30.30.Xml serialization (12)
-30.31.RSS (2)
-30.32.XmlNamespaceManager (1)
-
-31.XML LINQ
-31.1.XDocument (5)
-31.2.XElement (6)
-31.3.XAttribute (3)
-31.4.Query (11)
-31.5.Namespace (2)	
-
-32.ADO.Net
-
-33.Network
-33.1.IP Address (13)
-33.2.DNS (10)
-33.3.Uri (3)
-33.4.Socket (5)
-33.5.Socket Client (8)
-33.6.Socket Server (8)
-33.7.TcpClient (10)
-33.8.TcpListener (8)
-33.9.Object Send Receive (1)
-33.10.Udp (3)
-33.11.Socket Udp Client (3)
-33.12.Socket Udp Server (3)	
-33.13.UdpClient (6)
-33.14.Broadcast (2)
-33.15.Socket Exception (1)
-33.16.NetworkStream (6)
-33.17.Network Exception (1)
-33.18.WebClient (13)
-33.19.HttpListener (1)	
-33.20.WebRequest (7)
-33.21.WebService (3)
-33.22.HttpWebRequest (2)
-33.23.HttpWebResponse (1)
-33.24.Web HTTP Server (1)
-33.25.Cookie (1)
-33.26.EMail (2)
-33.27.Ping (1)
-33.28.Chat (2)
-33.29.Mini Crawler (1)
-33.30.SocketPermission (2)
-33.31.SOAP Serialization (8)
-33.32.SoapFormatter (1)
-33.33.NetworkChange (2)
-33.34.NetworkInterface (4)
-33.35.Win32_NetworkAdapterConfiguration (4)
-
-34.Directory Services
-34.1.Bind (5)
-34.2.Read (9)
-34.3.Add (3)
-34.4.Delete (3)
-34.5.Rename (1)
-34.6.Modify (2)	
-34.7.Search (2)
-34.8.Host (1)
-34.9.Password (1)
-34.10.User Add (3)
-
-35.Security
-35.1.WindowsIdentity (7)
-35.2.Role (2)
-35.3.Evidence (2)
-35.4.Permissions (13)
-35.5.PermissionSet (3)
-35.6.PolicyStatement (1)
-35.7.ProtectedData (3)
-35.8.RandomNumberGenerator (2)
-35.9.ReflectionPermission (1)
-35.10.RSA (8)
-35.11.SHA1Managed (3)
-35.12.KeyedHashAlgorithm (2)	
-35.13.DES (4)
-35.14.Encryption (5)
-35.15.MD5 (1)
-35.16.SecureString (2)
-35.17.SemaphoreSecurity (1)
-35.18.X500DistinguishedName (1)
-35.19.AsnEncodedDataCollection (1)
-35.20.CryptoStream (1)
-35.21.MutexSecurity (2)
-35.22.RC2 (1)
-35.23.RegistryAccessRule (1)
-35.24.RemoveAccessRuleSpecific (2)
-
-36.unsafe
-36.1.unsafe (8)
-36.2.IntPtr (2)	
-36.3.Pointer (16)
-36.4.stackalloc (1)
+        j2sc#2303a.cs: Control_Event ve class:Control Kontrol bileşenleri örneği.
+        j2sc#2303a.exe: Olaylar, Control_Event koşturulabilir örneği.
+        j2sc#2303b.cs: Control_Relation_Custom_KeyMouseEvent_EventArgs olay bileşenleri örneği.
+        j2sc#2303b.exe: Olaylar, Control_Relation_Custom_KeyMouseEvent_EventArgs koşturulabilir örneği.
+        j2sc#2303c.cs: Events_Args_Generic arşiv ve özel olaylar bileşenleri örneği.
+        j2sc#2303c.exe: Olaylar, Events_Args_Generic koşturulabilir örneği.
+    23.4.Veri Bağlama
+        j2sc#2304a.cs: DataGrid_Set_Table VeriIzgara-Küme-Tablo bileşenleri örneği.
+        j2sc#2304a.exe: VeriBağlama, DataGrid_Set_Table koşturulabilir örneği.
+        j2sc#2304b.cs: DataGrid, DataGridView tablolama bileşenleri örneği.
+        j2sc#2304b.exe: VeriBağlama, DataGrid_View koşturulabilir örneği.
+    23.5.Panobellek
+        j2sc#2305a.cs: Clipboard_Validation_Binding_ResourceHtml bileşenleri örneği.
+        j2sc#2305a.exe: Panobellek, Clipboard_Validation_Binding_ResourceHtml koşturulabilir örneği.
